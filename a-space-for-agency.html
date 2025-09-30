@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-30T15:44:05+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mobilizing Citizenship Toolkit</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">A Space for Agency: Walk of Shame on Cultivating Collective Care in Education</title><link href="http://localhost:4000/a-space-for-agency" rel="alternate" type="text/html" title="A Space for Agency: Walk of Shame on Cultivating Collective Care in Education" /><published>0001-01-01T00:00:00+08:00</published><updated>0001-01-01T00:00:00+08:00</updated><id>http://localhost:4000/a-space-for-agency</id><content type="html" xml:base="http://localhost:4000/a-space-for-agency"><![CDATA[<div class="foreword">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilizing Citizenship Toolkit</title>
+    <link rel="stylesheet" href="assets/essay.css">
+</head>
+
+<body>
+    <main>
+        <h1>
+            A Space for Agency: Walk of Shame on Cultivating Collective Care in Education
+        </h1>
+        <details>
+            <summary>
+                Walk of Shame (WOS)
+            </summary>
+            <p class="author-bio">
+                is an artist collective based in Bergen, Norway, working at the intersection of visual art, performance, and social space. Their practice explores participation, community, and the aesthetics of excess, often creating immersive environments that blur the boundaries between audience and performer. With a playful yet critical approach, WOS stages works that challenge conventions of taste, behaviour, and collectivity, inviting participants into transformative and unpredictable experiences.
+            </p>
+        </details>
+
+        <div class="content">
+            <div class="foreword">
 What does it mean to turn an educational space into a site of experimentation, care, and shared responsibility? The collective Walk of Shame invite us behind the scenes of their guest-curated autumn semester for Mobilizing Citizenship 2022, where education was reimagined as a space for embodied learning and mutual support. Through a series of collaborative workshops, they explored how caring and sharing can move beyond abstract ideals to become lived, daily practices. In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.
 </div>
 
@@ -203,4 +228,74 @@ Process over product. Let the work unfold at its own pace—don’t rush it.</li
 
 <div class="footnote">
 This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
-</div>]]></content><author><name>Walk of Shame (WOS)</name></author><summary type="html"><![CDATA[What does it mean to turn an educational space into a site of experimentation, care, and shared responsibility? The collective Walk of Shame invite us behind the scenes of their guest-curated autumn semester for Mobilizing Citizenship 2022, where education was reimagined as a space for embodied learning and mutual support. Through a series of collaborative workshops, they explored how caring and sharing can move beyond abstract ideals to become lived, daily practices. In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.]]></summary></entry></feed>
+</div>
+
+
+        </div>
+    </main>
+
+    <nav>
+        <div id="home-link">
+            <a href="/">MC Toolkit</a>
+        </div>
+        <div class="drawer">
+            <ul id="menu">
+                <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
+                <li><a href="/">How Youth Workers Create Meaningful Encounters for Young People</a>
+                </li>
+                <li><a href="/">Are You Listening? Deep Listening as Youth Pedagogy</a></li>
+                <li><a href="/contact">Self as Archive Erasure + World-Building</a></li>
+            </ul>
+            <div id="handler" aria-label="Menu toggle">
+                <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <footer></footer>
+
+    <script>
+        // bubble text
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '-50px'
+        });
+
+        document.querySelectorAll('.bubble').forEach((bubble) => {
+            observer.observe(bubble);
+        });
+
+        // navbar drawer
+        const drawer = document.querySelector('.drawer');
+        const handler = document.querySelector('#handler');
+
+        handler.addEventListener('click', () => {
+            drawer.classList.toggle('open');
+        });
+
+        // Close drawer when clicking outside
+        document.addEventListener('click', (e) => {
+            const isClickInside = drawer.contains(e.target);
+            if (!isClickInside && drawer.classList.contains('open')) {
+                drawer.classList.remove('open');
+            }
+        });
+
+        // Prevent drawer from closing when clicking inside
+        drawer.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+    </script>
+</body>
+
+</html>
