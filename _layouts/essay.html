@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="assets/essay.css">
+</head>
+
+<body>
+    <main>
+        <h1>
+            {{ page.title }}
+        </h1>
+        <details>
+            <summary>
+                {{ page.author }}
+            </summary>
+            <p class="author-bio">
+                {{ page.author-bio }}
+            </p>
+        </details>
+
+        <div class="content">
+            {{ content }}
+        </div>
+    </main>
+
+    <nav>
+        <div id="home-link">
+            <a href="{{ site.baseurl }}/">MC Toolkit</a>
+        </div>
+        <div class="drawer">
+            <ul id="menu">
+                <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
+                <li><a href="{{ site.baseurl }}/">How Youth Workers Create Meaningful Encounters for Young People</a>
+                </li>
+                <li><a href="{{ site.baseurl }}/">Are You Listening? Deep Listening as Youth Pedagogy</a></li>
+                <li><a href="{{ site.baseurl }}/contact">Self as Archive Erasure + World-Building</a></li>
+            </ul>
+            <div id="handler" aria-label="Menu toggle">
+                <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <footer></footer>
+
+    <script>
+        // bubble text
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '-50px'
+        });
+
+        document.querySelectorAll('.bubble').forEach((bubble) => {
+            observer.observe(bubble);
+        });
+
+        // navbar drawer
+        const drawer = document.querySelector('.drawer');
+        const handler = document.querySelector('#handler');
+
+        handler.addEventListener('click', () => {
+            drawer.classList.toggle('open');
+        });
+
+        // Close drawer when clicking outside
+        document.addEventListener('click', (e) => {
+            const isClickInside = drawer.contains(e.target);
+            if (!isClickInside && drawer.classList.contains('open')) {
+                drawer.classList.remove('open');
+            }
+        });
+
+        // Prevent drawer from closing when clicking inside
+        drawer.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+    </script>
+</body>
+
+</html>
