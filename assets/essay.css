@@ -76,23 +76,25 @@ main {
   padding: 1rem;
 }
 
+details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
 details.author {
   margin: 1rem 0 4rem 0;
-  font-size: 0.8rem;
 }
 
 details.author summary {
-  list-style: none;
   text-decoration: underline dotted 3px;
   text-underline-position: under;
   display: inline-block;
-  cursor: pointer;
   font-size: 1rem;
   background: var(--color-gr);
-}
-
-details.author summary::-webkit-details-marker {
-  display: none;
 }
 
 details.author p.author-bio {
@@ -171,6 +173,7 @@ details.author p.author-bio {
   padding: 0.25rem 1rem;
   cursor: pointer;
   background: var(--color-pk);
+  color: black;
   transition: background 0.3s ease;
 }
 
@@ -343,9 +346,7 @@ details.author p.author-bio {
 
 details.tools summary {
   padding: 0.5rem 0 0 0;
-  list-style: none;
   border-bottom: black 3px dotted;
-  cursor: pointer;
   font-size: 1rem;
   font-weight: 700;
   display: flex;
@@ -521,7 +522,7 @@ ul#menu {
 }
 
 ul#menu li {
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   transition: background-color 0.3s ease;
   border-top: var(--color-lg) 1px solid;
   text-align: center;
@@ -594,7 +595,7 @@ footer {
 /* mobile layout */
 @media (max-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   body {
@@ -610,12 +611,22 @@ footer {
     position: static;
   }
 
+  .drawer:hover:not(.open) {
+    transform: translateY(calc(-100% + 1rem));
+  }
+
+  ul#menu {
+    font-size: 0.9rem;
+  }
+
   details.author summary {
     text-decoration: underline dotted 2px;
   }
 
   details.author p.author-bio {
     max-width: calc(100vw - 4rem);
+    font-size: 0.9rem;
+
   }
 
   .content {
@@ -648,6 +659,10 @@ footer {
     width: 50%;
   }
 
+  .lightbox-counter {
+    padding: 0.25rem 1rem 0.25rem 0;
+  }
+
   .floating {
     position: relative;
     width: 100%;
@@ -655,7 +670,15 @@ footer {
     margin: 4rem 0;
   }
 
+  .bubble {
+    font-size: 0.9rem;
+  }
+
   h1 {
     font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
   }
 }
