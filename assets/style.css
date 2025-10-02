@@ -1,41 +1,15 @@
 @font-face {
-  font-family: 'Compagnon';
-  src: url('fonts/Compagnon-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Compagnon";
+    src:
+        local("Compagnon"),
+        url("/assets/fonts/Compagnon-Medium.woff2") format("woff2") tech(color-COLRv1),
 }
 
 @font-face {
-  font-family: 'Velvelyne';
-  src: url('fonts/Velvelyne-Regular.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Velvelyne';
-  src: url('fonts/Velvelyne-Book.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Velvelyne';
-  src: url('fonts/Velvelyne-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Velvelyne';
-  src: url('fonts/Velvelyne-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+    font-family: "Velvelyne";
+    src:
+        local("Velvelyne"),
+        url("/assets/fonts/Velvelyne-Regular.woff2") format("woff2"),
 }
 
 :root {
@@ -74,6 +48,7 @@ main#library {
     height: 100vh;
     position: relative;
     transform-origin: center;
+    transition: transform 0.5s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 div.storage {
@@ -109,21 +84,6 @@ div.storage {
     top: calc(50% - 100vh / 13);
 }
 
-.rotate-button {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    border: none;
-    color: black;
-    font-size: 24px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.rotate-button:hover {
-    transform: scale(1.05);
-}
-
 div.entry {
     display: flex;
     justify-content: center;
@@ -136,6 +96,16 @@ div.entry {
     text-align: center;
     background-color: var(--color-bl);
     min-height: 0;
+}
+
+div.entry:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div.entry a {
+    text-decoration: none;
+    color: black;
 }
 
 div.brick {
@@ -164,6 +134,21 @@ div.brick {
     grid-column: span 3 / span 3;
     grid-column-start: 5;
     grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    font-size: 18px;
+    font-family: var(--font-body);
+    text-align: center;
+    min-height: 0;
+}
+
+#brk-1-1:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #brk-1-2 {
@@ -269,6 +254,21 @@ div.brick {
     grid-column: span 3 / span 3;
     grid-column-start: 5;
     grid-row-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    font-size: 18px;
+    font-family: var(--font-body);
+    text-align: center;
+    min-height: 0;
+}
+
+#brk-4-1:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 aside {
@@ -283,28 +283,28 @@ aside {
 
 .s-image {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    left: 28.5vw;
+    bottom: 25%;
+    width: 200px;
+    height: 200px;
     background-color: #e0e0e0;
     background-size: cover;
     background-position: center;
     z-index: 6;
-    transform: rotate(var(--counter-rotation, 0deg));
+    transform: translateX(-50%);
 }
 
 .quote {
     position: absolute;
-    left: 50%;
-    top: 32%;
-    width: 50%;
+    left: 28vw;
+    top: 35vh;
+    width: 28vw;
     padding: 15px;
     text-align: center;
     color: black;
     z-index: 5;
     font-size: 32px;
     line-height: 1.4;
-    mix-blend-mode: exclusion;
-    transform: rotate(var(--counter-rotation, 0deg));
     transform: translate(-50%, -50%);
     font-family: var(--font-title);
 }
@@ -331,7 +331,7 @@ aside {
 }
 
 .letter {
-    transition: transform 0.2s ease;
+    transition: transform 0.2s cubic-bezier(0.5, 1, 0.89, 1);
     cursor: pointer;
     display: inline-block;
 }
@@ -355,10 +355,30 @@ aside {
     cursor: grab;
     touch-action: none;
     user-select: none;
+    font-family: var(--font-body);
+    padding: 8px;
+    text-align: center;
+}
+
+#about img {
+    width: 120px;
+    height: auto;
 }
 
 #home:active {
     cursor: grabbing;
+}
+
+#cred-line {
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 6px;
+    padding: 16px;
 }
 
 .top {
@@ -391,7 +411,7 @@ aside {
 .gallery {
     padding: 24px;
     text-align: center;
-    font-family: Velvetyne, sans-serif;
+    font-family: var(--font-title);
     font-size: 24px;
     align-content: center;
     height: 45%;
@@ -399,13 +419,150 @@ aside {
     background-color: C9FF34;
 }
 
+.bottom a {
+    color: black;
+    text-decoration: none;
+}
+
+.gallery:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 button#rotate-btn {
     position: absolute;
     top: 50vh;
     left: 50vh;
+    background-color: white;
+    border: 1px solid gray;
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
     z-index: 10;
     transform: translate(-50%, -50%);
+}
+
+button#rotate-btn:hover {
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(99, 99, 99);
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    main#library {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .storage {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .entry {
+        width: 100%;
+        height: 48px;
+        padding: 16px !important;
+        font-size: 16px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .brick {
+        display: none;
+    }
+
+    #rotate-btn {
+        display: none;
+    }
+
+    .s-image {
+        display: none;
+    }
+
+    .quote {
+        display: none;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    #home {
+        height: auto;
+        min-height: 120px;
+    }
+
+    #about {
+        z-index: 20;
+        height: auto;
+    }
+
+    #cred-line {
+        flex-direction: row;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .top {
+        display: none;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .album-preview {
+        width: 50%;
+        height: auto;
+    }
+
+    .bottom a {
+        width: 50%;
+    }
+
+    .gallery {
+        width: 100%;
+        height: auto;
+    }
+
+    #deg_0,
+    #deg_90,
+    #deg_180,
+    #deg_270 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        transform: none;
+        position: static;
+        z-index: 1;
+    }
+
+    .storage>* {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
