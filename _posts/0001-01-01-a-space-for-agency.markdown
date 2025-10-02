@@ -11,9 +11,52 @@ author-bio: "is an artist collective based in Bergen, Norway, working at the int
 What does it mean to turn an educational space into a site of experimentation, care, and shared responsibility? The collective Walk of Shame invite us behind the scenes of their guest-curated autumn semester for Mobilizing Citizenship 2022, where education was reimagined as a space for embodied learning and mutual support. Through a series of collaborative workshops, they explored how caring and sharing can move beyond abstract ideals to become lived, daily practices. In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.
 </div>
 
+<div class="lightbox-container">
+  <div class="lightbox-scroll">
+    <img src="img/walk-of-shame/MC_avsluttning_077WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_037WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_081WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_086WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_090WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/P1050196.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/WOS-MC-13.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame."> 
+    <img src="img/walk-of-shame/WOS-MC-14.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-MC-15.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame."> 
+    <img src="img/walk-of-shame/WOS-MC-16.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-MC-17.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame."> 
+    <img src="img/walk-of-shame/WOS-MC-18.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-0.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame."> 
+    <img src="img/walk-of-shame/WOS-1.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-2.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-3.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-4.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-5.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-22.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-7.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-8.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-9.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-10.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-12.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-19.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-20.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-21.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-6.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-23.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-24.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+  </div>
+</div>
 
-![image](img/walk-of-shame/Professional photos/MC_avsluttning_077WEB.jpg)
-
+<div class="lightbox-base">
+  <div class="lightbox-info">
+    <div class="img-info"></div>
+    <div class="lightbox-counter">1/-</div>
+  </div>
+  <div class="lightbox-controls">
+    <button class="lightbox-button prev">←</button>
+    <button class="lightbox-button next">→</button>
+  </div>
+</div>
 
 **Walk of Shame** are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.
 
@@ -130,13 +173,20 @@ Most of all, we reaffirmed our belief that art is not something to observe from 
 As one participant put it:  
 ‘Here, I can breathe differently.’
 
-
-* * *
-
+<div class="floating">
+  <img src="img/walk-of-shame/fish.webp" alt="" width="40%">
+  <img src="img/walk-of-shame/face.webp" alt="" width="27%">
+  <img src="img/walk-of-shame/sripe.webp" alt="" width="20%">
+  <img src="img/walk-of-shame/heart.webp" alt="" width="20%">
+  <img src="img/walk-of-shame/dare.webp" alt="" width="20%">
+  <img src="img/walk-of-shame/sign.webp" alt="" width="35%">
+</div>
 
 ## Tools for Shared Expression in Contempotary Art Spaces
 
-*A hands-on guide for participatory engagement with young audiences*
+<p class="blink">
+<i>A hands-on guide for participatory engagement with young audiences</i>
+</p>
 
 These tools are designed for educators and artists working in contemporary art who aim to create inclusive, imaginative, and co-owned experiences with young people.
 
@@ -144,113 +194,153 @@ These tools are designed for educators and artists working in contemporary art w
 Developed by artist collective Walk of Shame as part of the project Mobilizing Citizenship, this guide can be adapted to a wide range of themes, spaces, and age groups.
 
 
-### 1. Set the Tone: Build Trust Through Atmosphere
-**Why it matters:** A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.
+<details class="tools">
+  <summary>
+  1. Set the Tone: Build Trust Through Atmosphere
+  </summary>
+  <h4>Why it matters:</h4>
+  A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.
+  <h4>How to do it:</h4>
+  <ul>
+    <li><b>Welcome with presence:</b> Greet participants with music, snacks, and warm lighting.</li>
+    <li><b>Stage a fictional campfire:</b> Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.</li>
+    <li><b>Start with metaphor:</b> Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?</li>
+    <li><b>Sit in a circle:</b> Remove hierarchy and promote eye contact and shared focus.</li>
+    <li><b>Choose a name for the day:</b> Let each participant invent or choose a new name and make their own name tag.</li>
+    <li><b>Begin gently:</b> Ease into the session with drawing games, shared storytelling, or laughter to build ease.</li>
+    <li><b>Introduce a thematic anchor:</b> Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.</li>
+  </ul>
+  <p style="color: var(--color-br);">
+  <i>TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.</i>
+  </p>
+</details>
 
+<details class="tools">
+  <summary>
+    2. Material-Based Expression: Make Identity Visible
+  </summary>
+  <h4>Why it matters:</h4>
+  Materials can express complexity, emotion, and identity in ways that words often can’t. They become tools for discovery, communication, and care.
+  <h4>How to do it:</h4>
+  <ul>
+  <li><b>Offer wearable canvases:</b> Give participants denim jackets, sashes, masks, or other items they can personalise.</li>
+  <li><b>Introduce symbolic exercises:</b> Try activities such as:<br>  
+  ‘Button Secrets’ (write a secret, then turn someone else’s into a drawing)<br>
+  ‘Fear Patches’<br>
+  ‘Care Badges’</li>
+  <li><b>Encourage layering and remixing:</b> Encourage participants to borrow from each other’s designs, fostering a sense of mutual authorship and recognition.</li>
+  <li><b>Co-create:</b> Use a giant paper roll or mural for a group ‘mega-drawing’.</li>
+  </ul>
+  <p style="color: var(--color-br);">
+  <i>TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.</i>
+  </p>
+</details>
 
-**How to do it:**
-- **Welcome with presence:** Greet participants with music, snacks, and warm lighting.  
-- **Stage a fictional campfire:** Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.
-- **Start with metaphor:** Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?
-- **Sit in a circle:** Remove hierarchy and promote eye contact and shared focus.
-- **Choose a name for the day:** Let each participant invent or choose a new name and make their own name tag.
-- **Begin gently:** Ease into the session with drawing games, shared storytelling, or laughter to build ease.
-- **Introduce a thematic anchor:** Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.
+<details class="tools">
+  <summary>
+    3. Storyplay & Time Travel: Activating Historical Imagination
+  </summary>
+  <h4>Why it matters:</h4>
+  Fictional characters and historical play let participants explore contrasts, question norms, and imagine alternative ways of being.
+  <h4>How to do it:</h4>
+  <ul>
+  <li><b>Bring in a character:</b> A facilitator embodies a character from the 1950s, sharing an exaggerated and funny story about how sharing worked ‘back then’.Open the floor: Participants are invited to ask anything: What was school like? How did people express feelings? How did you protest without social media?</li>
+  <li><b>Reflect together:</b> Transition into a group discussion about what has changed and what hasn’t: How do we share today? What’s easier now? What’s more difficult?</li>
+  </ul>
+  <p style="color: var(--color-br);">
+  <i>TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.</i>
+  </p>
+</details>
 
-**Tip:** Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.
+<details class="tools">
+  <summary>
+    4. From Text to Talk: Using Documents as Fuel for Dialogue
+  </summary>
+  <h4>Why it matters:</h4>
+  Reports, laws, and public texts can feel distant—but they deeply affect our lives. Activating them through conversation makes abstract ideas personal and relevant.
+  <h4>How to do it:</h4>
+  <ul>
+  <li><b>Choose a brief, accessible text:</b> For example, a section from a report on freedom of speech in Norway.</li>
+  <li><b>Read together:</b> Slowly, aloud, in pairs, or as a whole group.</li>
+  <li><b>Ask open questions:</b> What surprised you? What do you agree or disagree with? Do you feel free to speak? Where, and with whom?</li>
+  <li><b>Connect to lived experience:</b> What would you say if you knew someone was really listening? What needs to be said more often—or in new ways?</li>
+  </ul>
+  <p style="color: var(--color-br);">
+  <i>TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.</i>
+  </p>
+</details>
 
-### 2. Material-Based Expression: Make Identity Visible
-**Why it matters:** Materials can express complexity, emotion, and identity in ways that words often can’t. They become tools for discovery, communication, and care.
+<details class="tools">
+  <summary>
+    5. Claiming Public Space Together
+  </summary>
+  <h4>Why it matters:</h4>
+  Moving from a ‘safer’ space into the public realm transforms the work into a visible, collective statement of presence, care, and community.
+  <h4>How to do it:</h4>
+  <ul>
+  <li><b>Ground the group:</b> Begin by lying on the floor in silence with music playing. Invite participants to revisit what they have made and shared.</li>
+  <li><b>Prepare for visibility:</b> Wear jackets, masks, or objects created in previous sessions.</li>
+  <li><b>Take to the streets:</b> Do a slow, silent walk through the city.
+Use sticker activism: Let participants design and place homemade stickers in the public space with personal messages.</li>
+  </ul>
+  <p style="color: var(--color-br);">
+  <i>TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.</i>
+  </p>
+</details>
 
+<details class="tools">
+  <summary>
+    6. Co-Curate & Reflect
+  </summary>
+  <h4>Why it matters:</h4>
+  Reflecting together helps solidify learning, shift ownership, and celebrate not just what was made, but how it was made.
+  <h4>How to do it:</h4>
+  <ul>
+  <li><b>Circle up one last time:</b> Lay out all materials—jackets, drawings, stickers, thoughts.</li>
+  <li><b>Reflect on the process:</b> What stayed with you? What did you learn from someone else?</li>
+  <li><b>Build the exhibition together:</b> Decide what to show, and how. Include unfinished work, dialogue snippets, and moments of care—not just final objects.</li>
+  </ul>
+  <p style="color: var(--color-br);">
+  <i>TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.</i>
+  </p>
+</details>
 
-**How to do it:**  
-- **Offer wearable canvases:** Give participants denim jackets, sashes, masks, or other items they can personalise.
-- **Introduce symbolic exercises:** Try activities such as:  
-‘Button Secrets’ (write a secret, then turn someone else’s into a drawing)  
-‘Fear Patches’  
-‘Care Badges’  
-- **Encourage layering and remixing:** Encourage participants to borrow from each other’s designs, fostering a sense of mutual authorship and recognition.
-- **Co-create:** Use a giant paper roll or mural for a group ‘mega-drawing’.
+<details class="tools">
+  <summary>
+    7. Principles to Carry with You
+  </summary>
+  <br>
+  <ul>
+  <li><b>Be a host, not a leader.</b> Make space. Share power.<br>Process over product. Let the work unfold at its own pace—don’t rush it.</li>
+  <li><b>Start in the body.</b> Allow movement and material to lead before words take over.</li>
+  <li><b>Listen for the quiet.</b> Expression comes in many forms, not all of them loud.</li>
+  <li><b>Treat art as a method.</b> For empathy, protest, imagination, and connection.</li>
+  </ul>
+  <br>
+</details>
 
+<details class="tools">
+  <summary>
+    Suggested Materials to Have on Hand
+  </summary>
+  <br>
+  <ul>
+  <li>Paper rolls, markers, stickers, post-its</li>
+  <li>Wearables: wigs, jackets, hats, sashes, etc.</li>
+  <li>Button maker</li>
+  <li>Facepaint, fake lashes, coloured contact lenses</li>
+  <li>Safety pins, fabric markers, glue, scissors</li>
+  <li>Voice recorders or phones (with participants’ consent)</li>
+  <li>Music and portable speakers</li>
+  <li>Simple props or costumes for roleplay</li>
+  <li>Models (e.g., animal and human cells)</li>
+  <li>Printed text excerpts (e.g., from freedom of speech reports)</li>
+  <li>Snacks and cushions or rugs for a comfortable floor setup</li>
+  </ul>
+  <br>
+</details>
 
-**Tip:** Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.
-
-
-### 3. Storyplay & Time Travel: Activating Historical Imagination
-**Why it matters:** Fictional characters and historical play let participants explore contrasts, question norms, and imagine alternative ways of being.
-
-
-**How to do it:**
-- **Bring in a character:** A facilitator embodies a character from the 1950s, sharing an exaggerated and funny story about how sharing worked ‘back then’.Open the floor: Participants are invited to ask anything: What was school like? How did people express feelings? How did you protest without social media?
-- **Reflect together:** Transition into a group discussion about what has changed and what hasn’t: How do we share today? What’s easier now? What’s more difficult?
-
-
-**Tip:** The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.
-
-
-### 4. From Text to Talk: Using Documents as Fuel for Dialogue
-**Why it matters:** Reports, laws, and public texts can feel distant—but they deeply affect our lives. Activating them through conversation makes abstract ideas personal and relevant.
-
-
-**How to do it:**
-- **Choose a brief, accessible text:** For example, a section from a report on freedom of speech in Norway.
-- **Read together:** Slowly, aloud, in pairs, or as a whole group.
-- **Ask open questions:** What surprised you? What do you agree or disagree with? Do you feel free to speak? Where, and with whom?
-- **Connect to lived experience:** What would you say if you knew someone was really listening? What needs to be said more often—or in new ways?
-
-
-**Tip:** Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.
-
-
-### 5. Claiming Public Space Together
-**Why it matters:** Moving from a ‘safer’ space into the public realm transforms the work into a visible, collective statement of presence, care, and community.
-
-
-**How to do it:**
-- **Ground the group:** Begin by lying on the floor in silence with music playing. Invite participants to revisit what they have made and shared.
-- **Prepare for visibility:** Wear jackets, masks, or objects created in previous sessions.
-- **Take to the streets:** Do a slow, silent walk through the city.
-Use sticker activism: Let participants design and place homemade stickers in the public space with personal messages 
-
-
-**Tip:** Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.
-
-### 6. Co-Curate & Reflect
-**Why it matters:** Reflecting together helps solidify learning, shift ownership, and celebrate not just what was made, but how it was made.
-
-
-**How to do it:**
-- **Circle up one last time:** Lay out all materials—jackets, drawings, stickers, thoughts.
-- **Reflect on the process:** What stayed with you? What did you learn from someone else?
-- **Build the exhibition together:** Decide what to show, and how. Include unfinished work, dialogue snippets, and moments of care—not just final objects.
-
-
-**Tip:** Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.
-
-
-### 7. Principles to Carry with You
-- **Be a host, not a leader.** Make space. Share power.
-Process over product. Let the work unfold at its own pace—don’t rush it.
-- **Start in the body.** Allow movement and material to lead before words take over.
-- **Listen for the quiet.** Expression comes in many forms, not all of them loud.
-- **Treat art as a method.** For empathy, protest, imagination, and connection.
-
-
-### Suggested Materials to Have on Hand
-- Paper rolls, markers, stickers, post-its
-- Wearables: wigs, jackets, hats, sashes, etc.
-- Button maker
-- Facepaint, fake lashes, coloured contact lenses
-- Safety pins, fabric markers, glue, scissors
-- Voice recorders or phones (with participants’ consent)
-- Music and portable speakers
-- Simple props or costumes for roleplay
-- Models (e.g., animal and human cells)
-- Printed text excerpts (e.g., from freedom of speech reports)
-- Snacks and cushions or rugs for a comfortable floor setup
-
-
-<div class="footnote">
-This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
+<div class="bubble">
+  This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
 </div>
 

@@ -8,43 +8,45 @@
 </head>
 
 <body>
+    <div class="s-image" id="s-image"></div>
+    <div class="quote" id="quote"></div>
+    <button id="rotate-btn">↻</button>
     <main id="library">
         <div class="storage" id="deg_0">
             <div class="entry" id="en-1-1">Essay/Journey: Reflection notes Alchemy/Mikey</div>
             <div class="entry" id="en-1-2">LESSON PLAN: Workshop model, practical guide</div>
             <div class="entry" id="en-1-3">Are You Listening? Deep Listening as Youth Pedagogy</div>
-            <div class="brick" id="brk-1-1"></div>
+            <div class="brick" id="brk-1-1" data-hover-text="This publication is made possible with support from Arts and Culture Norway
+<br><br>Someone's name<br>Someone's name<br>Someone's name<br>Someone's name<br>Someone's name<br>">
+                Contributors</div>
             <div class="brick" id="brk-1-2"></div>
             <div class="brick" id="brk-1-3"></div>
         </div>
         <div class="storage" id="deg_90">
             <div class="entry" id="en-2-1">Vox Pop from Alchemy week</div>
             <div class="entry" id="en-2-2">Self as Archive, Erasure + World-Building</div>
-            <div class="entry" id="en-2-3">A Space for Agency: Walk of Shame on Cultivating Collective</div>
+            <div class="entry" id="en-2-3"><a href="a-space-for-agency.html">A Space for Agency: Walk of Shame on Cultivating Collective</a></div>
             <div class="entry" id="en-2-4">Why Are Youth Workers Essential When Creating Meaningful</div>
             <div class="brick" id="brk-2-1"></div>
         </div>
         <div class="storage" id="deg_180">
-            <div class="entry" id="en-3-1"></div>
-            <div class="entry" id="en-3-2"></div>
-            <div class="entry" id="en-3-3"></div>
+            <div class="entry" id="en-3-1">Vox Pop from Alchemy week</div>
+            <div class="entry" id="en-3-2">Walk of Shame</div>
+            <div class="entry" id="en-3-3">Let me be for you what I needed when I was your age</div>
             <div class="brick" id="brk-3-1"></div>
             <div class="brick" id="brk-3-2"></div>
         </div>
         <div class="storage" id="deg_270">
-            <div class="entry" id="en-4-1"></div>
-            <div class="entry" id="en-4-2"></div>
-            <div class="entry" id="en-4-3"></div>
-            <div class="entry" id="en-4-4"></div>
-            <div class="brick" id="brk-4-1"></div>
+            <div class="entry" id="en-4-1">How Youth Workers Create Meaningful Encounters for Young People</div>
+            <div class="entry" id="en-4-2">Vox Pop from Alchemy week</div>
+            <div class="entry" id="en-4-3">How Youth Workers Create Meaningful Encounters for Young People</div>
+            <div class="entry" id="en-4-4">Walk of Shame</div>
+            <div class="brick" id="brk-4-1"
+                data-hover-text="Designed by nicole killian, rasim bayramov and khai chuang<br><br>Typefaces: Velvelyne & Compagnon by Velvetyne Type Foundry">
+                Credits</div>
+        </div>
         </div>
 
-        <div class="s-image" id="s-image-1"></div>
-        <div class="s-image" id="s-image-2"></div>
-        <div class="s-image" id="s-image-3"></div>
-        <div class="quote" id="quote"></div>
-
-        <button id="rotate-btn">↻</button>
     </main>
     <aside>
         <div id="home">
@@ -58,12 +60,13 @@
                 communities.</div>
         </div>
         <div id="about">
-            <h4></h4>
-            <p></p>
+            <div id="cred-line">This toolkit is produced by<img src="assets/ks-logo.svg"></div>
         </div>
         <div class="bottom">
             <div class="album-preview"></div>
-            <div class="gallery">2023 MC Photos</div>
+            <a href="gallery.html">
+                <div class="gallery">Gallery</div>
+            </a>
         </div>
     </aside>
 
@@ -97,38 +100,23 @@
         ];
 
         const imageUrls = [
-            "https://i.redd.it/v742lscv89z41.jpg",
-            "https://i.redd.it/v742lscv89z41.jpg",
-            "https://i.redd.it/v742lscv89z41.jpg", "https://i.redd.it/v742lscv89z41.jpg", "https://i.redd.it/v742lscv89z41.jpg",
-            "https://i.redd.it/v742lscv89z41.jpg"
+            "https://ik.imagekit.io/kunsthallstavanger/projects/mobilizing-citizenship-autumn-2024/media-gallery/MC_Kunsthall_GoldsmithsAlchemy_44WEB.jpg?tr=w-1280",
+            "https://ik.imagekit.io/kunsthallstavanger/projects/mobilizing-citizenship-autumn-2024/media-gallery/MC_Kunsthall_GoldsmithsAlchemy_44WEB.jpg?tr=w-1280",
+            "https://ik.imagekit.io/kunsthallstavanger/projects/mobilizing-citizenship-autumn-2024/media-gallery/MC_Kunsthall_GoldsmithsAlchemy_44WEB.jpg?tr=w-1280",
+            "https://ik.imagekit.io/kunsthallstavanger/projects/mobilizing-citizenship-autumn-2024/media-gallery/MC_Kunsthall_GoldsmithsAlchemy_44WEB.jpg?tr=w-1280",
+            "https://ik.imagekit.io/kunsthallstavanger/projects/mobilizing-citizenship-autumn-2024/media-gallery/MC_Kunsthall_GoldsmithsAlchemy_44WEB.jpg?tr=w-1280",
         ];
 
         function positionRandomElements() {
-            const library = document.getElementById('library');
-            const libraryRect = library.getBoundingClientRect();
-
-            // Center area boundaries - 250px square in the center
-            const centerSize = 300;
-            const centerX = (libraryRect.width - centerSize) / 3;
-            const centerY = (libraryRect.height - centerSize) / 1.5;
-
-            // Position the three images randomly within the 250px center square
-            for (let i = 1; i <= 3; i++) {
-                const image = document.getElementById(`s-image-${i}`);
-                const randomX = Math.floor(Math.random() * centerSize) + centerX;
-                const randomY = Math.floor(Math.random() * centerSize) + centerY;
-
-                image.style.left = `${randomX}px`;
-                image.style.top = `${randomY}px`;
-
-                // Assign a random image
-                const randomImageIndex = Math.floor(Math.random() * imageUrls.length);
-                image.style.backgroundImage = `url(${imageUrls[randomImageIndex]})`;
-            }
+            const image = document.getElementById('s-image');
+            const randomImageIndex = Math.floor(Math.random() * imageUrls.length);
+            image.style.backgroundImage = `url(${imageUrls[randomImageIndex]})`;
 
             const quote = document.getElementById('quote');
             const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
             quote.textContent = quotes[randomQuoteIndex];
+
+            quote.dataset.originalQuote = quotes[randomQuoteIndex];
         }
 
         // Initialize the page
@@ -144,10 +132,32 @@
                 currentRotation += 90;
                 library.style.transform = `rotate(${currentRotation}deg)`;
                 rotateBtn.style.transform = `translate(-50%, -50%) rotate(${-currentRotation}deg)`;
+                // Remove counter-rotation logic entirely
+            });
 
-                // Counter-rotate the images and quote to keep them upright
-                document.querySelectorAll('.s-image, .quote').forEach(element => {
-                    element.style.setProperty('--counter-rotation', `-${currentRotation}deg`);
+            // Hover interaction for entry elements
+            const entries = document.querySelectorAll('.entry, .brick[data-hover-text]');
+            const quoteElement = document.getElementById('quote');
+
+            entries.forEach(element => {
+                element.addEventListener('mouseenter', () => {
+                    // Store current text before changing it
+                    if (!quoteElement.dataset.originalQuote) {
+                        quoteElement.dataset.originalQuote = quoteElement.textContent;
+                    }
+
+                    // Use custom hover text for bricks with data-hover-text, otherwise use element text
+                    if (element.classList.contains('brick') && element.dataset.hoverText) {
+                        quoteElement.innerHTML = element.dataset.hoverText;
+                    } else {
+                        quoteElement.textContent = element.textContent;
+                    }
+                });
+
+                element.addEventListener('mouseleave', () => {
+                    // Return to original quote when mouse leaves
+                    quoteElement.textContent = quoteElement.dataset.originalQuote;
+                    quoteElement.innerHTML = quoteElement.textContent; // Reset innerHTML
                 });
             });
 
@@ -260,7 +270,7 @@
             document.addEventListener('mouseup', () => {
                 if (isDraggingTop) {
                     isDraggingTop = false;
-                    topDrawer.style.transition = 'transform 0.3s ease';
+                    topDrawer.style.transition = 'transform 0.5s eascubic-bezier(0.5, 1, 0.89, 1)e';
 
                     // Snap to positions
                     if (currentTranslateTop < -topDrawer.offsetHeight * 0.7) {
@@ -279,12 +289,12 @@
 
                 if (isDraggingBottom) {
                     isDraggingBottom = false;
-                    bottomDrawer.style.transition = 'transform 0.3s ease';
+                    bottomDrawer.style.transition = 'transform 0.5s cubic-bezier(0.5, 1, 0.89, 1)';
 
                     // Snap to positions
                     if (currentTranslateBottom > bottomDrawer.offsetHeight * 0.7) {
                         // Snap mostly hidden (but show a little)
-                        currentTranslateBottom = bottomDrawer.offsetHeight - 40;
+                        currentTranslateBottom = bottomDrawer.offsetHeight - 70;
                     } else if (currentTranslateBottom > bottomDrawer.offsetHeight * 0.3) {
                         // Snap to middle position
                         currentTranslateBottom = bottomDrawer.offsetHeight * 0.5;
