@@ -171,7 +171,6 @@ details.author p.author-bio {
   padding: 0.25rem 1rem;
   cursor: pointer;
   background: var(--color-pk);
-  color: black;
   transition: background 0.3s ease;
 }
 
@@ -180,7 +179,7 @@ details.author p.author-bio {
 }
 
 .lightbox-counter {
-  padding: 0.25rem 1rem 0.25rem 0;
+  padding: 0.25rem 1rem;
 }
 
 .popup {
@@ -354,10 +353,6 @@ details.tools summary {
   /* text left, icon right */
   align-items: center;
   /* background: var(--color-gr); */
-}
-
-details.tools summary::-webkit-details-marker {
-  display: none;
 }
 
 details.tools summary::after {
@@ -599,7 +594,7 @@ footer {
 /* mobile layout */
 @media (max-width: 768px) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   body {
@@ -614,10 +609,6 @@ footer {
     height: 3rem;
     position: static;
   }
-
-  .drawer:hover:not(.open) {
-  transform: translateY(calc(-100% + 1rem));
-}
 
   details.author summary {
     text-decoration: underline dotted 2px;
@@ -664,15 +655,7 @@ footer {
     margin: 4rem 0;
   }
 
-  .bubble {
-  font-size: 0.9rem;
-  }
-
   h1 {
     font-size: 1.5rem;
   }
-
-  h2 {
-  font-size: 1.2rem;
-}
 }
