@@ -2,14 +2,14 @@
     font-family: "Compagnon";
     src:
         local("Compagnon"),
-        url("fonts/Compagnon-Medium.woff2") format("woff2") tech(color-COLRv1),
+        url("/assets/fonts/Compagnon-Medium.woff2") format("woff2") tech(color-COLRv1),
 }
 
 @font-face {
     font-family: "Velvelyne";
     src:
         local("Velvelyne"),
-        url("fonts/Velvelyne-Regular.woff2") format("woff2"),
+        url("/assets/fonts/Velvelyne-Regular.woff2") format("woff2"),
 }
 
 :root {
@@ -315,7 +315,7 @@ aside {
     background: var(--color-pk);
     height: calc(100vh / 13 * 5);
     background-color: var(--color-pk);
-    font-family: var(--font-title), monospace;
+    font-family: Compagnon, sans-serif;
     z-index: 10;
     padding: 24px;
     font-size: 36px;
@@ -384,10 +384,11 @@ aside {
 .top {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    font-family: var(--font-body), sans-serif;
+    font-family: Velvetyne, sans-serif;
     align-content: end;
     padding: 0 24px 48px 24px;
     font-size: 20px;
+    font-family: var(--font-body);
     text-align: center;
     background-color: black;
     color: var(--color-pk);
