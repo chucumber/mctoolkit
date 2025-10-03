@@ -199,7 +199,9 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
   1. Set the Tone: Build Trust Through Atmosphere
   </summary>
   <h4>Why it matters:</h4>
+  <p>
   A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.
+  </p>
   <h4>How to do it:</h4>
   <ul>
     <li><b>Welcome with presence:</b> Greet participants with music, snacks, and warm lighting.</li>
@@ -220,7 +222,9 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
     2. Material-Based Expression: Make Identity Visible
   </summary>
   <h4>Why it matters:</h4>
+  <p>
   Materials can express complexity, emotion, and identity in ways that words often can’t. They become tools for discovery, communication, and care.
+  </p>
   <h4>How to do it:</h4>
   <ul>
   <li><b>Offer wearable canvases:</b> Give participants denim jackets, sashes, masks, or other items they can personalise.</li>
@@ -241,7 +245,9 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
     3. Storyplay & Time Travel: Activating Historical Imagination
   </summary>
   <h4>Why it matters:</h4>
+  <p>
   Fictional characters and historical play let participants explore contrasts, question norms, and imagine alternative ways of being.
+  </p>
   <h4>How to do it:</h4>
   <ul>
   <li><b>Bring in a character:</b> A facilitator embodies a character from the 1950s, sharing an exaggerated and funny story about how sharing worked ‘back then’.Open the floor: Participants are invited to ask anything: What was school like? How did people express feelings? How did you protest without social media?</li>
@@ -257,7 +263,9 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
     4. From Text to Talk: Using Documents as Fuel for Dialogue
   </summary>
   <h4>Why it matters:</h4>
+  <p>
   Reports, laws, and public texts can feel distant—but they deeply affect our lives. Activating them through conversation makes abstract ideas personal and relevant.
+  </p>
   <h4>How to do it:</h4>
   <ul>
   <li><b>Choose a brief, accessible text:</b> For example, a section from a report on freedom of speech in Norway.</li>
@@ -275,7 +283,9 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
     5. Claiming Public Space Together
   </summary>
   <h4>Why it matters:</h4>
+  <p>
   Moving from a ‘safer’ space into the public realm transforms the work into a visible, collective statement of presence, care, and community.
+  </p>
   <h4>How to do it:</h4>
   <ul>
   <li><b>Ground the group:</b> Begin by lying on the floor in silence with music playing. Invite participants to revisit what they have made and shared.</li>
@@ -293,7 +303,9 @@ Use sticker activism: Let participants design and place homemade stickers in the
     6. Co-Curate & Reflect
   </summary>
   <h4>Why it matters:</h4>
+  <p>
   Reflecting together helps solidify learning, shift ownership, and celebrate not just what was made, but how it was made.
+  </p>
   <h4>How to do it:</h4>
   <ul>
   <li><b>Circle up one last time:</b> Lay out all materials—jackets, drawings, stickers, thoughts.</li>
@@ -309,21 +321,18 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <summary>
     7. Principles to Carry with You
   </summary>
-  <br>
   <ul>
   <li><b>Be a host, not a leader.</b> Make space. Share power.<br>Process over product. Let the work unfold at its own pace—don’t rush it.</li>
   <li><b>Start in the body.</b> Allow movement and material to lead before words take over.</li>
   <li><b>Listen for the quiet.</b> Expression comes in many forms, not all of them loud.</li>
   <li><b>Treat art as a method.</b> For empathy, protest, imagination, and connection.</li>
   </ul>
-  <br>
 </details>
 
 <details class="tools">
   <summary>
     Suggested Materials to Have on Hand
   </summary>
-  <br>
   <ul>
   <li>Paper rolls, markers, stickers, post-its</li>
   <li>Wearables: wigs, jackets, hats, sashes, etc.</li>
@@ -337,7 +346,6 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <li>Printed text excerpts (e.g., from freedom of speech reports)</li>
   <li>Snacks and cushions or rugs for a comfortable floor setup</li>
   </ul>
-  <br>
 </details>
 
 <div class="bubble">

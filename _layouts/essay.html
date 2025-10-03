@@ -29,13 +29,15 @@
 
     <nav>
         <div id="home-link">
-            <a href="{{ site.baseurl }}/">MC Toolkit</a>
+            <a href="index.html">MC Toolkit</a>
         </div>
         <div class="drawer">
             <ul id="menu">
                 <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
-                <li class="bg-pk"><a href="{{ site.baseurl }}/">Are You Listening? Deep Listening as Youth Pedagogy</a></li>
-                <li class="bg-dg"><a href="{{ site.baseurl }}/">How Youth Workers Create Meaningful Encounters for Young People</a>
+                <li class="bg-pk"><a href="{{ site.baseurl }}/">Are You Listening? Deep Listening as Youth Pedagogy</a>
+                </li>
+                <li class="bg-dg"><a href="{{ site.baseurl }}/">How Youth Workers Create Meaningful Encounters for Young
+                        People</a>
                 </li>
                 <li class="bg-bl"><a href="{{ site.baseurl }}/">Self as Archive Erasure + World-Building</a></li>
             </ul>
@@ -79,6 +81,37 @@
                         totalWidth += img.offsetWidth;
                         imagePositions.push(totalWidth);
                     }
+                    // --- Swipe detection for mobile ---
+                    let startX = 0;
+                    let endX = 0;
+
+                    lightboxScroll.addEventListener('touchstart', (e) => {
+                        startX = e.touches[0].clientX;
+                    });
+
+                    lightboxScroll.addEventListener('touchmove', (e) => {
+                        endX = e.touches[0].clientX;
+                    });
+
+                    lightboxScroll.addEventListener('touchend', () => {
+                        let deltaX = endX - startX;
+
+                        // Minimum swipe distance threshold (so small taps don’t trigger)
+                        if (Math.abs(deltaX) > 50) {
+                            if (deltaX < 0) {
+                                // Swiped left → next image
+                                nextImage();
+                            } else {
+                                // Swiped right → previous image
+                                prevImage();
+                            }
+                        }
+
+                        // Reset
+                        startX = 0;
+                        endX = 0;
+                    });
+
                 });
 
                 // Update image credit
@@ -131,7 +164,7 @@
         document.body.appendChild(popup);
 
         // Handle image clicks
-        document.querySelectorAll('.lightbox-scroll img').forEach(img => {
+        document.querySelectorAll('.content img').forEach(img => {
             img.addEventListener('click', () => {
                 popup.innerHTML = '';
 
@@ -140,7 +173,7 @@
 
                 const credit = document.createElement('div');
                 credit.className = 'credit';
-                credit.textContent = img.dataset.credit || '';
+                credit.textContent = img.alt || '';
 
                 popup.appendChild(popupImg);
                 popup.appendChild(credit);
