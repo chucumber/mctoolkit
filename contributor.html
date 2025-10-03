@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilizing Citizenship Toolkit</title>
+    <link rel="stylesheet" href="assets/gallery.css">
+    <link rel="icon" type="image/png" href="">
+</head>
+
+<body>
+    <main>
+        <h1>
+            Contributors
+        </h1>
+
+        <div class="content">
+            <figure>
+                <img src="img/contributor/Chire Regans photo by Helle Navratil.webp" alt="Chire Regans"
+                    data-credit="Chire Regans. photo by Helle Navratil">
+                <figcaption>Chire Regans</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/contributor/Delali Ayivor-photo by Helle Navratil.webp" alt="Delali Ayivor"
+                    data-credit="Delali Ayivor. photo by Helle Navratil">
+                <figcaption>Delali Ayivor</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/contributor/K K Bore Photo Helle Navratil.webp" alt="K K Bore"
+                    data-credit="K K Bore. photo by Helle Navratil">
+                <figcaption>K K Bore</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/contributor/Lee Heinemann-photo by Helle Navratil.webp" alt="Lee Heinemann"
+                    data-credit="Lee Heinemann. photo by Helle Navratil">
+                <figcaption>Lee Heinemann</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/contributor/Lex Brown-photo by Helle Navratil.webp" alt="Lex Brown"
+                    data-credit="Lex Brown. photo by Helle Navratil">
+                <figcaption>Lex Brown</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/contributor/Loni Johnson - photo by Helle Navratil.webp" alt="Loni Johnson"
+                    data-credit="Loni Johnson. photo by Helle Navratil">
+                <figcaption>Loni Johnson</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/contributor/Mikey Kirkpatrick-photo by Helle Navratil.webp" alt="Mikey Kirkpatrick"
+                    data-credit="Mikey Kirkpatrick. photo by Helle Navratil">
+                <figcaption>Mikey Kirkpatrick</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/contributor/Trine Ottosen- photo by Helle.webp" alt="Trine Ottosen"
+                    data-credit="Trine Ottosen. photo by Helle Navratil">
+                <figcaption>Trine Ottosen</figcaption>
+            </figure>
+        </div>
+
+    </main>
+
+    <nav>
+        <div id="home-link">
+            <a href="index.html">MC Toolkit</a>
+        </div>
+    </nav>
+
+    <footer></footer>
+
+    <script>
+        // Add popup container to body
+        const popup = document.createElement('div');
+        popup.className = 'popup';
+        document.body.appendChild(popup);
+
+        // Handle image clicks
+        document.querySelectorAll('.content img').forEach(img => {
+            img.addEventListener('click', () => {
+                popup.innerHTML = '';
+
+                const popupImg = document.createElement('img');
+                popupImg.src = img.src;
+
+                const credit = document.createElement('div');
+                credit.className = 'credit';
+                credit.textContent = img.dataset.credit || '';
+
+                popup.appendChild(popupImg);
+                popup.appendChild(credit);
+                popup.classList.add('active');
+            });
+        });
+
+        // Close popup when clicking
+        popup.addEventListener('click', (e) => {
+            if (e.target === popup) {   // only close if click backdrop, not image
+                popup.classList.remove('active');
+            }
+        });
+
+
+    </script>
+
+</body>
+
+</html>
