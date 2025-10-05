@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Resizable Two-Column with Drag Divider</title>
+<style>
+  :root{
+    --gutter: 10px;         /* visual gap / divider width */
+    --min-col: 10%;         /* minimum width for each column */
+    --max-col: 90%;
+  }
+
+  body { margin: 0; font-family: system-ui, Arial, sans-serif; }
+
+  /* container */
+  .split-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    user-select: none; /* turned on while dragging, removed during idle for accessibility */
+    overflow: hidden;
+  }
+
+  /* columns */
+  .pane {
+    height: 100%;
+    overflow: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .pane.left { background: #f7f7fb; }
+  .pane.right { background: #fff; border-left: 1px solid rgba(0,0,0,0.05); }
+
+  /* divider (the draggable handle) */
+  .divider {
+    width: var(--gutter);
+    cursor: col-resize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #d2d2d2;
+  }
+
+  /* visual handle inside divider */
+  .divider .handle {
+    width: var(--gutter);
+    height: 36px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 2px;
+    transition: background .15s;
+  }
+
+  .divider:focus .handle,
+  .divider:hover .handle {
+    background: rgba(0,0,0,0.45);
+  }
+
+  /* make divider focusable */
+  .divider {
+    outline: none;
+  }
+
+  /* small screens — stack columns vertically when very narrow */
+  @media (max-width: 480px) {
+    .split-container {
+      flex-direction: column;
+      height: auto;
+    }
+    .divider {
+      width: 100%;
+      height: var(--gutter);
+      cursor: row-resize;
+      background: linear-gradient(180deg, transparent, rgba(0,0,0,0.04), transparent);
+    }
+    .divider .handle { width: 36px; height: 4px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="split-container" id="split">
+  <div class="pane left" id="leftPane">
+    <h3>Left column</h3>
+    <p>Some content in the left pane. Resize by dragging the divider.</p>
+  </div>
+
+  <div class="divider" id="divider" role="separator" tabindex="0" aria-orientation="vertical" aria-label="Resize panels" aria-valuemin="10" aria-valuemax="90" aria-valuenow="50">
+    ||
+  </div>
+
+  <div class="pane right" id="rightPane">
+    <h3>Right column</h3>
+    <p>Content on the right. Works with mouse, touch, and keyboard (← / →).</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  const container = document.getElementById('split');
+  const left = document.getElementById('leftPane');
+  const right = document.getElementById('rightPane');
+  const divider = document.getElementById('divider');
+
+  // initial percent width for left pane
+  let leftPct = 90;
+
+  // min / max allowed percent
+  const MIN = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--min-col')) || 10;
+  const MAX = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--max-col')) || 90;
+
+  // Apply initial sizes
+  function applySizes() {
+    // If stacked (mobile), set height-based behavior by flex-basis auto
+    if (window.matchMedia('(max-width: 480px)').matches) {
+      left.style.flex = 'none';
+      right.style.flex = 'none';
+      left.style.width = '100%';
+      right.style.width = '100%';
+    } else {
+      left.style.width = leftPct + '%';
+      right.style.width = (100 - leftPct) + '%';
+      left.style.flex = '0 0 ' + leftPct + '%';
+      right.style.flex = '0 0 ' + (100 - leftPct) + '%';
+    }
+    // Update aria value for accessibility
+    divider.setAttribute('aria-valuenow', Math.round(leftPct));
+  }
+
+  applySizes();
+
+  // utility: clamp value
+  function clamp(v, a, b){ return Math.min(Math.max(v,a), b); }
+
+  // start dragging
+  let dragging = false;
+  function startDrag(clientX, clientY) {
+    dragging = true;
+    document.body.style.cursor = getComputedStyle(divider).cursor;
+    document.body.style.userSelect = 'none';
+    // track initial positions if needed
+  }
+
+  function stopDrag() {
+    dragging = false;
+    document.body.style.cursor = '';
+    document.body.style.userSelect = '';
+  }
+
+  function onMove(clientX, clientY) {
+    const rect = container.getBoundingClientRect();
+
+    if (window.matchMedia('(max-width: 480px)').matches) {
+      // vertical (stacked) resize — compute percentage of height
+      const offset = clientY - rect.top;
+      const pct = (offset / rect.height) * 100;
+      leftPct = clamp(pct, MIN, MAX);
+    } else {
+      // horizontal
+      const offset = clientX - rect.left;
+      const pct = (offset / rect.width) * 100;
+      leftPct = clamp(pct, MIN, MAX);
+    }
+    applySizes();
+  }
+
+  // Mouse events
+  divider.addEventListener('mousedown', (e) => {
+    e.preventDefault();
+    startDrag(e.clientX, e.clientY);
+  });
+
+  // Touch events
+  divider.addEventListener('touchstart', (e) => {
+    const t = e.touches[0];
+    startDrag(t.clientX, t.clientY);
+  }, {passive: true});
+
+  // Move listeners on document
+  window.addEventListener('mousemove', (e) => {
+    if (!dragging) return;
+    onMove(e.clientX, e.clientY);
+  });
+
+  window.addEventListener('touchmove', (e) => {
+    if (!dragging) return;
+    const t = e.touches[0];
+    onMove(t.clientX, t.clientY);
+  }, {passive: false});
+
+  // stop dragging
+  window.addEventListener('mouseup', stopDrag);
+  window.addEventListener('touchend', stopDrag);
+  window.addEventListener('touchcancel', stopDrag);
+
+  // Keyboard support: arrow keys to nudge
+  divider.addEventListener('keydown', (e) => {
+    const step = e.shiftKey ? 5 : 1; // bigger step with shift
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      leftPct = clamp(leftPct - step, MIN, MAX);
+      applySizes();
+      e.preventDefault();
+    } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+      leftPct = clamp(leftPct + step, MIN, MAX);
+      applySizes();
+      e.preventDefault();
+    } else if (e.key === 'Home') {
+      leftPct = MIN; applySizes(); e.preventDefault();
+    } else if (e.key === 'End') {
+      leftPct = MAX; applySizes(); e.preventDefault();
+    }
+  });
+
+  // Keep layout correct on window resize
+  window.addEventListener('resize', () => {
+    applySizes();
+  });
+
+  // Optional: double-click to reset to 50%
+  divider.addEventListener('dblclick', () => {
+    leftPct = 50;
+    applySizes();
+  });
+
+})();
+</script>
+</body>
+</html>
