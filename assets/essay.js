@@ -111,7 +111,7 @@ popup.className = 'popup';
 document.body.appendChild(popup);
 
 // Handle image clicks
-document.querySelectorAll('.content img').forEach(img => {
+document.querySelectorAll('.content img, .gallery img').forEach(img => {
     img.addEventListener('click', () => {
         popup.innerHTML = '';
 
@@ -180,3 +180,4 @@ const initDrawer = () => {
 
 // Initialize drawer
 initDrawer();
+

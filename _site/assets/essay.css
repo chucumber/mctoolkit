@@ -242,6 +242,7 @@ details.author summary {
 
 .author-bio:hover {
   transform: rotate(0deg) scale(1);
+    z-index: 10;
 }
 
 .author-bio:active {
@@ -289,6 +290,7 @@ details.author summary {
 
 .foreword:hover {
   transform: rotate(0deg) scale(1);
+  z-index: 10;
 }
 
 .foreword:active {
@@ -682,52 +684,39 @@ th {
 
 /* --------- nav bar --------- */
 
-nav {
-  grid-area: nav;
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-nav a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#home-link {
-  padding: 0.5rem 0;
+ul#menu li#home-link {
+  padding: 1rem 0.5rem;
   font-family: var(--font-title);
+  line-height: var(--line-height-title);
   font-weight: 500;
   font-size: 1rem;
   text-align: center;
-  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.2);
-  z-index: 10;
+  box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
-#home-link:hover a {
-  font-weight: 700;
+#home-link:hover {
+  background: var(--color-dg);
   transition: all 0.3s ease;
 }
 
 ul#menu {
-  list-style: none;
   margin: 0;
   padding: 0;
   font-size: 0.8rem;
-  height: calc(100% - 1rem);
   width: 100%;
-  /* Subtract handler height */
 }
 
 ul#menu li {
   padding: 0.5rem;
-  border-top: var(--color-dg) 1px solid;
+  border-bottom: var(--color-dg) 1px solid;
   text-align: center;
   background: transparent;
   transition: background 0.3s ease;
+}
+
+ul#menu li a {
+  text-decoration: none;
 }
 
 #menu li.bg-pk:hover {
@@ -750,22 +739,22 @@ ul#menu li {
   background: var(--color-br);
 }
 
-ul#menu li a {
+#rightPane::-webkit-scrollbar-thumb {
+  background: var(--color-br);
+}
+
+#rightPane::-webkit-scrollbar-thumb:hover {
+  background: #c9a87f;
+  cursor: grab;
+}
+
+/* ul#menu li a {
   text-decoration: none;
   color: inherit;
   display: block;
   width: 100%;
   height: 100%;
-}
-
-ul#menu li#r-content {
-  color: var(--color-dg);
-  cursor: default;
-}
-
-ul#menu li#r-content:hover {
-  background: #fff;
-}
+} */
 
 footer {
   grid-area: footer;
@@ -800,33 +789,6 @@ footer {
     font-size: 20px;
   }
 
-  body {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "nav"
-      "main"
-      "footer";
-  }
-
-  nav {
-    height: 3rem;
-    position: static;
-  }
-
-  #home-link {
-    box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.1);
-
-  }
-
-  #handler {
-    height: 0.8rem;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
-  }
-
-  .drawer:hover:not(.open) {
-    transform: translateY(calc(-100% + 1rem));
-  }
-
   ul#menu {
     font-size: 0.9rem;
   }
@@ -846,6 +808,25 @@ footer {
 
   .content {
     margin: 0;
+  }
+
+  .foreword {
+    position: absolute;
+    top: 2rem;
+    left: 0.5rem;
+    right: auto;
+    max-width: calc(100% - 3rem);
+    padding: 1rem;
+    transform: rotate(3deg) scale(0.5) translateX(40%);
+  }
+
+  .foreword:hover {
+    transform: rotate(0deg) scale(1) translateX(0%);
+  }
+
+  .foreword:active {
+    cursor: grabbing;
+    transform: rotate(0deg) scale(1);
   }
 
   .lightbox-container {

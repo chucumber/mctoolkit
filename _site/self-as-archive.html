@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobilizing Citizenship Toolkit</title>
     <link rel="stylesheet" href="assets/essay.css">
+    <link rel="stylesheet" href="assets/gallery.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
     <script src="assets/essay.js" defer></script>
 
     <style>
-
         :root {
             --gutter: 15px;
             --min-col: 30px;
@@ -143,6 +143,43 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #FF8CEC;
             cursor: grab;
+        }
+
+        @media (max-width: 768px) {
+
+        html,
+        body {
+                height: auto;
+                overflow: auto;
+            }
+
+            .split-container {
+                flex-direction: column;
+                height: auto;
+                /* Let it expand naturally */
+                overflow: visible;
+                /* Allow scrolling */
+            }
+
+        .divider {
+            display: none;
+            /* Hide resizable divider */
+        }
+
+        .left,
+        .right {
+            width: 100% !important;
+        }
+
+        .right {
+            order: 2;
+            /* Place right pane below */
+            border-top: 1px solid var(--color-ui);
+        }
+
+        .left {
+            order: 1;
+        }
         }
     </style>
 </head>
@@ -406,17 +443,32 @@ Guiding Questions: What do we notice when we engage deeply with everyday media? 
                 </div>
             </nav> -->
         </div>
+
         <div id="divider" class="divider" tabindex="0" role="separator" aria-orientation="vertical"
             title="drag to resize">
         </div>
+
         <div id="rightPane" class="pane right collapsed">
             <div class="menu-label" tabindex="0" role="button" aria-label="Expand related content">menu</div>
             <ul id="menu">
-                <li id="home-link">MC Toolkit</li>
-                <li class="bg-pk"><a href="/">Are You Listening? Deep Listening as Youth Pedagogy</a></li>
-                <li class="bg-br"><a href="/">How Youth Workers Create Meaningful Encounters for Young People</a>
+                <li id="home-link"><a ref="index.html">Mobile Citizenship Toolkit</a></li>
+                <li class="bg-pk"><a href="foreword-lee">Foreword, Lee Heinemann</a></li>
+                <li class="bg-pk"><a href="foreword-kristina">Foreword, Kristina Ketola Bore</a></li>
+                <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
+                        Collective Care in Education</a></li>
+                <li class="bg-gr"><a href=" ">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of
+                        Play</a>
                 </li>
-                <li class="bg-bl"><a href="/">Self as Archive: Erasure + World-Building</a></li>
+                <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
+                </li>
+                <li class="bg-gr"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
+                        People</a></li>
+                <li class="bg-bl"><a href="self-as-archive">Self as Archive: Erasure + World-Building</a></li>
+                <li class="bg-gr"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>
+                </li>
+                <li class="bg-bl"><a href=" ">What We Hold Sacred Altar-Making Workshop by Loni Johnson</a>
+                </li>
+                <li class="bg-br"><a href="contributor">Contributors</a></li>
             </ul>
         </div>
     </div>
