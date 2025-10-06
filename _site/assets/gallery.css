@@ -1,8 +1,12 @@
 .gallery {
     margin: 6rem 0 0 4rem;
+    max-width: 1050px;
+}
+
+.column {
+    width: 100%;
     column-count: 2;
     column-gap: 2rem;
-    max-width: 1050px;
 }
 
 .gallery figure {
@@ -92,10 +96,13 @@
 
     .content {
         margin: 6rem 0 0 0;
-        column-count: 1;
-        column-gap: 2rem;
         padding: 0;
     }
+
+    .column {
+    column-count: 1;
+    column-gap: 2rem;
+}
 
     .content figure {
         margin: 0 0 1rem 0;
