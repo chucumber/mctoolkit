@@ -3,13 +3,14 @@ layout: essay
 permalink: "/:title"
 
 title: "A Space for Agency: Walk of Shame on Cultivating Collective Care in Education"
-author: "Walk of Shame (WOS)"
+author: "Walk of Shame"
 author-bio: "is an artist collective based in Bergen, Norway, working at the intersection of visual art, performance, and social space. Their practice explores participation, community, and the aesthetics of excess, often creating immersive environments that blur the boundaries between audience and performer. With a playful yet critical approach, WOS stages works that challenge conventions of taste, behaviour, and collectivity, inviting participants into transformative and unpredictable experiences."
 ---
 
 <div class="foreword">
 What does it mean to turn an educational space into a site of experimentation, care, and shared responsibility? The collective Walk of Shame invite us behind the scenes of their guest-curated autumn semester for Mobilizing Citizenship 2022, where education was reimagined as a space for embodied learning and mutual support. Through a series of collaborative workshops, they explored how caring and sharing can move beyond abstract ideals to become lived, daily practices. In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.
 </div>
+
 
 <div class="lightbox-container">
   <div class="lightbox-scroll">
@@ -47,7 +48,7 @@ What does it mean to turn an educational space into a site of experimentation, c
   </div>
 </div>
 
-<div class="lightbox-base">
+<div class="lightbox-base font-small">
   <div class="lightbox-info">
     <div class="img-info"></div>
     <div class="lightbox-counter">1/-</div>
@@ -58,7 +59,7 @@ What does it mean to turn an educational space into a site of experimentation, c
   </div>
 </div>
 
-**Walk of Shame** are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.
+**Walk of Shame (WOS)** are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.
 
 
 Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.
@@ -66,7 +67,11 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
 
 
 <div class="bubble">
+  <p>
+      <span class="bracket-left"></span>
   Walk of Shame participated in MC twice. First with a workshop in the spring of 2019 under the semester theme of Movement and Body Representation. In the summer of 2020 Walk of Shame were invited to hold workshops as part of Kunsthall Stavanger summer school Klikk Her-TV. They later guest-curated the MC autumn semester of 2022, consisting of four workshops; one of them was held at the Munch museum in Oslo. This text looks more closely at the autumn semester of 2022.
+      <span class="bracket-right"></span>
+  </p>
 </div>
 
 
@@ -185,7 +190,7 @@ As one participant put it:
 ## Tools for Shared Expression in Contempotary Art Spaces
 
 <p class="blink">
-<i>A hands-on guide for participatory engagement with young audiences</i>
+A hands-on guide for participatory engagement with young audiences
 </p>
 
 These tools are designed for educators and artists working in contemporary art who aim to create inclusive, imaginative, and co-owned experiences with young people.
@@ -194,27 +199,29 @@ These tools are designed for educators and artists working in contemporary art w
 Developed by artist collective Walk of Shame as part of the project Mobilizing Citizenship, this guide can be adapted to a wide range of themes, spaces, and age groups.
 
 
-<details class="tools">
-  <summary>
-  1. Set the Tone: Build Trust Through Atmosphere
-  </summary>
-  <h4>Why it matters:</h4>
-  <p>
+<details class="tools" markdown="1">
+<summary markdown="span">
+1. Set the Tone: Build Trust Through Atmosphere
+</summary>
+
+#### Why it matters:
+
   A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.
-  </p>
-  <h4>How to do it:</h4>
-  <ul>
-    <li><b>Welcome with presence:</b> Greet participants with music, snacks, and warm lighting.</li>
-    <li><b>Stage a fictional campfire:</b> Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.</li>
-    <li><b>Start with metaphor:</b> Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?</li>
-    <li><b>Sit in a circle:</b> Remove hierarchy and promote eye contact and shared focus.</li>
-    <li><b>Choose a name for the day:</b> Let each participant invent or choose a new name and make their own name tag.</li>
-    <li><b>Begin gently:</b> Ease into the session with drawing games, shared storytelling, or laughter to build ease.</li>
-    <li><b>Introduce a thematic anchor:</b> Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.</li>
-  </ul>
-  <p style="color: var(--color-br);">
-  <i>TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.</i>
-  </p>
+
+#### How to do it:
+- **Welcome with presence:** Greet participants with music, snacks, and warm lighting.
+- **Stage a fictional campfire:** Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.
+- **Start with metaphor:** Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?
+- **Sit in a circle:** Remove hierarchy and promote eye contact and shared focus.
+- **Choose a name for the day**: Let each participant invent or choose a new name and make their own name tag.
+- **Begin gently:** Ease into the session with drawing games, shared storytelling, or laughter to build ease.
+- **Introduce a thematic anchor:** Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.
+
+
+<p style="color: var(--color-br);">
+  TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.
+</p>
+
 </details>
 
 <details class="tools">
@@ -236,7 +243,7 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
   <li><b>Co-create:</b> Use a giant paper roll or mural for a group ‘mega-drawing’.</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.</i>
+TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.
   </p>
 </details>
 
@@ -254,7 +261,7 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
   <li><b>Reflect together:</b> Transition into a group discussion about what has changed and what hasn’t: How do we share today? What’s easier now? What’s more difficult?</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.</i>
+TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.
   </p>
 </details>
 
@@ -274,7 +281,7 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
   <li><b>Connect to lived experience:</b> What would you say if you knew someone was really listening? What needs to be said more often—or in new ways?</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.</i>
+TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.
   </p>
 </details>
 
@@ -294,7 +301,7 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
 Use sticker activism: Let participants design and place homemade stickers in the public space with personal messages.</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.</i>
+TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.
   </p>
 </details>
 
@@ -313,7 +320,7 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <li><b>Build the exhibition together:</b> Decide what to show, and how. Include unfinished work, dialogue snippets, and moments of care—not just final objects.</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.</i>
+TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.
   </p>
 </details>
 
@@ -348,7 +355,12 @@ Use sticker activism: Let participants design and place homemade stickers in the
   </ul>
 </details>
 
-<div class="bubble">
-  This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
+<br><br>
+* * *
+
+<div class="color-dg font-small" markdown="1">
+
+This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
+
 </div>
 

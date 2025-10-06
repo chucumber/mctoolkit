@@ -6,21 +6,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobilizing Citizenship Toolkit</title>
     <link rel="stylesheet" href="assets/essay.css">
+    <link rel="stylesheet" href="assets/gallery.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <script src="assets/essay.js" defer></script>
+
+    <style>
+        :root {
+            --gutter: 15px;
+            --min-col: 30px;
+            --max-col: calc(100% - 15px);
+            --collapsed-width: 40px;
+            --snap-threshold: 200px;
+        }
+
+        :root {
+            --font-body: 'Velvelyne', sans-serif;
+            --font-title: 'Compagnon', monospace;
+            --line-height-body: 1.5;
+            --line-height-title: 1.2;
+            --line-height-small: 1.2;
+            --color-bl: #4489EA;
+            --color-gr: #C9FF34;
+            --color-lg: #D9D9D9;
+            --color-pk: #FF71E3;
+            --color-br: #AF8F67;
+            --color-dg: #949494;
+            --color-ui: #aeaeae;
+        }
+
+        .split-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .pane {
+            overflow: auto;
+            transition: width 0.2s ease, opacity 0.2s ease;
+        }
+
+        .left {
+            flex: 0 0 auto;
+            position: relative;
+        }
+
+        .right {
+            flex: 0 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            opacity: 1;
+            pointer-events: all;
+            background: var(--color-lg);
+            position: relative;
+        }
+
+        .right.collapsed {
+            pointer-events: none;
+            justify-content: center;
+        }
+
+        .right.collapsed ul {
+            display: none;
+        }
+
+        .menu-label {
+            display: none;
+            font-family: var(--font-title);
+            writing-mode: vertical-rl;
+            letter-spacing: 0.25rem;
+            font-size: 1rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .right.collapsed .menu-label {
+            display: block;
+        }
+
+        .divider {
+            flex: 0 0 var(--gutter);
+            cursor: col-resize;
+            position: relative;
+            z-index: 10;
+            border-right: var(--color-ui) 1px solid;
+            border-left: var(--color-ui) 1px solid;
+        }
+
+        .divider:hover {
+            background: #f6f6f6;
+        }
+
+
+        .divider::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 4px;
+            /* width of each dot */
+            height: 4px;
+            /* height of each dot */
+            background: var(--color-ui);
+            /* dot color */
+            border-radius: 50%;
+            /* circular dots */
+
+            box-shadow:
+                0 10px var(--color-ui),
+                0 20px var(--color-ui),
+                0 30px var(--color-ui),
+                0 -10px var(--color-ui),
+                0 -20px var(--color-ui),
+                0 -30px var(--color-ui);
+        }
+
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--color-pk);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #FF8CEC;
+            cursor: grab;
+        }
+
+        @media (max-width: 768px) {
+
+        html,
+        body {
+                height: auto;
+                overflow: auto;
+            }
+
+            .split-container {
+                flex-direction: column;
+                height: auto;
+                /* Let it expand naturally */
+                overflow: visible;
+                /* Allow scrolling */
+            }
+
+        .divider {
+            display: none;
+            /* Hide resizable divider */
+        }
+
+        .left,
+        .right {
+            width: 100% !important;
+        }
+
+        .right {
+            order: 2;
+            /* Place right pane below */
+            border-top: 1px solid var(--color-ui);
+        }
+
+        .left {
+            order: 1;
+        }
+        }
+    </style>
 </head>
 
 <body>
-    <main>
+
+    <div id="split" class="split-container">
+        <div id="leftPane" class="pane left">
+                <main>
         <h1>
             A Space for Agency: Walk of Shame on Cultivating Collective Care in Education
         </h1>
-        <details class="author">
-            <summary>
-                Walk of Shame (WOS)
+
+        <details class="author" markup="1">
+            <summary class="bg-gr">
+                Walk of Shame
             </summary>
-            <p class="author-bio">
+            <p class="author-bio bg-gr">
                 is an artist collective based in Bergen, Norway, working at the intersection of visual art, performance, and social space. Their practice explores participation, community, and the aesthetics of excess, often creating immersive environments that blur the boundaries between audience and performer. With a playful yet critical approach, WOS stages works that challenge conventions of taste, behaviour, and collectivity, inviting participants into transformative and unpredictable experiences.
+                
             </p>
         </details>
+
+        
 
         <div class="content">
             <div class="foreword">
@@ -63,7 +246,7 @@ What does it mean to turn an educational space into a site of experimentation, c
   </div>
 </div>
 
-<div class="lightbox-base">
+<div class="lightbox-base font-small">
   <div class="lightbox-info">
     <div class="img-info"></div>
     <div class="lightbox-counter">1/-</div>
@@ -74,13 +257,17 @@ What does it mean to turn an educational space into a site of experimentation, c
   </div>
 </div>
 
-<p><strong>Walk of Shame</strong> are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.</p>
+<p><strong>Walk of Shame (WOS)</strong> are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.</p>
 
 <p>Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.
 When we were invited to join the Mobilizing Citizenship project, our intention was to set the conditions for collective experimentation. Drawing on participatory and relational art practices, we approached care and sharing as intimate, embodied gestures. We knew from experience that in these processes, it is often the journey—not the end result—that carries the deepest resonance. Here, we take you into how we worked to create a setting where young voices could surface, collide, and converge—giving rise to new expressions of identity, presence, and protest.</p>
 
 <div class="bubble">
+  <p>
+      <span class="bracket-left"></span>
   Walk of Shame participated in MC twice. First with a workshop in the spring of 2019 under the semester theme of Movement and Body Representation. In the summer of 2020 Walk of Shame were invited to hold workshops as part of Kunsthall Stavanger summer school Klikk Her-TV. They later guest-curated the MC autumn semester of 2022, consisting of four workshops; one of them was held at the Munch museum in Oslo. This text looks more closely at the autumn semester of 2022.
+      <span class="bracket-right"></span>
+  </p>
 </div>
 
 <h2 id="how-it-began-setting-the-stage-and-creating-a-foundation-for-openness">How it began: Setting the stage and creating a foundation for openness</h2>
@@ -168,7 +355,7 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
 <h2 id="tools-for-shared-expression-in-contempotary-art-spaces">Tools for Shared Expression in Contempotary Art Spaces</h2>
 
 <p class="blink">
-<i>A hands-on guide for participatory engagement with young audiences</i>
+A hands-on guide for participatory engagement with young audiences
 </p>
 
 <p>These tools are designed for educators and artists working in contemporary art who aim to create inclusive, imaginative, and co-owned experiences with young people.</p>
@@ -177,25 +364,28 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
 
 <details class="tools">
   <summary>
-  1. Set the Tone: Build Trust Through Atmosphere
-  </summary>
-  <h4>Why it matters:</h4>
-  <p>
-  A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.
-  </p>
-  <h4>How to do it:</h4>
+1. Set the Tone: Build Trust Through Atmosphere
+</summary>
+
+  <h4 id="why-it-matters">Why it matters:</h4>
+
+  <p>A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.</p>
+
+  <h4 id="how-to-do-it">How to do it:</h4>
   <ul>
-    <li><b>Welcome with presence:</b> Greet participants with music, snacks, and warm lighting.</li>
-    <li><b>Stage a fictional campfire:</b> Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.</li>
-    <li><b>Start with metaphor:</b> Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?</li>
-    <li><b>Sit in a circle:</b> Remove hierarchy and promote eye contact and shared focus.</li>
-    <li><b>Choose a name for the day:</b> Let each participant invent or choose a new name and make their own name tag.</li>
-    <li><b>Begin gently:</b> Ease into the session with drawing games, shared storytelling, or laughter to build ease.</li>
-    <li><b>Introduce a thematic anchor:</b> Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.</li>
+    <li><strong>Welcome with presence:</strong> Greet participants with music, snacks, and warm lighting.</li>
+    <li><strong>Stage a fictional campfire:</strong> Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.</li>
+    <li><strong>Start with metaphor:</strong> Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?</li>
+    <li><strong>Sit in a circle:</strong> Remove hierarchy and promote eye contact and shared focus.</li>
+    <li><strong>Choose a name for the day</strong>: Let each participant invent or choose a new name and make their own name tag.</li>
+    <li><strong>Begin gently:</strong> Ease into the session with drawing games, shared storytelling, or laughter to build ease.</li>
+    <li><strong>Introduce a thematic anchor:</strong> Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.</li>
   </ul>
+
   <p style="color: var(--color-br);">
-  <i>TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.</i>
-  </p>
+  TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.
+</p>
+
 </details>
 
 <details class="tools">
@@ -217,7 +407,7 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
   <li><b>Co-create:</b> Use a giant paper roll or mural for a group ‘mega-drawing’.</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.</i>
+TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.
   </p>
 </details>
 
@@ -235,7 +425,7 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
   <li><b>Reflect together:</b> Transition into a group discussion about what has changed and what hasn’t: How do we share today? What’s easier now? What’s more difficult?</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.</i>
+TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.
   </p>
 </details>
 
@@ -255,7 +445,7 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
   <li><b>Connect to lived experience:</b> What would you say if you knew someone was really listening? What needs to be said more often—or in new ways?</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.</i>
+TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.
   </p>
 </details>
 
@@ -275,7 +465,7 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
 Use sticker activism: Let participants design and place homemade stickers in the public space with personal messages.</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.</i>
+TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.
   </p>
 </details>
 
@@ -294,7 +484,7 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <li><b>Build the exhibition together:</b> Decide what to show, and how. Include unfinished work, dialogue snippets, and moments of care—not just final objects.</li>
   </ul>
   <p style="color: var(--color-br);">
-  <i>TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.</i>
+TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.
   </p>
 </details>
 
@@ -329,220 +519,170 @@ Use sticker activism: Let participants design and place homemade stickers in the
   </ul>
 </details>
 
-<div class="bubble">
-  This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
+<p><br /><br /></p>
+<hr />
+
+<div class="color-dg font-small">
+
+  <p>This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.</p>
+
 </div>
 
 
         </div>
     </main>
 
-    <nav>
-        <div id="home-link">
-            <a href="index.html">MC Toolkit</a>
-        </div>
-        <div class="drawer">
-            <ul id="menu">
-                <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
-                <li class="bg-pk"><a href="/">Are You Listening? Deep Listening as Youth Pedagogy</a>
-                </li>
-                <li class="bg-dg"><a href="/">How Youth Workers Create Meaningful Encounters for Young
-                        People</a>
-                </li>
-                <li class="bg-bl"><a href="/">Self as Archive Erasure + World-Building</a></li>
-            </ul>
-            <div id="handler" aria-label="Menu toggle">
-                <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                </svg>
-            </div>
-        </div>
-    </nav>
+    <footer>
+        <!-- <button onclick="topFunction()" id="top-btn">Back to Top</button>  -->
+    </footer>
 
-    <footer></footer>
+    
+
+
+
+
+            <!-- <nav>
+                <div id="home-link">
+                    <a href="index.html">MC Toolkit</a>
+                </div>
+                <div class="drawer">
+                    <ul id="menu">
+                        <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
+                        <li class="bg-pk"><a href="/">Are You Listening? Deep Listening as Youth
+                                Pedagogy</a>
+                        </li>
+                        <li class="bg-dg"><a href="/">How Youth Workers Create Meaningful Encounters
+                                for Young
+                                People</a>
+                        </li>
+                        <li class="bg-bl"><a href="/">Self as Archive Erasure + World-Building</a>
+                        </li>
+                    </ul>
+                    <div id="handler" aria-label="Menu toggle">
+                        <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                </div>
+            </nav> -->
+        </div>
+
+        <div id="divider" class="divider" tabindex="0" role="separator" aria-orientation="vertical"
+            title="drag to resize">
+        </div>
+
+        <div id="rightPane" class="pane right collapsed">
+            <div class="menu-label" tabindex="0" role="button" aria-label="Expand related content">menu</div>
+            <ul id="menu">
+                <li id="home-link"><a ref="index.html">Mobile Citizenship Toolkit</a></li>
+                <li class="bg-pk"><a href="foreword-lee">Foreword, Lee Heinemann</a></li>
+                <li class="bg-pk"><a href="foreword-kristina">Foreword, Kristina Ketola Bore</a></li>
+                <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
+                        Collective Care in Education</a></li>
+                <li class="bg-gr"><a href=" ">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of
+                        Play</a>
+                </li>
+                <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
+                </li>
+                <li class="bg-gr"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
+                        People</a></li>
+                <li class="bg-bl"><a href="self-as-archive">Self as Archive: Erasure + World-Building</a></li>
+                <li class="bg-gr"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>
+                </li>
+                <li class="bg-bl"><a href=" ">What We Hold Sacred Altar-Making Workshop by Loni Johnson</a>
+                </li>
+                <li class="bg-br"><a href="contributor">Contributors</a></li>
+            </ul>
+        </div>
+    </div>
 
     <script>
-        // Lightbox
-        const initLightbox = () => {
-            const lightboxScroll = document.querySelector('.lightbox-scroll');
-            const imgInfo = document.querySelector('.img-info');
-            if (!lightboxScroll || !imgInfo) return;
+        (() => {
+            const left = document.getElementById('leftPane');
+            const right = document.getElementById('rightPane');
+            const divider = document.getElementById('divider');
+            const menuLabel = right.querySelector('.menu-label');
 
-            const images = Array.from(lightboxScroll.querySelectorAll('img'));
-            if (images.length === 0) return;
+            const rootStyle = getComputedStyle(document.documentElement);
+            const gutter = parseFloat(rootStyle.getPropertyValue('--gutter'));
+            const minCol = parseFloat(rootStyle.getPropertyValue('--min-col'));
+            const collapsedWidth = parseFloat(rootStyle.getPropertyValue('--collapsed-width'));
+            const snapThreshold = parseFloat(rootStyle.getPropertyValue('--snap-threshold'));
 
-            let currentIndex = 0;
-            const totalImages = images.length;
+            let isDragging = false;
+            let leftWidth = window.innerWidth - gutter - collapsedWidth;
+            let rightWidth = collapsedWidth;
+            let rafId = null;
 
-            // Calculate positions for each image
-            let imagePositions = [0]; // Start position of first image
-            let totalWidth = 0;
+            applySizes();
 
-            // Wait for images to load to get correct dimensions
-            Promise.all(images.map(img => {
-                return new Promise(resolve => {
-                    if (img.complete) resolve(img);
-                    img.onload = () => resolve(img);
-                });
-            })).then(loadedImages => {
-                // Calculate position for each image
-                loadedImages.forEach((img, i) => {
-                    if (i < totalImages - 1) {
-                        totalWidth += img.offsetWidth;
-                        imagePositions.push(totalWidth);
-                    }
-                    // --- Swipe detection for mobile ---
-                    let startX = 0;
-                    let endX = 0;
+            // Pointer events for cross-device drag
+            divider.addEventListener('pointerdown', startDrag);
+            menuLabel.addEventListener('click', expandMenu);
+            window.addEventListener('resize', handleResize);
 
-                    lightboxScroll.addEventListener('touchstart', (e) => {
-                        startX = e.touches[0].clientX;
+            function startDrag(e) {
+                e.preventDefault();
+                isDragging = true;
+                document.body.style.cursor = 'col-resize';
+                document.body.style.userSelect = 'none';
+
+                const onMove = (e) => {
+                    if (!isDragging) return;
+                    if (rafId) cancelAnimationFrame(rafId);
+                    rafId = requestAnimationFrame(() => {
+                        const newLeft = e.clientX;
+                        if (newLeft < minCol || newLeft > window.innerWidth - gutter) return;
+                        leftWidth = newLeft;
+                        rightWidth = window.innerWidth - leftWidth - gutter;
+                        applySizes();
                     });
-
-                    lightboxScroll.addEventListener('touchmove', (e) => {
-                        endX = e.touches[0].clientX;
-                    });
-
-                    lightboxScroll.addEventListener('touchend', () => {
-                        let deltaX = endX - startX;
-
-                        // Minimum swipe distance threshold (so small taps don’t trigger)
-                        if (Math.abs(deltaX) > 50) {
-                            if (deltaX < 0) {
-                                // Swiped left → next image
-                                nextImage();
-                            } else {
-                                // Swiped right → previous image
-                                prevImage();
-                            }
-                        }
-
-                        // Reset
-                        startX = 0;
-                        endX = 0;
-                    });
-
-                });
-
-                // Update image credit
-                const updateCredit = (index) => {
-                    const credit = images[index].getAttribute('data-credit');
-                    imgInfo.textContent = credit || '';
                 };
 
-                // Navigation functions
-                const goToImage = (index) => {
-                    currentIndex = index;
-                    const offset = imagePositions[currentIndex];
-                    lightboxScroll.style.transform = `translateX(-${offset}px)`;
-                    updateCounter();
-                    updateCredit(currentIndex);
+                const stopDrag = () => {
+                    isDragging = false;
+                    document.body.style.cursor = '';
+                    document.body.style.userSelect = '';
+                    if (rightWidth < snapThreshold) collapseRight();
+                    window.removeEventListener('pointermove', onMove);
+                    window.removeEventListener('pointerup', stopDrag);
                 };
 
-                const nextImage = () => {
-                    currentIndex = (currentIndex + 1) % totalImages;
-                    goToImage(currentIndex);
-                };
-
-                const prevImage = () => {
-                    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-                    goToImage(currentIndex);
-                };
-
-                // Update counter display
-                const updateCounter = () => {
-                    const counter = document.querySelector('.lightbox-counter');
-                    counter.textContent = `${currentIndex + 1}/${totalImages}`;
-                };
-
-                // Add button listeners
-                document.querySelector('.lightbox-button.next').addEventListener('click', nextImage);
-                document.querySelector('.lightbox-button.prev').addEventListener('click', prevImage);
-
-                // Initialize
-                updateCounter();
-                updateCredit(0);
-
-            });
-        };
-        // Initialize lightbox
-        initLightbox();
-
-        // Add popup container to body
-        const popup = document.createElement('div');
-        popup.className = 'popup';
-        document.body.appendChild(popup);
-
-        // Handle image clicks
-        document.querySelectorAll('.content img').forEach(img => {
-            img.addEventListener('click', () => {
-                popup.innerHTML = '';
-
-                const popupImg = document.createElement('img');
-                popupImg.src = img.src;
-
-                const credit = document.createElement('div');
-                credit.className = 'credit';
-                credit.textContent = img.alt || '';
-
-                popup.appendChild(popupImg);
-                popup.appendChild(credit);
-                popup.classList.add('active');
-            });
-        });
-
-        // Close popup when clicking
-        popup.addEventListener('click', (e) => {
-            if (e.target === popup) {   // only close if click backdrop, not image
-                popup.classList.remove('active');
+                window.addEventListener('pointermove', onMove);
+                window.addEventListener('pointerup', stopDrag);
             }
-        });
 
-        // Bubble text animation
-        if (document.querySelectorAll('.bubble').length > 0) {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    } else {
-                        entry.target.classList.remove('visible');
-                    }
-                });
-            }, {
-                threshold: 0.1,
-                rootMargin: '-50px'
-            });
+            function handleResize() {
+                const total = window.innerWidth - gutter;
+                leftWidth = total - rightWidth;
+                applySizes();
+            }
 
-            document.querySelectorAll('.bubble').forEach((bubble) => {
-                observer.observe(bubble);
-            });
-        }
+            function collapseRight() {
+                rightWidth = collapsedWidth;
+                leftWidth = window.innerWidth - gutter - rightWidth;
+                applySizes();
+            }
 
-        // Navbar drawer
-        const initDrawer = () => {
-            const drawer = document.querySelector('.drawer');
-            const handler = document.querySelector('#handler');
+            function expandMenu() {
+                rightWidth = 250;
+                leftWidth = window.innerWidth - gutter - rightWidth;
+                applySizes();
+            }
 
-            if (!drawer || !handler) return;
+            function applySizes() {
+                left.style.width = `${leftWidth}px`;
+                right.style.width = `${rightWidth}px`;
 
-            const toggleDrawer = () => {
-                drawer.classList.toggle('open');
-            };
-
-            const handleOutsideClick = (e) => {
-                const isClickInside = drawer.contains(e.target);
-                if (!isClickInside && drawer.classList.contains('open')) {
-                    drawer.classList.remove('open');
+                // Keep "Menu" label visible until pane exceeds snap-threshold
+                if (rightWidth <= snapThreshold) {
+                    right.classList.add('collapsed');
+                } else {
+                    right.classList.remove('collapsed');
                 }
-            };
+            }
 
-            handler.addEventListener('click', toggleDrawer);
-            document.addEventListener('click', handleOutsideClick);
-            drawer.addEventListener('click', (e) => e.stopPropagation());
-        };
-
-        // Initialize drawer
-        initDrawer();
+        })();
     </script>
 </body>
 

@@ -20,7 +20,7 @@ Multidisciplinary poet and archivist Delali Ayivor visited Mobilizing Citizenshi
   </div>
 </div>
 
-<div class="lightbox-base">
+<div class="lightbox-base font-small">
   <div class="lightbox-info">
     <div class="img-info"></div>
     <div class="lightbox-counter">1/-</div>
@@ -46,7 +46,11 @@ On the second day of my workshop, I shared a quote from Audre Lorde’s essay �
 
 
 <div class="bubble">
-As they become known to and accepted by us, our feelings and the honest exploration of them become sanctuaries and spawning grounds for the most radical and daring of ideas. They become a safe-house for that difference so necessary to change and the conceptualizing of any meaningful action. Right now, I could name at least ten ideas I would have found intolerable or incomprehensible and frightening, except as they came after dreams and poems. This is not idle fantasy, but a disciplined attention to the true meaning of ‘it feels right to me.’ We can train ourselves to respect our feelings and to transpose them into a language so they can be shared. And where that language does not yet exist, it is our poetry which helps to fashion it. Poetry is not only dream and vision; it is the skeleton architecture of our lives. It lays the foundations for a future of change, a bridge across our fears of what has never been before.
+  <p>
+      <span class="bracket-left"></span>
+  As they become known to and accepted by us, our feelings and the honest exploration of them become sanctuaries and spawning grounds for the most radical and daring of ideas. They become a safe-house for that difference so necessary to change and the conceptualizing of any meaningful action. Right now, I could name at least ten ideas I would have found intolerable or incomprehensible and frightening, except as they came after dreams and poems. This is not idle fantasy, but a disciplined attention to the true meaning of ‘it feels right to me.’ We can train ourselves to respect our feelings and to transpose them into a language so they can be shared. And where that language does not yet exist, it is our poetry which helps to fashion it. Poetry is not only dream and vision; it is the skeleton architecture of our lives. It lays the foundations for a future of change, a bridge across our fears of what has never been before.
+      <span class="bracket-right"></span>
+  </p>
 </div>
 
 ## Introduction
@@ -72,29 +76,62 @@ This is part of a poem written in response to randomly selected images from my i
 In introducing the class to erasure poetry, I wanted to emphasise the breadth of approaches one can take to applying erasure as a generative technique. 
 
 
-Examples shared: 
+Examples shared:
 
+<table><thead>
+  <tr>
+    <th scope="col">Title</th>
+    <th scope="col">Author</th>
+    <th scope="col">Original Text</th>
+    <th scope="col">Reason for Inclusion</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td data-label="Title:">I, unsubstantial</td>
+    <td data-label="Author:">Delali Ayivor</td>
+    <td data-label="Original Text:">Facebook message from June 13, 2016</td>
+    <td data-label="Reason for Inclusion:">Takes an analog approach to erasure—words are scribbled out by hand. This poem also demonstrates that non-literary texts can be used for erasure.</td>
+  </tr>
+  <tr>
+    <td scope="row" data-label="Title:">The MS of My Kin</td>
+    <td data-label="Author:">Janet Holmes</td>
+    <td data-label="Original Text:">Poems of Emily Dickinson from 1861–1862</td>
+    <td data-label="Reason for Inclusion:">Uses an approach to erasure where the original text is invisible and represented by white space, thus emphasising the newly created work over the original.</td>
+  </tr>
+  <tr>
+    <td scope="row" data-label="Title:">Nets</td>
+    <td data-label="Author:">Jen Bervin</td>
+    <td data-label="Original Text:">Shakespeare’s sonnets</td>
+    <td data-label="Reason for Inclusion:">An erasure with nothing erased—original text is included in full with the ‘erased’ text represented in a lighter-colour font and selected words in bold. Provides a more holistic experience of reading where the original text commingles with the new.</td>
+  </tr>
+  <tr>
+    <td scope="row" data-label="Title:">A Humument</td>
+    <td data-label="Author:">Thomas Phillips</td>
+    <td data-label="Original Text:">The Human Document, a Victorian novel</td>
+    <td data-label="Reason for Inclusion:">Takes a more aesthetic approach to erasure, emphasising visual appeal. Phillips’ approach is to slowly turn every page of a novel to a stand-alone work of art.</td>
+  </tr>
+</tbody></table>
 
 ## Warm-Up Exercise 
 ### Screenshot Roulette 
 
-<figure class="narrow-img">
+<figure class="narrow-img margin-btm-1rem">
    <img src="img/self-as-archive/Reality TV Screenshot Dupe 1.webp" alt="Photo credit: Tima Miroshnichenko">
    <figcaption>Photo credit: Tima Miroshnichenko</figcaption>
 </figure>
-<figure class="narrow-img">
+<figure class="narrow-img margin-btm-1rem">
    <img src="img/self-as-archive/Reality TV Screenshot Dupe 2.webp" alt="Photo credit: Shkraba Anthony">
    <figcaption>Photo credit: Shkraba Anthony</figcaption>
 </figure>
-<figure class="narrow-img">
+<figure class="narrow-img margin-btm-1rem">
    <img src="img/self-as-archive/Reality TV Screenshot Dupe 3.webp" alt="Photo credit: RDNE Stock Project">
    <figcaption>Photo credit: RDNE Stock Project</figcaption>
 </figure>
-<figure class="narrow-img">
+<figure class="narrow-img margin-btm-1rem">
    <img src="img/self-as-archive/Reality TV Screenshot Dupe 4.webp" alt="Photo credit: Ralph Rabago">
    <figcaption>Photo credit: Ralph Rabago</figcaption>
 </figure>
-<figure class="narrow-img">
+<figure class="narrow-img margin-btm-1rem">
    <img src="img/self-as-archive/Reality TV Screenshot Dupe 5.webp" alt="Photo credit: Caner Kokcu">
    <figcaption>Photo credit: Caner Kokcu</figcaption>
 </figure>
