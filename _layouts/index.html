@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Citizenship Toolkit - Kunsthall Stavanger</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
@@ -15,38 +15,44 @@
         <div class="storage" id="deg_0">
             <div class="entry" id="en-1-1">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of
                 Play</div>
-            <div class="entry" id="en-1-2" data-hover-text="This publication is made possible with support from Arts and Culture Norway"><a href="contributor.html">Contributors</a></div>
+            <div class="entry" id="en-1-2"
+                data-hover-text="This publication is made possible with support from Arts and Culture Norway"><a
+                    href="contributor.html">Contributors</a></div>
             <div class="entry" id="en-1-3">Foreword, Lee Heinemann</div>
-            <div class="brick" id="brk-1-1"
-                >
-                
+            <div class="brick" id="brk-1-1">
+
             </div>
             <div class="brick" id="brk-1-2"></div>
             <div class="brick" id="brk-1-3"></div>
         </div>
         <div class="storage" id="deg_90">
-            <div class="entry" id="en-2-1">How Youth Workers Create Meaningful Encounters for Young People</div>
-            <div class="entry" id="en-2-2">Self as Archive: Erasure + World-Building</div>
+            <div class="entry" id="en-2-1"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for
+                    Young People</a></div>
+            <div class="entry" id="en-2-2"><a href="self-as-archive">Self as Archive: Erasure + World-Building</a></div>
             <div class="entry" id="en-2-3"></div>
             <div class="entry" id="en-2-4"></div>
             <div class="brick" id="brk-2-1"></div>
         </div>
         <div class="storage" id="deg_180">
             <div class="entry" id="en-3-1">Foreword, Kristina Ketola Bore</div>
-            <div class="entry" id="en-3-2">Are You Listening? Deep Listening as Youth Pedagogy</div>
-            <div class="entry" id="en-3-3">Let Me Be for You What I Needed When I Was Your Age</div>
+            <div class="entry" id="en-3-2"><a href="are-you-listening">Are You Listening? Deep Listening as Youth
+                    Pedagogy</a></div>
+            <div class="entry" id="en-3-3"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your
+                    Age</a></div>
             <div class="brick" id="brk-3-1"></div>
             <div class="brick" id="brk-3-2"></div>
         </div>
         <div class="storage" id="deg_270">
-            <div class="entry" id="en-4-1" data-hover-text="Designed by nicole killian, rasim bayramov and khai chuang<br><br>Typefaces: Velvelyne & Compagnon by Velvetyne Type Foundry">Credits</div>
-            <div class="entry" id="en-4-2"><a href="a-space-for-agency.html">What We Hold Sacred Altar-Making Workshop</a></div>
+            <div class="entry" id="en-4-1"
+                data-hover-text="Designed by nicole killian, rasim bayramov and khai chuang<br><br>Typefaces: Velvelyne & Compagnon by Velvetyne Type Foundry">
+                Credits</div>
+            <div class="entry" id="en-4-2">What We Hold Sacred Altar-Making Workshop</div>
             <div class="entry" id="en-4-3"></div>
-            <div class="entry" id="en-4-4">A Space for Agency: Walk of Shame on Cultivating Collective Care in Education
+            <div class="entry" id="en-4-4"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
+                    Collective Care in Education</a>
             </div>
-            <div class="brick" id="brk-4-1"
-                >
-                </div>
+            <div class="brick" id="brk-4-1">
+            </div>
         </div>
         </div>
 
@@ -69,7 +75,7 @@
         </div>
         <div class="bottom">
             <div class="album-preview"><video autoplay muted loop>
-                    <source src="/img/KS_MC24.mp4" type="video/mp4" />
+                    <source src="img/KS_MC24.mp4" type="video/mp4" />
                 </video></div>
             <div class="gallery">
                 <img class="g-image">
@@ -79,7 +85,7 @@
         </div>
         </div>
     </aside>
-    <audio src="/assets/knock.wav" class="sound" id="knock-sound"></audio>
+    <audio src="assets/knock.wav" class="sound" id="knock-sound"></audio>
     <audio src="https://raw.githubusercontent.com/cartalan/Xilofono-Exercise/master/sound/1-DO.mp3" class="sound"
         id="sound1"></audio>
     <audio src="https://raw.githubusercontent.com/cartalan/Xilofono-Exercise/master/sound/2-RE.mp3" class="sound"
@@ -164,27 +170,33 @@
                 rotateBtn.style.transform = `translate(-50%, -50%) rotate(${-currentRotation}deg)`;
             });
 
-            const entries = document.querySelectorAll('.entry, .brick[data-hover-text]');
-            const quoteElement = document.getElementById('quote');
+            const entries = document.querySelectorAll('.entry, .brick[data-hover-text]'); const quoteElement = document.getElementById('quote');
 
             entries.forEach(element => {
                 element.addEventListener('mouseenter', () => {
+                    // Save the original quote text only once
                     if (!quoteElement.dataset.originalQuote) {
-                        quoteElement.dataset.originalQuote = quoteElement.textContent;
+                        quoteElement.dataset.originalQuote = quoteElement.innerHTML;
                     }
 
-                    if (element.classList.contains('brick') && element.dataset.hoverText) {
-                        quoteElement.innerHTML = element.dataset.hoverText;
+                    // Prefer the data-hover-text if it exists
+                    const hoverText = element.getAttribute('data-hover-text');
+                    if (hoverText) {
+                        quoteElement.innerHTML = hoverText; // allows <br> and HTML tags
                     } else {
-                        quoteElement.textContent = element.textContent;
+                        // fallback: show link text or entry text
+                        const link = element.querySelector('a');
+                        quoteElement.textContent = link ? link.textContent : element.textContent;
                     }
                 });
 
                 element.addEventListener('mouseleave', () => {
-                    quoteElement.textContent = quoteElement.dataset.originalQuote;
-                    quoteElement.innerHTML = quoteElement.textContent;
+                    // Restore original quote
+                    quoteElement.innerHTML = quoteElement.dataset.originalQuote;
                 });
             });
+
+
             function setupXylophoneEffect() {
                 const homeWords = document.querySelectorAll('#home h3');
 
