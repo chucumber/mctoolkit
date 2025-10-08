@@ -257,11 +257,11 @@ details.author summary {
   padding: 1.5rem;
   border: 1px solid #9cc62a;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
-
   transform: rotate(-5deg) scale(0.75);
   z-index: 5;
   cursor: grab;
   transition: transform 0.2s ease;
+  touch-action: pan-y;
 }
 
 .author-bio:hover {
