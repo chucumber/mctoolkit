@@ -1,16 +1,16 @@
 // draggable
 $(function () {
-  $(".foreword").draggable({
-    containment: "#leftPane",
-    scroll: false
-  });
+    $(".foreword").draggable({
+        containment: "#leftPane",
+        scroll: false
+    });
 });
 
 $(function () {
-  $(".author-bio").draggable({
-    containment: "#leftPane",
-    scroll: false
-  });
+    $(".author-bio").draggable({
+        containment: "#leftPane",
+        scroll: false
+    });
 });
 
 // Lightbox
@@ -42,8 +42,9 @@ const initLightbox = () => {
         });
 
         const updateCredit = (index) => {
-            const credit = images[index].alt || '';
-            imgInfo.textContent = credit;
+            const img = images[index];
+            const credit = img.getAttribute("data-caption") || '';
+            imgInfo.innerHTML = credit;
         };
 
         const goToImage = (index) => {
@@ -120,13 +121,14 @@ document.querySelectorAll('.content img, .gallery img').forEach(img => {
 
         const credit = document.createElement('div');
         credit.className = 'credit';
-        credit.textContent = img.alt || '';
+        credit.innerHTML = img.getAttribute("data-caption") || '';
 
         popup.appendChild(popupImg);
         popup.appendChild(credit);
         popup.classList.add('active');
     });
 });
+
 
 // Close popup when clicking
 popup.addEventListener('click', (e) => {
@@ -155,29 +157,32 @@ if (document.querySelectorAll('.bubble').length > 0) {
     });
 }
 
-// Navbar drawer
-const initDrawer = () => {
-    const drawer = document.querySelector('.drawer');
-    const handler = document.querySelector('#handler');
+// image caption
+document.querySelectorAll("figure").forEach(figure => {
+    const img = figure.querySelector("img");
+    const caption = figure.querySelector("figcaption");
+    if (img && caption && !caption.innerHTML.trim()) {
+        const captionHTML = img.getAttribute("data-caption") || img.getAttribute("alt");
+        caption.innerHTML = captionHTML;
+    }
+});
 
-    if (!drawer || !handler) return;
+// auto slideshow
+document.addEventListener("DOMContentLoaded", () => {
+    const slideshows = document.querySelectorAll(".auto-slideshow");
+    const intervalTime = 2000; // time per image (ms)
 
-    const toggleDrawer = () => {
-        drawer.classList.toggle('open');
-    };
+    slideshows.forEach(slideshow => {
+        const figures = slideshow.querySelectorAll("figure");
+        let index = 0;
 
-    const handleOutsideClick = (e) => {
-        const isClickInside = drawer.contains(e.target);
-        if (!isClickInside && drawer.classList.contains('open')) {
-            drawer.classList.remove('open');
-        }
-    };
+        // Initialize first slide
+        figures[index].classList.add("active");
 
-    handler.addEventListener('click', toggleDrawer);
-    document.addEventListener('click', handleOutsideClick);
-    drawer.addEventListener('click', (e) => e.stopPropagation());
-};
-
-// Initialize drawer
-initDrawer();
-
+        setInterval(() => {
+            figures[index].classList.remove("active");
+            index = (index + 1) % figures.length;
+            figures[index].classList.add("active");
+        }, intervalTime);
+    });
+});
