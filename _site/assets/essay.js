@@ -13,6 +13,12 @@ $(function () {
     });
 });
 
+const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+$(".author-bio").draggable({
+  axis: isTouch ? "x" : false
+});
+
 // Lightbox
 const initLightbox = () => {
     const lightboxScroll = document.querySelector('.lightbox-scroll');
