@@ -13,9 +13,9 @@ What happens when young people are trusted to lead, create, and teach—guided n
 
 <div class="lightbox-container">
   <div class="lightbox-scroll">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">                        
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">                        
   </div>
 </div>
 
@@ -39,7 +39,7 @@ This was the mantra of the American composer and accordionist Pauline Oliveros. 
 After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk '[The difference between hearing and listening](https://www.youtube.com/watch?v=_QHfOuRrJB8)'.  
 
 
-Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. <mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark> 
+Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. <mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
 
 
 When the pilot came to an end, the participants wanted to continue, so I proposed Alchemy to the university as a regular weekly workshop. Now, eight years on, the programme is still running and has grown in scale. 
@@ -122,7 +122,6 @@ If we stop listening, everything will fall apart.
 
 <mark class="pk-highlight-long">Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation.</mark> By keeping anti-oppressive, listening-centred, and care-focused models at the core of Alchemy’s practice, we have been able to mirror the creative flow state (after Mihaly Csikszentmihalyi) as a kind of physical architecture consisting of multiple, simultaneous workshops. Here, participants design their own learning with their bodies by moving from one space to  another to gather what they need, or have a chance encounter, such as inspiration for lyrics or poetry, learning how to play an instrument or produce a beat, or developing their voice, performance skills, music theory, and new collaborations. Youth workers, also flowing between the different spaces, play a vital role of being available to support anyone who is facing challenges. 
 
-
 <mark class="pk-highlight-long">As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.</mark>
 
 
@@ -148,8 +147,8 @@ Day One
 </summary>
 
 <figure>
-    <img src="img/are-you-listening/image1.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Video still: Omar Elsaaidi">
-   <figcaption>Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Video still: Omar Elsaaidi</figcaption>
+    <img src="img/are-you-listening/image1.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Video still: Omar Elsaaidi" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Video still: Omar Elsaaidi">
+   <figcaption></figcaption>
 </figure>
 
 <div class="video-container">
@@ -181,8 +180,8 @@ Day Two
 </summary>
 
 <figure>
-    <img src="img/are-you-listening/image3.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
-   <figcaption>Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger</figcaption>
+    <img src="img/are-you-listening/image3.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+   <figcaption></figcaption>
 </figure>
 
 <div class="video-container">
@@ -217,8 +216,8 @@ Day Three
 </summary>
 
 <figure>
-    <img src="img/are-you-listening/image2.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
-   <figcaption>Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger</figcaption>
+    <img src="img/are-you-listening/image2.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+   <figcaption></figcaption>
 </figure>
 
 <div class="video-container">
@@ -243,8 +242,8 @@ Day Four
 </summary>
 
 <figure class="narrow-img">
-    <img src="img/are-you-listening/image5.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Mikey Kirkpatrick">
-   <figcaption>Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Mikey Kirkpatrick</figcaption>
+    <img src="img/are-you-listening/image5.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Mikey Kirkpatrick" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Mikey Kirkpatrick">
+   <figcaption></figcaption>
 </figure>
 
 <div class="video-container">
@@ -285,8 +284,8 @@ Day Five
 </summary>
 
 <figure>
-    <img src="img/are-you-listening/image4.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
-   <figcaption>Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger</figcaption>
+    <img src="img/are-you-listening/image4.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+   <figcaption></figcaption>
 </figure>
 
 <div class="video-container">
@@ -304,19 +303,30 @@ We all came in the afternoon for technical rehearsals, soundchecks and plotting 
 Here is some direct feedback by a grandmother in the audience:
 
 <div class="bubble">
-In today’s political and social medias’ climate of insult and viciousness, perhaps only the arts can give us hope that through a cathartic experience comes kindness. This is the gift Goldsmiths Alchemy and kunsthallen gave. Thank you - all of you. From a more optimistic granny ❤️
+  <p>
+      <span class="bracket-left"></span>
+  In today’s political and social medias’ climate of insult and viciousness, perhaps only the arts can give us hope that through a cathartic experience comes kindness. This is the gift Goldsmiths Alchemy and kunsthallen gave. Thank you - all of you. From a more optimistic granny ❤️
+      <span class="bracket-right"></span>
+  </p>
 </div>
 
 <div class="bubble">
+  <p>
+      <span class="bracket-left"></span>
 [My son’s] self-esteem has grown so much this week. (Mum)
+      <span class="bracket-right"></span>
+  </p>
 </div>
-
 
 And from a participant:
 
 <div class="bubble">
-Thank you so much for being there for us and being helping and supporting while being very good people to work with, this goes for all of you. I would like to say thank you all of you for the wonderful card as a memory which will not be forgotten, a good memory.
+  <p>
+      <span class="bracket-left"></span>
+Thank you so much for being there for us and being helping and supporting while being very good people to work with, this goes for all of you. I would like to say thank you all of you for the wonderful card as a memory which will not be forgotten, a good memory.      <span class="bracket-right"></span>
+  </p>
 </div>
+
 
 You can see more feedback from the participants here.
 
@@ -340,6 +350,23 @@ This is some of what I learnt during my time at Kunsthall Stavanger.
 
 Thank you to everyone who made this a life-changing week for us all. 
 
+
+<video controls playsinline preload="none" poster="video/KS-MC24-snippet.webp">
+  <source src="video/KS-MC24-snippet.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video controls playsinline preload="none" poster="video/KS-MC24(Liten).webp">
+  <source src="video/KS-MC24(Liten).mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video controls playsinline preload="none" poster="video/KS-MC24(stor).webp">
+  <source src="video/KS-MC24(stor).mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 <br><br>
 * * *
 
@@ -356,3 +383,4 @@ started his journey into music in 2019, although he truly began his creative pro
 is a rapper, singer, pianist, and producer. He is a skilled performer guaranteed to get audiences onto the dance floor. He is also an experienced recording and mix engineer, and producer with a growing following on social media.
 
 </div>
+

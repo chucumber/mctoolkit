@@ -1,52 +1,52 @@
 ---
 layout: "wrapper"
 ---
-    <main>
-        <h1>
-            {{ page.title }}
-        </h1>
+<main>
+    <h1>
+        {{ page.title }}
+    </h1>
 
-        <details class="author" markup="1">
-            <summary class="bg-gr">
-                {{ page.author }}
-            </summary>
-            <p class="author-bio bg-gr">
-                {{ page.author-bio }}
-                {% if page.author == "Mikey Kirkpatrick" %}
-                <br><br>
-                <a href="https://sites.gold.ac.uk/alchemy/" target="_blank" rel="noopener">sites.gold.ac.uk/alchemy</a><br>
-                <a href="http://mikeykirkpatrick.wordpress.com" target="_blank"
-                    rel="noopener">mikeykirkpatrick.wordpress.com</a>
-                {% endif %}
-            </p>
-        </details>
+    <details class="author" markup="1">
+        <summary class="bg-gr">
+            {{ page.author }}
+        </summary>
+        <p class="author-bio bg-gr">
+            {{ page.author-bio }}
+            {% if page.author == "Mikey Kirkpatrick" %}
+            <br><br>
+            <a href="https://sites.gold.ac.uk/alchemy/" target="_blank" rel="noopener">sites.gold.ac.uk/alchemy</a><br>
+            <a href="http://mikeykirkpatrick.wordpress.com" target="_blank"
+                rel="noopener">mikeykirkpatrick.wordpress.com</a>
+            {% endif %}
+        </p>
+    </details>
 
-        {% if page.author-2 %}
-        <details class="author">
-            <summary class="bg-pk">
-                {{ page.author-2 }}
-            </summary>
-            <p class="author-bio bg-pk border-pk">
-                {{ page.author-bio-2 }}
-            </p>
-        </details>
-        {% endif %}
+    {% if page.author-2 %}
+    <details class="author">
+        <summary class="bg-pk">
+            {{ page.author-2 }}
+        </summary>
+        <p class="author-bio bg-pk border-pk">
+            {{ page.author-bio-2 }}
+        </p>
+    </details>
+    {% endif %}
 
-        <div class="content">
-            {{ content }}
-        </div>
-    </main>
+    <div class="content">
+        {{ content }}
+    </div>
+</main>
 
-    <footer>
-        <!-- <button onclick="topFunction()" id="top-btn">Back to Top</button>  -->
-    </footer>
-
-    
+<footer>
+    <!-- <button onclick="topFunction()" id="top-btn">Back to Top</button>  -->
+</footer>
 
 
 
 
-            <!-- <nav>
+
+
+<!-- <nav>
                 <div id="home-link">
                     <a href="index.html">MC Toolkit</a>
                 </div>

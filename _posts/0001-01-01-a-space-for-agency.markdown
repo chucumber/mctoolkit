@@ -14,37 +14,16 @@ What does it mean to turn an educational space into a site of experimentation, c
 
 <div class="lightbox-container">
   <div class="lightbox-scroll">
-    <img src="img/walk-of-shame/MC_avsluttning_077WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/MC_avsluttning_037WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/MC_avsluttning_081WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/MC_avsluttning_086WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/MC_avsluttning_090WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/P1050196.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/WOS-MC-13.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame."> 
-    <img src="img/walk-of-shame/WOS-MC-14.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-MC-15.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame."> 
-    <img src="img/walk-of-shame/WOS-MC-16.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-MC-17.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame."> 
-    <img src="img/walk-of-shame/WOS-MC-18.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-0.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame."> 
-    <img src="img/walk-of-shame/WOS-1.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-2.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-3.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-4.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-5.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-22.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-7.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-8.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-9.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-10.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-12.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-19.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-20.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-21.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-6.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-23.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-24.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-credit="Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/MC_avsluttning_077WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_086WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/WOS-7.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/MC_avsluttning_037WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/WOS-MC-18.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/MC_avsluttning_090WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/WOS-5.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-6.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-24.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   </div>
 </div>
 
@@ -62,7 +41,9 @@ What does it mean to turn an educational space into a site of experimentation, c
 **Walk of Shame (WOS)** are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.
 
 
-Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.
+<mark class="pk-highlight-long">Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.</mark>
+
+
 When we were invited to join the Mobilizing Citizenship project, our intention was to set the conditions for collective experimentation. Drawing on participatory and relational art practices, we approached care and sharing as intimate, embodied gestures. We knew from experience that in these processes, it is often the journey—not the end result—that carries the deepest resonance. Here, we take you into how we worked to create a setting where young voices could surface, collide, and converge—giving rise to new expressions of identity, presence, and protest.  
 
 
@@ -81,7 +62,7 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
 From the very first session with the participants in the beginning of autumn 2022, we focused on building a safer space, not through declarations, but through atmosphere.
 
 
-The central theme we worked with was <mark class="pk-highlight">‘Sharing is caring // Caring is sharing’</mark>. This was more than a slogan, it shaped the entire space.
+The central theme we worked with was <span style="text-transform: uppercase;">‘Sharing is caring // Caring is sharing’</span>. This was more than a slogan, it shaped the entire space.
 
 
 We welcomed participants aged 12 to 16 with music, snacks, and soft lighting. A small fictional campfire had been set up in the middle of the room, creating a warm and intimate focus point. Around it, we placed conversational objects, including a model of a human cell and one of an animal cell. Together, we compared them. This sparked unexpected questions: What makes us human? How do humans and animals share? Can you share something without words?
@@ -95,9 +76,14 @@ In the centre of our circle, we placed a large sheet of paper with the phrase �
 
 After some time, we rotated seats around the circle. Each participant now sat in front of someone else’s contribution and was invited to build on it. They could respond, extend, or question what was already there. This silent, thoughtful exchange turned into a collective artwork, layered with meaning. In a way, everyone had thought someone else’s thoughts and had to engage with them. The space between us had changed. We were no longer just individuals. We had become a shared ‘we’.
 
+<figure>
+  <img src="img/walk-of-shame/WOS-21.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+</figure>
+
 
 ### Becoming Part of Something Bigger, Across Time
-As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young. 
+<mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark> 
 
 
 She described emotions exchanged through handwritten letters, food, and stories offered without screens, and the presence of silence as something meaningful, even weighty. The participants were invited to ask her anything, and they did:
@@ -111,14 +97,48 @@ She described emotions exchanged through handwritten letters, food, and stories 
 Her answers were poetic, sometimes strange, and always rich with detail. And with her presence, the room shifted. Time folded in on itself. The group began comparing their own ways of sharing with something imagined, yet emotionally real. The fictional frame made it easier to ask deeper questions. How has sharing changed? What do we miss? What do we carry forward? This fictional frame allowed for reflection without judgement. It created an opening for empathy across generations, technologies, and lived experience.
 
 
-This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.
+This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. <mark class="pk-highlight-long">Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</mark>
 
 
+<div class="auto-slideshow three-by-four">
+  <figure>
+  <img src="img/walk-of-shame/WOS-0.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+        <img src="img/walk-of-shame/WOS-1.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+    <img src="img/walk-of-shame/WOS-2.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+    <img src="img/walk-of-shame/WOS-4.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+    <img src="img/walk-of-shame/WOS-8.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+    <figure>
+     <img src="img/walk-of-shame/WOS-10.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+</div>
+
+    
 ### Making Identity Visible: Jackets, Patches, and Secrets
 Across the four-part workshop series, each participant received a denim jacket to personalise—an invitation to make identity visible, tactile, and wearable. Inspired by subcultural movements such as the punk and goth scene, participants designed logos, invented characters, and imagined what those characters would stand for. One of the key activities, ‘Button Secrets’, invited everyone to anonymously write a small secret, draw someone else’s at random, and transform it into a button. Other collaborative exercises included a group mega-drawing and adding elements from each other’s jackets, creating an evolving visual conversation between participants.
 
 
 Over time, the jackets transformed into wearable statements of presence and protest. Secrets became buttons, fears became patches, and imagined characters found real voices. Through material play and personal storytelling, the group co-created meaning through what they made, and through the attention and care they offered each other. One participant painted a symbol of care that was later mirrored by others. Another wrote, ‘I’m scared too’, not as a confession, but as an invitation.
+
+
+<figure>
+  <img src="img/walk-of-shame/P1050196.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Kunsthall Stavanger.">
+    <figcaption></figcaption>
+</figure>
 
 
 ### Expanding the Space: From Inside to Outside
@@ -149,6 +169,30 @@ We hadn’t planned for this shift, but we felt it. It served as a powerful remi
 And yet, the participants embraced the moment. Their gestures, though subtle, were intentional: a patch with five symbols of care; a button echoing someone else’s voice; a costume that allowed them to become someone else for an afternoon. Through these small acts they performed visibility, solidarity, and agency.
 
 
+<div class="auto-slideshow three-by-four">
+  <figure>
+  <img src="img/walk-of-shame/WOS-MC-17.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+  <img src="img/walk-of-shame/WOS-MC-15.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+  <img src="img/walk-of-shame/WOS-MC-13.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+  <img src="img/walk-of-shame/WOS-MC-16.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+  <img src="img/walk-of-shame/WOS-MC-14.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+  </figure>
+</div>
+
+
 ### Final Circle: Co-curation and Reflection
 At the end of the series, we returned to the circle. Jackets, drawings, stickers, and memories were laid out before us. We asked: What stayed with you? What did you learn from someone else?
 
@@ -163,7 +207,7 @@ The answers were thoughtful, sometimes hesitant, but always rooted in lived expe
 
 
 ### What We Learned About Art, Voice, and Space
-In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for. These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives. 
+<mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for.</mark> These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives. 
  
 
 Wearing someone else’s words or symbols became an act of solidarity, amplifying voices beyond our own. In doing so, we formed small, intentional communities rooted in shared interest, mutual curiosity and care. These were not echo chambers, but spaces of exchange, where learning about each other mattered.
@@ -172,20 +216,22 @@ Wearing someone else’s words or symbols became an act of solidarity, amplifyin
 Through the workshops, we witnessed how a creative process can offer young people space to be heard—without pressure to perform or conform. Small gestures—choosing a name, drawing a fear, wearing a secret—sparked profound connections. We experienced how public space can be transformed through quiet presence, and how institutions influence who feels entitled to take up space.
 
 
-Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.
+<mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark>
 
 
 As one participant put it:  
 ‘Here, I can breathe differently.’
 
 <div class="floating">
-  <img src="img/walk-of-shame/fish.webp" alt="" width="40%">
-  <img src="img/walk-of-shame/face.webp" alt="" width="27%">
-  <img src="img/walk-of-shame/sripe.webp" alt="" width="20%">
-  <img src="img/walk-of-shame/heart.webp" alt="" width="20%">
-  <img src="img/walk-of-shame/dare.webp" alt="" width="20%">
-  <img src="img/walk-of-shame/sign.webp" alt="" width="35%">
+  <img src="img/walk-of-shame/fish.webp" alt="" width="30%">
+  <img src="img/walk-of-shame/face.webp" alt="" width="22%">
+  <img src="img/walk-of-shame/sripe.webp" alt="" width="18%">
+  <img src="img/walk-of-shame/heart.webp" alt="" width="17%">
+  <img src="img/walk-of-shame/dare.webp" alt="" width="15%">
+  <img src="img/walk-of-shame/sign.webp" alt="" width="28%">
 </div>
+
+
 
 ## Tools for Shared Expression in Contempotary Art Spaces
 
@@ -206,7 +252,7 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
 
 #### Why it matters:
 
-  A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.
+A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.
 
 #### How to do it:
 - **Welcome with presence:** Greet participants with music, snacks, and warm lighting.
@@ -355,7 +401,13 @@ TIP: Let participants take the lead. A co-curated exhibition builds confidence, 
   </ul>
 </details>
 
+<figure>
+  <img src="img/walk-of-shame/WOS-19.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <figcaption></figcaption>
+</figure>
+
 <br><br>
+
 * * *
 
 <div class="color-dg font-small" markdown="1">
@@ -363,4 +415,3 @@ TIP: Let participants take the lead. A co-curated exhibition builds confidence, 
 This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
 
 </div>
-

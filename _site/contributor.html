@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobilizing Citizenship Toolkit</title>
+    <title>Contributors | MC toolkit</title>
     <link rel="stylesheet" href="assets/essay.css">
     <link rel="stylesheet" href="assets/gallery.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script src="assets/essay.js" defer></script>
 
     <style>
         :root {
             --gutter: 15px;
-            --min-col: 30px;
-            --max-col: calc(100% - 15px);
+            --min-col: 40px;
+            --max-col: calc(100% - 40px);
             --collapsed-width: 40px;
             --snap-threshold: 200px;
         }
@@ -147,39 +149,43 @@
 
         @media (max-width: 768px) {
 
-        html,
-        body {
+            html,
+            body {
                 height: auto;
-                overflow: auto;
+                overflow-y: auto;
+                overflow-x: hidden;
             }
 
             .split-container {
                 flex-direction: column;
                 height: auto;
-                /* Let it expand naturally */
-                overflow: visible;
-                /* Allow scrolling */
+                overflow-y: visible;
             }
 
-        .divider {
-            display: none;
-            /* Hide resizable divider */
-        }
+            .divider {
+                display: none;
+            }
 
-        .left,
-        .right {
-            width: 100% !important;
-        }
+            .left,
+            .right {
+                width: 100vw !important;
+                overflow-x: hidden;
+            }
 
-        .right {
-            order: 2;
-            /* Place right pane below */
-            border-top: 1px solid var(--color-ui);
-        }
+            .right {
+                order: 2;
+                border-top: 1px solid var(--color-ui);
+                margin-top: 4rem;
+            }
 
-        .left {
-            order: 1;
-        }
+            .left {
+                order: 1;
+            }
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
         }
     </style>
 </head>
@@ -258,22 +264,22 @@
         <div id="rightPane" class="pane right collapsed">
             <div class="menu-label" tabindex="0" role="button" aria-label="Expand related content">menu</div>
             <ul id="menu">
-                <li id="home-link"><a ref="index.html">Mobile Citizenship Toolkit</a></li>
+                <li id="home-link"><a href="index.html">Mobile Citizenship Toolkit</a></li>
                 <li class="bg-pk"><a href="foreword-lee">Foreword, Lee Heinemann</a></li>
                 <li class="bg-pk"><a href="foreword-kristina">Foreword, Kristina Ketola Bore</a></li>
                 <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                         Collective Care in Education</a></li>
-                <li class="bg-gr"><a href=" ">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of
+                <li class="bg-gr"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of
                         Play</a>
                 </li>
                 <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
                 </li>
                 <li class="bg-gr"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                         People</a></li>
-                <li class="bg-bl"><a href="self-as-archive">Self as Archive: Erasure + World-Building</a></li>
+                <li class="bg-bl"><a href="self-as-archive">Self as Archive: A workshop on Erasure + World-Building</a></li>
                 <li class="bg-gr"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>
                 </li>
-                <li class="bg-bl"><a href=" ">What We Hold Sacred Altar-Making Workshop by Loni Johnson</a>
+                <li class="bg-bl"><a href="what-we-hold-sacred">What We Hold Sacred Altar-Making Workshop</a>
                 </li>
                 <li class="bg-br"><a href="contributor">Contributors</a></li>
             </ul>
@@ -294,8 +300,9 @@
             const snapThreshold = parseFloat(rootStyle.getPropertyValue('--snap-threshold'));
 
             let isDragging = false;
-            let leftWidth = window.innerWidth - gutter - collapsedWidth;
-            let rightWidth = collapsedWidth;
+            let rightWidth = 240;
+
+            let leftWidth = window.innerWidth - gutter - rightWidth;
             let rafId = null;
 
             applySizes();

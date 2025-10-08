@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What We Hold Sacred: A workshop on altar-Making | MC toolkit</title>
+    <link rel="stylesheet" href="assets/essay.css">
+    <link rel="stylesheet" href="assets/gallery.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="assets/essay.js" defer></script>
+
+    <style>
+        :root {
+            --gutter: 15px;
+            --min-col: 40px;
+            --max-col: calc(100% - 40px);
+            --collapsed-width: 40px;
+            --snap-threshold: 200px;
+        }
+
+        :root {
+            --font-body: 'Velvelyne', sans-serif;
+            --font-title: 'Compagnon', monospace;
+            --line-height-body: 1.5;
+            --line-height-title: 1.2;
+            --line-height-small: 1.2;
+            --color-bl: #4489EA;
+            --color-gr: #C9FF34;
+            --color-lg: #D9D9D9;
+            --color-pk: #FF71E3;
+            --color-br: #AF8F67;
+            --color-dg: #949494;
+            --color-ui: #aeaeae;
+        }
+
+        .split-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .pane {
+            overflow: auto;
+            transition: width 0.2s ease, opacity 0.2s ease;
+        }
+
+        .left {
+            flex: 0 0 auto;
+            position: relative;
+        }
+
+        .right {
+            flex: 0 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            opacity: 1;
+            pointer-events: all;
+            background: var(--color-lg);
+            position: relative;
+        }
+
+        .right.collapsed {
+            pointer-events: none;
+            justify-content: center;
+        }
+
+        .right.collapsed ul {
+            display: none;
+        }
+
+        .menu-label {
+            display: none;
+            font-family: var(--font-title);
+            writing-mode: vertical-rl;
+            letter-spacing: 0.25rem;
+            font-size: 1rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .right.collapsed .menu-label {
+            display: block;
+        }
+
+        .divider {
+            flex: 0 0 var(--gutter);
+            cursor: col-resize;
+            position: relative;
+            z-index: 10;
+            border-right: var(--color-ui) 1px solid;
+            border-left: var(--color-ui) 1px solid;
+        }
+
+        .divider:hover {
+            background: #f6f6f6;
+        }
+
+
+        .divider::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            width: 4px;
+            /* width of each dot */
+            height: 4px;
+            /* height of each dot */
+            background: var(--color-ui);
+            /* dot color */
+            border-radius: 50%;
+            /* circular dots */
+
+            box-shadow:
+                0 10px var(--color-ui),
+                0 20px var(--color-ui),
+                0 30px var(--color-ui),
+                0 -10px var(--color-ui),
+                0 -20px var(--color-ui),
+                0 -30px var(--color-ui);
+        }
+
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--color-pk);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #FF8CEC;
+            cursor: grab;
+        }
+
+        @media (max-width: 768px) {
+
+            html,
+            body {
+                height: auto;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+
+            .split-container {
+                flex-direction: column;
+                height: auto;
+                overflow-y: visible;
+            }
+
+            .divider {
+                display: none;
+            }
+
+            .left,
+            .right {
+                width: 100vw !important;
+                overflow-x: hidden;
+            }
+
+            .right {
+                order: 2;
+                border-top: 1px solid var(--color-ui);
+                margin-top: 4rem;
+            }
+
+            .left {
+                order: 1;
+            }
+
+            ::-webkit-scrollbar {
+                width: 5px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="split" class="split-container">
+        <div id="leftPane" class="pane left">
+            <main>
+    <h1>
+        What We Hold Sacred: A workshop on altar-Making
+    </h1>
+
+    <details class="author" markup="1">
+        <summary class="bg-gr">
+            Loni Johnson
+        </summary>
+        <p class="author-bio bg-gr">
+            is a multidisciplinary visual artist, educator, mother, and activist born and raised in Miami. Through movement and ritual, she creates healing spaces for Black women and explores the role of ancestral and historical memory. She holds a Bachelor of Fine Arts from SUNY at Purchase College School of Art and Design. <br><br>Johnson is the Lead Coordinator of Art Detectives—an arts education programme rooted in the framework of Social Justice at Perez Art Museum (PAMM) Miami. She is also Prevention Coordinator of the youth arts prevention programme at Concept Health Systems, and Chairperson for the National Visual Arts Selection Panel for National YoungArts Foundation. In addition, she is one of the founders of Miami Melanated Arts—a collective of Black artists who are creating space to reimagine effective and impactful arts ecosystems in South Florida. She continues to work with community organisations such as Girl Power, S.O.U.L Sisters Leadership Collective, and Voices United by providing youth the opportunities to find and nurture their identities and creative voices. She received a Knight Champion Award in 2019 and is a frequent guest speaker, lecturer, facilitator, and performer. <br><br>Selected exhibitions and performances: Remnants at Locust Projects, Miami, Making Visible: The Studio Archives of Chire Regans and Loni Johnson, WAAM at Dimensions Variable, Miami (2020); Say Their Names, Chire Regans/Vanta Black Memorial Mural Project Unveiling, Bakehouse Art Complex, Miami (2020); Performans Fanm/Global Borderless Caribbean XII: Focus Miami, Little Haiti Cultural Arts Center, Miami (2020); Homegoing, NADA Art Fair, Miami (2017); Offerings III, Bas Fisher Invitational and O’Miami, Miami (2017); Offerings II, Common Field Convening, Miami (2016).
+            
+        </p>
+    </details>
+
+    
+
+    <div class="content">
+        <div class="foreword">
+What do we owe to the people who came before us and how do we remember them? For artist and educator Loni Johnson, remembrance isn’t passive. It’s an act of resistance, reclamation, and radical care. Rooted in her upbringing in the American South and the cultural heat of Miami, Johnson’s practice blends performance, altar-making, and community engagement to honour the sacred stories of Black and Brown people.
+In Things We Hold Sacred, her workshop for Mobilizing Citizenship in autumn 2023, Johnson invited participants to build personal altars using objects, images, and memory. Through writing, reflection, and the tactile work of creation, participants confronted questions of ancestry, identity, grief, and healing. What follows is a guide and a testimony: part workshop framework, part personal reflection on why memory matters and how the creative process can reconnect us to where we come from.
+</div>
+
+<figure class="head-img">
+  <img src="img/what-we-hold-sacred/MC_2023_046_WEB.webp" alt="Mobilizing Citizenship workshop by Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Loni Johnson, &lt;i&gt;Things We Hold Sacred&lt;/i&gt;, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." />
+  <figcaption></figcaption>
+</figure>
+
+<p>(Loni Johnson, as told to Lee Heinemann, August 2025.)</p>
+
+<p><mark class="pk-highlight-long">As artists, it’s our responsibility to take on the role of the memory keepers, the griots.</mark> Where I am—the United States; the American South; Miami, Florida—there is an erasure of Black history. I have taken it upon myself to understand and present how Black and Brown folks honour our ancestors and ensure that stories of our histories are told.</p>
+
+<p>My assemblage and performance work merges traditional methods of remembrance with contemporary ways of remembering to create new traditions for honouring the past. I see my work as a way of building community and bridging gaps between groups of people.</p>
+
+<p>In live activations, I bring folks to sites that need to be acknowledged as specific to Black experience. These performances highlight places and histories that audiences may not have had access to. I have created site-specific works at Virginia Key Beach—which many people don’t know was the designated Black Beach—and Miami Beach, which was (and I believe still is) a sundown town where Black people are not welcome after dark. There’s energy and residue in these places, and memory in the land. It is cliche, but if we don’t know where we came from, we can’t move forward.</p>
+
+<p>For Remnants, my 2021 exhibition at Locust Projects, I created an installation of altars using photos of women in my family and everyday objects I collect to signify aspects of Black girlhood and womanness. The gallery is in Miami’s Little Haiti neighbourhood. Previously, I had heard from so many Black and Brown folks who walked past the location but never felt like they could enter. Out of a desire to create space for this community, I hosted three workshops, offering my materials and altar-making practice to folks and inviting them to make an object to honour someone. It was fulfilling to sit in the circle with folks and see how willingly they shared their stories. I began to realize that, if I’m interested in building community through this work, these workshops could be a way to make that a tangible part of my practice.</p>
+
+<figure>
+  <img src="img/what-we-hold-sacred/MC_2023_029_WEB.webp" alt="Mobilizing Citizenship workshop by Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Loni Johnson, &lt;i&gt;Things We Hold Sacred&lt;/i&gt;, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." />
+  <figcaption></figcaption>
+</figure>
+
+<p>It has been an organic evolution of my work to create space for folks to heal and grieve. Throughout my life, I have this gift that draws people to tell me their story. <mark class="pk-highlight-long">Our society makes it seem normal that we grieve in solitude.</mark> Alone. But that’s not always been the case for Black and Brown folks. We don’t have to grieve alone. We can hold space for us to do it together, and if I can create space for that, I need to do it.</p>
+
+<p>With the support of a grant, I was able to bring altar-making to more community groups, including those focused on Brown and Black youth (organisations like Girl Power, Healing and Justice Center, the Miles Girl Academy), as well as adults and elementary school students. Because I’ve now shared it with so many ages and demographics, I believe this workshop can be adapted to work for anyone.</p>
+
+<p>In this workshop, the act of making and creating the altar is as important as the conversation, and the facilitator must be as vulnerable as the space they’re trying to create. Sometimes that means making an altar alongside the group or asking questions to help participants open up:</p>
+<ul>
+  <li>What did you bring?</li>
+  <li>Who do you want to honour, and why?</li>
+  <li>Who is this person to you?</li>
+  <li>What’s the last memory with this person?</li>
+</ul>
+
+<p>The workshop is most successful when there is time to build a rapport with the group. Giving people advance notice to bring objects with them—things connected to the person they’re honouring, even if it’s just a picture—tends to allow for a more meaningful experience.</p>
+
+<p>The facilitator can also support participants who are still unsure of who they’d like to honour, or those who are not ready to open up to the group. Not everybody will be down to go that deep. For participants who need help getting started, ask: 
+Who’s your favorite writer that’s no longer here? 
+Who’s your favorite person that you don’t see every day?</p>
+
+<p>Participants could also create an altar for themselves or for their inner child. You could ask:</p>
+
+<p>If you could make an altar for your 4- or 5-year-old self, what would that look like? 
+What would an altar to a cause or topic you’re passionate about look like?</p>
+
+<p><mark class="pk-highlight-long">My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.</mark></p>
+
+<h2 id="objective">Objective</h2>
+<p>This altar-making workshop invites guests to use meaningful objects—such as photographs, memorabilia, crystals, jewellery, and more—to build small altars as offerings to their ancestors. The facilitator will guide participants to contemplate how we claim, navigate, and hold space; how ancestral and historical memory informs where, when, and how we occupy spaces; and how we carry and honour our ancestors in the spaces we move through.</p>
+
+<h2 id="materials">Materials</h2>
+
+<div class="auto-slideshow three-by-four">
+  <figure>
+  <img src="img/what-we-hold-sacred/Copy of IMG_0449.webp" alt="" data-caption="" />
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+  <img src="img/what-we-hold-sacred/Copy of IMG_1457.webp" alt="" data-caption="" />
+    <figcaption></figcaption>
+  </figure>
+  <figure>
+  <img src="img/what-we-hold-sacred/Copy of IMG_9719.webp" alt="" data-caption="" />
+    <figcaption></figcaption>
+  </figure>
+</div>
+
+<p>Preparation of the materials should be done before the workshop begins. It is ideal to have all materials laid out on tables.</p>
+
+<ul>
+  <li>Unfinished wooden boxes of various sizes</li>
+  <li>Scissors</li>
+  <li>Images/photos</li>
+  <li>Gold acrylic paint</li>
+  <li>Acrylic paint</li>
+  <li>Brushes</li>
+  <li>Printouts of Who Am I and From Which I Came writing prompts (see below)</li>
+  <li>Paint markers (oil- or water-based)</li>
+  <li>Mod Podge (matte version)</li>
+  <li>E6000 glue (mini tubes)</li>
+  <li>Fabric swatches</li>
+  <li>Cowrie shells (plain and gold)</li>
+  <li>Coloured felt</li>
+  <li>Lace trimming</li>
+  <li>Variety of beads, especially gold</li>
+  <li>Printed paper (e.g., origami paper)</li>
+</ul>
+
+<figure>
+  <img src="img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203.webp" alt=" " data-caption=" " />
+    <figcaption></figcaption>
+</figure>
+
+<h2 id="preparation-as-needed">Preparation (as needed)</h2>
+
+<p>These writing prompts invite each participant to reflect on the personal characteristics that make them who they are. They also offer a chance for participants to think about their lineage and ancestry.</p>
+
+<p class="blink">Complete each line and add up to two more lines to give detail.</p>
+
+<details class="tools">
+  <summary>
+Who Am I?
+</summary>
+
+  <p>They say that I am <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</p>
+  <ul>
+    <li>But I know that I am <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>The place that I call home is <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>I feel safe when <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>I feel the most afraid when <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>I am proud when <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>I see myself as <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>I wish I could <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>I love <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+    <li>My name is <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.</li>
+  </ul>
+
+</details>
+
+<details class="tools">
+  <summary>
+  From Which I Came
+  </summary>
+
+  <p style="color: var(--color-br);">
+*Facilitators can adapt the prompt if participants are uncomfortable using their mother as a reference. Based on past experience, some participants may choose to honour an alternative parent or guardian instead.
+  </p>
+
+My name is <u>(participant’s name).</u> and I was born in <u>(year of birth)</u> in <u>(place of birth)</u>.  
+My mother’s name is <u>(participant’s mother’s name)</u> and she was born in <u>(year of birth)</u> in <u>(place of birth)</u>.  
+My grandmother’s name is <u>(participant’s grandmother’s name)</u> and she was born in <u>(year of birth)</u> in <u>(place of birth)</u>.  
+My grandmother’s mother’s name is <u>(participant’s grandmother’s mother’s name)</u> and she was born in <u>(year of birth)</u> in <u>(place of birth)</u>.
+</details>
+
+<h2 id="activity-steps">Activity Steps</h2>
+
+<details class="tools">
+  <summary>
+Step 1
+</summary>
+
+  <p>Facilitator will begin the workshop with a presentation of Loni Johnson’s artistic practice: <a href="https://docs.google.com/presentation/d/108qmK-9YsEoITPdbfj-OAkrlw3gPYssw4BCkTOVrGT0/edit?usp=sharing">Loni Johnson Presentation for Lesson Plan—Stavanger</a>.</p>
+
+  <p>5–10 minutes for reflections/questions of the work from participants</p>
+
+</details>
+
+<details class="tools">
+  <summary>
+Step 2
+</summary>
+
+  <p>Facilitator will hand out the creative writing prompt exercises <strong>Who Am I</strong> and <strong>From Which I Came</strong>. Participants will be asked to complete the exercises with the group. TAs will encourage the participants to:</p>
+  <ul>
+    <li>Be descriptive.</li>
+    <li>Be creative.</li>
+    <li>But most importantly, be honest and transparent.</li>
+  </ul>
+
+  <p>25–30 minutes with time for participants to share included</p>
+
+</details>
+
+<details class="tools">
+  <summary>
+Step 3
+</summary>
+
+  <p>After the participants complete the prompts, the group will gather their materials for the art-making activity. The facilitator should encourage participants to be intentional in choosing the person they want to honour.</p>
+
+  <p style="color: var(--color-br);">
+  The following questions could be asked as instructional tools during the art-making to help engage participants as they create their pieces:  
+  </p>
+
+  <ul>
+    <li>Who is this person?</li>
+    <li>Why should they be honoured?</li>
+    <li>What are things that remind me of this person?</li>
+    <li>What impact has this person had on my life?</li>
+  </ul>
+
+  <p>60–90 minutes allotted for art-making</p>
+
+</details>
+
+<details class="tools">
+  <summary>
+Step 4
+</summary>
+
+  <p>Once art-making is finished, each participant will share their altar piece and engage in a conversation around their object.</p>
+
+  <p style="color: var(--color-br);">
+  Facilitators could pose the following questions to guide the discussion:  
+  </p>
+  <ul>
+    <li>Who is this person to you and why are they significant to you?</li>
+    <li>Are there specific objects that you identify as a connection to the person?</li>
+    <li>If there was something that you wanted to say to them, what would it be and why?</li>
+    <li>Where are you going to put your object and why? Does the location of the object hold significance?</li>
+  </ul>
+
+  <p>15–20 minutes</p>
+
+</details>
+
+<p><br /><br /></p>
+
+    </div>
+</main>
+
+<footer>
+    <!-- <button onclick="topFunction()" id="top-btn">Back to Top</button>  -->
+</footer>
+
+
+
+
+
+
+<!-- <nav>
+                <div id="home-link">
+                    <a href="index.html">MC Toolkit</a>
+                </div>
+                <div class="drawer">
+                    <ul id="menu">
+                        <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
+                        <li class="bg-pk"><a href="/">Are You Listening? Deep Listening as Youth
+                                Pedagogy</a>
+                        </li>
+                        <li class="bg-dg"><a href="/">How Youth Workers Create Meaningful Encounters
+                                for Young
+                                People</a>
+                        </li>
+                        <li class="bg-bl"><a href="/">Self as Archive Erasure + World-Building</a>
+                        </li>
+                    </ul>
+                    <div id="handler" aria-label="Menu toggle">
+                        <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                </div>
+            </nav> -->
+        </div>
+
+        <div id="divider" class="divider" tabindex="0" role="separator" aria-orientation="vertical"
+            title="drag to resize">
+        </div>
+
+        <div id="rightPane" class="pane right collapsed">
+            <div class="menu-label" tabindex="0" role="button" aria-label="Expand related content">menu</div>
+            <ul id="menu">
+                <li id="home-link"><a href="index.html">Mobile Citizenship Toolkit</a></li>
+                <li class="bg-pk"><a href="foreword-lee">Foreword, Lee Heinemann</a></li>
+                <li class="bg-pk"><a href="foreword-kristina">Foreword, Kristina Ketola Bore</a></li>
+                <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
+                        Collective Care in Education</a></li>
+                <li class="bg-gr"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of
+                        Play</a>
+                </li>
+                <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
+                </li>
+                <li class="bg-gr"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
+                        People</a></li>
+                <li class="bg-bl"><a href="self-as-archive">Self as Archive: A workshop on Erasure + World-Building</a></li>
+                <li class="bg-gr"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>
+                </li>
+                <li class="bg-bl"><a href="what-we-hold-sacred">What We Hold Sacred Altar-Making Workshop</a>
+                </li>
+                <li class="bg-br"><a href="contributor">Contributors</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        (() => {
+            const left = document.getElementById('leftPane');
+            const right = document.getElementById('rightPane');
+            const divider = document.getElementById('divider');
+            const menuLabel = right.querySelector('.menu-label');
+
+            const rootStyle = getComputedStyle(document.documentElement);
+            const gutter = parseFloat(rootStyle.getPropertyValue('--gutter'));
+            const minCol = parseFloat(rootStyle.getPropertyValue('--min-col'));
+            const collapsedWidth = parseFloat(rootStyle.getPropertyValue('--collapsed-width'));
+            const snapThreshold = parseFloat(rootStyle.getPropertyValue('--snap-threshold'));
+
+            let isDragging = false;
+            let rightWidth = 240;
+
+            let leftWidth = window.innerWidth - gutter - rightWidth;
+            let rafId = null;
+
+            applySizes();
+
+            // Pointer events for cross-device drag
+            divider.addEventListener('pointerdown', startDrag);
+            menuLabel.addEventListener('click', expandMenu);
+            window.addEventListener('resize', handleResize);
+
+            function startDrag(e) {
+                e.preventDefault();
+                isDragging = true;
+                document.body.style.cursor = 'col-resize';
+                document.body.style.userSelect = 'none';
+
+                const onMove = (e) => {
+                    if (!isDragging) return;
+                    if (rafId) cancelAnimationFrame(rafId);
+                    rafId = requestAnimationFrame(() => {
+                        const newLeft = e.clientX;
+                        if (newLeft < minCol || newLeft > window.innerWidth - gutter) return;
+                        leftWidth = newLeft;
+                        rightWidth = window.innerWidth - leftWidth - gutter;
+                        applySizes();
+                    });
+                };
+
+                const stopDrag = () => {
+                    isDragging = false;
+                    document.body.style.cursor = '';
+                    document.body.style.userSelect = '';
+                    if (rightWidth < snapThreshold) collapseRight();
+                    window.removeEventListener('pointermove', onMove);
+                    window.removeEventListener('pointerup', stopDrag);
+                };
+
+                window.addEventListener('pointermove', onMove);
+                window.addEventListener('pointerup', stopDrag);
+            }
+
+            function handleResize() {
+                const total = window.innerWidth - gutter;
+                leftWidth = total - rightWidth;
+                applySizes();
+            }
+
+            function collapseRight() {
+                rightWidth = collapsedWidth;
+                leftWidth = window.innerWidth - gutter - rightWidth;
+                applySizes();
+            }
+
+            function expandMenu() {
+                rightWidth = 250;
+                leftWidth = window.innerWidth - gutter - rightWidth;
+                applySizes();
+            }
+
+            function applySizes() {
+                left.style.width = `${leftWidth}px`;
+                right.style.width = `${rightWidth}px`;
+
+                // Keep "Menu" label visible until pane exceeds snap-threshold
+                if (rightWidth <= snapThreshold) {
+                    right.classList.add('collapsed');
+                } else {
+                    right.classList.remove('collapsed');
+                }
+            }
+
+        })();
+    </script>
+</body>
+
+</html>
