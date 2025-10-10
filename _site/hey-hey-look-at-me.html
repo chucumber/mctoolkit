@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script src="assets/essay.js" defer></script>
 
     <style>
@@ -199,17 +197,19 @@
         Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of Play
     </h1>
 
-    <details class="author" markup="1">
-        <summary class="bg-gr">
-            Lex Brown
-        </summary>
-        <p class="author-bio bg-gr">
-            Lex Brown is an artist working in visual and performed verse. <br><br>She has performed and exhibited work at the Kennedy Center in Washington, DC; the New Museum, the Kitchen, the High Line, the International Center of Photography, and Recess in New York; the MIT List Center, REDCAT Theater and the Hammer Museum in Los Angeles; the Baltimore Museum of Art; and at the Munch Museum in Oslo. <br><br>She was a 2021 recipient of the USA Fellowship and is a 2025 Rome Prize Winner. Her first short opera, Tati (composed by Kyle Brenn), premiered in the Washington National Opera’s 2024–25 season at the Kennedy Center. <br><br>Brown holds degrees from Yale University (MFA) and Princeton University (BA). She is the author of My Wet Hot Drone Summer, a sci-fi erotic novella that takes on surveillance and social justice. <br><br>Consciousness, a survey of Brown’s work spanning the past eight years, was published by GenderFail. Containing documentation from 46 different videos and performances, as well as 33 original song lyrics performed in artist-run spaces, museums, music venues, and galleries, it has been acquired by the collections of the Met, MoMA, Whitney, and SFMOMA, among other notable collections. <br><br>Brown has taught in the Visual Arts programme at Princeton University and in Art, Film, & Visual Studies and Theater, Dance, & Media at Harvard University. 
-            
-        </p>
-    </details>
+    <div class="author">
+        <button class="author-toggle">Lex Brown</button>
+        <div class="author-bio bg-gr">
+            <button class="author-close">×</button>
+            <p>
+                Lex Brown is an artist working in visual and performed verse. <br><br>She has performed and exhibited work at the Kennedy Center in Washington, DC; the New Museum, the Kitchen, the High Line, the International Center of Photography, and Recess in New York; the MIT List Center, REDCAT Theater and the Hammer Museum in Los Angeles; the Baltimore Museum of Art; and at the Munch Museum in Oslo. <br><br>She was a 2021 recipient of the USA Fellowship and is a 2025 Rome Prize Winner. Her first short opera, Tati (composed by Kyle Brenn), premiered in the Washington National Opera’s 2024–25 season at the Kennedy Center. <br><br>Brown holds degrees from Yale University (MFA) and Princeton University (BA). She is the author of My Wet Hot Drone Summer, a sci-fi erotic novella that takes on surveillance and social justice. <br><br>Consciousness, a survey of Brown’s work spanning the past eight years, was published by GenderFail. Containing documentation from 46 different videos and performances, as well as 33 original song lyrics performed in artist-run spaces, museums, music venues, and galleries, it has been acquired by the collections of the Met, MoMA, Whitney, and SFMOMA, among other notable collections. <br><br>Brown has taught in the Visual Arts programme at Princeton University and in Art, Film, & Visual Studies and Theater, Dance, & Media at Harvard University. 
+                
+            </p>
 
-    
+        </div>
+
+        
+    </div>
 
     <div class="content">
         <div class="foreword">
@@ -301,38 +301,8 @@ Clown Gym (founded by Julia Proctor)</p>
 </main>
 
 <footer>
-    <!-- <button onclick="topFunction()" id="top-btn">Back to Top</button>  -->
+    <button onclick="topFunction()" id="top-btn">Back to Top</button>
 </footer>
-
-
-
-
-
-
-<!-- <nav>
-                <div id="home-link">
-                    <a href="index.html">MC Toolkit</a>
-                </div>
-                <div class="drawer">
-                    <ul id="menu">
-                        <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
-                        <li class="bg-pk"><a href="/">Are You Listening? Deep Listening as Youth
-                                Pedagogy</a>
-                        </li>
-                        <li class="bg-dg"><a href="/">How Youth Workers Create Meaningful Encounters
-                                for Young
-                                People</a>
-                        </li>
-                        <li class="bg-bl"><a href="/">Self as Archive Erasure + World-Building</a>
-                        </li>
-                    </ul>
-                    <div id="handler" aria-label="Menu toggle">
-                        <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </div>
-                </div>
-            </nav> -->
         </div>
 
         <div id="divider" class="divider" tabindex="0" role="separator" aria-orientation="vertical"

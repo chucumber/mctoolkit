@@ -6,59 +6,137 @@ layout: "wrapper"
         {{ page.title }}
     </h1>
 
-    <div class="gallery">
-        <div class="column">
+    <section class="contributors-gallery">
+        {% include contributor-card.html
+        name="Kristina Ketola Bore"
+        file="Kristina-Ketola-Bore"
+        photo="img/contributor/K K Bore Photo Helle Navratil.webp"
+        %}
 
-            <figure>
-                <img src="img/contributor/Chire Regans photo by Helle Navratil.webp" alt="Chire Regans"
-                    data-credit="Chire Regans. photo by Helle Navratil">
-                <figcaption>Chire Regans</figcaption>
-            </figure>
+        {% include contributor-card.html
+        name="Delali Ayivor"
+        file="Delali-Ayivor"
+        photo="img/contributor/Delali Ayivor-photo by Helle Navratil.webp"
+        %}
 
-            <figure>
-                <img src="img/contributor/Delali Ayivor-photo by Helle Navratil.webp" alt="Delali Ayivor"
-                    data-credit="Delali Ayivor. photo by Helle Navratil">
-                <figcaption>Delali Ayivor</figcaption>
-            </figure>
+        {% include contributor-card.html
+        name="Chire Regans"
+        file="Chire-Regans"
+        photo="img/contributor/Chire Regans photo by Helle Navratil.webp"
+        %}
 
-            <figure>
-                <img src="img/contributor/K K Bore Photo Helle Navratil.webp" alt="K K Bore"
-                    data-credit="K K Bore. photo by Helle Navratil">
-                <figcaption>K K Bore</figcaption>
-            </figure>
+        {% include contributor-card.html
+        name="Lee Heinemann"
+        file="Lee-Heinemann"
+        photo="img/contributor/Lee Heinemann-photo by Helle Navratil.webp"
+        %}
 
-            <figure>
-                <img src="img/contributor/Lee Heinemann-photo by Helle Navratil.webp" alt="Lee Heinemann"
-                    data-credit="Lee Heinemann. photo by Helle Navratil">
-                <figcaption>Lee Heinemann</figcaption>
-            </figure>
+        {% include contributor-card.html
+        name="Lex Brown"
+        file="Lex-Brown"
+        photo="img/contributor/Lex Brown-photo by Helle Navratil.webp"
+        %}
 
-            <figure>
-                <img src="img/contributor/Lex Brown-photo by Helle Navratil.webp" alt="Lex Brown"
-                    data-credit="Lex Brown. photo by Helle Navratil">
-                <figcaption>Lex Brown</figcaption>
-            </figure>
+        {% include contributor-card.html
+        name="Loni Johnson"
+        file="Loni-Johnson"
+        photo="img/contributor/Loni Johnson - photo by Helle Navratil.webp"
+        %}
 
-            <figure>
-                <img src="img/contributor/Loni Johnson - photo by Helle Navratil.webp" alt="Loni Johnson"
-                    data-credit="Loni Johnson. photo by Helle Navratil">
-                <figcaption>Loni Johnson</figcaption>
-            </figure>
+        {% include contributor-card.html
+        name="Mikey Kirkpatrick"
+        file="Mikey-Kirkpatrick"
+        photo="img/contributor/Mikey Kirkpatrick-photo by Helle Navratil.webp"
+        %}
 
-            <figure>
-                <img src="img/contributor/Mikey Kirkpatrick-photo by Helle Navratil.webp" alt="Mikey Kirkpatrick"
-                    data-credit="Mikey Kirkpatrick. photo by Helle Navratil">
-                <figcaption>Mikey Kirkpatrick</figcaption>
-            </figure>
+        {% include contributor-card.html
+        name="Trine Ottosen"
+        file="Trine-Ottosen"
+        photo="img/contributor/Trine Ottosen- photo by Helle.webp"
+        %}
+    </section>
 
-            <figure>
-                <img src="img/contributor/Trine Ottosen- photo by Helle.webp" alt="Trine Ottosen"
-                    data-credit="Trine Ottosen. photo by Helle Navratil">
-                <figcaption>Trine Ottosen</figcaption>
-            </figure>
-        </div>
+    <div class="contributor-info">
+        {% include contributor-info.html
+        name="Kristina Ketola Bore"
+        file="Kristina-Ketola-Bore"
+        photo="img/contributor/K K Bore Photo Helle Navratil.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-gr"
+        appear='<a href="foreword-kristina">Foreword</a><br><a href="youth-workers">How Youth Workers Create Meaningful
+            Encounters</a>'
+        %}
 
-        <div>This publication is made possible with support from Arts and Culture Norway</div>
+        {% include contributor-info.html
+        name="Delali Ayivor"
+        file="Delali-Ayivor"
+        photo="img/contributor/Delali Ayivor-photo by Helle Navratil.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-bl"
+        appear='<a href="self-as-archive">Self as Archive</a>'
+        %}
+
+        {% include contributor-info.html
+        name="Chire Regans"
+        file="Chire-Regans"
+        photo="img/contributor/Chire Regans photo by Helle Navratil.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-pk"
+        appear='<a href="let-me-be-for-you">Let Me Be for You</a>'
+        %}
+
+        {% include contributor-info.html
+        name="Lee Heinemann"
+        file="Lee-Heinemann"
+        photo="img/contributor/Lee Heinemann-photo by Helle Navratil.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-br"
+        appear='<a href="foreword-lee">Foreword</a>'
+        %}
+
+        {% include contributor-info.html
+        name="Lex Brown"
+        file="Lex-Brown"
+        photo="img/contributor/Lex Brown-photo by Helle Navratil.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-br"
+        appear='<a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Play</a>'
+        %}
+
+        {% include contributor-info.html
+        name="Loni Johnson"
+        file="Loni-Johnson"
+        photo="img/contributor/Loni Johnson - photo by Helle Navratil.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-gr"
+        appear='<a href="what-we-hold-sacred">What We Hold Sacred Altar-Making Workshop</a><br><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>'
+        %}
+
+        {% include contributor-info.html
+        name="Mikey Kirkpatrick"
+        file="Mikey-Kirkpatrick"
+        photo="img/contributor/Mikey Kirkpatrick-photo by Helle Navratil.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-pk"
+        appear='<a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>'
+        %}
+
+        {% include contributor-info.html
+        name="Trine Ottosen"
+        file="Trine-Ottosen"
+        photo="img/contributor/Trine Ottosen- photo by Helle.webp"
+        caption="Photo by Helle Navratil"
+        bg="bg-bl"
+        appear='<a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young People</a>'
+        %}
     </div>
+
+    <div class="credit">
+        {{ content }}
+    </div>
+
+</main>
+
+<footer></footer>
 
 </main>

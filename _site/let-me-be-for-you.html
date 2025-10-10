@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script src="assets/essay.js" defer></script>
 
     <style>
@@ -199,26 +197,27 @@
         Let Me Be for You What I Needed When I Was Your Age
     </h1>
 
-    <details class="author" markup="1">
-        <summary class="bg-gr">
-            Loni Johnson
-        </summary>
-        <p class="author-bio bg-gr">
-            is a multi-disciplinary visual artist, educator, mother, and activist born and raised in Miami. Through movement and ritual, she creates healing spaces for Black women and explores the role of ancestral and historical memory. She holds a Bachelor of Fine Arts from SUNY at Purchase College School of Art and Design. <br><br> Johnson is the Lead Coordinator of Art Detectives—an arts education programme rooted in the framework of Social Justice at Perez Art Museum (PAMM) Miami. She is also Prevention Coordinator of the youth arts prevention programme at Concept Health Systems, and Chairperson for the National Visual Arts Selection Panel for National YoungArts Foundation. In addition, she is one of the founders of Miami Melanated Arts—a collective of Black artists who are creating space to reimagine effective and impactful arts eco-systems in South Florida. She continues to work with community organisations such as Girl Power, S.O.U.L Sisters Leadership Collective, and Voices United by providing youth the opportunities to find and nurture their identities and creative voices. She received a Knight Champion Award in 2019 and is a frequent guest speaker, lecturer, facilitator, and performer. <br><br> Selected exhibitions and performances: Remnants at Locust Projects, Miami, Making Visible: The Studio Archives of Chire Regans and Loni Johnson, WAAM at Dimensions Variable, Miami (2020); Say Their Names, Chire Regans/Vanta Black Memorial Mural Project Unveiling, Bakehouse Art Complex, Miami (2020); Performans Fanm/Global Borderless Caribbean XII: Focus Miami, Little Haiti Cultural Arts Center, Miami (2020); Homegoing, NADA Art Fair, Miami (2017); Offerings III, Bas Fisher Invitational and O’Miami, Miami (2017); Offerings II, Common Field Convening, Miami (2016).
-            
-        </p>
-    </details>
+    <div class="author">
+        <button class="author-toggle">Loni Johnson</button>
+        <div class="author-bio bg-gr">
+            <button class="author-close">×</button>
+            <p>
+                is a multi-disciplinary visual artist, educator, mother, and activist born and raised in Miami. Through movement and ritual, she creates healing spaces for Black women and explores the role of ancestral and historical memory. She holds a Bachelor of Fine Arts from SUNY at Purchase College School of Art and Design. <br><br> Johnson is the Lead Coordinator of Art Detectives—an arts education programme rooted in the framework of Social Justice at Perez Art Museum (PAMM) Miami. She is also Prevention Coordinator of the youth arts prevention programme at Concept Health Systems, and Chairperson for the National Visual Arts Selection Panel for National YoungArts Foundation. In addition, she is one of the founders of Miami Melanated Arts—a collective of Black artists who are creating space to reimagine effective and impactful arts eco-systems in South Florida. She continues to work with community organisations such as Girl Power, S.O.U.L Sisters Leadership Collective, and Voices United by providing youth the opportunities to find and nurture their identities and creative voices. She received a Knight Champion Award in 2019 and is a frequent guest speaker, lecturer, facilitator, and performer. <br><br> Selected exhibitions and performances: Remnants at Locust Projects, Miami, Making Visible: The Studio Archives of Chire Regans and Loni Johnson, WAAM at Dimensions Variable, Miami (2020); Say Their Names, Chire Regans/Vanta Black Memorial Mural Project Unveiling, Bakehouse Art Complex, Miami (2020); Performans Fanm/Global Borderless Caribbean XII: Focus Miami, Little Haiti Cultural Arts Center, Miami (2020); Homegoing, NADA Art Fair, Miami (2017); Offerings III, Bas Fisher Invitational and O’Miami, Miami (2017); Offerings II, Common Field Convening, Miami (2016).
+                
+            </p>
 
-    
-    <details class="author">
-        <summary class="bg-pk">
-            Chire Regans
-        </summary>
-        <p class="author-bio bg-pk border-pk">
-            Artist Chire “VantaBlack” Regans’ art practice exists at the intersection of social justice and storytelling. Her work responds to urgent societal concerns and functions as a critical platform to amplify the voices of community members who are often silenced. Over the past decade, Chire has focused primarily on community advocacy and depicting social narratives without distortion in various mediums. For Chire, a Saint Louis native, the birth of the Black Lives Matter movement triggered a sense of urgency in her art practice. Her work continues to evolve, allowing for broader social accessibility and creative scale. In South Florida, Chire continues to marry her artistic practice with community-led activism, emphasising the art of storytelling as a means of engaging with communities with radical empathy and transparency.
-        </p>
-    </details>
-    
+        </div>
+
+        
+        <button class="author-toggle">Chire Regans</button>
+        <div class="author-bio bg-pk border-pk author-2">
+            <button class="author-close">×</button>
+            <p>
+                Artist Chire “VantaBlack” Regans’ art practice exists at the intersection of social justice and storytelling. Her work responds to urgent societal concerns and functions as a critical platform to amplify the voices of community members who are often silenced. Over the past decade, Chire has focused primarily on community advocacy and depicting social narratives without distortion in various mediums. For Chire, a Saint Louis native, the birth of the Black Lives Matter movement triggered a sense of urgency in her art practice. Her work continues to evolve, allowing for broader social accessibility and creative scale. In South Florida, Chire continues to marry her artistic practice with community-led activism, emphasising the art of storytelling as a means of engaging with communities with radical empathy and transparency.
+            </p>
+        </div>
+        
+    </div>
 
     <div class="content">
         <div class="foreword">
@@ -317,38 +316,8 @@ When we got back to Miami, one of the many things that I said to sum up my exper
 </main>
 
 <footer>
-    <!-- <button onclick="topFunction()" id="top-btn">Back to Top</button>  -->
+    <button onclick="topFunction()" id="top-btn">Back to Top</button>
 </footer>
-
-
-
-
-
-
-<!-- <nav>
-                <div id="home-link">
-                    <a href="index.html">MC Toolkit</a>
-                </div>
-                <div class="drawer">
-                    <ul id="menu">
-                        <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
-                        <li class="bg-pk"><a href="/">Are You Listening? Deep Listening as Youth
-                                Pedagogy</a>
-                        </li>
-                        <li class="bg-dg"><a href="/">How Youth Workers Create Meaningful Encounters
-                                for Young
-                                People</a>
-                        </li>
-                        <li class="bg-bl"><a href="/">Self as Archive Erasure + World-Building</a>
-                        </li>
-                    </ul>
-                    <div id="handler" aria-label="Menu toggle">
-                        <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </div>
-                </div>
-            </nav> -->
         </div>
 
         <div id="divider" class="divider" tabindex="0" role="separator" aria-orientation="vertical"

@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
     <script src="assets/essay.js" defer></script>
 
     <style>
@@ -199,26 +197,27 @@
         How Youth Workers Create Meaningful Encounters for Young People
     </h1>
 
-    <details class="author" markup="1">
-        <summary class="bg-gr">
-            Trine Ottosen
-        </summary>
-        <p class="author-bio bg-gr">
-            is an experienced youth worker and educator with a background in Norwegian, history, and political science. Since 2012, she has been actively working in Sola municipality, managing youth clubs and supporting young people’s development. Trine has been a dedicated member of Youth Work Norway’s National Board since 2011 and has served as the organization’s president since 2019, leading efforts to strengthen youth work across the country. Since 2019, Trine has also contributed her expertise to the Mobilizing Citizenship programme, empowering young voices through creative and civic exploration.
-            
-        </p>
-    </details>
+    <div class="author">
+        <button class="author-toggle">Trine Ottosen</button>
+        <div class="author-bio bg-gr">
+            <button class="author-close">×</button>
+            <p>
+                is an experienced youth worker and educator with a background in Norwegian, history, and political science. Since 2012, she has been actively working in Sola municipality, managing youth clubs and supporting young people’s development. Trine has been a dedicated member of Youth Work Norway’s National Board since 2011 and has served as the organization’s president since 2019, leading efforts to strengthen youth work across the country. Since 2019, Trine has also contributed her expertise to the Mobilizing Citizenship programme, empowering young voices through creative and civic exploration.
+                
+            </p>
 
-    
-    <details class="author">
-        <summary class="bg-pk">
-            Kristina Ketola Bore
-        </summary>
-        <p class="author-bio bg-pk border-pk">
-            joined Kunsthall Stavanger in 2019, coming from a background as a curator, writer, and editor. Since then, she has played a pivotal role in shaping the institution’s curatorial and strategic direction. Her work at the kunsthall includes exhibitions and commissioned projects with artists such as Lex Brown, Bárbara Wagner & Benjamin de Burca, Cindy Ji Hye Kim, Nnena Kalu, Laurel Schwulst, and Farah Al Qasimi, among others. <br><br> With a sustained interest in social practice, Kristina has significantly expanded the institution’s educational initiatives—growing the team, structuring a comprehensive program, and launching Mobilizing Citizenship, a practice-based research project for youth focused on civic engagement through art. <br><br> A key advocate for digital innovation, Kristina has been instrumental in developing Kunsthall Stavanger’s digital platform, commissioning and curating online works such as Mouthpiece (2022) by Stine Janvin, a participatory digital performance, and the series Queer Culture Year: Even When We Can't We Must (2023). <br><br> Beyond her curatorial work, Kristina is a central force in the ongoing development of Kunsthall Stavanger as a forward-looking institution. She also serves as deputy chair of Kunsthallene i Norge, contributing to the national discourse on contemporary art and institutional development.
-        </p>
-    </details>
-    
+        </div>
+
+        
+        <button class="author-toggle">Kristina Ketola Bore</button>
+        <div class="author-bio bg-pk border-pk author-2">
+            <button class="author-close">×</button>
+            <p>
+                joined Kunsthall Stavanger in 2019, coming from a background as a curator, writer, and editor. Since then, she has played a pivotal role in shaping the institution’s curatorial and strategic direction. Her work at the kunsthall includes exhibitions and commissioned projects with artists such as Lex Brown, Bárbara Wagner & Benjamin de Burca, Cindy Ji Hye Kim, Nnena Kalu, Laurel Schwulst, and Farah Al Qasimi, among others. <br><br> With a sustained interest in social practice, Kristina has significantly expanded the institution’s educational initiatives—growing the team, structuring a comprehensive program, and launching Mobilizing Citizenship, a practice-based research project for youth focused on civic engagement through art. <br><br> A key advocate for digital innovation, Kristina has been instrumental in developing Kunsthall Stavanger’s digital platform, commissioning and curating online works such as Mouthpiece (2022) by Stine Janvin, a participatory digital performance, and the series Queer Culture Year: Even When We Can't We Must (2023). <br><br> Beyond her curatorial work, Kristina is a central force in the ongoing development of Kunsthall Stavanger as a forward-looking institution. She also serves as deputy chair of Kunsthallene i Norge, contributing to the national discourse on contemporary art and institutional development.
+            </p>
+        </div>
+        
+    </div>
 
     <div class="content">
         <div class="foreword">
@@ -382,38 +381,8 @@ Yeah, definitely. <mark class="gr-highlight-long">All of the young people who we
 </main>
 
 <footer>
-    <!-- <button onclick="topFunction()" id="top-btn">Back to Top</button>  -->
+    <button onclick="topFunction()" id="top-btn">Back to Top</button>
 </footer>
-
-
-
-
-
-
-<!-- <nav>
-                <div id="home-link">
-                    <a href="index.html">MC Toolkit</a>
-                </div>
-                <div class="drawer">
-                    <ul id="menu">
-                        <li id="r-content">↓ ↓ ↓ Related Content ↓ ↓ ↓</li>
-                        <li class="bg-pk"><a href="/">Are You Listening? Deep Listening as Youth
-                                Pedagogy</a>
-                        </li>
-                        <li class="bg-dg"><a href="/">How Youth Workers Create Meaningful Encounters
-                                for Young
-                                People</a>
-                        </li>
-                        <li class="bg-bl"><a href="/">Self as Archive Erasure + World-Building</a>
-                        </li>
-                    </ul>
-                    <div id="handler" aria-label="Menu toggle">
-                        <svg width="24" height="8" viewBox="0 0 24 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 2L12 6L22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </div>
-                </div>
-            </nav> -->
         </div>
 
         <div id="divider" class="divider" tabindex="0" role="separator" aria-orientation="vertical"

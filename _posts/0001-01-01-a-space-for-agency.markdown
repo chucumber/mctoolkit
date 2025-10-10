@@ -7,8 +7,10 @@ author: "Walk of Shame"
 author-bio: "is an artist collective based in Bergen, Norway, working at the intersection of visual art, performance, and social space. Their practice explores participation, community, and the aesthetics of excess, often creating immersive environments that blur the boundaries between audience and performer. With a playful yet critical approach, WOS stages works that challenge conventions of taste, behaviour, and collectivity, inviting participants into transformative and unpredictable experiences."
 ---
 
-<div class="foreword">
+<div class="foreword" markdown="1">
+
 What does it mean to turn an educational space into a site of experimentation, care, and shared responsibility? The collective Walk of Shame invite us behind the scenes of their guest-curated autumn semester for Mobilizing Citizenship 2022, where education was reimagined as a space for embodied learning and mutual support. Through a series of collaborative workshops, they explored how caring and sharing can move beyond abstract ideals to become lived, daily practices. In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.
+
 </div>
 
 

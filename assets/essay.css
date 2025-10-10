@@ -95,6 +95,7 @@ h6,
 
 a {
   color: inherit;
+  text-underline-position: under;
 }
 
 a:hover {
@@ -198,6 +199,10 @@ u {
   border: 1px solid #e133be !important;
 }
 
+.border-gr {
+  border: 1px solid #9cc62a;
+}
+
 .margin-btm-1rem {
   margin-bottom: -1rem !important;
 }
@@ -236,22 +241,24 @@ details summary::-webkit-details-marker {
 
 /* --------------- author bio ---------------*/
 
-details.author {
-  margin: 1rem 0 4rem 0;
-  display: inline-block;
-  position: relative;
+.author-toggle {
+  margin: 1rem 0.25rem 1rem 0;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.3);
+  background: var(--color-lg);
+  border: #555 solid 1px;
 }
 
-details.author summary {
-  display: inline-block;
-  margin-right: 0.25rem;
+.author-toggle:hover {
+  color: var(--color-dg);
 }
 
 .author-bio {
   position: absolute;
-  left: 0;
+  left: 2rem;
   width: 100%;
-  min-width: 500px;
+  max-width: 500px;
   max-height: 40vh;
   overflow-y: scroll;
   padding: 1.5rem;
@@ -261,7 +268,32 @@ details.author summary {
   z-index: 5;
   cursor: grab;
   transition: transform 0.2s ease;
-  touch-action: pan-y;
+  display: none;
+}
+
+.author-bio p {
+  margin: 0;
+}
+
+.author-close {
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+  background: none;
+  border: none;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: inherit;
+  opacity: 0.2;
+  mix-blend-mode: multiply;
+}
+
+.author-close:hover {
+  opacity: 0.4;
+}
+
+.author-bio.active {
+  display: block;
 }
 
 .author-bio:hover {
@@ -279,6 +311,10 @@ details.author summary {
 
 .author-bio::-webkit-scrollbar-thumb:hover {
   background: #65a2f8;
+}
+
+.author-2 {
+  left: 9rem
 }
 
 /* ------------------ foreword post-it note ------------------ */
@@ -299,6 +335,10 @@ details.author summary {
   z-index: 5;
   cursor: grab;
   transition: transform 0.2s ease;
+}
+
+.foreword p {
+  margin: 0;
 }
 
 .foreword:hover {
@@ -603,6 +643,22 @@ th {
   padding: 0 0.5rem;
 }
 
+footer {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+#top-btn {
+  display: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.3);
+  background: var(--color-lg);
+  border: var(--color-dg) solid 1px;
+}
+
 /* ----------------- bubble text ----------------- */
 
 .bubble {
@@ -893,22 +949,6 @@ ul#menu li a {
   cursor: grab;
 }
 
-#top-btn {
-  /* display: none; */
-  border: none;
-  outline: none;
-  background: var(--color-dg);
-  color: white;
-  cursor: pointer;
-  padding: 0.25rem 3rem;
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-}
-
-#top-btn:hover {
-  background-color: #555;
-}
-
 
 /* ------------------- mobile layout ------------------- */
 
@@ -1044,12 +1084,10 @@ ul#menu li a {
   }
 
   .author-bio {
-    position: absolute;
-    left: 0;
+    margin-bottom: 3rem;
+    left: 0.5rem;
     width: calc(100% - 3rem);
     min-width: calc(100vw - 3rem);
-    max-height: 40vh;
-    overflow-y: scroll;
     padding: 1rem;
     transform: none;
     z-index: 10;
@@ -1204,5 +1242,9 @@ ul#menu li a {
     font-weight: bold;
     padding-right: 0.25rem;
   }
+
+  #top-btn {
+  display: block;
+}
 
 }

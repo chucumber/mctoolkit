@@ -1,23 +1,34 @@
+// author bio
+document.querySelectorAll('.author-toggle').forEach(button => {
+  button.addEventListener('click', () => {
+    const bio = button.nextElementSibling;
+    bio.classList.toggle('active');
+  });
+});
+
+document.querySelectorAll('.author-close').forEach(closeBtn => {
+  closeBtn.addEventListener('click', (e) => {
+    e.stopPropagation(); // prevent reopening if inside same area
+    closeBtn.parentElement.classList.remove('active');
+  });
+});
+
 // draggable
 $(function () {
-    $(".foreword").draggable({
-        containment: "#leftPane",
-        scroll: false
-    });
+  $(".foreword").draggable({
+    containment: "#leftPane",    
+    cancel: "p, span",
+    scroll: false
+  });
+
+  $(".author-bio").draggable({
+    containment: "#leftPane",
+    cancel: "p, span",
+    scroll: false,
+  });
 });
 
-$(function () {
-    $(".author-bio").draggable({
-        containment: "#leftPane",
-        scroll: false
-    });
-});
 
-const isTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-
-$(".author-bio").draggable({
-  axis: isTouch ? "x" : false
-});
 
 // Lightbox
 const initLightbox = () => {
@@ -118,7 +129,7 @@ popup.className = 'popup';
 document.body.appendChild(popup);
 
 // Handle image clicks
-document.querySelectorAll('.content img, .gallery img').forEach(img => {
+document.querySelectorAll('.content img, .contributor img').forEach(img => {
     img.addEventListener('click', () => {
         popup.innerHTML = '';
 
@@ -191,4 +202,22 @@ document.addEventListener("DOMContentLoaded", () => {
             figures[index].classList.add("active");
         }, intervalTime);
     });
+});
+
+
+$(document).ready(function() {
+  // When you click a contributor card
+  $('.contributor-card').on('click', function() {
+    const target = $(this).data('target');
+    const popup = $('#' + target);
+    $('.contributor-popup').addClass('hidden'); // hide any open ones
+    popup.removeClass('hidden');
+    $('body').addClass('no-scroll');
+  });
+
+  // Close button or click outside content
+  $('.contributor-popup .close').on('click', function(e) {
+    $('.contributor-popup').addClass('hidden');
+    $('body').removeClass('no-scroll');
+  });
 });
