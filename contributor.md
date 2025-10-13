@@ -4,15 +4,14 @@ title: Contributors
 ---
 
 Toolkit Editors &#10140; Kristina Ketola Bore, Lee Heinemann  
-Sub Editor &#10140; Sarah Handelman  
 Copy Editor &#10140; Rebekah Kirkman  
-Art Director &#10140; [nicole killian](http://nylondip.com/)  
-Design & Development &#10140; [rasim bayramov](https://rasim.run/), [kai chuang](https://tsng-khai.com/)  
-Typefaces &#10140; [Velvetyne Type Foundry]()  
+Art Director &#10140; nicole killian  
+Design & Development &#10140; rasim bayramov, kai chuang  
+Typefaces &#10140; Velvetyne Type Foundry 
 Published by &#10140; [Kunsthall Stavanger](https://kunsthallstavanger.no/)  
 
 
-This publication is generously supported by &#10140; [Arts and Culture Norway](https://www.kulturdirektoratet.no/)
+This publication is generously supported by &#10140; Arts and Culture Norway
 
 <img src="img/KS-Logo-2025.svg" alt="KS Logo" width="30%">
 <img src="img/Kulturdirektoratet_svart.svg" alt="Kulturdirektoratet Logo" width="40%">
