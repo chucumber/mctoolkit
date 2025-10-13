@@ -102,7 +102,6 @@ main#library {
     height: 100vh;
     position: relative;
     transform-origin: center;
-    transition: transform 0.5s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 div.storage {
@@ -193,22 +192,8 @@ div.brick {
     grid-column: span 3 / span 3;
     grid-column-start: 5;
     grid-row-start: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 16px;
-    font-size: 1.125rem;
-    font-family: var(--font-body);
-    text-align: center;
-    min-height: 0;
 }
 
-#brk-1-1:hover {
-    text-decoration: underline dotted;
-    cursor: pointer;
-}
 
 #brk-1-2 {
     grid-column: span 3 / span 3;
@@ -313,57 +298,80 @@ div.brick {
     grid-column: span 3 / span 3;
     grid-column-start: 5;
     grid-row-start: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 16px;
-    font-size: 1.125rem;
-    font-family: var(--font-body);
-    text-align: center;
-    min-height: 0;
-}
-
-#brk-4-1:hover {
-    text-decoration: underline dotted;
-    cursor: pointer;
 }
 
 #hover-wrapper {
     position: absolute;
     display: flex;
     flex-direction: column;
+    align-items: center;
     left: calc(100vh / 13 * 3);
-    top: calc(100vh / 13 * 3);
+    top: calc(100vh / 13 * 5);
     width: calc(100vh / 13 * 7);
-    height: calc(100vh / 13 * 7);
+    height: calc(100vh / 13 * 6);
     padding: 2rem 1rem;
     z-index: 10;
-    justify-content: space-between;
+    gap: 1rem;
+}
+
+.quote,
+.q-text {
+    text-align: center;
+    z-index: 5;
+    font-family: var(--font-body);
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
 .quote {
-    text-align: center;
-    color: black;
-    z-index: 5;
-    font-family: var(--font-body);
+    line-height: var(--line-height-title);
     font-size: 1.25rem;
     font-weight: 700;
 }
 
 .q-text {
     color: var(--color-dg);
-    z-index: 5;
-    text-align: center;
     font-size: 1rem;
-    line-height: 1.4;
-    font-family: var(--font-body);
+    line-height: var(--line-height-body);
 }
 
-.quote:empty,
-.q-text:empty {
+.quote.visible,
+.q-text.visible {
+    opacity: 1;
+}
+
+.player-title {
     display: none;
+    text-align: center;
+    line-height: var(--line-height-title);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.player {
+    display: none;
+    gap: 0.5rem;
+}
+
+.player button {
+    background: transparent;
+    border: none;
+    text-decoration: underline 1px solid;
+    text-underline-position: under;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: var(--font-body);
+    /* border: var(--color-dg) 1px solid; */
+    /* box-shadow: inset 0 -2px 3px rgba(0, 0, 0, 0.1); */
+    /* padding: 0 0.5rem 0.25rem 0.5rem; */
+}
+
+.player button:hover {
+    color: var(--color-dg);
+}
+
+#exit {
+    margin-left: 1rem;
 }
 
 aside {
@@ -379,26 +387,31 @@ aside {
 .top {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    background: var(--color-pk);
     height: calc(100vh / 13 * 5);
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 #home {
-
-    align-items: center;
     display: flex;
+    height: 100%;
+    width: 100%;
+    /* z-index: 10; */
+    position: absolute;
+    top: 0;
+    /* display: none; */
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    z-index: 10;
     flex-wrap: wrap;
     text-align: center;
     touch-action: none;
     user-select: none;
     font-kerning: normal;
-    transition: transform 0.2s cubic-bezier(0.5, 1, 0.89, 1);
+    transition: transform 2s ease;
+    background: var(--color-pk);
 }
 
 #home h3 {
@@ -422,6 +435,12 @@ aside {
     width: 0.2em;
     display: inline-block;
     pointer-events: none;
+}
+
+#video-isaac,
+#video-wy {
+    width: 100%;
+    display: none;
 }
 
 .bottom {
@@ -492,9 +511,9 @@ aside {
     height: 0.9rem;
 }
 
-button#rotate-btn {
-    position: absolute;
-    top: 50vh;
+#rotate-btn {
+    position: fixed;
+    top: calc(100vh / 13 * 3);
     left: 50vh;
     background-color: var(--color-lg);
     border: var(--color-dg) 1px solid;
@@ -503,13 +522,19 @@ button#rotate-btn {
     width: 1.75rem;
     height: 1.75rem;
     cursor: pointer;
-    z-index: 100;
-    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transform: translate(-50%, 0);
 }
 
-button#rotate-btn:hover {
+#rotate-btn:hover {
     color: var(--color-dg);
 }
+
+
+
+
+
+
 
 @media (max-width:1200px) {
     * {
