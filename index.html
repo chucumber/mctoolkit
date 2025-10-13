@@ -12,7 +12,18 @@
 
 <body>
     <button id="rotate-btn">↻</button>
+    <div id="hover-wrapper">
+        <div class="quote" id="quote"></div>
+        <div class="q-text" id="q-text"></div>
+        <div class="player-title" id="player-title">Music Videos from Alchemy</div>
+        <div class="player">
+            <button id="wy">1. With You</button>
+            <button id="isaac">2. Isaac</button>
+            <button id="exit">Exit</button>
+        </div>
+    </div>
     <main id="library">
+
         <div class="storage" id="deg_0">
             <div class="entry" id="en-1-1"><a href="what-we-hold-sacred">What We Hold Sacred: A workshop on
                     altar-Making</a></div>
@@ -53,11 +64,6 @@
             <div class="brick" id="brk-4-1">
             </div>
         </div>
-        </div>
-        <div id="hover-wrapper">
-            <div class="quote" id="quote"></div>
-            <div class="q-text" id="q-text"></div>
-        </div>
     </main>
     <aside>
         <div class="top">
@@ -66,6 +72,14 @@
                 <h3>Citizenship</h3>
                 <h3>Toolkit</h3>
             </div>
+            <video id="video-isaac" controls autoplay muted playsinline preload="auto" poster="video/Isaac.webp">
+                <source src="video/Isaac.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video id="video-wy" controls autoplay muted preload="auto" poster="video/with-you.webp">
+                <source src="video/with-you.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
         <div class="bottom">
@@ -116,9 +130,8 @@
             let currentRotation = 0;
 
             $rotateBtn.on('click', () => {
-                currentRotation += 90;
+                currentRotation = (currentRotation + 90) % 360;
                 $library.css('transform', `rotate(${currentRotation}deg)`);
-                $rotateBtn.css('transform', `translate(-50%, -50%) rotate(${-currentRotation}deg)`);
             });
 
             /* ===== Populate Empty Entry Interactions ===== */
@@ -141,30 +154,76 @@
 
             /* ===== Quote Hover Texts ===== */
             const entryTexts = {
-                'en-1-1': 'Quote text for an introduction to the publication from MC contributors',
-                'en-1-2': 'Quote text for an introduction to the publication from MC contributors',
-                'en-1-3': 'Quote text for an introduction to the publication from MC contributors',
-                'en-2-1': 'Quote text for an introduction to the publication from MC contributors',
-                'en-2-2': 'Quote text for an introduction to the publication from MC contributors',
-                'en-3-1': 'Quote text for an introduction to the publication from MC contributors',
-                'en-3-2': 'Quote text for an introduction to the publication from MC contributors',
-                'en-3-3': 'Quote text for an introduction to the publication from MC contributors',
-                'en-4-1': 'Quote text for an introduction to the publication from MC contributors',
-                'en-4-2': 'Quote text for an introduction to the publication from MC contributors',
-                'en-4-4': 'Quote text for an introduction to the publication from MC contributors'
+                'en-1-1': 'What do we owe to the people who came before us and how do we remember them? For artist and educator Loni Johnson, remembrance isn’t passive. It’s an act of resistance, reclamation, and radical care.',
+                'en-1-2': 'In this reflection, Lex Brown unpacks the personal, political, and artistic impulses behind the workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.',
+                'en-1-3': '',
+                'en-2-1': '',
+                'en-2-2': 'The series invited artists to lead workshops that explored the idea of the performative. Ayivor opened the week by presenting her work and creative prompts that drew from personal drama and popular media. Here, she introduces and outlines the activities in her workshop.',
+                'en-2-4': 'In a conversation with curator Kristina Ketola Bore, Trine Ottosen delves into the vital role of youth work in shaping inclusive, responsive educational spaces within art institutions.',
+                'en-3-1': '',
+                'en-3-2': 'Mikey Kirkpatrick traces the process of building an environment where agency is nurtured, structure is flexible, and the act of making music becomes a practice of empowerment and shared responsibility.',
+                'en-3-3': '',
+                'en-4-1': 'Artists Loni Johnson and Chire Regans look back on their history as collaborators and their experience travelling to Kunsthall Stavanger to lead a week-long Mobilizing Citizenship intensive in October 2023.',
+                'en-4-2': '',
+                'en-4-4': 'In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.'
             };
 
             $('.entry').hover(
                 function () {
                     const $link = $(this).find('a');
-                    $('#quote').text($link.length ? $link.text() : $(this).text());
-                    $('#q-text').text(entryTexts[this.id] || '');
+                    const newQuote = $link.length ? $link.text() : $(this).text();
+                    const newText = entryTexts[this.id] || '';
+
+                    $('#quote').text(newQuote).addClass('visible');
+                    $('#q-text').text(newText).addClass('visible');
                 },
                 function () {
-                    $('#quote').text('');
-                    $('#q-text').text('');
+                    $('#quote, #q-text').removeClass('visible');
                 }
             );
+
+            /* ===== Music Video Player ===== */
+            const trigger = document.querySelector('#en-4-2');
+            const HideQuote = document.querySelectorAll('#quote, #q-text');
+            const Player = document.querySelectorAll('.player-title, .player');
+
+            trigger.addEventListener('click', function () {
+                HideQuote.forEach(el => el.style.display = 'none');
+                Player.forEach(el => el.style.display = 'flex');
+            });
+
+            const isaacBtn = document.querySelector('#isaac');
+            const home = document.querySelector('#home');
+            const videoIsaac = document.querySelector('#video-isaac');
+
+            isaacBtn.addEventListener('click', function () {
+                home.style.transform = 'translateY(-100%)';
+                videoWy.style.display = 'none';
+                videoIsaac.style.display = 'block';
+            });
+
+
+            const wyBtn = document.querySelector('#wy');
+            const videoWy = document.querySelector('#video-wy');
+
+            wyBtn.addEventListener('click', function () {
+                home.style.transform = 'translateY(-100%)';
+                videoIsaac.style.display = 'none';
+                videoWy.style.display = 'block';
+            });
+
+            const exitBtn = document.querySelector('#exit');
+
+            exitBtn.addEventListener('click', function () {
+                home.style.transform = 'translateY(0)';
+                Player.forEach(el => el.style.display = 'none');
+                    HideQuote.forEach(el => el.style.display = 'block');
+                setTimeout(function () {
+                    videoIsaac.style.display = 'none';
+                    videoWy.style.display = 'none';
+                }, 2000);
+            });
+
 
             /* ===== Xylophone Effect ===== */
             function setupXylophoneEffect() {
@@ -241,14 +300,11 @@
                 const topstop = $(window).height() / 13 * 5;
                 const bottomstop = $(window).height() / 13 * 12 - 2.5;
 
-                if ($about.data('ui-draggable')) $about.draggable('destroy');
-
                 $about.draggable({
                     axis: 'y',
                     containment: [0, topstop, 0, bottomstop]
                 });
             }
-
             initAboutDraggable();
             $(window).on('resize', initAboutDraggable);
 
