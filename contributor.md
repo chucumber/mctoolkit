@@ -7,7 +7,8 @@ Toolkit Editors &#10140; Kristina Ketola Bore, Lee Heinemann
 Sub Editor &#10140; Sarah Handelman  
 Copy Editor &#10140; Rebekah Kirkman  
 Art Director &#10140; [nicole killian](http://nylondip.com/)  
-Developers &#10140; [rasim bayramov](https://rasim.run/), [kai chuang](https://tsng-khai.com/)  
+Design & Development &#10140; [rasim bayramov](https://rasim.run/), [kai chuang](https://tsng-khai.com/)  
+Typefaces &#10140; [Velvetyne Type Foundry]()  
 Published by &#10140; [Kunsthall Stavanger](https://kunsthallstavanger.no/)  
 
 
