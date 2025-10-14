@@ -8,7 +8,7 @@ author-bio: "Lex Brown is an artist working in visual and performed verse. <br><
 "
 ---
 
-<div class="foreword">
+<div class="foreword" markdown="1" tabindex="-1">
 Artist Lex Brown calls upon her talents as a performer, musician, and writer to create sprawling worlds in videos and onstage. In the summer of 2022, Brown came to Mobilizing Citizenship as part of the weeklong intensive DRAMA. Organized by Lee Heinemann, the series invited artists Delali Ayivor, Lex Brown, and Ingela Ihrman to lead workshops that explored the idea of the performative. Here, Brown embraced the theatrical core of her practice, inviting a group of young participants into a world of melodrama, clowning, and performance. Her approach used exaggerated emotion and physical comedy not as escape, but as a method of inquiry—a way to explore power, vulnerability, and the shifting nature of identity. In this reflection, as told to Lee Heinemann, she unpacks the personal, political, and artistic impulses behind the workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.
 </div>
 

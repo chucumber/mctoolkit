@@ -391,7 +391,6 @@ details summary::-webkit-details-marker {
   background: var(--color-br);
   line-height: var(--line-height-small);
   min-height: 1.5rem;
-  /* or whatever base height fits your design */
 }
 
 .lightbox-info {
@@ -593,10 +592,6 @@ figure.narrow-img img {
   font-size: 1.25rem;
 }
 
-p.blink {
-  animation: fadeBlink 1.5s ease-in-out infinite;
-}
-
 .interviewer {
   display: inline-block;
   font-weight: 700;
@@ -611,6 +606,10 @@ p.blink {
   padding: 0 0.5rem;
   margin: 1rem 0.25rem 0 0;
   background: var(--color-gr);
+}
+
+p.blink {
+  animation: fadeBlink 1.5s ease-in-out infinite;
 }
 
 @keyframes fadeBlink {

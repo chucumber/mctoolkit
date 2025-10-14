@@ -7,7 +7,7 @@ author: "Mikey Kirkpatrick"
 author-bio: "is a musician (singer, flautist, composer, performer) and associate lecturer in music and education at Goldsmiths. His research and practice focus on how music and deep listening can be healing for individuals and communities. Mikey has performed on hundreds of streets and stages internationally and has composed for film and theatre. During the pandemic he gave over 200 regular live improvised flute broadcasts as a sonic shelter for listeners. Mikey founded Alchemy in 2017 with support from Goldsmiths Widening Participation, a weekly workshop programme that offers professional creative music training and youth work support to young people facing barriers, delivered by a diverse team of professional artists, mentors, and students. In 2023 he founded the Alchemy Masters programme (thanks to the support of the Vernon Ellis Foundation), offering paid training to young artist mentors, empowering them as facilitators and creatives with the aim to support them into employment and/or further education."
 ---
 
-<div class="foreword">
+<div class="foreword" markdown="1" tabindex="-1">
 What happens when young people are trusted to lead, create, and teach—guided not by rigid outcomes, but by listening, care, and co-creation? In this reflection on a contribution to Mobilizing Citizenship, Mikey Kirkpatrick from the youth-led music programme Alchemy shares how they translated their programme from South London to Stavanger. Rooted in Deep Listening and critical pedagogy, the week unfolded as a collaborative experiment in sound, expression, and mutual learning. Here, they trace the process of building an environment where agency is nurtured, structure is flexible, and the act of making music becomes a practice of empowerment and shared responsibility.  
 </div>
 
@@ -33,10 +33,10 @@ What happens when young people are trusted to lead, create, and teach—guided n
 ‘Listen to everything all the time and remind yourself when you are not listening.’
 
 
-This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of Sonic Meditations, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="font-small color-bl" data-tooltip="Oliveros, P. (2005) Deep listening: A composer’s sound practice. Bloomington, IN: iUniverse, Inc.">↵</span> 
+This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of *Sonic Meditations*, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="font-small color-bl" data-tooltip="Oliveros, P. (2005) Deep listening: A composer’s sound practice. Bloomington, IN: iUniverse, Inc.">↵</span> 
 
 
-After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk '[The difference between hearing and listening](https://www.youtube.com/watch?v=_QHfOuRrJB8)'.  
+After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk ‘<a href="https://www.youtube.com/watch?v=_QHfOuRrJB8" target="_blank">The difference between hearing and listening</a>’.  
 
 
 Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. <mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
@@ -165,7 +165,7 @@ Day One
 We welcomed the participants and gave them a tour of the performance space, then went down to the workshop room, which was situated in the heart of the building. The day began with us asking the question ‘Who are you in the world?’ 
 
 
-I introduced the group to the idea that creative practice isn’t just about one practice but multiple practices that overlap. I began by showing them the contents of the bag that I carry around with me that included a book about outer space, a notebook where I write and paint (even if I’m not very good at it!), and Pauline Oliveros’ book Quantum Listening (that invites us to listen beyond the confines of time and space) and shared one of my favourite mantras of hers, <mark class="pk-highlight-long">‘Listen to everything all of the time and remind yourself when you’re not listening.’</mark> I also showed and played the instruments that are part of my current process of exploring and mending my relationship with my culture and heritage—bells, double flutes, and half-mask (you can read more about that [here](https://mikeykirkpatrick.wordpress.com/2025/03/24/listening-beyond-the-veil-1-mask-to-unmask/)). I explained that this week is about seeing and hearing the relationships between things from the perspective of a musician, recognising all of the materials around us that we have to work with, i.e. sound, space, people... 
+I introduced the group to the idea that creative practice isn’t just about one practice but multiple practices that overlap. I began by showing them the contents of the bag that I carry around with me that included a book about outer space, a notebook where I write and paint (even if I’m not very good at it!), and Pauline Oliveros’ book Quantum Listening (that invites us to listen beyond the confines of time and space) and shared one of my favourite mantras of hers, <mark class="pk-highlight-long">‘Listen to everything all of the time and remind yourself when you’re not listening.’</mark> I also showed and played the instruments that are part of my current process of exploring and mending my relationship with my culture and heritage—bells, double flutes, and half-mask (you can read more about that <a href="https://mikeykirkpatrick.wordpress.com/2025/03/24/listening-beyond-the-veil-1-mask-to-unmask/" target="_blank">here</a>). I explained that this week is about seeing and hearing the relationships between things from the perspective of a musician, recognising all of the materials around us that we have to work with, i.e. sound, space, people... 
 
 
 The young artists said that they had access to studio and music resources if they wanted them through youth clubs (contrasting with what is available for young people in London). On the theme of ‘Are You Listening?’, it was important to the group that it was a question or demand to the audience: Are you listening? Some of the participants expressed that the issues they faced often involved strong expectations that they conform and meet expectations from society. In short, they wanted to use this week to explore their rebelliousness. 
@@ -350,12 +350,6 @@ This is some of what I learnt during my time at Kunsthall Stavanger.
 
 Thank you to everyone who made this a life-changing week for us all. 
 
-
-<video controls playsinline preload="none" poster="video/KS-MC24-snippet.webp">
-  <source src="video/KS-MC24-snippet.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 <video controls playsinline preload="none" poster="video/KS-MC24(Liten).webp">
   <source src="video/KS-MC24(Liten).mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -371,6 +365,8 @@ Thank you to everyone who made this a life-changing week for us all.
 * * *
 
 <div class="color-dg font-small" markdown="1">
+
+Alchemy Mentors
 
 **Martin Vito (aka King Vito Speaks)** 
 is a mentor offering support with music production, songwriting, rap coaching, recording, vocal arrangement, artist development, artist mentoring, mental health management, musical direction, live performance, album curation, music release, and fanbase and community building. He is the founder of UYT (Unleash Your Talent) Media. 

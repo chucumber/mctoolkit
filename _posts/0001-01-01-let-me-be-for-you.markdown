@@ -10,7 +10,7 @@ author-2: "Chire Regans"
 author-bio-2: "Artist Chire “VantaBlack” Regans’ art practice exists at the intersection of social justice and storytelling. Her work responds to urgent societal concerns and functions as a critical platform to amplify the voices of community members who are often silenced. Over the past decade, Chire has focused primarily on community advocacy and depicting social narratives without distortion in various mediums. For Chire, a Saint Louis native, the birth of the Black Lives Matter movement triggered a sense of urgency in her art practice. Her work continues to evolve, allowing for broader social accessibility and creative scale. In South Florida, Chire continues to marry her artistic practice with community-led activism, emphasising the art of storytelling as a means of engaging with communities with radical empathy and transparency."
 ---
 
-<div class="foreword">
+<div class="foreword" markdown="1" tabindex="-1">
 Programmes that connect young people to practising artists tend to focus on how they impact their young participants. But how do the practitioners benefit from these exchanges? Artists Loni Johnson and Chire Regans are dedicated educators, mentors, and pillars of their communities in Miami, Florida. The longtime friends met in spring 2025 to look back on their history as collaborators and their experience travelling to Kunsthall Stavanger to lead a week-long Mobilizing Citizenship intensive in October 2023.  
 </div>
 

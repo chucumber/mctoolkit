@@ -17,13 +17,11 @@ document.querySelectorAll('.author-close').forEach(closeBtn => {
 $(function () {
   $(".foreword").draggable({
     containment: "#leftPane",    
-    cancel: "p, span",
     scroll: false
   });
 
   $(".author-bio").draggable({
     containment: "#leftPane",
-    cancel: "p, span",
     scroll: false,
   });
 });
@@ -206,7 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 $(document).ready(function() {
-  // When you click a contributor card
+  // Open popup
   $('.contributor-card').on('click', function() {
     const target = $(this).data('target');
     const popup = $('#' + target);
@@ -215,9 +213,18 @@ $(document).ready(function() {
     $('body').addClass('no-scroll');
   });
 
-  // Close button or click outside content
-  $('.contributor-popup .close').on('click', function(e) {
+  // Close with "X" button
+  $('.contributor-popup .close').on('click', function() {
     $('.contributor-popup').addClass('hidden');
     $('body').removeClass('no-scroll');
+  });
+
+  // Close by clicking outside popup content
+  $(document).on('click', function(e) {
+    const $popup = $('.contributor-popup:visible');
+    if ($popup.length && $(e.target).is('.contributor-popup')) {
+      $popup.addClass('hidden');
+      $('body').removeClass('no-scroll');
+    }
   });
 });

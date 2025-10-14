@@ -6,8 +6,8 @@ title: Contributors
 Toolkit Editors &#10140; Kristina Ketola Bore, Lee Heinemann  
 Copy Editor &#10140; Rebekah Kirkman  
 Art Director &#10140; nicole killian  
-Design & Development &#10140; rasim bayramov, kai chuang  
-Typefaces &#10140; Velvetyne Type Foundry 
+Design and Development &#10140; rasim bayramov, kai chuang  
+Typefaces &#10140; Velvetyne Type Foundry  
 Published by &#10140; [Kunsthall Stavanger](https://kunsthallstavanger.no/)  
 
 

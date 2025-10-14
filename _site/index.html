@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Citizenship Toolkit - Kunsthall Stavanger</title>
+    <title>Mobilizing Citizenship Toolkit - Kunsthall Stavanger</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    <button id="rotate-btn">↻</button>
+    <button id="rotate-btn"><img src="img/rotate-right.svg" width="22px" title="rotate the menu"></button>
+    <p class="blink">press to rotate the menu</p>
     <div id="hover-wrapper">
         <div class="quote" id="quote"></div>
         <div class="q-text" id="q-text"></div>
@@ -19,7 +20,17 @@
         <div class="player">
             <button id="wy">1. With You</button>
             <button id="isaac">2. Isaac</button>
-            <button id="exit">Exit</button>
+            <button id="video-exit">Exit</button>
+        </div>
+        <div class="music-title" id="music-title">Musics from Alchemy</div>
+        <div class="music-player">
+            <button id="mu-1">1. Alvar Stev</button>
+            <button id="mu-2">2. Athena - Fictional Guy</button>
+            <button id="mu-3">3. Isaac - I Want My Hoodie Back</button>
+            <button id="mu-4">4. Linus - Tracks</button>
+            <button id="mu-5">5. Stavanger - With You</button>
+            <button id="mu-6">6. Stavanger Conglomerate - Our Way</button>
+            <button id="music-exit">Exit</button>
         </div>
     </div>
     <main id="library">
@@ -67,11 +78,11 @@
     </main>
     <aside>
         <div class="top">
-            <div id="home">
-                <h3>Mobile</h3>
-                <h3>Citizenship</h3>
-                <h3>Toolkit</h3>
+            <div id="audio-container" class="hidden">
+                <p id="now-playing"></p>
+                <audio id="audio-player" controls></audio>
             </div>
+
             <video id="video-isaac" controls autoplay muted playsinline preload="auto" poster="video/Isaac.webp">
                 <source src="video/Isaac.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -80,6 +91,13 @@
                 <source src="video/with-you.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+
+            <div id="home">
+                <h3>Mobilizing</h3>
+                <h3>Citizenship</h3>
+                <h3>Toolkit</h3>
+            </div>
+
         </div>
 
         <div class="bottom">
@@ -90,18 +108,44 @@
                 </div>
                 <div id="cred-line">This toolkit is produced by Kunsthall Stavanger</div>
             </div>
-            <div class="summary"><b>Mobilizing Citizenship (MC)</b> was an educational and research project that ran
+            <div class="summary">
+                <b>Mobilizing Citizenship (MC)</b> was an educational and research project that ran
                 from 2018 to 2024. Throughout the project, Norwegian and international artists and designers were
                 invited to collaborate with groups of young people aged 12–16 at <a
-                    href="https://kunsthallstavanger.no/"><img src="assets/ks-logo.svg"></a>. Each term explored how
+                    href="https://kunsthallstavanger.no/" target="_blank">Kunsthall Stavanger</a>. Each term explored
+                how
                 participants could use tools and methods from contemporary art to express themselves and make their
                 voices heard.
                 <br><br>
                 This toolkit is a result of that work, capturing the knowledge, experiences, and reflections developed
                 over the course of the project.
-
             </div>
+
         </div>
+
+        <ul id="menu">
+            <li class="bg-pk" id="first-li"><a href="foreword-kristina">Foreword, Kristina Ketola Bore</a></li>
+            <li class="bg-pk"><a href="foreword-lee">Foreword, Lee Heinemann</a></li>
+            <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
+                    Collective Care in Education</a></li>
+            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and
+                    the Power of
+                    Play</a>
+            </li>
+            <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
+            </li>
+            <li class="bg-bl"><a href="self-as-archive">Self as Archive: A workshop on Erasure + World-Building</a></li>
+            <li class="bg-bl"><a href="what-we-hold-sacred">What We Hold Sacred: A workshop on altar-Making</a>
+            </li>
+            <li class="bg-br"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>
+            </li>
+            <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
+                    People</a></li>
+
+            <li class="bg-gr"><a href="contributor">Contributors</a></li>
+            <li id="footnote">This toolkit is produced by Kunsthall Stavanger</li>
+        </ul>
+
 
     </aside>
     <audio src="assets/knock.wav" class="sound" id="knock-sound"></audio>
@@ -130,6 +174,7 @@
             let currentRotation = 0;
 
             $rotateBtn.on('click', () => {
+                $(".blink").hide();
                 currentRotation = (currentRotation + 90) % 360;
                 $library.css('transform', `rotate(${currentRotation}deg)`);
             });
@@ -155,15 +200,15 @@
             /* ===== Quote Hover Texts ===== */
             const entryTexts = {
                 'en-1-1': 'What do we owe to the people who came before us and how do we remember them? For artist and educator Loni Johnson, remembrance isn’t passive. It’s an act of resistance, reclamation, and radical care.',
-                'en-1-2': 'In this reflection, Lex Brown unpacks the personal, political, and artistic impulses behind the workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.',
+                'en-1-2': 'Lex Brown unpacks the personal, political, and artistic impulses behind the workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.',
                 'en-1-3': '',
                 'en-2-1': '',
-                'en-2-2': 'The series invited artists to lead workshops that explored the idea of the performative. Ayivor opened the week by presenting her work and creative prompts that drew from personal drama and popular media. Here, she introduces and outlines the activities in her workshop.',
+                'en-2-2': 'Ayivor opened the week by presenting her work and creative prompts that drew from personal drama and popular media. Here, she introduces and outlines the activities in her workshop.',
                 'en-2-4': 'In a conversation with curator Kristina Ketola Bore, Trine Ottosen delves into the vital role of youth work in shaping inclusive, responsive educational spaces within art institutions.',
                 'en-3-1': '',
                 'en-3-2': 'Mikey Kirkpatrick traces the process of building an environment where agency is nurtured, structure is flexible, and the act of making music becomes a practice of empowerment and shared responsibility.',
                 'en-3-3': '',
-                'en-4-1': 'Artists Loni Johnson and Chire Regans look back on their history as collaborators and their experience travelling to Kunsthall Stavanger to lead a week-long Mobilizing Citizenship intensive in October 2023.',
+                'en-4-1': 'Artists Loni Johnson and Chire Regans look back on their history as collaborators and their experience travelling to Kunsthall Stavanger to lead a week-long Mobilizing Citizenship intensive in 2023.',
                 'en-4-2': '',
                 'en-4-4': 'In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.'
             };
@@ -186,44 +231,92 @@
             const trigger = document.querySelector('#en-4-2');
             const HideQuote = document.querySelectorAll('#quote, #q-text');
             const Player = document.querySelectorAll('.player-title, .player');
+            const home = document.querySelector('#home');
+            const videoIsaac = document.querySelector('#video-isaac');
+            const videoWy = document.querySelector('#video-wy');
+            const isaacBtn = document.querySelector('#isaac');
+            const wyBtn = document.querySelector('#wy');
+            const exitBtn = document.querySelector('#video-exit');
 
-            trigger.addEventListener('click', function () {
+            function hideAllVideos() {
+                videoIsaac.style.display = 'none';
+                videoWy.style.display = 'none';
+            }
+
+            function showVideo(video) {
+                hideAllVideos();
+                audioContainer.style.display = 'none';
+                home.style.transform = 'translateY(-100%)';
+                video.style.display = 'block';
+            }
+
+            trigger.addEventListener('click', () => {
+                home.style.transform = 'translateY(0)';
                 HideQuote.forEach(el => el.style.display = 'none');
+                musicPlayer.forEach(el => el.style.display = 'none');
+                audioPlayer.pause();
                 Player.forEach(el => el.style.display = 'flex');
             });
 
-            const isaacBtn = document.querySelector('#isaac');
-            const home = document.querySelector('#home');
-            const videoIsaac = document.querySelector('#video-isaac');
+            isaacBtn.addEventListener('click', () => showVideo(videoIsaac));
+            wyBtn.addEventListener('click', () => showVideo(videoWy));
 
-            isaacBtn.addEventListener('click', function () {
-                home.style.transform = 'translateY(-100%)';
-                videoWy.style.display = 'none';
-                videoIsaac.style.display = 'block';
-            });
-
-
-            const wyBtn = document.querySelector('#wy');
-            const videoWy = document.querySelector('#video-wy');
-
-            wyBtn.addEventListener('click', function () {
-                home.style.transform = 'translateY(-100%)';
-                videoIsaac.style.display = 'none';
-                videoWy.style.display = 'block';
-            });
-
-            const exitBtn = document.querySelector('#exit');
-
-            exitBtn.addEventListener('click', function () {
+            exitBtn.addEventListener('click', () => {
                 home.style.transform = 'translateY(0)';
                 Player.forEach(el => el.style.display = 'none');
-                    HideQuote.forEach(el => el.style.display = 'block');
-                setTimeout(function () {
-                    videoIsaac.style.display = 'none';
-                    videoWy.style.display = 'none';
-                }, 2000);
+                HideQuote.forEach(el => el.style.display = 'block');
+                setTimeout(hideAllVideos, 2000);
             });
 
+            /* ===== Music Player ===== */
+            const songs = {
+                "mu-1": { title: "Alvar Stev", src: "video/alvar-stev.mp3" },
+                "mu-2": { title: "Athena - Fictional Guy", src: "video/athena.mp3" },
+                "mu-3": { title: "Isaac - I Want My Hoodie Back", src: "video/isaac-hoodie.mp3" },
+                "mu-4": { title: "Linus - Tracks", src: "video/linus.mp3" },
+                "mu-5": { title: "Stavanger - With You", src: "video/stavanger-with-you.mp3" },
+                "mu-6": { title: "Stavanger Conglomerate - Our Way", src: "video/stavanger-our-way.mp3" }
+            };
+
+            const musicEntry = document.querySelector('#en-2-1');
+            const musicPlayer = document.querySelectorAll('.music-title, .music-player');
+            const audioContainer = document.getElementById('audio-container');
+            const audioPlayer = document.getElementById('audio-player');
+            const nowPlaying = document.getElementById('now-playing');
+            const exit = document.getElementById('music-exit');
+
+            musicEntry.addEventListener('click', () => {
+                home.style.transform = 'translateY(0)';
+                HideQuote.forEach(el => el.style.display = 'none');
+                Player.forEach(el => el.style.display = 'none');
+                musicPlayer.forEach(el => el.style.display = 'inline-block');
+            });
+
+            Object.entries(songs).forEach(([id, { title, src }]) => {
+                const btn = document.getElementById(id);
+                if (!btn) return;
+                btn.addEventListener('click', () => {
+                    hideAllVideos();
+                    home.style.transform = 'translateY(-100%)';
+                    nowPlaying.textContent = `${title}`;
+                    audioPlayer.pause();
+                    audioPlayer.currentTime = 0;
+                    audioPlayer.src = src;
+                    audioContainer.style.display = 'flex';
+                    audioPlayer.play().catch(err => console.warn('Playback blocked:', err));
+                });
+            });
+
+            exit.addEventListener('click', () => {
+                home.style.transform = 'translateY(0)';
+                musicPlayer.forEach(el => el.style.display = 'none');
+                HideQuote.forEach(el => el.style.display = 'block');
+
+                setTimeout(() => {
+                    audioPlayer.pause();
+                    audioContainer.style.display = 'none';
+                }, 2000);
+            });
 
             /* ===== Xylophone Effect ===== */
             function setupXylophoneEffect() {
@@ -251,64 +344,30 @@
 
             setupXylophoneEffect();
 
-            /* ===== Mobile Toggles ===== */
-            function setupMobileToggles() {
-                const $home = $('#home');
-                const $top = $('.top');
-                const $contributorBrick = $('#brk-1-1');
-                const $creditsBrick = $('#brk-4-1');
-
-                function resetBricks() {
-                    if ($contributorBrick.length) $contributorBrick.removeClass('active').html('Contributors');
-                    if ($creditsBrick.length) $creditsBrick.removeClass('active').html('Credits');
-                }
-
-                $home.on('click', e => {
-                    if (window.innerWidth <= 768) {
-                        e.stopPropagation();
-                        $top.toggleClass('active');
-                        resetBricks();
-                    }
-                });
-
-                $contributorBrick.add($creditsBrick).each(function () {
-                    $(this).on('click', e => {
-                        if (window.innerWidth <= 768) {
-                            e.stopPropagation();
-                            $(this).toggleClass('active');
-                            $(this).html($(this).hasClass('active') ? this.dataset.hoverText : this.id.includes('contributor') ? 'Contributors' : 'Credits');
-                            $top.removeClass('active');
-                        }
-                    });
-                });
-
-                $(document).on('click', e => {
-                    if (window.innerWidth <= 768) {
-                        if (!$home.is(e.target) && !$top.is(e.target)) $top.removeClass('active');
-                        if ($contributorBrick.length && !$contributorBrick.is(e.target) && $contributorBrick.hasClass('active')) $contributorBrick.removeClass('active').html('Contributors');
-                        if ($creditsBrick.length && !$creditsBrick.is(e.target) && $creditsBrick.hasClass('active')) $creditsBrick.removeClass('active').html('Credits');
-                    }
-                });
-            }
-
-            setupMobileToggles();
-
-            /* ===== Draggable About Section ===== */
+            /*=====Draggable About Section=====*/
             function initAboutDraggable() {
                 const $bottom = $('.bottom');
                 const $about = $('#about');
                 const topstop = $(window).height() / 13 * 5;
                 const bottomstop = $(window).height() / 13 * 12 - 2.5;
 
-                $about.draggable({
-                    axis: 'y',
-                    containment: [0, topstop, 0, bottomstop]
-                });
+                $about.draggable({ axis: 'y', containment: [0, topstop, 0, bottomstop] });
             }
-            initAboutDraggable();
-            $(window).on('resize', initAboutDraggable);
+
+            initAboutDraggable(); $(window).on('resize', initAboutDraggable);
+
+            // on mobile
+            const aboutBtn = document.getElementById('about');
+            const aboutSection = document.getElementById('about');
+
+            aboutBtn.addEventListener('click', () => {
+                if (window.innerWidth <= 768) {
+                    aboutSection.classList.toggle('active');
+                }
+            });
 
         });
+
     </script>
 </body>
 

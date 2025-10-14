@@ -7,7 +7,7 @@ author: "Delali Ayivor"
 author-bio: "is a Ghanaian-American writer, archivist, and information systems designer. Her work is grounded in her lived experience growing up in the Global South, where access to mainstream flows of information were often fractured, tenuous, refracted, or distorted. She wrote once of Ghana: ‘this is as West Africa is, constantly trapped somewhere in the binary of finite and fracture.’ Thus, her work—like her country and herself—is fundamentally concerned with the structural: intersections, frictions, overlaps, and sites of disjuncture. <br><br> She is a 2024 graduate of the Pratt Institute School of Information with an MS in Library and Information Sciences; a graduate of Interlochen Arts Academy and Reed College, a 2011 US Presidential Scholar in the Arts, a 2020 Tin House Workshop Scholar, and a member of the second class of Kehinde Wiley’s Black Rock Senegal residency. She currently lives and works in Accra, Ghana."
 ---
 
-<div class="foreword">
+<div class="foreword" markdown="1" tabindex="-1">
 Multidisciplinary poet and archivist Delali Ayivor visited Mobilizing Citizenship in June 2022 as part of the weeklong intensive DRAMA. Organized by Lee Heinemann, the series invited artists Delali Ayivor, Lex Brown, and Ingela Ihrman to lead workshops that explored the idea of the performative. Delali opened the week by presenting her work and creative prompts that drew from personal drama and popular media. Here, she introduces and outlines the activities in her workshop. 
 </div>
 
