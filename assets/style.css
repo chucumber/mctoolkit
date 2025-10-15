@@ -435,6 +435,23 @@ aside {
     overflow-x: hidden;
 }
 
+#blink-image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+}
+
+#blink-image.fade-out {
+    opacity: 0;
+}
+
+
 .top {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -533,11 +550,12 @@ aside {
     font-family: var(--font-body);
     padding: 0.5rem 1rem;
     text-align: center;
+    transform: translateY(calc(320px));
     transition: transform 1s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 #about:hover {
-    transform: translateY(5px);
+    transform: translateY(0px);
 }
 
 #about:active {
@@ -638,8 +656,8 @@ p.blink {
     }
 
     ::-webkit-scrollbar {
-    width: 8px;
-}
+        width: 8px;
+    }
 
     aside {
         display: flex;
@@ -666,15 +684,20 @@ p.blink {
 
     .bottom {
         background: var(--color-gr);
-        height: 15rem;
+        height: 25rem;
         width: 100%;
         position: relative;
     }
 
+    #blink-image {
+        display: none;
+    }
+
+
     .summary {
         top: auto;
         left: auto;
-        height: 15rem;
+        height: 25rem;
         width: 100%;
         padding: 1rem 0.5rem 3rem 0.5rem;
     }
@@ -682,8 +705,10 @@ p.blink {
     #about {
         top: auto;
         left: auto;
-        height: 15rem;
+        height: 25rem;
         width: 100%;
+        transform: translateY(calc(22rem));
+        transition: transform 0.7s cubic-bezier(0.5, 1, 0.89, 1);
     }
 
     #about:hover {
