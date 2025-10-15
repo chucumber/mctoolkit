@@ -54,14 +54,6 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'PlacardKS';
-    src: url('fonts/PlacardKS-Regular.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
 
 :root {
     --font-body: 'Velvelyne', sans-serif;
@@ -167,8 +159,7 @@ div.entry {
     width: 100%;
     height: calc(100vh / 13);
     padding: 0 1rem;
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-family: var(--font-body);
     text-align: center;
 }
 
@@ -444,23 +435,6 @@ aside {
     overflow-x: hidden;
 }
 
-#blink-image {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    background-size: cover;
-    background-position: center;
-    transition: opacity 0.5s ease;
-}
-
-#blink-image.fade-out {
-    opacity: 0;
-}
-
-
 .top {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -477,8 +451,7 @@ aside {
     width: 100%;
     position: absolute;
     top: 0;
-    justify-content: flex-start;
-    padding: 1.5rem 2rem;
+    padding: 1rem;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -492,15 +465,10 @@ aside {
 
 #home h3 {
     font-family: var(--font-title);
+    line-height: var(--line-height-title);
     font-weight: 500;
-    font-size: clamp(1rem, 4vw, 3rem);
-    margin: 0;
-    margin-top: -1rem;
+    font-size: 2.25rem;
 }
-
-/* #home h3:nth-child(2) {
-  text-align: right;
-} */
 
 .letter {
     transition: transform 0.2s cubic-bezier(0.5, 1, 0.89, 1);
@@ -510,7 +478,6 @@ aside {
 
 .letter:hover {
     transform: translateY(8px);
-    font-weight: 700;
 }
 
 .space {
@@ -530,7 +497,7 @@ aside {
 .bottom {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    background: var(--color-br);
+    background: var(--color-gr);
     height: calc(100vh / 13 * 8);
     width: 100%;
     position: relative;
@@ -538,18 +505,13 @@ aside {
 
 .summary {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-    /* height: calc(100vh / 13 * 8); */
+    height: calc(100vh / 13 * 8);
     width: 100%;
-        /* max-width: 500px; */
     padding: 2rem;
-    padding-bottom: calc(100vh / 13);
+    padding-bottom: calc(100vh / 13 + 2rem);
     overflow-y: auto;
-    /* color: var(--color-dg); */
-    font-size: 0.85rem;
-    line-height: 1.35;
-    text-align: justify;
 }
 
 .summary a {
@@ -557,26 +519,29 @@ aside {
     text-underline-position: under;
 }
 
-.summary a:hover {
-    color: #505050;
-}
-
 #about {
-    display: none;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     background: var(--color-br);
-    height: calc(100vh / 13);
+    height: calc(100vh / 13 * 8);
     width: 100%;
     z-index: 5;
+    cursor: grab;
     touch-action: none;
     user-select: none;
     font-family: var(--font-body);
     padding: 0.5rem 1rem;
     text-align: center;
-    /* transform: translateY(-100%); */
     transition: transform 1s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+#about:hover {
+    transform: translateY(5px);
+}
+
+#about:active {
+    cursor: grabbing;
 }
 
 .drag-handle {
@@ -600,6 +565,11 @@ aside {
 
 #cred-line {
     font-size: 0.75rem;
+}
+
+.summary img {
+    display: inline-block;
+    height: 0.9rem;
 }
 
 #rotate-btn {
@@ -644,7 +614,6 @@ p.blink {
     }
 }
 
-
 #menu {
     display: none;
 }
@@ -669,8 +638,8 @@ p.blink {
     }
 
     ::-webkit-scrollbar {
-        width: 8px;
-    }
+    width: 8px;
+}
 
     aside {
         display: flex;
@@ -697,20 +666,15 @@ p.blink {
 
     .bottom {
         background: var(--color-gr);
-        height: 25rem;
+        height: 15rem;
         width: 100%;
         position: relative;
     }
 
-    #blink-image {
-        display: none;
-    }
-
-
     .summary {
         top: auto;
         left: auto;
-        height: 25rem;
+        height: 15rem;
         width: 100%;
         padding: 1rem 0.5rem 3rem 0.5rem;
     }
@@ -718,10 +682,8 @@ p.blink {
     #about {
         top: auto;
         left: auto;
-        height: 25rem;
+        height: 15rem;
         width: 100%;
-        transform: translateY(calc(22rem));
-        transition: transform 0.7s cubic-bezier(0.5, 1, 0.89, 1);
     }
 
     #about:hover {

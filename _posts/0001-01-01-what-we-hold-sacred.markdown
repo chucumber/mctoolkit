@@ -2,7 +2,7 @@
 layout: essay
 permalink: "/:title"
 
-title: "What We Hold Sacred: A workshop on altar-Making"
+title: "What We Hold Sacred: A Workshop on Altar-Making"
 author: "Loni Johnson"
 author-bio: "is a multidisciplinary visual artist, educator, mother, and activist born and raised in Miami. Through movement and ritual, she creates healing spaces for Black women and explores the role of ancestral and historical memory. She holds a Bachelor of Fine Arts from SUNY at Purchase College School of Art and Design. <br><br>Johnson is the Lead Coordinator of Art Detectives—an arts education programme rooted in the framework of Social Justice at Perez Art Museum (PAMM) Miami. She is also Prevention Coordinator of the youth arts prevention programme at Concept Health Systems, and Chairperson for the National Visual Arts Selection Panel for National YoungArts Foundation. In addition, she is one of the founders of Miami Melanated Arts—a collective of Black artists who are creating space to reimagine effective and impactful arts ecosystems in South Florida. She continues to work with community organisations such as Girl Power, S.O.U.L Sisters Leadership Collective, and Voices United by providing youth the opportunities to find and nurture their identities and creative voices. She received a Knight Champion Award in 2019 and is a frequent guest speaker, lecturer, facilitator, and performer. <br><br>Selected exhibitions and performances: Remnants at Locust Projects, Miami, Making Visible: The Studio Archives of Chire Regans and Loni Johnson, WAAM at Dimensions Variable, Miami (2020); Say Their Names, Chire Regans/Vanta Black Memorial Mural Project Unveiling, Bakehouse Art Complex, Miami (2020); Performans Fanm/Global Borderless Caribbean XII: Focus Miami, Little Haiti Cultural Arts Center, Miami (2020); Homegoing, NADA Art Fair, Miami (2017); Offerings III, Bas Fisher Invitational and O’Miami, Miami (2017); Offerings II, Common Field Convening, Miami (2016)."
 ---
@@ -18,10 +18,13 @@ In Things We Hold Sacred, her workshop for Mobilizing Citizenship in autumn 2023
   <figcaption></figcaption>
 </figure>
 
-(Loni Johnson, as told to Lee Heinemann, August 2025.)
+(Loni Johnson, as told to Lee Heinemann)
 
 
-<mark class="pk-highlight-long">As artists, it’s our responsibility to take on the role of the memory keepers, the griots.</mark> Where I am—the United States; the American South; Miami, Florida—there is an erasure of Black history. I have taken it upon myself to understand and present how Black and Brown folks honour our ancestors and ensure that stories of our histories are told. 
+><mark class="pk-highlight-long">As artists, it’s our responsibility to take on the role of the memory keepers, the griots.</mark> 
+
+
+Where I am—the United States; the American South; Miami, Florida—there is an erasure of Black history. I have taken it upon myself to understand and present how Black and Brown folks honour our ancestors and ensure that stories of our histories are told. 
 
 
 My assemblage and performance work merges traditional methods of remembrance with contemporary ways of remembering to create new traditions for honouring the past. I see my work as a way of building community and bridging gaps between groups of people.
@@ -38,7 +41,9 @@ For Remnants, my 2021 exhibition at Locust Projects, I created an installation o
   <figcaption></figcaption>
 </figure>
 
-It has been an organic evolution of my work to create space for folks to heal and grieve. Throughout my life, I have this gift that draws people to tell me their story. <mark class="pk-highlight-long">Our society makes it seem normal that we grieve in solitude.</mark> Alone. But that’s not always been the case for Black and Brown folks. We don’t have to grieve alone. We can hold space for us to do it together, and if I can create space for that, I need to do it.
+><mark class="pk-highlight-long">Our society makes it seem normal that we grieve in solitude.</mark>
+
+It has been an organic evolution of my work to create space for folks to heal and grieve. Throughout my life, I have this gift that draws people to tell me their story. Our society makes it seem normal that we grieve in solitude. Alone. But that’s not always been the case for Black and Brown folks. We don’t have to grieve alone. We can hold space for us to do it together, and if I can create space for that, I need to do it.
 
 
 With the support of a grant, I was able to bring altar-making to more community groups, including those focused on Brown and Black youth (organisations like Girl Power, Healing and Justice Center, the Miles Girl Academy), as well as adults and elementary school students. Because I’ve now shared it with so many ages and demographics, I believe this workshop can be adapted to work for anyone. 
@@ -66,7 +71,7 @@ If you could make an altar for your 4- or 5-year-old self, what would that look 
 What would an altar to a cause or topic you’re passionate about look like?
 
 
-<mark class="pk-highlight-long">My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.</mark>
+><mark class="pk-highlight-long">My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.</mark>
 
 
 ## Objective
@@ -76,15 +81,15 @@ This altar-making workshop invites guests to use meaningful objects—such as ph
 
 <div class="auto-slideshow three-by-four">
   <figure>
-  <img src="img/what-we-hold-sacred/Copy of IMG_0449.webp" alt="" data-caption="">
+  <img src="img/what-we-hold-sacred/Copy of IMG_0449.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/what-we-hold-sacred/Copy of IMG_1457.webp" alt="" data-caption="">
+  <img src="img/what-we-hold-sacred/Copy of IMG_1457.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/what-we-hold-sacred/Copy of IMG_9719.webp" alt="" data-caption="">
+  <img src="img/what-we-hold-sacred/Copy of IMG_9719.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
   </figure>
 </div>
@@ -110,7 +115,7 @@ Preparation of the materials should be done before the workshop begins. It is id
 
 
 <figure>
-  <img src="img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203.webp" alt=" " data-caption=" ">
+  <img src="img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
 </figure>
 
@@ -139,19 +144,19 @@ They say that I am <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.
 
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
   <summary>
   From Which I Came
   </summary>
 
-  <p style="color: var(--color-br);">
-*Facilitators can adapt the prompt if participants are uncomfortable using their mother as a reference. Based on past experience, some participants may choose to honour an alternative parent or guardian instead.
-  </p>
 
-My name is <u>(participant’s name).</u> and I was born in <u>(year of birth)</u> in <u>(place of birth)</u>.  
-My mother’s name is <u>(participant’s mother’s name)</u> and she was born in <u>(year of birth)</u> in <u>(place of birth)</u>.  
-My grandmother’s name is <u>(participant’s grandmother’s name)</u> and she was born in <u>(year of birth)</u> in <u>(place of birth)</u>.  
-My grandmother’s mother’s name is <u>(participant’s grandmother’s mother’s name)</u> and she was born in <u>(year of birth)</u> in <u>(place of birth)</u>.
+*Facilitators can adapt the prompt if participants are uncomfortable using their mother as a reference. Based on past experience, some participants may choose to honour an alternative parent or guardian instead.*
+
+
+My name is <u>&emsp;(participant’s name)&emsp;</u>. and I was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.  
+My mother’s name is <u>&emsp;(participant’s mother’s name)&emsp;</u> and she was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.  
+My grandmother’s name is <u>&emsp;(participant’s grandmother’s name)&emsp;</u> and she was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.  
+My grandmother’s mother’s name is <u>&emsp;(participant’s grandmother’s mother’s name)&emsp;</u> and she was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.
 </details>
 
 
@@ -192,9 +197,9 @@ Step 3
 
 After the participants complete the prompts, the group will gather their materials for the art-making activity. The facilitator should encourage participants to be intentional in choosing the person they want to honour.  
 
-  <p style="color: var(--color-br);">
-  The following questions could be asked as instructional tools during the art-making to help engage participants as they create their pieces:  
-  </p>
+
+*The following questions could be asked as instructional tools during the art-making to help engage participants as they create their pieces:* 
+
 
 - Who is this person?
 - Why should they be honoured?
@@ -213,9 +218,9 @@ Step 4
 
 Once art-making is finished, each participant will share their altar piece and engage in a conversation around their object.  
 
-  <p style="color: var(--color-br);">
-  Facilitators could pose the following questions to guide the discussion:  
-  </p>
+
+*Facilitators could pose the following questions to guide the discussion:*
+
 - Who is this person to you and why are they significant to you?
 - Are there specific objects that you identify as a connection to the person?
 - If there was something that you wanted to say to them, what would it be and why?

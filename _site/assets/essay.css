@@ -195,6 +195,10 @@ u {
   background: var(--color-dg);
 }
 
+.bg-lg {
+  background: var(--color-lg);
+}
+
 .border-pk {
   border: 1px solid #e133be !important;
 }
@@ -551,7 +555,6 @@ figure.narrow-img img {
 }
 
 .content blockquote {
-  /* font-family: var(--font-title); */
   font-weight: 400;
   font-size: 1.25rem;
   margin: 2rem 0;
@@ -559,13 +562,7 @@ figure.narrow-img img {
 
 .content blockquote p {
   margin-left: 0;
-  max-width: 100%;
-}
-
-.quote {
-  /* font-family: var(--font-title); */
-  font-weight: 400;
-  font-size: 1.25rem;
+    max-width: calc(10% + 900px);
 }
 
 .gr-highlight-long {
@@ -589,6 +586,8 @@ figure.narrow-img img {
       #FF71E3b4 99.3%,
       #FF71E300 99.8%),
     linear-gradient(182deg, #FF71E300, #FF71E34d 8%, #FF71E300 15%);
+    /* background-position: 0 -1rem;
+    box-shadow: inset 0 1rem 0 0 white; */
   font-size: 1.25rem;
 }
 
@@ -671,9 +670,8 @@ footer {
 .bubble p {
   display: flex;
   align-items: stretch;
-  font-family: var(--font-title);
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
 }
 

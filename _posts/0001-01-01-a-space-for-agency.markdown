@@ -43,7 +43,7 @@ What does it mean to turn an educational space into a site of experimentation, c
 **Walk of Shame (WOS)** are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.
 
 
-<mark class="pk-highlight-long">Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.</mark>
+><mark class="pk-highlight-long">Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.</mark>
 
 
 When we were invited to join the Mobilizing Citizenship project, our intention was to set the conditions for collective experimentation. Drawing on participatory and relational art practices, we approached care and sharing as intimate, embodied gestures. We knew from experience that in these processes, it is often the journey—not the end result—that carries the deepest resonance. Here, we take you into how we worked to create a setting where young voices could surface, collide, and converge—giving rise to new expressions of identity, presence, and protest.  
@@ -85,7 +85,7 @@ After some time, we rotated seats around the circle. Each participant now sat in
 
 
 ### Becoming Part of Something Bigger, Across Time
-<mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark> 
+><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark> 
 
 
 She described emotions exchanged through handwritten letters, food, and stories offered without screens, and the presence of silence as something meaningful, even weighty. The participants were invited to ask her anything, and they did:
@@ -99,7 +99,9 @@ She described emotions exchanged through handwritten letters, food, and stories 
 Her answers were poetic, sometimes strange, and always rich with detail. And with her presence, the room shifted. Time folded in on itself. The group began comparing their own ways of sharing with something imagined, yet emotionally real. The fictional frame made it easier to ask deeper questions. How has sharing changed? What do we miss? What do we carry forward? This fictional frame allowed for reflection without judgement. It created an opening for empathy across generations, technologies, and lived experience.
 
 
-This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. <mark class="pk-highlight-long">Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</mark>
+This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. 
+
+><mark class="pk-highlight-long">Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</mark>
 
 
 <div class="auto-slideshow three-by-four">
@@ -209,7 +211,9 @@ The answers were thoughtful, sometimes hesitant, but always rooted in lived expe
 
 
 ### What We Learned About Art, Voice, and Space
-<mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for.</mark> These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives. 
+><mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for.</mark> 
+
+These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives. 
  
 
 Wearing someone else’s words or symbols became an act of solidarity, amplifying voices beyond our own. In doing so, we formed small, intentional communities rooted in shared interest, mutual curiosity and care. These were not echo chambers, but spaces of exchange, where learning about each other mattered.
@@ -218,7 +222,7 @@ Wearing someone else’s words or symbols became an act of solidarity, amplifyin
 Through the workshops, we witnessed how a creative process can offer young people space to be heard—without pressure to perform or conform. Small gestures—choosing a name, drawing a fear, wearing a secret—sparked profound connections. We experienced how public space can be transformed through quiet presence, and how institutions influence who feels entitled to take up space.
 
 
-<mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark>
+><mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark>
 
 
 As one participant put it:  
@@ -266,21 +270,22 @@ A sense of safety, openness, and curiosity is foundational for participation. Yo
 - **Introduce a thematic anchor:** Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.
 
 
-<p style="color: var(--color-br);">
-  TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.
-</p>
+*TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.*
+
 
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
+
   <summary>
     2. Material-Based Expression: Make Identity Visible
   </summary>
-  <h4>Why it matters:</h4>
-  <p>
-  Materials can express complexity, emotion, and identity in ways that words often can’t. They become tools for discovery, communication, and care.
-  </p>
-  <h4>How to do it:</h4>
+
+#### Why it matters:
+
+Materials can express complexity, emotion, and identity in ways that words often can’t. They become tools for discovery, communication, and care.
+
+#### How to do it:
   <ul>
   <li><b>Offer wearable canvases:</b> Give participants denim jackets, sashes, masks, or other items they can personalise.</li>
   <li><b>Introduce symbolic exercises:</b> Try activities such as:<br>  
@@ -290,89 +295,105 @@ A sense of safety, openness, and curiosity is foundational for participation. Yo
   <li><b>Encourage layering and remixing:</b> Encourage participants to borrow from each other’s designs, fostering a sense of mutual authorship and recognition.</li>
   <li><b>Co-create:</b> Use a giant paper roll or mural for a group ‘mega-drawing’.</li>
   </ul>
-  <p style="color: var(--color-br);">
-TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.
-  </p>
+
+
+*TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.*
+
+
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
+
   <summary>
     3. Storyplay & Time Travel: Activating Historical Imagination
   </summary>
-  <h4>Why it matters:</h4>
-  <p>
+
+#### Why it matters:
+
   Fictional characters and historical play let participants explore contrasts, question norms, and imagine alternative ways of being.
-  </p>
-  <h4>How to do it:</h4>
+
+#### How to do it:
   <ul>
   <li><b>Bring in a character:</b> A facilitator embodies a character from the 1950s, sharing an exaggerated and funny story about how sharing worked ‘back then’.Open the floor: Participants are invited to ask anything: What was school like? How did people express feelings? How did you protest without social media?</li>
   <li><b>Reflect together:</b> Transition into a group discussion about what has changed and what hasn’t: How do we share today? What’s easier now? What’s more difficult?</li>
   </ul>
-  <p style="color: var(--color-br);">
-TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.
-  </p>
+
+
+*TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.*
+
+
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
+
   <summary>
     4. From Text to Talk: Using Documents as Fuel for Dialogue
   </summary>
-  <h4>Why it matters:</h4>
-  <p>
+
+#### Why it matters:
+
   Reports, laws, and public texts can feel distant—but they deeply affect our lives. Activating them through conversation makes abstract ideas personal and relevant.
-  </p>
-  <h4>How to do it:</h4>
+
+#### How to do it:
   <ul>
   <li><b>Choose a brief, accessible text:</b> For example, a section from a report on freedom of speech in Norway.</li>
   <li><b>Read together:</b> Slowly, aloud, in pairs, or as a whole group.</li>
   <li><b>Ask open questions:</b> What surprised you? What do you agree or disagree with? Do you feel free to speak? Where, and with whom?</li>
   <li><b>Connect to lived experience:</b> What would you say if you knew someone was really listening? What needs to be said more often—or in new ways?</li>
   </ul>
-  <p style="color: var(--color-br);">
-TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.
-  </p>
+
+
+*TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.*
+
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
+
   <summary>
     5. Claiming Public Space Together
   </summary>
-  <h4>Why it matters:</h4>
-  <p>
+
+#### Why it matters:
+
   Moving from a ‘safer’ space into the public realm transforms the work into a visible, collective statement of presence, care, and community.
-  </p>
-  <h4>How to do it:</h4>
+
+#### How to do it:
   <ul>
   <li><b>Ground the group:</b> Begin by lying on the floor in silence with music playing. Invite participants to revisit what they have made and shared.</li>
   <li><b>Prepare for visibility:</b> Wear jackets, masks, or objects created in previous sessions.</li>
   <li><b>Take to the streets:</b> Do a slow, silent walk through the city.
 Use sticker activism: Let participants design and place homemade stickers in the public space with personal messages.</li>
   </ul>
-  <p style="color: var(--color-br);">
-TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.
-  </p>
+
+
+*TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.*
+
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
+
   <summary>
     6. Co-Curate & Reflect
   </summary>
-  <h4>Why it matters:</h4>
-  <p>
+
+#### Why it matters:
+
   Reflecting together helps solidify learning, shift ownership, and celebrate not just what was made, but how it was made.
-  </p>
-  <h4>How to do it:</h4>
+
+#### How to do it:
   <ul>
   <li><b>Circle up one last time:</b> Lay out all materials—jackets, drawings, stickers, thoughts.</li>
   <li><b>Reflect on the process:</b> What stayed with you? What did you learn from someone else?</li>
   <li><b>Build the exhibition together:</b> Decide what to show, and how. Include unfinished work, dialogue snippets, and moments of care—not just final objects.</li>
   </ul>
-  <p style="color: var(--color-br);">
-TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.
-  </p>
+
+
+*TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.*
+
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
+
   <summary>
     7. Principles to Carry with You
   </summary>
@@ -384,7 +405,8 @@ TIP: Let participants take the lead. A co-curated exhibition builds confidence, 
   </ul>
 </details>
 
-<details class="tools">
+<details class="tools" markdown="1">
+
   <summary>
     Suggested Materials to Have on Hand
   </summary>

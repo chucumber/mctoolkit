@@ -39,7 +39,9 @@ This was the mantra of the American composer and accordionist Pauline Oliveros. 
 After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk ‘<a href="https://www.youtube.com/watch?v=_QHfOuRrJB8" target="_blank">The difference between hearing and listening</a>’.  
 
 
-Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. <mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
+Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. 
+
+><mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
 
 
 When the pilot came to an end, the participants wanted to continue, so I proposed Alchemy to the university as a regular weekly workshop. Now, eight years on, the programme is still running and has grown in scale. 
@@ -120,9 +122,11 @@ These models provide a useful foundation, but are especially effective when they
 If we stop listening, everything will fall apart.
 
 
-<mark class="pk-highlight-long">Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation.</mark> By keeping anti-oppressive, listening-centred, and care-focused models at the core of Alchemy’s practice, we have been able to mirror the creative flow state (after Mihaly Csikszentmihalyi) as a kind of physical architecture consisting of multiple, simultaneous workshops. Here, participants design their own learning with their bodies by moving from one space to  another to gather what they need, or have a chance encounter, such as inspiration for lyrics or poetry, learning how to play an instrument or produce a beat, or developing their voice, performance skills, music theory, and new collaborations. Youth workers, also flowing between the different spaces, play a vital role of being available to support anyone who is facing challenges. 
+><mark class="pk-highlight-long">Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation.</mark> 
 
-<mark class="pk-highlight-long">As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.</mark>
+By keeping anti-oppressive, listening-centred, and care-focused models at the core of Alchemy’s practice, we have been able to mirror the creative flow state (after Mihaly Csikszentmihalyi) as a kind of physical architecture consisting of multiple, simultaneous workshops. Here, participants design their own learning with their bodies by moving from one space to  another to gather what they need, or have a chance encounter, such as inspiration for lyrics or poetry, learning how to play an instrument or produce a beat, or developing their voice, performance skills, music theory, and new collaborations. Youth workers, also flowing between the different spaces, play a vital role of being available to support anyone who is facing challenges. 
+
+><mark class="pk-highlight-long">As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.</mark>
 
 
 This environment can foster peer learning in a natural way, which in turn creates a culture of co-design and a balance of freedom and structure that aims to empower everyone, both participants and team, to step beyond their comfort zone in their own time and realise their creative ideas—from making a song to starting their own initiatives. If someone has an idea, we do everything we can to support it from imagination into reality. 
@@ -161,11 +165,12 @@ Day One
   </iframe>
 </div>
 
+<mark class="pk-highlight-long">‘Listen to everything all of the time and remind yourself when you’re not listening.’</mark>
 
 We welcomed the participants and gave them a tour of the performance space, then went down to the workshop room, which was situated in the heart of the building. The day began with us asking the question ‘Who are you in the world?’ 
 
 
-I introduced the group to the idea that creative practice isn’t just about one practice but multiple practices that overlap. I began by showing them the contents of the bag that I carry around with me that included a book about outer space, a notebook where I write and paint (even if I’m not very good at it!), and Pauline Oliveros’ book Quantum Listening (that invites us to listen beyond the confines of time and space) and shared one of my favourite mantras of hers, <mark class="pk-highlight-long">‘Listen to everything all of the time and remind yourself when you’re not listening.’</mark> I also showed and played the instruments that are part of my current process of exploring and mending my relationship with my culture and heritage—bells, double flutes, and half-mask (you can read more about that <a href="https://mikeykirkpatrick.wordpress.com/2025/03/24/listening-beyond-the-veil-1-mask-to-unmask/" target="_blank">here</a>). I explained that this week is about seeing and hearing the relationships between things from the perspective of a musician, recognising all of the materials around us that we have to work with, i.e. sound, space, people... 
+I introduced the group to the idea that creative practice isn’t just about one practice but multiple practices that overlap. I began by showing them the contents of the bag that I carry around with me that included a book about outer space, a notebook where I write and paint (even if I’m not very good at it!), and Pauline Oliveros’ book Quantum Listening (that invites us to listen beyond the confines of time and space) and shared one of my favourite mantras of hers, ‘Listen to everything all of the time and remind yourself when you’re not listening.’ I also showed and played the instruments that are part of my current process of exploring and mending my relationship with my culture and heritage—bells, double flutes, and half-mask (you can read more about that <a href="https://mikeykirkpatrick.wordpress.com/2025/03/24/listening-beyond-the-veil-1-mask-to-unmask/" target="_blank">here</a>). I explained that this week is about seeing and hearing the relationships between things from the perspective of a musician, recognising all of the materials around us that we have to work with, i.e. sound, space, people... 
 
 
 The young artists said that they had access to studio and music resources if they wanted them through youth clubs (contrasting with what is available for young people in London). On the theme of ‘Are You Listening?’, it was important to the group that it was a question or demand to the audience: Are you listening? Some of the participants expressed that the issues they faced often involved strong expectations that they conform and meet expectations from society. In short, they wanted to use this week to explore their rebelliousness. 
@@ -194,13 +199,15 @@ Day Two
   </iframe>
 </div>
 
+<mark class="pk-highlight-long">We talked about memory, hauntings, and how there are layers of overlapping culture here at Kunsthall Stavanger, especially during this week with Alchemy in the space.</mark>
+
 Today was a day for continued experimentation and development from the previous session, while also imagining how what we were creating might translate into a performance in the gallery space. We began by discussing what an art institution could be for the community, and what makes an art institution experience interesting or transformational. Memorable experiences that were shared mainly centred around having learned something relevant. They told us that the entrance to a gallery is important, for example: it acts as a portal. We also agreed that when a story is told visually it makes a stronger impression, such as seeing how the trees in Hiroshima grew in strange and otherworldly shapes after the atomic bomb. Following the discussion, we set up some different creative zones where individuals and small groups sat and wrote together while we moved around and helped them to build their ideas. 
 
 
 Over lunch, we discovered that a lot of the young artists engaged with AI ‘characters’, that allow you to talk to fictional characters from books, films, or video games for as long as you like, where the rules of their world (book or film) are ‘real’ and affect the nature of the conversation. We talked about these AI ‘conversations’ and thought about how we could incorporate this reality into our show.
 
 
-One of the young artists had researched overnight an old Norwegian tradition called stev, a rhythmic rhyming set of verses that talk mainly about nature. He was inspired by the Alchemy mentors’ rapping and thought there was an interesting connection with this tradition. <mark class="pk-highlight-long">We talked about memory, hauntings, and how there are layers of overlapping culture here at Kunsthall Stavanger, especially during this week with Alchemy in the space.</mark> We worked in the main gallery, exploring how we could incorporate his ideas into the space for the performance. We tried different ways of performing his version of stev. He wanted the audience to hear him without amplification, which meant his delivery needed to be strong and clear. We created a soundscape using some recordings he had made in a local cave, and looked at how we could manipulate speaker positions to create different sound reflections. We found that if you stand at one end of the hall and clap, the echo is very loud. The cave soundscape inspired him to re-create his visit there, so he began exploring the space while wearing a warm coat and a headlamp, creating shadows of the audience against the walls and calling out ‘Hallo?’ (which is what he did when he visited the cave, playing with the echo). His performances would be ‘hauntings’ between the musical performances on stage. Are you listening … to the memory of the soil where you are standing? Are you listening … ?
+One of the young artists had researched overnight an old Norwegian tradition called stev, a rhythmic rhyming set of verses that talk mainly about nature. He was inspired by the Alchemy mentors’ rapping and thought there was an interesting connection with this tradition. We talked about memory, hauntings, and how there are layers of overlapping culture here at Kunsthall Stavanger, especially during this week with Alchemy in the space. We worked in the main gallery, exploring how we could incorporate his ideas into the space for the performance. We tried different ways of performing his version of stev. He wanted the audience to hear him without amplification, which meant his delivery needed to be strong and clear. We created a soundscape using some recordings he had made in a local cave, and looked at how we could manipulate speaker positions to create different sound reflections. We found that if you stand at one end of the hall and clap, the echo is very loud. The cave soundscape inspired him to re-create his visit there, so he began exploring the space while wearing a warm coat and a headlamp, creating shadows of the audience against the walls and calling out ‘Hallo?’ (which is what he did when he visited the cave, playing with the echo). His performances would be ‘hauntings’ between the musical performances on stage. Are you listening … to the memory of the soil where you are standing? Are you listening … ?
 
 
 One of the artists had been making drawings during the sessions, connecting themes and sounds from the music around her to drawings (her favourite thing to do). We discussed looking into making some larger-sized prints of these for the performance space, and seeing next how these could be incorporated as inspiration for the performance, lyrics, spoken word, and more.
@@ -336,7 +343,9 @@ As I have found over the years with Alchemy and other creative community program
 
 
 ## Some final words
-Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present. <mark class="pk-highlight-long">Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.</mark> 
+Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present. 
+
+><mark class="pk-highlight-long">Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.</mark> 
 
 
 Kunsthall Stavanger has a history of opening its doors to the community, giving them free reign and use of the space. Other institutions have much to learn from them. 
@@ -350,11 +359,12 @@ This is some of what I learnt during my time at Kunsthall Stavanger.
 
 Thank you to everyone who made this a life-changing week for us all. 
 
+<br>
+<p style="margin-bottom: 0;"><b>Watch videos from the week with Goldsmith Alchemy:</b></p>
 <video controls playsinline preload="none" poster="video/KS-MC24(Liten).webp">
   <source src="video/KS-MC24(Liten).mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 <video controls playsinline preload="none" poster="video/KS-MC24(stor).webp">
   <source src="video/KS-MC24(stor).mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -366,7 +376,8 @@ Thank you to everyone who made this a life-changing week for us all.
 
 <div class="color-dg font-small" markdown="1">
 
-Alchemy Mentors
+ALCHEMY MENTORS
+
 
 **Martin Vito (aka King Vito Speaks)** 
 is a mentor offering support with music production, songwriting, rap coaching, recording, vocal arrangement, artist development, artist mentoring, mental health management, musical direction, live performance, album curation, music release, and fanbase and community building. He is the founder of UYT (Unleash Your Talent) Media. 

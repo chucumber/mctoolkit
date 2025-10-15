@@ -44,7 +44,10 @@ We’ve always worked with young people, and there’s always been this dialogue
 Loni and I worked together at the Pérez Art Museum Miami on Art Detectives.<span class="font-small color-bl" data-tooltip="Art Detectives is a program where PAMM teaching artists, members of The Links, Inc., Greater Miami (FL) Chapter, Miami-Dade County Police, students, and AmeriCorps volunteers from Breakthrough Miami, work together to build relationships using art as a catalyst.">↵</span>  We were there as it was being launched in 2016, 2017, and have played a significant role in developing the program to shift with society. 
 
 
-<mark class="pk-highlight-long">Up until that point, arts programmes involving law enforcement centred on the officers leading and developing whatever theme they wanted to pursue. But in our programme, the placement was: you (law enforcement) are a participant, and we (the artists) are facilitating this interaction, between you and young people, in an art museum.</mark> We learned a lot. I was hesitant going into it just because of the body that I occupy: it’s the police, and they were in uniform. The public witnessed this programme. Chire and I had to be the barriers between what was happening around and what was happening within.
+><mark class="pk-highlight-long">Up until that point, arts programmes involving law enforcement centred on the officers leading and developing whatever theme they wanted to pursue. But in our programme, the placement was: you (law enforcement) are a participant, and we (the artists) are facilitating this interaction, between you and young people, in an art museum.</mark> 
+
+
+We learned a lot. I was hesitant going into it just because of the body that I occupy: it’s the police, and they were in uniform. The public witnessed this programme. Chire and I had to be the barriers between what was happening around and what was happening within.
 
 
 <span class="interviewee">L</span>
@@ -66,7 +69,10 @@ It organically happened that law enforcement is no longer involved in the progra
 For Stavanger, I developed a zine-making workshop, because of the impact of zine-making here in the United States. When young people—or anyone—want to speak about a specific issue, they can make a zine and pass it around, and that work lives on even when you go away. It’s information-heavy, and you can talk about anything. I wanted to give them the freedom to talk about whatever social issue they wanted to talk about.
 
 
-To prepare, I thought a lot about my practice: what it means in relation to where I live and in the US as a whole. When we got to the Kunsthall, we both presented our practices. In advance of this, I had prepared myself for the level of emotional labor that I usually need to engage with young people. I thought I would have to explain politics and culture in the US. But when I said that I was from St. Louis (and I was ready to say, ‘It’s in the Midwest…’), the young people were like, ‘Oh yeah, we know where that is.’ And then when I talked about gun violence and specifically George Floyd, they were all familiar. I thought, ‘I don’t have to do that labor.’ <mark class="pk-highlight-long">I started to see that there is a difference in what young people and adults are comfortable talking about depending on where you live.</mark>
+To prepare, I thought a lot about my practice: what it means in relation to where I live and in the US as a whole. When we got to the Kunsthall, we both presented our practices. In advance of this, I had prepared myself for the level of emotional labor that I usually need to engage with young people. I thought I would have to explain politics and culture in the US. But when I said that I was from St. Louis (and I was ready to say, ‘It’s in the Midwest…’), the young people were like, ‘Oh yeah, we know where that is.’ And then when I talked about gun violence and specifically George Floyd, they were all familiar. I thought, ‘I don’t have to do that labor.’ 
+
+
+><mark class="pk-highlight-long">I started to see that there is a difference in what young people and adults are comfortable talking about depending on where you live.</mark>
 
 
 The young people in Stavanger were not afraid of information—they had information. They knew as much about their own country as they did about other countries, and that’s a major difference compared with young people in the United States. That shifted a lot of things for me. My mind and practice shifted over the course of a week.
@@ -95,14 +101,25 @@ Often, when we walk into classrooms looking the way we do, we have to build rapp
 </figure>
 
 <span class="interviewee">L</span>
-Now, had we been lame-o’s, the kids would’ve said, ‘Pack it up’. That is just a universal thing for young people—keep it real, be authentic, and they will ride with you until the wheels fall off. But the moment you try to be something that you’re not, they’re going to be like, ‘Oh, fuck that. Who are you?’ <mark class="gr-highlight-long">Don’t fake it with young people, because they’re going to check out every time.</mark> I think they appreciated that we were real people who wanted to make space for them.
+Now, had we been lame-o’s, the kids would’ve said, ‘Pack it up’. That is just a universal thing for young people—keep it real, be authentic, and they will ride with you until the wheels fall off. But the moment you try to be something that you’re not, they’re going to be like, ‘Oh, fuck that. Who are you?’ 
 
+><mark class="gr-highlight-long">Don’t fake it with young people, because they’re going to check out every time.</mark> 
+
+
+I think they appreciated that we were real people who wanted to make space for them.
 
 <span class="interviewer">C</span> 
-<mark class="pk-highlight-long">Even if you’re not interested in education, if you are a practising artist, you should engage with young people, because young people are going to tell you the truth about your practice.</mark> When everyone else in the ecosystem lies, young people keep you honest. They say, ‘Okay, you’re talking about this, but where is that in your work?’ Sometimes artists need to hear that. 
+
+><mark class="pk-highlight-long">Even if you’re not interested in education, if you are a practising artist, you should engage with young people, because young people are going to tell you the truth about your practice.</mark> 
 
 
-<mark class="pk-highlight-long">It’s also important to understand that being an educator is actual labor—commitment, dedication.</mark> There are certain requirements of you to engage with young people that you need to be equipped to take on. There’s a system of care that you have to develop and practice when you’re working with young people—when you’re working with people, period. I’ve seen some people who should not be doing this work. They don’t realise the harm they’re doing. Just one interaction with a young person will shape them. They will remember that interaction forever, even if it is something you quickly forget.
+When everyone else in the ecosystem lies, young people keep you honest. They say, ‘Okay, you’re talking about this, but where is that in your work?’ Sometimes artists need to hear that. 
+
+
+><mark class="pk-highlight-long">It’s also important to understand that being an educator is actual labor—commitment, dedication.</mark> 
+
+
+There are certain requirements of you to engage with young people that you need to be equipped to take on. There’s a system of care that you have to develop and practice when you’re working with young people—when you’re working with people, period. I’ve seen some people who should not be doing this work. They don’t realise the harm they’re doing. Just one interaction with a young person will shape them. They will remember that interaction forever, even if it is something you quickly forget.
 
 
 When I engage with young people in whatever capacity, even as a parent, I ground myself in the thinking that, ‘Let me be for you what I needed when I was your age. Let me be more of what I valued when I was your age.’ If we had come to Stavanger and engaged with these kids thinking we were going to save them, they would have run us out of the room. That happens in the US too. If you come into a space thinking that you are going to save these young people, they’re going to be like, ‘We don’t need you. We are surviving.’

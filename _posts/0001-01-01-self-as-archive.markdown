@@ -22,13 +22,22 @@ I am a poet and essayist who thrives on collaboration and draws deeply on engage
 I look at my digital archive as an ephemeral shadow, something deeply intimate, yet in its massive and ever-growing scale, something almost unknowable. I also look at it as evidence: of views once held and their changing shapes over time; evidence of the essential nature of my relationships with myself and others; evidence of people and memories that are no longer floating at the surface and thus no longer easily summoned.
 
 
-<mark class="pk-highlight-long">The primary lesson I wanted to emphasise in my workshop is the great liberation that comes with being curious about who you are by engaging with the many other people you’ve already been.</mark> With how chronically online modern life has become, and with the emergence of legislation that dictates our rights to own and control our data footprint, we have more access than ever to all the versions of ourselves that have ever had a stable internet connection. Personally, I have been very slowly rereading my entire Facebook Messenger archive of almost ten years—that process has effectively taken the power away from shame to dictate my actions and self-perception.
+><mark class="pk-highlight-long">The primary lesson I wanted to emphasise in my workshop is the great liberation that comes with being curious about who you are by engaging with the many other people you’ve already been.</mark> 
+
+
+With how chronically online modern life has become, and with the emergence of legislation that dictates our rights to own and control our data footprint, we have more access than ever to all the versions of ourselves that have ever had a stable internet connection. Personally, I have been very slowly rereading my entire Facebook Messenger archive of almost ten years—that process has effectively taken the power away from shame to dictate my actions and self-perception.
 
 
 Given all the above, erasure and the archive seemed like natural dual focuses for my workshop. Erasure is a form of found poetry in which an author ‘erases’ or obscures portions of an existing text. The words that remain visible create a new work. It is an inherently political form. In layering a new text on top of an original, an organic dialogue is formed between past and present, and a three-way conversation about perception opens up between original authorial intent, artist revision, and audience reception. It is also inherently subversive, not only because it confronts the taboo of defacement. As one participant asked rather incredulously before starting an erasure exercise, ‘…you want us to write inside the books?’ And yes, I did. 
 
 
-In planning this workshop, I wanted to share the role of archival work in my own journey towards self-acceptance and self-discovery. <mark class="pk-highlight-long">I also wanted to emphasise that creative work can be generated through intuition and outside of a blank page or screen—through tapping into the self that exists without conscious thought.</mark> As a writer who was rigorously and formally trained in my youth, my practice as an adult is centred primarily around escaping the constraints of that training and finding generative processes that originate in embodiment, lived experience, and subjective impulse. Because of this, I have increasingly turned away from topics and generative techniques that would typically be thought of as literary. Instead, I focus my practice on analysis of the texts I generate while going through my everyday life. Whether or not one identifies as a writer, we all produce texts and documentation that are containers for information about our lives. In this way, we are walking archives that can be mined for insights about our lived experiences and the world around us. 
+In planning this workshop, I wanted to share the role of archival work in my own journey towards self-acceptance and self-discovery. 
+
+
+><mark class="pk-highlight-long">I also wanted to emphasise that creative work can be generated through intuition and outside of a blank page or screen—through tapping into the self that exists without conscious thought.</mark> 
+
+
+As a writer who was rigorously and formally trained in my youth, my practice as an adult is centred primarily around escaping the constraints of that training and finding generative processes that originate in embodiment, lived experience, and subjective impulse. Because of this, I have increasingly turned away from topics and generative techniques that would typically be thought of as literary. Instead, I focus my practice on analysis of the texts I generate while going through my everyday life. Whether or not one identifies as a writer, we all produce texts and documentation that are containers for information about our lives. In this way, we are walking archives that can be mined for insights about our lived experiences and the world around us. 
 On the second day of my workshop, I shared a quote from Audre Lorde’s essay ‘Poetry Is Not a Luxury’(1984), which in typical Audre Lorde fashion, succinctly and evocatively captures all the ideas that guided my lesson planning:
 
 
@@ -41,7 +50,9 @@ On the second day of my workshop, I shared a quote from Audre Lorde’s essay �
 </div>
 
 ## Introduction
-I started the workshop with a brief overview of some of my work as well as a bird’s-eye look at erasure and various erasure techniques. In sharing excerpts from my own work, <mark class="pk-highlight-long">I wanted to illuminate some major themes of my practice: revealing the political in the everyday, exploring the self as archive, and challenging ideas of what can and cannot be art.</mark> 
+I started the workshop with a brief overview of some of my work as well as a bird’s-eye look at erasure and various erasure techniques. 
+
+><mark class="pk-highlight-long">In sharing excerpts from my own work, I wanted to illuminate some major themes of my practice: revealing the political in the everyday, exploring the self as archive, and challenging ideas of what can and cannot be art.</mark> 
 
 
 Examples shared:
@@ -129,22 +140,22 @@ Warm-Up Exercise: Screenshot Roulette
   </figure>
 </div>
 
-#### Method:
+### Method
 This warm-up is one that I use in my own practice, wherein I open up the screenshots folder on my laptop and randomly select an item to generate a brief free-write. In this instance, I showed a series of eight pre-selected screenshots, almost all of which originated in unscripted reality TV shows. All screenshots included a subtitle of dialogue overlaid on a still image. Images were shown on the screen for a total of three minutes and participants were instructed to continuously free-write for the full three minutes in whatever form they chose (poetry or prose, fiction, or nonfiction). 
 
 
-#### Materials: 
+### Materials
 - Evocative still images from popular media (TV shows, movies, etc.) with subtitles of the dialogue from that moment, projected or printed
 - Writing paper
 - Writing utensils
 - Timer
 
 
-#### Objective: 
+### Objective
 Continuous free-writing is a powerful, generative technique that forces the writer to keep writing without stopping for judgment or revision. The only thing that matters is to keep going. Reading your own free-writing is a great way to observe the shape of your own thoughts and natural impulses. It is how I start most writing projects. I also wanted to use a prompt that was generated via my everyday habits. These screenshots are accumulations of moments that I noticed in my day-to-day TV watching, and in capturing them, they become part of my personal archives. Much like ‘Three Gestures in Contemporaneity’, the poem I shared with the group, these free-writings originate in the ephemera of everyday life. And like ‘black women are prophetic’, moments in time are represented outside of their original context, leaving space for the writer to fill in the blanks and create a whole from parts. 
 
 
-#### Time: 
+### Time
 30 minutes. Three minutes for each image and five minutes of group reflection and discussion at the end. 
 Guiding Questions: What do we notice when we engage deeply with everyday media? What do the things we notice say about our individual perspective and perception?
 </details>
@@ -155,25 +166,25 @@ Guiding Questions: What do we notice when we engage deeply with everyday media? 
 Erasure Exercises: Pair and Share 
 </summary>
 
-#### Method: 
+### Method
 Participants were placed in pairs and allowed to select two excerpts from my Facebook messenger archive. They were then given 15 minutes to turn those texts into erasure poems. I advised them to start the erasure in a word or phrase that caught their eye and build from there.
 
 
-#### Materials: 
+### Materials
 - Printed excerpts from personal messages, emails, and other written communication  
 - Markers, pens, and/or white-out to cover parts of the printed text
 - Timer
 
 
-#### Objective: 
+### Objective
 Erasure can be a daunting technique to work with for the first time! To ease the process, I paired participants so they could engage in open dialogue while making decisions about which text to obscure or keep. These conversations often reveal the participants’ individual instincts, which in turn builds confidence. Using Facebook messages as the source text for the exercise once again emphasises that everyday ephemera from our personal archives can be fruitful for generating new work. 
 
 
-#### Guiding Questions: 
+### Guiding Questions
 What can we imagine about someone based on how they use language? What instincts can we observe in our approach to working with language and found texts?
 
 
-#### Time: 
+### Time
 30 minutes. Five minutes to select partners and texts, 15 minutes to generate erasures, 10 minutes to share erasures and have group-wide discussion. 
 
 <figure>
@@ -187,11 +198,11 @@ What can we imagine about someone based on how they use language? What instincts
 Erasure Exercises: Exploration + World Building
 </summary>
 
-#### Method: 
+### Method
 Participants were provided with an array of magazines and books on a variety of topics. They shopped through the materials to select one to three source texts and were then given 20 minutes to transform those texts into erasures. In part two of the exercise, they were asked to imagine a character or world associated with their erasures, and to build a collage moodboard that captured the feeling or illustrated the world of their poems.
 
 
-#### Materials:
+### Materials
 - Used books, magazines, newspapers, or other printed material from a range of sources  
 - Scissors  
 - Glue sticks  
@@ -200,15 +211,15 @@ Participants were provided with an array of magazines and books on a variety of 
 - Timer
 
 
-#### Objective: 
+### Objective
 This exercise was designed to move beyond the creation of new text to imagine character, gesture, and voice. Poetry is as much about what’s off the page as what’s on it; white space, line breaks, and indicators of where to take breath add as much to a poem as the represented words. Whether or not the details appear physically on the page, having a clear sense of character and context enriches the world of a poem and can inform those elements of absence. Through this exercise, participants were encouraged to flesh out the world of their erasure, divorcing it from the world of the text upon which it was generated. In doing so, their erasure gained authority and identity. 
 
 
-#### Guiding Question: 
+### Guiding Question
 If a poem is a voice, who is speaking and from where in space and time?
 
 
-#### Time: 
+### Time
 One hour. Ten minutes to select texts, 20 minutes to generate erasures, 20 minutes to create collages, 10 minutes for group sharing and discussion. 
 
 <figure>

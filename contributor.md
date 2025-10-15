@@ -43,13 +43,15 @@ Artists &#10140; Loni Johnson (guest curator) and Chire "VantaBlack" Regans
 #### Autumn 2022  
 *Sharing is Caring*  
 Guest curators &#10140; Walk of Shame (Hanne Maren Meldahl, Gulli Sekse, Karoline Skuseth)  
-Artists &#10140; Walk of Shame
+Artists &#10140; Walk of Shame  
+Youth mentor &#10140; Robbyn Spine
 
 
 #### Spring 2022  
 *DRAMA*  
 Guest curator &#10140; Lee Heinemann  
-Artists &#10140; Lee Heinemann, Delali Ayivor, Lex Brown, Ingela Ihrman
+Artists &#10140; Lee Heinemann, Delali Ayivor, Lex Brown, Ingela Ihrman  
+Youth mentor &#10140; Robbyn Spine
 
 
 #### Autumn 2019  
