@@ -17,6 +17,7 @@
         <div class="quote" id="quote"></div>
         <div class="q-text" id="q-text"></div>
         <div class="player-title" id="player-title">Music Videos from Alchemy</div>
+        <div id="blink-image"></div>
         <div class="player">
             <button id="wy">1. With You</button>
             <button id="isaac">2. Isaac</button>
@@ -168,16 +169,50 @@
 
     <script>
         $(function () {
+            /* ===== Initial Image Setup ===== */
+            const imageUrls = [
+                "img/self-as-archive/MobilizingCitizenship_Art_008WEB.webp",
+                "img/self-as-archive/MobilizingCitizenship_Art_010WEB.webp",
+                "img/self-as-archive/MobilizingCitizenship_Art_019WEB.webp",
+                "img/self-as-archive/MobilizingCitizenship_Art_018WEB.webp",
+                "img/self-as-archive/My Work-Ekphrastic Poetry Slide.webp",
+                "img/self-as-archive/My Work-Self as Archive Slide.webp",
+            ];
+
+            function showInitialImage() {
+                const $initialImage = $('#blink-image');
+                const randomImageIndex = Math.floor(Math.random() * imageUrls.length);
+
+                $initialImage.css('background-image', `url(${imageUrls[randomImageIndex]})`);
+
+                setTimeout(() => {
+                    $initialImage.addClass('fade-out');
+                    setTimeout(() => $initialImage.remove(), 300);
+                }, 3000);
+
+                $(document).on('click keydown touchstart', function hideImage() {
+                    $initialImage.addClass('fade-out');
+                    setTimeout(() => $initialImage.remove(), 300);
+                    $(document).off('click keydown touchstart', hideImage);
+                });
+            }
+
+            /* ===== Initialize everything ===== */
+            showInitialImage();
+
             /* ===== Rotation Button ===== */
             const $rotateBtn = $('#rotate-btn');
             const $library = $('#library');
             let currentRotation = 0;
+
 
             $rotateBtn.on('click', () => {
                 $(".blink").hide();
                 currentRotation = (currentRotation + 90) % 360;
                 $library.css('transform', `rotate(${currentRotation}deg)`);
             });
+
+
 
             /* ===== Populate Empty Entry Interactions ===== */
             function setupEmptyEntryInteractions() {
