@@ -220,9 +220,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-
-
 //contributor info
 $(document).ready(function () {
   $('.contributor-card').on('click', function () {

@@ -38,7 +38,7 @@ The Black Miami art scene is small, but the Black women art scene is even smalle
 We’ve always worked with young people, and there’s always been this dialogue about how we work with young people in different spaces. It’s informed by how people worked with us when we were young people. 
 
 
-Loni and I worked together at the Pérez Art Museum Miami on Art Detectives.<span class="font-small color-bl" data-tooltip="Art Detectives is a program where PAMM teaching artists, members of The Links, Inc., Greater Miami (FL) Chapter, Miami-Dade County Police, students, and AmeriCorps volunteers from Breakthrough Miami, work together to build relationships using art as a catalyst.">↵</span>  We were there as it was being launched in 2016, 2017, and have played a significant role in developing the program to shift with society. 
+Loni and I worked together at the Pérez Art Museum Miami on Art Detectives.<span class="color-bl" data-tooltip="Art Detectives is a program where PAMM teaching artists, members of The Links, Inc., Greater Miami (FL) Chapter, Miami-Dade County Police, students, and AmeriCorps volunteers from Breakthrough Miami, work together to build relationships using art as a catalyst.">↵</span>  We were there as it was being launched in 2016, 2017, and have played a significant role in developing the program to shift with society. 
 
 
 ><mark class="pk-highlight-long">Up until that point, arts programmes involving law enforcement centred on the officers leading and developing whatever theme they wanted to pursue. But in our programme, the placement was: you (law enforcement) are a participant, and we (the artists) are facilitating this interaction, between you and young people, in an art museum.</mark> 

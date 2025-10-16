@@ -2,13 +2,8 @@
 layout: essay
 permalink: "/:title"
 
-title: "Foreword, Lee Heinemann"
+title: "Introducing the Mobilizing Citizenship Toolkit"
 author: "Lee Heinemann"
-author-bio: "Lee Heinemann is an artist and administrator working to expand opportunities for artists. In 2014, he founded Get Your Life!—a collaborative, youth-centred video production company that put practising artists to work producing projects written, designed, and directed by middle school students in Baltimore, Maryland. He worked as the Education Director of the Baltimore nomadic museum The Contemporary, which produced Get Your Life! in 2016 and 2017. Get Your Life! was in residence in the Baltimore Museum of Art with an exhibition, publication, and a series of public programs from 2018 to 2019.
-<br><br>
-Lee was the manager of Artist Relief, a national emergency relief fund that distributed over $23 million to artists at the beginning of the Covid-19 pandemic. He served as Initiatives Manager at United States Artists, contributing to the research, development, and administration of new resource programmes including Disability Futures and the Maxwell/Hanrahan Awards in Craft. He is now Program Director of the artist-led organization A Blade of Grass.
-<br><br>
-Lee has hosted, moderated, and spoken in conversations at the Baltimore School for the Arts, Creative Time Summit, and the DisUniversity lecture series in collaboration with Dis and the Baltimore Museum of Art. He has created programming for a range of cultural organizations including Oolite Arts and Kunsthall Stavanger and produced public artist commissions with the City of Miami Beach and the High Line, New York. He is a Presidential Scholar in the Arts and received a BFA in Interdisciplinary Sculpture from the Maryland Institute College of Art."
 ---
 
 Working with Mobilizing Citizenship (MC), both as a visiting artist and workshop organiser, stands out as a uniquely positive experience for me. From its home at Kunsthall Stavanger, the project assembled an exceptionally supportive team who ensured that space, supplies, and participants were ready for the artists when they arrived. MC is a rare example of a programme with the adequate time and structure to facilitate true exchange between artists and young people.

@@ -376,7 +376,7 @@ Thank you to everyone who made this a life-changing week for us all.
 <br><br>
 * * *
 
-<p class="color-dg font-small" markdown="1">
+<p class="footnote" markdown="1">
 
 
 ALCHEMY MENTORS

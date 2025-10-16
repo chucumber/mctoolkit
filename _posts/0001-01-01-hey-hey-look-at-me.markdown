@@ -98,7 +98,7 @@ In my utopian society, we would understand what could happen—what kind of worl
 <br><br>
 * * *
 
-<p class="color-dg font-small" markdown="1">
+<p class="footnote" markdown="1">
 
 **References informing this piece:**  
 Christopher Bayes  

@@ -54,10 +54,6 @@
   font-display: swap;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 22px;
 }
@@ -72,13 +68,13 @@ body {
   font-size: 1rem;
   text-wrap: pretty;
   overflow-x: hidden;
-    text-underline-position: under;
+  text-underline-position: under;
 }
 
 main {
   padding: 2rem;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
 }
 
 .content {
@@ -119,11 +115,11 @@ blockquote {
 }
 
 a {
-  color: inherit;
+  color: black;
   text-underline-position: under;
 }
 
-a:hover {
+main a:hover {
   background: #C9FF34;
 }
 
@@ -236,10 +232,6 @@ hr {
   border: 1px solid #9cc62a;
 }
 
-.margin-btm-1rem {
-  margin-bottom: -1rem !important;
-}
-
 .text-align-center {
   text-align: center;
 }
@@ -256,10 +248,6 @@ hr {
 
 .font-weight-500 {
   font-weight: 500;
-}
-
-.font-small {
-  font-size: 0.75rem;
 }
 
 details summary {
@@ -337,14 +325,6 @@ details summary::-webkit-details-marker {
   transform: rotate(0deg) scale(1);
 }
 
-.author-bio::-webkit-scrollbar-thumb {
-  background: var(--color-bl);
-}
-
-.author-bio::-webkit-scrollbar-thumb:hover {
-  background: #65a2f8;
-}
-
 .author-2 {
   left: 9rem;
 }
@@ -384,14 +364,6 @@ details summary::-webkit-details-marker {
   transform: rotate(0deg);
 }
 
-.foreword::-webkit-scrollbar-thumb {
-  background: var(--color-bl);
-}
-
-.foreword::-webkit-scrollbar-thumb:hover {
-  background: #65a2f8;
-}
-
 .touch-screen {
   position: static;
   top: auto;
@@ -409,15 +381,34 @@ details summary::-webkit-details-marker {
 
 .author-bio.touch-screen {
   font-size: 1rem;
-  position: absolute;
   top: 1rem;
   left: 0;
-    z-index: 10;
+  z-index: 10;
 }
 
 .author-2.touch-screen {
   left: 8rem;
 }
+
+@-moz-document url-prefix() {
+  .author-bio, .foreword {
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-bl) transparent;
+  }
+}
+
+.author-bio::-webkit-scrollbar, .foreword::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+.author-bio::-webkit-scrollbar-thumb, .foreword::-webkit-scrollbar-thumb {
+  background: var(--color-bl) !important;
+}
+
+.author-bio::-webkit-scrollbar-thumb:hover, .foreword::-webkit-scrollbar-thumb:hover {
+  background: #65a2f8 !important;
+}
+
 
 /* -------------------- lightbox --------------------- */
 
@@ -445,12 +436,12 @@ details summary::-webkit-details-marker {
 .lightbox-base {
   display: flex;
   align-items: stretch;
-  /* make children fill the same height */
   justify-content: space-between;
   margin: 0 0 2rem -2rem;
   background: var(--color-br);
   line-height: var(--line-height-small);
   min-height: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .lightbox-info {
@@ -539,7 +530,7 @@ details summary::-webkit-details-marker {
   display: none;
   padding: 0 0.5rem;
   content: attr(data-tooltip);
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 [data-tooltip]:hover:after {
@@ -558,7 +549,7 @@ details summary::-webkit-details-marker {
 }
 
 .content figcaption {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: var(--color-dg);
   line-height: var(--line-height-small);
 }
@@ -586,7 +577,7 @@ figure.head-img figcaption {
 figure.narrow-img {
   width: 50%;
   align-self: center;
-    margin: 2rem auto 0 auto;
+  margin: 2rem auto 0 auto;
 }
 
 figure.narrow-img img {
@@ -692,6 +683,11 @@ th {
   text-align: left;
   background: var(--color-br);
   padding: 0 0.5rem;
+}
+
+.footnote {
+  color: var(--color-dg);
+  font-size: 0.8rem;
 }
 
 footer {
@@ -894,7 +890,8 @@ details.tools summary:hover {
 }
 
 .auto-slideshow figure {
-  grid-area: 1 / 1; /* stack all figures */
+  grid-area: 1 / 1;
+  /* stack all figures */
   opacity: 0;
   transition: opacity 0.6s ease-in-out;
   margin: 0;
@@ -920,7 +917,7 @@ details.tools summary:hover {
     font-size: 18px;
   }
 
-    h1 {
+  h1 {
     font-size: 2rem;
   }
 
@@ -935,7 +932,8 @@ details.tools summary:hover {
 @media (max-width: 768px) {
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
   }
 
   h2 {
@@ -970,18 +968,19 @@ details.tools summary:hover {
   }
 
   details h3,
-details h4,
-details.tools p,
-details.tools ul {
-  margin: 1rem 0;
-}
+  details h4,
+  details.tools p,
+  details.tools ul {
+    margin: 1rem 0;
+  }
 
   details.author {
     margin: 1rem 0 2rem 0;
 
   }
 
-  .content figure,   .content video {
+  .content figure,
+  .content video {
     width: 100%;
   }
 
@@ -1028,8 +1027,6 @@ details.tools ul {
 
   .foreword {
     position: static;
-    top: 0;
-    right: 0;
     overflow-y: scroll;
     padding: 1rem;
     transform: none;
@@ -1047,7 +1044,6 @@ details.tools ul {
     transform: none;
   }
 
-
   .author-bio:hover {
     transform: none;
   }
@@ -1057,31 +1053,29 @@ details.tools ul {
   }
 
   .touch-screen {
-  position: static;
-  top: auto;
-  margin: 1rem auto;
-    width: calc(100% - 3rem);
-  max-height: fit-content;
-  aspect-ratio: 10 / 9;
-  overflow-y: scroll;
-  padding: 1rem;
-  transform: none;
-  z-index: 5;
-  cursor: default;
-}
+    position: static;
+    top: auto;
+    margin: 1rem auto;
+    width: 100%;
+    max-height: fit-content;
+    padding: 1rem;
+    transform: none;
+    z-index: 5;
+    cursor: default;
+  }
 
 
-.author-bio.touch-screen {
-  font-size: 1rem;
-  position: absolute;
-  top: 1rem;
-  left: 0;
+  .author-bio.touch-screen {
+    font-size: 1rem;
+    position: absolute;
+    top: 2rem;
+    left: 0;
     z-index: 10;
-}
+  }
 
-.author-2.touch-screen {
-  left: 0;
-}
+  .author-2.touch-screen {
+    left: 0;
+  }
 
   .lightbox-container {
     width: calc(100% + 1rem);
@@ -1112,10 +1106,10 @@ details.tools ul {
     margin: 2rem 0;
   }
 
-.auto-slideshow {
-  width: 70%; 
-  margin: 1rem auto;
-}
+  .auto-slideshow {
+    width: 70%;
+    margin: 1rem auto;
+  }
 
   .gr-highlight-long {
     font-size: 1.15rem;
@@ -1160,9 +1154,9 @@ details.tools ul {
     content: "\2714 ";
   }
 
-    .content details {
-      margin: 0;
-    }
+  .content details {
+    margin: 0;
+  }
 
   table,
   td {

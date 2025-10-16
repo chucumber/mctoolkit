@@ -29,7 +29,7 @@ What does it mean to turn an educational space into a site of experimentation, c
   </div>
 </div>
 
-<div class="lightbox-base font-small">
+<div class="lightbox-base">
   <div class="lightbox-info">
     <div class="img-info"></div>
     <div class="lightbox-counter">1/-</div>
@@ -435,7 +435,7 @@ Use sticker activism: Let participants design and place homemade stickers in the
 
 * * *
 
-<p class="color-dg font-small" markdown="1">
+<p class="footnote" markdown="1">
 
 This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
 
