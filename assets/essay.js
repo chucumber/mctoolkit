@@ -48,92 +48,92 @@ document.addEventListener('click', (e) => {
 
 // Lightbox
 const initLightbox = () => {
-    const lightboxScroll = document.querySelector('.lightbox-scroll');
-    const imgInfo = document.querySelector('.img-info');
-    if (!lightboxScroll || !imgInfo) return;
+  const lightboxScroll = document.querySelector('.lightbox-scroll');
+  const imgInfo = document.querySelector('.img-info');
+  if (!lightboxScroll || !imgInfo) return;
 
-    const images = Array.from(lightboxScroll.querySelectorAll('img'));
-    if (images.length === 0) return;
+  const images = Array.from(lightboxScroll.querySelectorAll('img'));
+  if (images.length === 0) return;
 
-    let currentIndex = 0;
-    const totalImages = images.length;
+  let currentIndex = 0;
+  const totalImages = images.length;
 
-    let imagePositions = [0];
-    let totalWidth = 0;
+  let imagePositions = [0];
+  let totalWidth = 0;
 
-    Promise.all(images.map(img => {
-        return new Promise(resolve => {
-            if (img.complete) resolve(img);
-            img.onload = () => resolve(img);
-        });
-    })).then(loadedImages => {
-        loadedImages.forEach((img, i) => {
-            if (i < totalImages - 1) {
-                totalWidth += img.offsetWidth;
-                imagePositions.push(totalWidth);
-            }
-        });
-
-        const updateCredit = (index) => {
-            const img = images[index];
-            const credit = img.getAttribute("data-caption") || '';
-            imgInfo.innerHTML = credit;
-        };
-
-        const goToImage = (index) => {
-            currentIndex = index;
-            const offset = imagePositions[currentIndex];
-            lightboxScroll.style.transform = `translateX(-${offset}px)`;
-            updateCounter();
-            updateCredit(currentIndex);
-        };
-
-        const nextImage = () => {
-            currentIndex = (currentIndex + 1) % totalImages;
-            goToImage(currentIndex);
-        };
-
-        const prevImage = () => {
-            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-            goToImage(currentIndex);
-        };
-
-        const updateCounter = () => {
-            const counter = document.querySelector('.lightbox-counter');
-            counter.textContent = `${currentIndex + 1}/${totalImages}`;
-        };
-
-        document.querySelector('.lightbox-button.next').addEventListener('click', nextImage);
-        document.querySelector('.lightbox-button.prev').addEventListener('click', prevImage);
-
-        // 👉 Swipe detection for mobile
-        let startX = 0;
-        let endX = 0;
-
-        lightboxScroll.addEventListener('touchstart', (e) => {
-            startX = e.touches[0].clientX;
-        });
-
-        lightboxScroll.addEventListener('touchend', (e) => {
-            endX = e.changedTouches[0].clientX;
-            handleSwipe();
-        });
-
-        const handleSwipe = () => {
-            let diffX = endX - startX;
-            if (Math.abs(diffX) > 50) { // threshold: 50px
-                if (diffX > 0) {
-                    prevImage(); // swipe right → previous
-                } else {
-                    nextImage(); // swipe left → next
-                }
-            }
-        };
-
-        // Init
-        updateCounter();
-        updateCredit(0);
+  Promise.all(images.map(img => {
+    return new Promise(resolve => {
+      if (img.complete) resolve(img);
+      img.onload = () => resolve(img);
     });
+  })).then(loadedImages => {
+    loadedImages.forEach((img, i) => {
+      if (i < totalImages - 1) {
+        totalWidth += img.offsetWidth;
+        imagePositions.push(totalWidth);
+      }
+    });
+
+    const updateCredit = (index) => {
+      const img = images[index];
+      const credit = img.getAttribute("data-caption") || '';
+      imgInfo.innerHTML = credit;
+    };
+
+    const goToImage = (index) => {
+      currentIndex = index;
+      const offset = imagePositions[currentIndex];
+      lightboxScroll.style.transform = `translateX(-${offset}px)`;
+      updateCounter();
+      updateCredit(currentIndex);
+    };
+
+    const nextImage = () => {
+      currentIndex = (currentIndex + 1) % totalImages;
+      goToImage(currentIndex);
+    };
+
+    const prevImage = () => {
+      currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+      goToImage(currentIndex);
+    };
+
+    const updateCounter = () => {
+      const counter = document.querySelector('.lightbox-counter');
+      counter.textContent = `${currentIndex + 1}/${totalImages}`;
+    };
+
+    document.querySelector('.lightbox-button.next').addEventListener('click', nextImage);
+    document.querySelector('.lightbox-button.prev').addEventListener('click', prevImage);
+
+    // Swipe detection for mobile
+    let startX = 0;
+    let endX = 0;
+
+    lightboxScroll.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+
+    lightboxScroll.addEventListener('touchend', (e) => {
+      endX = e.changedTouches[0].clientX;
+      handleSwipe();
+    });
+
+    const handleSwipe = () => {
+      let diffX = endX - startX;
+      if (Math.abs(diffX) > 50) { // threshold: 50px
+        if (diffX > 0) {
+          prevImage(); // swipe right → previous
+        } else {
+          nextImage(); // swipe left → next
+        }
+      }
+    };
+
+    // Init
+    updateCounter();
+    updateCredit(0);
+  });
 };
 
 initLightbox();
@@ -146,62 +146,61 @@ document.body.appendChild(popup);
 
 // Handle image clicks
 document.querySelectorAll('.content img, .contributor img').forEach(img => {
-    img.addEventListener('click', () => {
-        popup.innerHTML = '';
+  img.addEventListener('click', () => {
+    popup.innerHTML = '';
 
-        const popupImg = document.createElement('img');
-        popupImg.src = img.src;
+    const popupImg = document.createElement('img');
+    popupImg.src = img.src;
 
-        const credit = document.createElement('div');
-        credit.className = 'credit';
-        credit.innerHTML = img.getAttribute("data-caption") || '';
+    const credit = document.createElement('div');
+    credit.className = 'credit';
+    credit.innerHTML = img.getAttribute("data-caption") || '';
 
-        popup.appendChild(popupImg);
-        popup.appendChild(credit);
-        popup.classList.add('active');
-    });
+    popup.appendChild(popupImg);
+    popup.appendChild(credit);
+    popup.classList.add('active');
+  });
 });
 
 
 // Close popup when clicking
 popup.addEventListener('click', (e) => {
-    if (e.target === popup) {   // only close if click backdrop, not image
-        popup.classList.remove('active');
-    }
+  if (e.target === popup) {   // only close if click backdrop, not image
+    popup.classList.remove('active');
+  }
 });
 
 // Bubble text animation
 if (document.querySelectorAll('.bubble').length > 0) {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            } else {
-                entry.target.classList.remove('visible');
-            }
-        });
-    }, {
-        threshold: 0.1,
-        rootMargin: '-50px'
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      } else {
+        entry.target.classList.remove('visible');
+      }
     });
+  }, {
+    threshold: 0.1,
+    rootMargin: '-50px'
+  });
 
-    document.querySelectorAll('.bubble').forEach((bubble) => {
-        observer.observe(bubble);
-    });
+  document.querySelectorAll('.bubble').forEach((bubble) => {
+    observer.observe(bubble);
+  });
 }
 
 // image caption
 document.querySelectorAll("figure").forEach(figure => {
-    const img = figure.querySelector("img");
-    const caption = figure.querySelector("figcaption");
-    if (img && caption && !caption.innerHTML.trim()) {
-        const captionHTML = img.getAttribute("data-caption") || img.getAttribute("alt");
-        caption.innerHTML = captionHTML;
-    }
+  const img = figure.querySelector("img");
+  const caption = figure.querySelector("figcaption");
+  if (img && caption && !caption.innerHTML.trim()) {
+    const captionHTML = img.getAttribute("data-caption") || img.getAttribute("alt");
+    caption.innerHTML = captionHTML;
+  }
 });
 
 // auto slideshow
-
 document.addEventListener("DOMContentLoaded", () => {
   const slideshows = document.querySelectorAll(".auto-slideshow");
   const intervalTime = 2000; // time per image (ms)
@@ -213,48 +212,65 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialize first slide
     figures[index].classList.add("active");
 
-    // Function to update container height to match active figure
+    // Function to measure visible figure height safely
     const updateHeight = () => {
       const activeFigure = slideshow.querySelector("figure.active");
-      if (activeFigure) {
-        slideshow.style.height = activeFigure.clientHeight + "px";
+      if (!activeFigure) return;
+
+      // Get computed height even for absolutely positioned elements
+      const figureHeight = activeFigure.getBoundingClientRect().height;
+
+      if (figureHeight > 0) {
+        slideshow.style.height = `${figureHeight}px`;
       }
     };
 
-    // Initial height after image loads
-    window.addEventListener("load", updateHeight);
+    // Update height whenever an image loads
+    figures.forEach(fig => {
+      const img = fig.querySelector("img");
+      if (img) {
+        img.addEventListener("load", updateHeight);
+      }
+    });
+
+    // Update on resize or orientation change
     window.addEventListener("resize", updateHeight);
+    window.addEventListener("orientationchange", updateHeight);
+
+    // Set initial height once DOM is ready
+    updateHeight();
 
     // Cycle through slides
     setInterval(() => {
       figures[index].classList.remove("active");
       index = (index + 1) % figures.length;
       figures[index].classList.add("active");
-
       updateHeight();
     }, intervalTime);
   });
 });
 
 
+
+
 //contributor info
-$(document).ready(function() {
-  $('.contributor-card').on('click', function() {
+$(document).ready(function () {
+  $('.contributor-card').on('click', function () {
     const target = $(this).data('target');
     const popup = $('#' + target);
-    $('.contributor-popup').addClass('hidden'); 
+    $('.contributor-popup').addClass('hidden');
     popup.removeClass('hidden');
     $('body').addClass('no-scroll');
   });
 
   // Close with "X" button
-  $('.contributor-popup .close').on('click', function() {
+  $('.contributor-popup .close').on('click', function () {
     $('.contributor-popup').addClass('hidden');
     $('body').removeClass('no-scroll');
   });
 
   // Close by clicking outside popup content
-  $(document).on('click', function(e) {
+  $(document).on('click', function (e) {
     const $popup = $('.contributor-popup:visible');
     if ($popup.length && $(e.target).is('.contributor-popup')) {
       $popup.addClass('hidden');
