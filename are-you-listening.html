@@ -36,97 +36,6 @@
             --color-ui: #aeaeae;
         }
 
-        .split-container {
-            display: flex;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .pane {
-            overflow: auto;
-            transition: width 0.2s ease, opacity 0.2s ease;
-        }
-
-        .left {
-            flex: 0 0 auto;
-            position: relative;
-        }
-
-        .right {
-            flex: 0 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            opacity: 1;
-            pointer-events: all;
-            background: var(--color-lg);
-            position: relative;
-        }
-
-        .right.collapsed {
-            pointer-events: none;
-            justify-content: center;
-        }
-
-        .right.collapsed ul {
-            display: none;
-        }
-
-        .menu-label {
-            display: none;
-            font-family: var(--font-title);
-            writing-mode: vertical-rl;
-            letter-spacing: 0.25rem;
-            font-size: 1rem;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        .right.collapsed .menu-label {
-            display: block;
-        }
-
-        .divider {
-            flex: 0 0 var(--gutter);
-            cursor: col-resize;
-            position: relative;
-            z-index: 10;
-            border-right: var(--color-ui) 1px solid;
-            border-left: var(--color-ui) 1px solid;
-        }
-
-        .divider:hover {
-            background: #f6f6f6;
-        }
-
-
-        .divider::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-
-            width: 4px;
-            /* width of each dot */
-            height: 4px;
-            /* height of each dot */
-            background: var(--color-ui);
-            /* dot color */
-            border-radius: 50%;
-            /* circular dots */
-
-            box-shadow:
-                0 10px var(--color-ui),
-                0 20px var(--color-ui),
-                0 30px var(--color-ui),
-                0 -10px var(--color-ui),
-                0 -20px var(--color-ui),
-                0 -30px var(--color-ui);
-        }
 
         ::-webkit-scrollbar {
             width: 15px;
@@ -145,6 +54,95 @@
             cursor: grab;
         }
 
+        /* ----------------- nav bar ------------------ */
+
+        nav {
+            position: fixed;
+            top: 0.5rem;
+            right: 2rem;
+            display: flex;
+            gap: 1rem;
+            z-index: 999;
+        }
+
+        .menu {
+            display: block;
+        }
+
+        .home-toggle a {
+            text-decoration: none;
+        }
+
+
+        /* hidden by default */
+        .menu {
+            position: absolute;
+            top: 2rem;
+            right: 0;
+            width: 20vw;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 500ms ease;
+        }
+
+        /* visible state */
+        .menu.open {
+            max-height: 90vh;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .menu li a {
+            display: block;
+            padding: 0.75rem 1rem;
+            text-decoration: none;
+            color: black;
+        }
+
+        .menu li {
+            background: var(--color-lg);
+            font-size: 0.85rem;
+            text-align: center;
+            border-bottom: var(--color-dg) solid 1px;
+        }
+
+        .menu li.bg-pk:hover {
+            background: var(--color-pk);
+        }
+
+        .menu li.bg-dg:hover {
+            background: var(--color-dg);
+        }
+
+        .menu li.bg-bl:hover {
+            background: var(--color-bl);
+        }
+
+        .menu li.bg-gr:hover {
+            background: var(--color-gr);
+        }
+
+        .menu li.bg-br:hover {
+            background: var(--color-br);
+        }
+
+        #rightPane::-webkit-scrollbar-thumb {
+            background: var(--color-br);
+        }
+
+        #rightPane::-webkit-scrollbar-thumb:hover {
+            background: #c9a87f;
+            cursor: grab;
+        }
+
+
+
         @media (max-width: 768px) {
 
             html,
@@ -154,31 +152,29 @@
                 overflow-x: hidden;
             }
 
-            .split-container {
-                flex-direction: column;
-                height: auto;
-                overflow-y: visible;
+            nav {
+                position: static;
+                margin: 2rem 0.5rem;
+                display: flex;
+                justify-content: space-around;
+                gap: 1rem;
+                z-index: 999;
             }
 
-            .divider {
-                display: none;
-            }
+            .menu {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+        }
 
-            .left,
-            .right {
-                width: 100vw !important;
-                overflow-x: hidden;
-            }
+        .menu li a {
+            display: block;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: black;
+        }
 
-            .right {
-                order: 2;
-                border-top: 1px solid var(--color-ui);
-                margin-top: 4rem;
-            }
-
-            .left {
-                order: 1;
-            }
 
             ::-webkit-scrollbar {
                 width: 5px;
@@ -190,9 +186,7 @@
 
 <body>
 
-    <div id="split" class="split-container">
-        <div id="leftPane" class="pane left">
-            <main>
+    <main>
     <h1>
         Are You Listening? Deep Listening as Youth Pedagogy
     </h1>
@@ -200,19 +194,24 @@
     <div class="author">
         <button class="author-toggle">Mikey Kirkpatrick</button>
         <div class="author-bio bg-gr">
-            <button class="author-close">×</button>
+            <button class="author-close">&#10005;</button>
             <p>
-                is a musician (singer, flautist, composer, performer) and associate lecturer in music and education at Goldsmiths. His research and practice focus on how music and deep listening can be healing for individuals and communities. Mikey has performed on hundreds of streets and stages internationally and has composed for film and theatre. During the pandemic he gave over 200 regular live improvised flute broadcasts as a sonic shelter for listeners. Mikey founded Alchemy in 2017 with support from Goldsmiths Widening Participation, a weekly workshop programme that offers professional creative music training and youth work support to young people facing barriers, delivered by a diverse team of professional artists, mentors, and students. In 2023 he founded the Alchemy Masters programme (thanks to the support of the Vernon Ellis Foundation), offering paid training to young artist mentors, empowering them as facilitators and creatives with the aim to support them into employment and/or further education.
-
                 
-                <br><br>
-                <a href="https://sites.gold.ac.uk/alchemy/" target="_blank"
-                    rel="noopener">sites.gold.ac.uk/alchemy</a><br>
-                <a href="http://mikeykirkpatrick.wordpress.com" target="_blank"
-                    rel="noopener">mikeykirkpatrick.wordpress.com</a>
+                Mikey Kirkpatrick is a musician (singer, flautist, composer, performer) and associate lecturer in music and education at
+Goldsmiths. His research and practice focus on how music and deep listening can be healing for individuals and
+communities. Mikey has performed on hundreds of streets and stages internationally and has composed for film and
+theatre. During the pandemic he gave over 200 regular live improvised flute broadcasts as a sonic shelter for listeners.
+Mikey founded Alchemy in 2017 with support from Goldsmiths Widening Participation, a weekly workshop programme that
+offers professional creative music training and youth work support to young people facing barriers, delivered by a
+diverse team of professional artists, mentors, and students. In 2023 he founded the Alchemy Masters programme (thanks to
+the support of the Vernon Ellis Foundation), offering paid training to young artist mentors, empowering them as
+facilitators and creatives with the aim to support them into employment and/or further education.
+
+<br><br>
+<a href="https://sites.gold.ac.uk/alchemy/" target="_blank" rel="noopener">sites.gold.ac.uk/alchemy</a><br>
+<a href="http://mikeykirkpatrick.wordpress.com" target="_blank" rel="noopener">mikeykirkpatrick.wordpress.com</a>
                 
             </p>
-
         </div>
 
         
@@ -244,7 +243,7 @@
 
 <p>‘Listen to everything all the time and remind yourself when you are not listening.’</p>
 
-<p>This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of <em>Sonic Meditations</em>, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="font-small color-bl" data-tooltip="Oliveros, P. (2005) Deep listening: A composer’s sound practice. Bloomington, IN: iUniverse, Inc.">↵</span></p>
+<p>This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of <em>Sonic Meditations</em>, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="color-bl" data-tooltip="Oliveros, P. (2005) Deep listening: A composer’s sound practice. Bloomington, IN: iUniverse, Inc.">↵</span></p>
 
 <p>After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk ‘<a href="https://www.youtube.com/watch?v=_QHfOuRrJB8" target="_blank">The difference between hearing and listening</a>’.</p>
 
@@ -312,7 +311,7 @@ This begins from the belief that education models in the west are oppressive and
 Engaged Pedagogy (bell hooks)
 </summary>
 <p>
-Directly inspired by the pedagogy of the oppressed, but with a stronger emphasis on love and empathy in the classroom, and the humanisation of the teacher: ‘education as the practice of freedom’.<span class="font-small color-bl" data-tooltip="Hooks, B. (1994). ‘Engaged Pedagogy’, Teaching to transgress. Routledge">↵</span>  
+Directly inspired by the pedagogy of the oppressed, but with a stronger emphasis on love and empathy in the classroom, and the humanisation of the teacher: ‘education as the practice of freedom’.<span class="color-bl" data-tooltip="Hooks, B. (1994). ‘Engaged Pedagogy’, Teaching to transgress. Routledge">↵</span>  
 </p> 
 </details>
 
@@ -324,6 +323,8 @@ Border Pedagogy (Henry Giroux)
 Again, following on from Paolo Freire, Giroux suggests that learning can be structured differently to break down borders (including prejudice and discrimination) not by ignoring them, but by using them as catalysts for action and social change, and as a chance to deconstruct the stereotyping that inhibits learning and collective problem solving.
 </p> 
 </details>
+
+<p><br /></p>
 
 <h2 id="how-we-work-to-listen">How We Work to Listen</h2>
 <p>These models provide a useful foundation, but are especially effective when they are implemented in parallel with Pauline Oliveros’ mantra. 
@@ -506,6 +507,8 @@ Thank you so much for being there for us and being helping and supporting while 
 
 </details>
 
+<p><br /></p>
+
 <h2 id="some-final-words">Some final words</h2>
 <p>Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present.</p>
 
@@ -521,7 +524,6 @@ Thank you so much for being there for us and being helping and supporting while 
 
 <p>Thank you to everyone who made this a life-changing week for us all.</p>
 
-<p><br /></p>
 <p style="margin-bottom: 0;"><b>Watch videos from the week with Goldsmith Alchemy:</b></p>
 <video controls="" playsinline="" preload="none" poster="video/KS-MC24(Liten).webp">
   <source src="video/KS-MC24(Liten).mp4" type="video/mp4" />
@@ -535,149 +537,85 @@ Thank you so much for being there for us and being helping and supporting while 
 <p><br /><br /></p>
 <hr />
 
-<div class="color-dg font-small">
+<p class="color-dg font-small">
 
-  <p>ALCHEMY MENTORS</p>
 
-  <p><strong>Martin Vito (aka King Vito Speaks)</strong> 
-is a mentor offering support with music production, songwriting, rap coaching, recording, vocal arrangement, artist development, artist mentoring, mental health management, musical direction, live performance, album curation, music release, and fanbase and community building. He is the founder of UYT (Unleash Your Talent) Media.</p>
+ALCHEMY MENTORS
 
-  <p><strong>Omar Elsaaidi (aka Refrain)</strong>
-started his journey into music in 2019, although he truly began his creative process two years prior through the art of poetry as a means to express his inner voice. Also known as Refrain, now six years down the line, his experience and his expression have completely transformed. From performing at the lower third in London to co-hosting headteacher conferences, his reach is most definitely impressive. His aim is to impact and support as many young people as possible, letting them know they are not alone in their fight between the world and themselves. This message echoes through his craft from released songs such as ‘Gods Got Me’ to unreleased songs such as ‘Stuck On The Grind’. He is currently studying for a degree in the Social, Therapeutic and Community Studies Degree.</p>
+<br /><br />
 
-  <p><strong>Timothy Wairama (aka Tboiii)</strong> 
-is a rapper, singer, pianist, and producer. He is a skilled performer guaranteed to get audiences onto the dance floor. He is also an experienced recording and mix engineer, and producer with a growing following on social media.</p>
+<strong>Martin Vito (aka King Vito Speaks)</strong> 
+is a mentor offering support with music production, songwriting, rap coaching, recording, vocal arrangement, artist development, artist mentoring, mental health management, musical direction, live performance, album curation, music release, and fanbase and community building. He is the founder of UYT (Unleash Your Talent) Media. 
 
-</div>
+<br /><br />
+
+<strong>Omar Elsaaidi (aka Refrain)</strong>
+started his journey into music in 2019, although he truly began his creative process two years prior through the art of poetry as a means to express his inner voice. Also known as Refrain, now six years down the line, his experience and his expression have completely transformed. From performing at the lower third in London to co-hosting headteacher conferences, his reach is most definitely impressive. His aim is to impact and support as many young people as possible, letting them know they are not alone in their fight between the world and themselves. This message echoes through his craft from released songs such as ‘Gods Got Me’ to unreleased songs such as ‘Stuck On The Grind’. He is currently studying for a degree in the Social, Therapeutic and Community Studies Degree. 
+
+<br /><br />
+
+<strong>Timothy Wairama (aka Tboiii)</strong> 
+is a rapper, singer, pianist, and producer. He is a skilled performer guaranteed to get audiences onto the dance floor. He is also an experienced recording and mix engineer, and producer with a growing following on social media.
+
+</p>
 
 
     </div>
 </main>
 
 <footer>
-    <button onclick="topFunction()" id="top-btn">Back to Top</button>
 </footer>
-        </div>
 
-        <div id="divider" class="divider" tabindex="0" role="separator" aria-orientation="vertical"
-            title="drag to resize">
-        </div>
-
-        <div id="rightPane" class="pane right collapsed">
-            <div class="menu-label" tabindex="0" role="button" aria-label="Expand related content">menu</div>
-            <ul id="menu">
-                <li id="home-link"><a href="index.html">Home</a></li>
-                <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a></li>
+    <nav>
+        <button class="home-toggle"><a href="index.html">Home</a></button>
+                <button onclick="topFunction()" id="top-btn">Back to Top</button>
+        <button class="menu-toggle">Menu</button>
+        <ul class="menu">
+            <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a>
+            </li>
             <li class="bg-pk"><a href="foreword-lee">Foreword, Lee Heinemann</a></li>
             <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education</a></li>
-            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and
+            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship,
+                    and
                     the Power of
                     Play</a>
             </li>
             <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
             </li>
-            <li class="bg-bl"><a href="self-as-archive">Self as Archive: A workshop on Erasure + World-Building</a></li>
+            <li class="bg-bl"><a href="self-as-archive">Self as Archive: A workshop on Erasure + World-Building</a>
+            </li>
             <li class="bg-bl"><a href="what-we-hold-sacred">What We Hold Sacred: A Workshop on Altar-Making</a>
             </li>
             <li class="bg-br"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-
             <li class="bg-gr"><a href="contributor">Contributors</a></li>
-            </ul>
-        </div>
-    </div>
+        </ul>
+    </nav>
 
     <script>
-        (() => {
-            const left = document.getElementById('leftPane');
-            const right = document.getElementById('rightPane');
-            const divider = document.getElementById('divider');
-            const menuLabel = right.querySelector('.menu-label');
 
-            const rootStyle = getComputedStyle(document.documentElement);
-            const gutter = parseFloat(rootStyle.getPropertyValue('--gutter'));
-            const minCol = parseFloat(rootStyle.getPropertyValue('--min-col'));
-            const collapsedWidth = parseFloat(rootStyle.getPropertyValue('--collapsed-width'));
-            const snapThreshold = parseFloat(rootStyle.getPropertyValue('--snap-threshold'));
+        const menuBtn = document.querySelector('.menu-toggle');
+        const dropdown = document.querySelector('.menu');
 
-            let isDragging = false;
-            let rightWidth = 240;
+        menuBtn.addEventListener('click', () => {
+            const isOpening = !dropdown.classList.contains('open');
 
-            let leftWidth = window.innerWidth - gutter - rightWidth;
-            let rafId = null;
-
-            applySizes();
-
-            // Pointer events for cross-device drag
-            divider.addEventListener('pointerdown', startDrag);
-            menuLabel.addEventListener('click', expandMenu);
-            window.addEventListener('resize', handleResize);
-
-            function startDrag(e) {
-                e.preventDefault();
-                isDragging = true;
-                document.body.style.cursor = 'col-resize';
-                document.body.style.userSelect = 'none';
-
-                const onMove = (e) => {
-                    if (!isDragging) return;
-                    if (rafId) cancelAnimationFrame(rafId);
-                    rafId = requestAnimationFrame(() => {
-                        const newLeft = e.clientX;
-                        if (newLeft < minCol || newLeft > window.innerWidth - gutter) return;
-                        leftWidth = newLeft;
-                        rightWidth = window.innerWidth - leftWidth - gutter;
-                        applySizes();
-                    });
-                };
-
-                const stopDrag = () => {
-                    isDragging = false;
-                    document.body.style.cursor = '';
-                    document.body.style.userSelect = '';
-                    if (rightWidth < snapThreshold) collapseRight();
-                    window.removeEventListener('pointermove', onMove);
-                    window.removeEventListener('pointerup', stopDrag);
-                };
-
-                window.addEventListener('pointermove', onMove);
-                window.addEventListener('pointerup', stopDrag);
+            if (isOpening) {
+                dropdown.classList.add('open');
+                // wait for open animation to finish before enabling scroll
+                setTimeout(() => {
+                    dropdown.style.overflow = "auto";
+                }, 500);
+            } else {
+                // close immediately and hide overflow right away
+                dropdown.classList.remove('open');
+                dropdown.style.overflow = "hidden";
             }
+        });
 
-            function handleResize() {
-                const total = window.innerWidth - gutter;
-                leftWidth = total - rightWidth;
-                applySizes();
-            }
-
-            function collapseRight() {
-                rightWidth = collapsedWidth;
-                leftWidth = window.innerWidth - gutter - rightWidth;
-                applySizes();
-            }
-
-            function expandMenu() {
-                rightWidth = 250;
-                leftWidth = window.innerWidth - gutter - rightWidth;
-                applySizes();
-            }
-
-            function applySizes() {
-                left.style.width = `${leftWidth}px`;
-                right.style.width = `${rightWidth}px`;
-
-                // Keep "Menu" label visible until pane exceeds snap-threshold
-                if (rightWidth <= snapThreshold) {
-                    right.classList.add('collapsed');
-                } else {
-                    right.classList.remove('collapsed');
-                }
-            }
-
-        })();
     </script>
 </body>
 
