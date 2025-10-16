@@ -104,7 +104,7 @@ This process allowed participants to change pace and leave behind the roles they
 ><mark class="pk-highlight-long">Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</mark>
 
 
-<div class="auto-slideshow three-by-four">
+<div class="auto-slideshow">
   <figure>
   <img src="img/walk-of-shame/WOS-0.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>

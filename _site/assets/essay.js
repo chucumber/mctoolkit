@@ -203,52 +203,22 @@ document.querySelectorAll("figure").forEach(figure => {
 // auto slideshow
 document.addEventListener("DOMContentLoaded", () => {
   const slideshows = document.querySelectorAll(".auto-slideshow");
-  const intervalTime = 2000; // time per image (ms)
+  const intervalTime = 2000;
 
   slideshows.forEach(slideshow => {
     const figures = slideshow.querySelectorAll("figure");
     let index = 0;
 
-    // Initialize first slide
     figures[index].classList.add("active");
 
-    // Function to measure visible figure height safely
-    const updateHeight = () => {
-      const activeFigure = slideshow.querySelector("figure.active");
-      if (!activeFigure) return;
-
-      // Get computed height even for absolutely positioned elements
-      const figureHeight = activeFigure.getBoundingClientRect().height;
-
-      if (figureHeight > 0) {
-        slideshow.style.height = `${figureHeight}px`;
-      }
-    };
-
-    // Update height whenever an image loads
-    figures.forEach(fig => {
-      const img = fig.querySelector("img");
-      if (img) {
-        img.addEventListener("load", updateHeight);
-      }
-    });
-
-    // Update on resize or orientation change
-    window.addEventListener("resize", updateHeight);
-    window.addEventListener("orientationchange", updateHeight);
-
-    // Set initial height once DOM is ready
-    updateHeight();
-
-    // Cycle through slides
     setInterval(() => {
       figures[index].classList.remove("active");
       index = (index + 1) % figures.length;
       figures[index].classList.add("active");
-      updateHeight();
     }, intervalTime);
   });
 });
+
 
 
 
