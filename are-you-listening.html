@@ -36,33 +36,50 @@
             --color-ui: #aeaeae;
         }
 
+        * {
+            box-sizing: border-box;
+        }
 
-        ::-webkit-scrollbar {
+        @-moz-document url-prefix() {
+            * {
+                scrollbar-width: auto;
+                scrollbar-color: var(--color-pk) transparent;
+            }
+        }
+
+        *::-webkit-scrollbar {
             width: 15px;
         }
 
-        ::-webkit-scrollbar-track {
+        *::-webkit-scrollbar-track {
             background: transparent;
         }
 
-        ::-webkit-scrollbar-thumb {
+        *::-webkit-scrollbar-thumb {
             background: var(--color-pk);
         }
 
-        ::-webkit-scrollbar-thumb:hover {
+        *::-webkit-scrollbar-thumb:hover {
             background: #FF8CEC;
             cursor: grab;
         }
 
         /* ----------------- nav bar ------------------ */
 
-        nav {
+        #site-nav {
             position: fixed;
-            top: 0.5rem;
+            top: 0;
             right: 2rem;
+            height: 2rem;
             display: flex;
+            align-items: center;
             gap: 1rem;
             z-index: 999;
+            transition: transform 0.3s ease, position 0.3s ease;
+        }
+
+        #site-nav.hide {
+            transform: translateY(-100%);
         }
 
         .menu {
@@ -77,7 +94,7 @@
         /* hidden by default */
         .menu {
             position: absolute;
-            top: 2rem;
+            top: 2.5rem;
             right: 0;
             width: 20vw;
             list-style: none;
@@ -145,35 +162,29 @@
 
         @media (max-width: 768px) {
 
-            html,
-            body {
-                height: auto;
-                overflow-y: auto;
-                overflow-x: hidden;
-            }
-
-            nav {
-                position: static;
-                margin: 2rem 0.5rem;
-                display: flex;
-                justify-content: space-around;
-                gap: 1rem;
-                z-index: 999;
+            #site-nav {
+                width: 100%;
+                justify-content: space-between;
+                right: 0;
+                padding: 0 0.5rem;
+                background: white;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+                height: 2rem;
             }
 
             .menu {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 100%;
-        }
+                position: fixed;
+                top: 2rem;
+                right: 0;
+                width: 100%;
+            }
 
-        .menu li a {
-            display: block;
-            padding: 0.5rem 1rem;
-            text-decoration: none;
-            color: black;
-        }
+            .menu li a {
+                display: block;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+                color: black;
+            }
 
 
             ::-webkit-scrollbar {
@@ -537,7 +548,7 @@ Thank you so much for being there for us and being helping and supporting while 
 <p><br /><br /></p>
 <hr />
 
-<p class="color-dg font-small">
+<p class="footnote">
 
 
 ALCHEMY MENTORS
@@ -564,16 +575,18 @@ is a rapper, singer, pianist, and producer. He is a skilled performer guaranteed
 </main>
 
 <footer>
+
+    <button onclick="topFunction()" id="top-btn">Back to Top</button>
+
 </footer>
 
-    <nav>
+    <nav id="site-nav">
         <button class="home-toggle"><a href="index.html">Home</a></button>
-                <button onclick="topFunction()" id="top-btn">Back to Top</button>
         <button class="menu-toggle">Menu</button>
         <ul class="menu">
             <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a>
             </li>
-            <li class="bg-pk"><a href="foreword-lee">Foreword, Lee Heinemann</a></li>
+            <li class="bg-pk"><a href="foreword-lee">Introducing the Mobilizing Citizenship Toolkit</a></li>
             <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education</a></li>
             <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship,
@@ -596,6 +609,23 @@ is a rapper, singer, pianist, and producer. He is a skilled performer guaranteed
     </nav>
 
     <script>
+        let lastScroll = 0;
+        const nav = document.querySelector('#site-nav');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (currentScroll > lastScroll && currentScroll > 50) {
+                // Scrolling down
+                nav.classList.add('hide');
+            } else {
+                // Scrolling up
+                nav.classList.remove('hide');
+            }
+
+            lastScroll = currentScroll <= 0 ? 0 : currentScroll; // For mobile bounce
+        });
+
 
         const menuBtn = document.querySelector('.menu-toggle');
         const dropdown = document.querySelector('.menu');
