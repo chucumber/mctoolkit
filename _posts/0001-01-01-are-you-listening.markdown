@@ -4,7 +4,6 @@ permalink: "/:title"
 
 title: "Are You Listening? Deep Listening as Youth Pedagogy"
 author: "Mikey Kirkpatrick"
-author-bio: "is a musician (singer, flautist, composer, performer) and associate lecturer in music and education at Goldsmiths. His research and practice focus on how music and deep listening can be healing for individuals and communities. Mikey has performed on hundreds of streets and stages internationally and has composed for film and theatre. During the pandemic he gave over 200 regular live improvised flute broadcasts as a sonic shelter for listeners. Mikey founded Alchemy in 2017 with support from Goldsmiths Widening Participation, a weekly workshop programme that offers professional creative music training and youth work support to young people facing barriers, delivered by a diverse team of professional artists, mentors, and students. In 2023 he founded the Alchemy Masters programme (thanks to the support of the Vernon Ellis Foundation), offering paid training to young artist mentors, empowering them as facilitators and creatives with the aim to support them into employment and/or further education."
 ---
 
 <div class="foreword" markdown="1" tabindex="-1">
@@ -33,7 +32,7 @@ What happens when young people are trusted to lead, create, and teach—guided n
 ‘Listen to everything all the time and remind yourself when you are not listening.’
 
 
-This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of *Sonic Meditations*, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="font-small color-bl" data-tooltip="Oliveros, P. (2005) Deep listening: A composer’s sound practice. Bloomington, IN: iUniverse, Inc.">↵</span> 
+This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of *Sonic Meditations*, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="color-bl" data-tooltip="Oliveros, P. (2005) Deep listening: A composer’s sound practice. Bloomington, IN: iUniverse, Inc.">↵</span> 
 
 
 After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk ‘<a href="https://www.youtube.com/watch?v=_QHfOuRrJB8" target="_blank">The difference between hearing and listening</a>’.  
@@ -104,7 +103,7 @@ This begins from the belief that education models in the west are oppressive and
 Engaged Pedagogy (bell hooks)
 </summary>
 <p>
-Directly inspired by the pedagogy of the oppressed, but with a stronger emphasis on love and empathy in the classroom, and the humanisation of the teacher: ‘education as the practice of freedom’.<span class="font-small color-bl" data-tooltip="Hooks, B. (1994). ‘Engaged Pedagogy’, Teaching to transgress. Routledge">↵</span>  
+Directly inspired by the pedagogy of the oppressed, but with a stronger emphasis on love and empathy in the classroom, and the humanisation of the teacher: ‘education as the practice of freedom’.<span class="color-bl" data-tooltip="Hooks, B. (1994). ‘Engaged Pedagogy’, Teaching to transgress. Routledge">↵</span>  
 </p> 
 </details> 
 
@@ -116,6 +115,8 @@ Border Pedagogy (Henry Giroux)
 Again, following on from Paolo Freire, Giroux suggests that learning can be structured differently to break down borders (including prejudice and discrimination) not by ignoring them, but by using them as catalysts for action and social change, and as a chance to deconstruct the stereotyping that inhibits learning and collective problem solving.
 </p> 
 </details> 
+
+<br>
 
 ## How We Work to Listen
 These models provide a useful foundation, but are especially effective when they are implemented in parallel with Pauline Oliveros’ mantra. 
@@ -341,6 +342,7 @@ As I have found over the years with Alchemy and other creative community program
 
 </details> 
 
+<br>
 
 ## Some final words
 Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present. 
@@ -359,7 +361,7 @@ This is some of what I learnt during my time at Kunsthall Stavanger.
 
 Thank you to everyone who made this a life-changing week for us all. 
 
-<br>
+
 <p style="margin-bottom: 0;"><b>Watch videos from the week with Goldsmith Alchemy:</b></p>
 <video controls playsinline preload="none" poster="video/KS-MC24(Liten).webp">
   <source src="video/KS-MC24(Liten).mp4" type="video/mp4">
@@ -374,20 +376,25 @@ Thank you to everyone who made this a life-changing week for us all.
 <br><br>
 * * *
 
-<div class="color-dg font-small" markdown="1">
+<p class="color-dg font-small" markdown="1">
+
 
 ALCHEMY MENTORS
 
+<br><br>
 
 **Martin Vito (aka King Vito Speaks)** 
 is a mentor offering support with music production, songwriting, rap coaching, recording, vocal arrangement, artist development, artist mentoring, mental health management, musical direction, live performance, album curation, music release, and fanbase and community building. He is the founder of UYT (Unleash Your Talent) Media. 
 
+<br><br>
 
 **Omar Elsaaidi (aka Refrain)**
 started his journey into music in 2019, although he truly began his creative process two years prior through the art of poetry as a means to express his inner voice. Also known as Refrain, now six years down the line, his experience and his expression have completely transformed. From performing at the lower third in London to co-hosting headteacher conferences, his reach is most definitely impressive. His aim is to impact and support as many young people as possible, letting them know they are not alone in their fight between the world and themselves. This message echoes through his craft from released songs such as ‘Gods Got Me’ to unreleased songs such as ‘Stuck On The Grind’. He is currently studying for a degree in the Social, Therapeutic and Community Studies Degree. 
 
+<br><br>
+
 **Timothy Wairama (aka Tboiii)** 
 is a rapper, singer, pianist, and producer. He is a skilled performer guaranteed to get audiences onto the dance floor. He is also an experienced recording and mix engineer, and producer with a growing following on social media.
 
-</div>
+</p>
 

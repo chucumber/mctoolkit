@@ -369,72 +369,6 @@ div.brick {
     opacity: 1;
 }
 
-.player-title,
-.music-title {
-    display: none;
-    text-align: center;
-    font-family: var(--font-title);
-    line-height: var(--line-height-title);
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
-.player,
-.music-player {
-    display: none;
-    gap: 0.5rem;
-    text-align: center;
-}
-
-.player button,
-.music-player button {
-    background: transparent;
-    border: none;
-    text-decoration: underline 1px solid;
-    text-underline-position: under;
-    font-size: 1rem;
-    cursor: pointer;
-    font-family: var(--font-body);
-}
-
-.player button:hover,
-.music-player button:hover {
-    color: var(--color-dg);
-}
-
-.music-player button {
-    margin-right: 0.5rem;
-}
-
-#video-exit,
-#music-exit {
-    margin-left: 1rem;
-    color: var(--color-pk);
-}
-
-#audio-container {
-    width: 100%;
-    height: 100%;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    background: var(--color-lg);
-    padding: 1rem;
-}
-
-#audio-player {
-    width: 100%;
-}
-
-#audio-player::-webkit-media-controls-panel {
-    background: var(--color-lg);
-}
-
-#audio-player::-webkit-media-controls-enclosure {
-    background: var(--color-lg);
-}
-
-
 aside {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -673,11 +607,11 @@ p.blink {
     }
 
     aside {
+        flex: 1;
         display: flex;
         flex-direction: column;
         width: 100vw;
         height: auto;
-        overflow: hidden;
     }
 
     .top {
@@ -692,33 +626,41 @@ p.blink {
     }
 
     #home h3 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        margin-top: -0.5rem;
     }
 
-    .bottom {
-        background: var(--color-gr);
-        height: 25rem;
-        width: 100%;
-        position: relative;
-    }
-
+    
     #blink-image {
         display: none;
     }
 
 
-    .summary {
-        top: auto;
-        left: auto;
-        height: 25rem;
-        width: 100%;
-        padding: 1rem 0.5rem 3rem 0.5rem;
-    }
+    .bottom {
+                flex: 1;
+
+    background: var(--color-br);
+    height: max-content;
+    width: 100%;
+    position: relative;
+}
+
+.summary {
+    position: static;
+    width: 100%;
+        /* max-width: 500px; */
+    padding: 1rem 0.5rem;
+    overflow-y: auto;
+    /* color: var(--color-dg); */
+    font-size: 0.85rem;
+    line-height: 1.35;
+    text-align: justify;
+}
 
     #about {
         top: auto;
         left: auto;
-        height: 25rem;
+        /* height: 25rem; */
         width: 100%;
         transform: translateY(calc(22rem));
         transition: transform 0.7s cubic-bezier(0.5, 1, 0.89, 1);

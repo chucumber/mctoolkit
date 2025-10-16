@@ -4,7 +4,6 @@ permalink: "/:title"
 
 title: "What We Hold Sacred: A Workshop on Altar-Making"
 author: "Loni Johnson"
-author-bio: "is a multidisciplinary visual artist, educator, mother, and activist born and raised in Miami. Through movement and ritual, she creates healing spaces for Black women and explores the role of ancestral and historical memory. She holds a Bachelor of Fine Arts from SUNY at Purchase College School of Art and Design. <br><br>Johnson is the Lead Coordinator of Art Detectives—an arts education programme rooted in the framework of Social Justice at Perez Art Museum (PAMM) Miami. She is also Prevention Coordinator of the youth arts prevention programme at Concept Health Systems, and Chairperson for the National Visual Arts Selection Panel for National YoungArts Foundation. In addition, she is one of the founders of Miami Melanated Arts—a collective of Black artists who are creating space to reimagine effective and impactful arts ecosystems in South Florida. She continues to work with community organisations such as Girl Power, S.O.U.L Sisters Leadership Collective, and Voices United by providing youth the opportunities to find and nurture their identities and creative voices. She received a Knight Champion Award in 2019 and is a frequent guest speaker, lecturer, facilitator, and performer. <br><br>Selected exhibitions and performances: Remnants at Locust Projects, Miami, Making Visible: The Studio Archives of Chire Regans and Loni Johnson, WAAM at Dimensions Variable, Miami (2020); Say Their Names, Chire Regans/Vanta Black Memorial Mural Project Unveiling, Bakehouse Art Complex, Miami (2020); Performans Fanm/Global Borderless Caribbean XII: Focus Miami, Little Haiti Cultural Arts Center, Miami (2020); Homegoing, NADA Art Fair, Miami (2017); Offerings III, Bas Fisher Invitational and O’Miami, Miami (2017); Offerings II, Common Field Convening, Miami (2016)."
 ---
 
 <div class="foreword" markdown="1" tabindex="-1">
@@ -159,7 +158,7 @@ My grandmother’s name is <u>&emsp;(participant’s grandmother’s name)&emsp;
 My grandmother’s mother’s name is <u>&emsp;(participant’s grandmother’s mother’s name)&emsp;</u> and she was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.
 </details>
 
-
+<br>
 ## Activity Steps
 
 <details class="tools" markdown="1">

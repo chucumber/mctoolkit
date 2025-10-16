@@ -13,7 +13,6 @@ A key advocate for digital innovation, Kristina has been instrumental in develop
 Beyond her curatorial work, Kristina is a central force in the ongoing development of Kunsthall Stavanger as a forward-looking institution. She also serves as deputy chair of Kunsthallene i Norge, contributing to the national discourse on contemporary art and institutional development."
 ---
 
-<br><br><br><br>
 Mobilizing Citizenship (MC) was an educational and research project that ran from 2018 to 2024 at Kunsthall Stavanger. Throughout its duration, I invited Norwegian and international artists and designers to collaborate with small groups of young people aged 12 to 16. Each term explored how contemporary art tools and methods could empower participants to express themselves and make their voices heard.
 
 

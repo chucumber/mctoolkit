@@ -4,8 +4,6 @@ permalink: "/:title"
 
 title: "Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and the Power of Play"
 author: "Lex Brown"
-author-bio: "Lex Brown is an artist working in visual and performed verse. <br><br>She has performed and exhibited work at the Kennedy Center in Washington, DC; the New Museum, the Kitchen, the High Line, the International Center of Photography, and Recess in New York; the MIT List Center, REDCAT Theater and the Hammer Museum in Los Angeles; the Baltimore Museum of Art; and at the Munch Museum in Oslo. <br><br>She was a 2021 recipient of the USA Fellowship and is a 2025 Rome Prize Winner. Her first short opera, Tati (composed by Kyle Brenn), premiered in the Washington National Opera’s 2024–25 season at the Kennedy Center. <br><br>Brown holds degrees from Yale University (MFA) and Princeton University (BA). She is the author of My Wet Hot Drone Summer, a sci-fi erotic novella that takes on surveillance and social justice. <br><br>Consciousness, a survey of Brown’s work spanning the past eight years, was published by GenderFail. Containing documentation from 46 different videos and performances, as well as 33 original song lyrics performed in artist-run spaces, museums, music venues, and galleries, it has been acquired by the collections of the Met, MoMA, Whitney, and SFMOMA, among other notable collections. <br><br>Brown has taught in the Visual Arts programme at Princeton University and in Art, Film, & Visual Studies and Theater, Dance, & Media at Harvard University.
-"
 ---
 
 <div class="foreword" markdown="1" tabindex="-1">
@@ -100,7 +98,7 @@ In my utopian society, we would understand what could happen—what kind of worl
 <br><br>
 * * *
 
-<div class="color-dg font-small" markdown="1">
+<p class="color-dg font-small" markdown="1">
 
 **References informing this piece:**  
 Christopher Bayes  
@@ -118,4 +116,4 @@ Bruce Nauman
 Tracey Takes On...  
 Clown Gym (founded by Julia Proctor)
 
-</div>
+</p>

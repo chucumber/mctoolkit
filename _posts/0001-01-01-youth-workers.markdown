@@ -4,10 +4,7 @@ permalink: "/:title"
 
 title: "How Youth Workers Create Meaningful Encounters for Young People"
 author: "Trine Ottosen"
-author-bio: "is an experienced youth worker and educator with a background in Norwegian, history, and political science. Since 2012, she has been actively working in Sola municipality, managing youth clubs and supporting young people’s development. Trine has been a dedicated member of Youth Work Norway’s National Board since 2011 and has served as the organization’s president since 2019, leading efforts to strengthen youth work across the country. Since 2019, Trine has also contributed her expertise to the Mobilizing Citizenship programme, empowering young voices through creative and civic exploration."
-
 author-2: "Kristina Ketola Bore"
-author-bio-2: "joined Kunsthall Stavanger in 2019, coming from a background as a curator, writer, and editor. Since then, she has played a pivotal role in shaping the institution’s curatorial and strategic direction. Her work at the kunsthall includes exhibitions and commissioned projects with artists such as Lex Brown, Bárbara Wagner & Benjamin de Burca, Cindy Ji Hye Kim, Nnena Kalu, Laurel Schwulst, and Farah Al Qasimi, among others. <br><br> With a sustained interest in social practice, Kristina has significantly expanded the institution’s educational initiatives—growing the team, structuring a comprehensive program, and launching Mobilizing Citizenship, a practice-based research project for youth focused on civic engagement through art. <br><br> A key advocate for digital innovation, Kristina has been instrumental in developing Kunsthall Stavanger’s digital platform, commissioning and curating online works such as Mouthpiece (2022) by Stine Janvin, a participatory digital performance, and the series Queer Culture Year: Even When We Can't We Must (2023). <br><br> Beyond her curatorial work, Kristina is a central force in the ongoing development of Kunsthall Stavanger as a forward-looking institution. She also serves as deputy chair of Kunsthallene i Norge, contributing to the national discourse on contemporary art and institutional development."
 ---
 
 <div class="foreword" markdown="1" tabindex="-1">
@@ -85,7 +82,6 @@ So why do you think youth clubs are good places to recruit from?
 
 
 <span class="interviewee">T</span>
-
 Research done here in Norway, at <a href="https://oda.oslomet.no/oda-xmlui/handle/20.500.12199/1312" target="_blank">OsloMet</a>, shows that young people who are attending youth clubs have weaker relationships to guardians and school, but they have stronger relationships to friends and their social society than the young people who do not attend youth clubs. 
 
 

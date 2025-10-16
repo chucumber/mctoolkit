@@ -4,7 +4,7 @@ permalink: "/:title"
 
 title: "A Space for Agency: Walk of Shame on Cultivating Collective Care in Education"
 author: "Walk of Shame"
-author-bio: "is an artist collective based in Bergen, Norway, working at the intersection of visual art, performance, and social space. Their practice explores participation, community, and the aesthetics of excess, often creating immersive environments that blur the boundaries between audience and performer. With a playful yet critical approach, WOS stages works that challenge conventions of taste, behaviour, and collectivity, inviting participants into transformative and unpredictable experiences."
+author_include: "Walk-of-Shame.html"
 ---
 
 <div class="foreword" markdown="1" tabindex="-1">
@@ -250,7 +250,6 @@ These tools are designed for educators and artists working in contemporary art w
 
 Developed by artist collective Walk of Shame as part of the project Mobilizing Citizenship, this guide can be adapted to a wide range of themes, spaces, and age groups.
 
-
 <details class="tools" markdown="1">
 <summary markdown="span">
 1. Set the Tone: Build Trust Through Atmosphere
@@ -425,6 +424,8 @@ Use sticker activism: Let participants design and place homemade stickers in the
   </ul>
 </details>
 
+<br>
+
 <figure>
   <img src="img/walk-of-shame/WOS-19.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
@@ -434,8 +435,8 @@ Use sticker activism: Let participants design and place homemade stickers in the
 
 * * *
 
-<div class="color-dg font-small" markdown="1">
+<p class="color-dg font-small" markdown="1">
 
 This guide was developed from Walk of Shame’s participatory workshop series in the project Mobilizing Citizenship. It offers strategies for transforming contemporary art spaces into zones of shared expression, radical empathy, and creative civic engagement.
 
-</div>
+</p>

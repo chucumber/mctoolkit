@@ -11,7 +11,6 @@ Lee was the manager of Artist Relief, a national emergency relief fund that dist
 Lee has hosted, moderated, and spoken in conversations at the Baltimore School for the Arts, Creative Time Summit, and the DisUniversity lecture series in collaboration with Dis and the Baltimore Museum of Art. He has created programming for a range of cultural organizations including Oolite Arts and Kunsthall Stavanger and produced public artist commissions with the City of Miami Beach and the High Line, New York. He is a Presidential Scholar in the Arts and received a BFA in Interdisciplinary Sculpture from the Maryland Institute College of Art."
 ---
 
-<br><br><br><br>
 Working with Mobilizing Citizenship (MC), both as a visiting artist and workshop organiser, stands out as a uniquely positive experience for me. From its home at Kunsthall Stavanger, the project assembled an exceptionally supportive team who ensured that space, supplies, and participants were ready for the artists when they arrived. MC is a rare example of a programme with the adequate time and structure to facilitate true exchange between artists and young people.
 
 
