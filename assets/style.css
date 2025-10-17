@@ -105,7 +105,7 @@ html {
 
 body {
     margin: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     font-family: var(--font-body);
     font-weight: 400;
@@ -160,7 +160,7 @@ div.storage {
     top: calc(50% - 100vh / 13);
 }
 
-div.entry {
+.entry {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,16 +170,16 @@ div.entry {
     font-weight: 500;
     font-size: clamp(0.8rem, 2vh, 0.9rem);
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
-div.entry:not(#en-2-3):not(#en-4-3):hover {
+.entry:not(#en-2-3):not(#en-4-3):hover {
     filter: brightness(1.2);
     cursor: pointer;
 }
 
-div.entry a {
-    text-decoration: none;
-    color: black;
+.entry div {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     /* limit to 2 lines */
@@ -324,15 +324,22 @@ div.brick {
     grid-row-start: 1;
 }
 
+#en-2-3, #en-4-3 {
+    font-family: PlacardKS;
+    font-size: 1.15rem;
+    color: #606060;
+    letter-spacing: 0.01rem;
+}
+
 #hover-wrapper {
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     left: calc(100vh / 13 * 2);
-    top: calc(100vh / 13 * 4);
+    top: calc(100vh / 13 * 3.5);
     width: calc(100vh / 13 * 9);
-    height: calc(100vh / 13 * 7);
+    height: calc(100vh / 13 * 7.5);
     padding: calc(100vh / 26);
     z-index: 10;
     gap: 1rem;
@@ -394,8 +401,6 @@ div.brick {
 }
 
 
-
-
 /* ------------------ aside ------------------ */
 
 aside {
@@ -417,6 +422,10 @@ aside {
     position: relative;
 }
 
+.top:hover #home  {
+    transform: scale(1.1);
+}
+
 #home {
     display: flex;
     height: 100%;
@@ -432,8 +441,8 @@ aside {
     touch-action: none;
     user-select: none;
     font-kerning: normal;
-    transition: transform 2s ease;
     background: var(--color-pk);
+            transition: transform 500ms ease-in-out;
 }
 
 #home h3 {
@@ -443,7 +452,6 @@ aside {
     font-size: clamp(1rem, 3.5vw, 4rem);
     margin-bottom: -1rem;
     padding-bottom: 1rem;
-
 }
 
 .letter {
@@ -469,45 +477,43 @@ aside {
     background: var(--color-br);
     height: calc(100vh / 13 * 8);
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
 .summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    height: calc(100vh / 13 * 7);
     padding: 1.5rem;
-    padding-bottom: calc(100vh / 13);
-    font-size: clamp(0.8rem, 1.5vw, 1rem);
     text-align: justify;
     overflow-y: auto;
 }
 
-.summary a {
+#about {
+    height: calc(100vh / 13);
+        padding: 0 1.5rem;
+    background: var(--color-br);
+    width: 100%;
+    z-index: 5;
+    font-family: var(--font-body);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+}
+
+#about a {
     color: black;
     font-family: PlacardKS;
     letter-spacing: 0.01rem;
     text-decoration: none;
-}
+        font-size: 1rem;
 
-.summary a:hover {
-    font-size: 1rem;
-
-}
-
-#about {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: var(--color-br);
-    height: calc(100vh / 13);
-    width: 100%;
-    z-index: 5;
-    touch-action: none;
-    user-select: none;
-    font-family: var(--font-body);
-    padding: 0.5rem 1rem;
-    text-align: center;
-    /* transform: translateY(-100%); */
-    transition: transform 1s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 .drag-handle {
@@ -535,7 +541,7 @@ aside {
 
 #rotate-btn {
     position: fixed;
-    top: calc(100vh / 13 * 3);
+    top: calc(100vh / 13 * 2.5);
     left: 50vh;
     background: var(--color-lg);
     border: var(--color-dg) 1px solid;
@@ -556,7 +562,7 @@ aside {
 
 p.blink {
     position: fixed;
-    top: calc(100vh / 13 * 3.75);
+    top: calc(100vh / 13 * 3.25);
     left: 50vh;
     font-size: 0.8rem;
     color: var(--color-dg);
@@ -589,7 +595,7 @@ p.blink {
     }
 
     html {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     body {
@@ -608,13 +614,16 @@ p.blink {
         flex: 1;
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         height: auto;
     }
 
     .top {
         width: 100%;
         height: auto;
+        border: 0.25px solid #606060;
+        outline: 0.25px solid #606060;
+        outline-offset: -.5px;
     }
 
     #home {
@@ -625,7 +634,7 @@ p.blink {
 
     #home h3 {
         font-size: 1.5rem;
-        margin-top: -0.5rem;
+        margin-top: 0;
     }
 
     .bottom {
@@ -634,6 +643,9 @@ p.blink {
         height: max-content;
         width: 100%;
         position: relative;
+        border: 0.25px solid #606060;
+        outline: 0.25px solid #606060;
+        outline-offset: -.5px;
     }
 
     .summary {
@@ -642,26 +654,14 @@ p.blink {
         padding: 1rem 0.5rem;
         overflow-y: auto;
         font-size: 0.85rem;
-        line-height: 1.35;
         text-align: justify;
     }
 
-    #about {
-        top: auto;
-        left: auto;
-        /* height: 25rem; */
-        width: 100%;
-        transform: translateY(calc(22rem));
-        transition: transform 0.7s cubic-bezier(0.5, 1, 0.89, 1);
+    #producer {
+        display: none;
     }
 
-    #about:hover {
-        transform: none;
-    }
 
-    #about.active {
-        transform: translateY(90%);
-    }
 
     #menu {
         display: block;
@@ -671,7 +671,9 @@ p.blink {
     #menu li {
         padding: 0.5rem;
         text-align: center;
-        border-bottom: black 1px solid;
+        border: 0.25px solid #606060;
+        outline: 0.25px solid #606060;
+        outline-offset: -.5px;
     }
 
     #menu li a {
@@ -679,16 +681,19 @@ p.blink {
         color: black;
     }
 
-    #menu li#first-li {
-        border-top: black 1px solid;
-
-    }
-
     #menu li#footnote {
         background: var(--color-lg);
-        font-size: 0.75rem;
+        font-size: 0.85rem;
         border-bottom: none;
         padding: 2rem 0.5rem 1rem 0.5rem;
+    }
+
+    #footnote a {
+        color: black;
+        font-family: PlacardKS;
+        letter-spacing: 0.01rem;
+        text-decoration: none;
+        font-size: 0.8rem;
     }
 
     .bg-bl {
