@@ -398,7 +398,7 @@ details summary::-webkit-details-marker {
 }
 
 .author-bio::-webkit-scrollbar, .foreword::-webkit-scrollbar {
-  width: 15px !important;
+  width: 8px !important;
 }
 
 .author-bio::-webkit-scrollbar-thumb, .foreword::-webkit-scrollbar-thumb {
