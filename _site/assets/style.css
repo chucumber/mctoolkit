@@ -629,11 +629,12 @@ p.blink {
     #home {
         height: 100%;
         width: 100%;
+            padding: 1rem 0;
         position: static;
     }
 
     #home h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         margin-top: 0;
     }
 
@@ -651,17 +652,16 @@ p.blink {
     .summary {
         position: static;
         width: 100%;
+        height:auto;
         padding: 1rem 0.5rem;
         overflow-y: auto;
         font-size: 0.85rem;
         text-align: justify;
     }
 
-    #producer {
+    #about {
         display: none;
     }
-
-
 
     #menu {
         display: block;
