@@ -43,7 +43,7 @@
         @-moz-document url-prefix() {
             * {
                 scrollbar-width: auto;
-                scrollbar-color: var(--color-pk) transparent;
+                scrollbar-color: var(--color-bl) transparent;
             }
         }
 
@@ -56,11 +56,11 @@
         }
 
         *::-webkit-scrollbar-thumb {
-            background: var(--color-pk);
+            background: var(--color-bl);
         }
 
         *::-webkit-scrollbar-thumb:hover {
-            background: #FF8CEC;
+            background: #65a2f8;
             cursor: grab;
         }
 
@@ -69,12 +69,15 @@
         #site-nav {
             position: fixed;
             top: 0;
-            right: 2rem;
-            height: 2rem;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
+            z-index: 99;
             gap: 1rem;
-            z-index: 999;
+            width: 100%;
+            height: 2rem;
+            padding: 0 2rem;
+            background: #fff;
             transition: transform 0.3s ease, position 0.3s ease;
         }
 
@@ -82,20 +85,17 @@
             transform: translateY(-100%);
         }
 
-        .menu {
-            display: block;
-        }
 
-        .home-toggle a {
-            text-decoration: none;
+        .home-toggle .menu-toggle, #top-btn {
+            color: black;
         }
-
 
         /* hidden by default */
         .menu {
             position: absolute;
-            top: 2.5rem;
+            top: 2rem;
             right: 0;
+            min-width: 350px;
             width: 20vw;
             list-style: none;
             margin: 0;
@@ -129,6 +129,14 @@
             border-bottom: var(--color-dg) solid 1px;
         }
 
+        #last-li {
+            border: none;
+        }
+
+        .menu li:hover, #last-li:hover {
+            border: black 1.5px solid;
+        }
+
         .menu li.bg-pk:hover {
             background: var(--color-pk);
         }
@@ -149,15 +157,6 @@
             background: var(--color-br);
         }
 
-        #rightPane::-webkit-scrollbar-thumb {
-            background: var(--color-br);
-        }
-
-        #rightPane::-webkit-scrollbar-thumb:hover {
-            background: #c9a87f;
-            cursor: grab;
-        }
-
 
 
         @media (max-width: 768px) {
@@ -167,7 +166,6 @@
                 justify-content: space-between;
                 right: 0;
                 padding: 0 0.5rem;
-                background: white;
                 box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
                 height: 2rem;
             }
@@ -205,10 +203,10 @@
     <div class="author">
         <button class="author-toggle">Trine Ottosen</button>
         <div class="author-bio bg-gr">
-            <button class="author-close">&#10005;</button>
+            <!-- <button class="author-close">&#10005;</button> -->
             <p>
                 
-                Trine Ottosen is an experienced youth worker and educator with a background in Norwegian, history, and political science. Since 2012, she has been actively working in Sola municipality, managing youth clubs and supporting young people’s development. Trine has been a dedicated member of Youth Work Norway’s National Board since 2011 and has served as the organization’s president since 2019, leading efforts to strengthen youth work across the country. Since 2019, Trine has also contributed her expertise to the Mobilizing Citizenship programme, empowering young voices through creative and civic exploration.
+                <b>Trine Ottosen</b> is an experienced youth worker and educator with a background in Norwegian, history, and political science. Since 2012, she has been actively working in Sola municipality, managing youth clubs and supporting young people’s development. Trine has been a dedicated member of Youth Work Norway’s National Board since 2011 and has served as the organization’s president since 2019, leading efforts to strengthen youth work across the country. Since 2019, Trine has also contributed her expertise to the Mobilizing Citizenship programme, empowering young voices through creative and civic exploration.
                 
             </p>
         </div>
@@ -216,10 +214,10 @@
         
         <button class="author-toggle">Kristina Ketola Bore</button>
         <div class="author-bio bg-pk border-pk author-2">
-            <button class="author-close">&#10005;</button>
+            <!-- <button class="author-close">&#10005;</button> -->
             <p>
                 
-                Kristina Ketola Bore joined Kunsthall Stavanger in 2019, coming from a background as a curator, writer, and editor. Since then, she has played a pivotal role in shaping the institution’s curatorial and strategic direction. Her work at the kunsthall includes exhibitions and commissioned projects with artists such as Lex Brown, Bárbara Wagner & Benjamin de Burca, Cindy Ji Hye Kim, Nnena Kalu, Laurel Schwulst, and Farah Al Qasimi, among others.
+                <b>Kristina Ketola Bore</b> joined Kunsthall Stavanger in 2019, coming from a background as a curator, writer, and editor. Since then, she has played a pivotal role in shaping the institution’s curatorial and strategic direction. Her work at the kunsthall includes exhibitions and commissioned projects with artists such as Lex Brown, Bárbara Wagner & Benjamin de Burca, Cindy Ji Hye Kim, Nnena Kalu, Laurel Schwulst, and Farah Al Qasimi, among others.
 <br><br>
 With a sustained interest in social practice, Kristina has significantly expanded the institution’s educational initiatives—growing the team, structuring a comprehensive program, and launching Mobilizing Citizenship, a practice-based research project for youth focused on civic engagement through art.
 <br><br>
@@ -266,6 +264,8 @@ Recruitment in general is an important part of Mobilizing Citizenship. We talked
 <p><span class="interviewee">T</span>
 Throughout the project we have done some adjustments every year, but the model has been that the artists, project manager, and the curator explain to me what the week or semester is going to be like. I try to break it down into youth-friendly language. And sometimes we have used graphic posters and pictures to make the recruitment process pop. And then I contact youth clubs in the municipalities around Stavanger—there are a lot of smaller municipalities around here, and many youth clubs. The first years I was travelling around to some youth clubs to explain the project. I also work in a youth club of my own in Sola, and of course I have done more recruitment from that youth club because it has been a natural topic with the young people there. I have to explain what the project is about. It’s not a school project but is a leisure-time project over the weekends or during vacation.</p>
 
+<p>We purposefully didn’t recruit [participants] through schools… in a school, or in a class, people have designated roles that have been established, which is often limiting for young people.</p>
+
 <blockquote>
   <p><mark class="gr-highlight-long">We purposefully didn’t recruit [participants] through schools… in a school, or in a class, people have designated roles that have been established, which is often limiting for young people. </mark></p>
 </blockquote>
@@ -291,13 +291,11 @@ I think that’s very individual. They need to understand what they will be doin
 So why do you think youth clubs are good places to recruit from?</p>
 
 <p><span class="interviewee">T</span>
-Research done here in Norway, at <a href="https://oda.oslomet.no/oda-xmlui/handle/20.500.12199/1312" target="_blank">OsloMet</a>, shows that young people who are attending youth clubs have weaker relationships to guardians and school, but they have stronger relationships to friends and their social society than the young people who do not attend youth clubs.</p>
+Research done here in Norway, at <a href="https://oda.oslomet.no/oda-xmlui/handle/20.500.12199/1312" target="_blank">OsloMet</a>, shows that young people who are attending youth clubs have weaker relationships to guardians and school, but they have stronger relationships to friends and their social society than the young people who do not attend youth clubs. Researchers think the method that the youth workers are using in their relational work with young people is the reason young people get better in building social relationships. The youth worker has a different perspective from other grown-ups when they meet the young people. They always ask, ‘Who are you and what do you want to do here?’ Instead of, ‘Hello, this is our youth club. You can do this and this…’ It’s a different perspective that comes back to youth participation. As youth workers, we are working to find out: ‘What is the young person’s interest and resources?’</p>
 
 <blockquote>
   <p><mark class="gr-highlight-long">Researchers think the method that the youth workers are using in their relational work with young people is the reason young people get better in building social relationships. The youth worker has a different perspective from other grown-ups when they meet the young people.</mark></p>
 </blockquote>
-
-<p>They always ask, ‘Who are you and what do you want to do here?’ Instead of, ‘Hello, this is our youth club. You can do this and this…’ It’s a different perspective that comes back to youth participation. As youth workers, we are working to find out: ‘What is the young person’s interest and resources?’</p>
 
 <p><span class="interviewer">K</span> 
 Interesting. How do you think MC has complemented what the youth clubs around here are offering? You obviously do work with art, and the youth do have access to certain types of artistic expressions.</p>
@@ -314,7 +312,8 @@ I don’t know, actually. I think it’s different for the different participant
 <p><span class="interviewer">K</span> 
 We did have participants who came in with interest in art already, but it was never a goal for us to use this as a way to grow an audience or create new artists. How do you think it was for young people in the project to work with international artists?</p>
 
-<p><span class="interviewee">T</span></p>
+<p><span class="interviewee">T</span> 
+When I was coming into MC, I thought it would be a selling point for young people—that we had international artists. It wasn’t, at all.</p>
 
 <blockquote>
   <p><mark class="gr-highlight-long">When I was coming into MC, I thought it would be a selling point for young people—that we had international artists. It wasn’t, at all.</mark></p>
@@ -330,6 +329,8 @@ No, they did not care about where the artists came from, which is also a nice th
 In MC, we focused on young people between 12 and 16, which is the age that you are usually in ungdomsskolen, as it’s called in Norwegian, or middle school in English. It’s a very formative time where your identity becomes clearer, where you’re exploring a bit more. You’re also at the cusp of becoming an adult. We thought that was an interesting time to work with people. For us as an institution it is important to make room for young people’s voices, and to say that we are actually interested in what you have to say. And to communicate to young people that they do have an important place in society and what they think is important. MC first started around the time when Greta Thunberg was entering public discourse as a role model for young people and the importance of expressing yourself. I don’t know how influenced I was, directly or indirectly, by that, but I can’t completely overlook it. For us as an institution and for the artists we’ve brought in, it has been eye-opening to see how far ahead so many of the participants have been in their exploration of their own voices. They hold beliefs about how to navigate the world. LGBTQIA rights and issues around social justice are important to them. Their opinions and beliefs have not been immature in any way, but really well informed.</p>
 
 <p>Trine, what do you believe is specific about the Norwegian condition for young people today? A lot of the artists that visited us came from the US or the UK where there is no welfare state, there is more poverty, which we also have in Norway but not to the extent that you would see, for example, in the US. However, young people are still struggling with other things here—it’s not a carefree existence.</p>
+
+<p>The big topic for young people now is mental health… they feel it’s a changing and unsafe world after Covid.</p>
 
 <blockquote>
   <p><mark class="pk-highlight-long">The big topic for young people now is mental health… they feel it’s a changing and unsafe world after Covid.</mark></p>
@@ -362,7 +363,7 @@ I quite purposefully invited artists whose work I saw as political, and, specifi
 I agree with that. But also, I feel that with the young people of this generation, there are a lot of places where they have the opportunity to be themselves. With MC it was about who are the grown-ups who are facilitating, and how do they express themselves, and what do they express? Do they express tolerance and flexibility and openness, or do they express that they are scared?</p>
 
 <p><span class="interviewer">K</span> 
-Yes, it’s not only about what you say, it’s about how you act. In the quite early days of MC, we had some artists come in, and in conversation one of the participants talked about being bullied. This has been a recurring theme throughout the project, I would say. Both of the artists who were hosting this workshop said, ‘Oh, I was also bullied when I was your age.’ It was like something in the room shifted.</p>
+Yes, it’s not only about what you say, it’s about how you act. In the quite early days of MC, we had some artists come in, and in conversation one of the participants talked about being bullied. This has been a recurring theme throughout the project, I would say. Both of the artists who were hosting this workshop said, ‘Oh, I was also bullied when I was your age.’ It was like something in the room shifted. They saw that these adults who were seemingly cool had been through something similar that they were going through, and it was not something that defined them today.</p>
 
 <blockquote>
   <p><mark class="pk-highlight-long">They saw that these adults who were seemingly cool had been through something similar that they were going through, and it was not something that defined them today.</mark></p>
@@ -404,7 +405,7 @@ When you are making projects or trying to reach out to different target groups, 
 If I’m going to try and answer that question—what do we want to achieve?—for MC, we wanted to give room for young people, we wanted them to feel we were interested in their voice and to also help them gain access to tools that could make them feel like they had a way to speak up. Do you think that’s something we achieved?</p>
 
 <p><span class="interviewee">T</span>
-Yeah, definitely.</p>
+Yeah, definitely. All of the young people who were in MC came out stronger in a way, and more secure in their own voice, and maybe they didn’t care so much about what other people thought. That’s a good achievement.</p>
 
 <blockquote>
   <p><mark class="gr-highlight-long">All of the young people who were in MC came out stronger in a way, and more secure in their own voice, and maybe they didn’t care so much about what other people thought. That’s a good achievement.</mark></p>
@@ -420,7 +421,7 @@ Yeah, definitely.</p>
 </footer>
 
     <nav id="site-nav">
-        <button class="home-toggle"><a href="index.html">Home</a></button>
+        <a href="index.html"><button class="home-toggle">Home</button></a>
         <button class="menu-toggle">Menu</button>
         <ul class="menu">
             <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a>
@@ -428,10 +429,8 @@ Yeah, definitely.</p>
             <li class="bg-pk"><a href="foreword-lee">Introducing the Mobilizing Citizenship Toolkit</a></li>
             <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education</a></li>
-            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship,
-                    and
-                    the Power of
-                    Play</a>
+            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and
+                    the Power of Play</a>
             </li>
             <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
             </li>
@@ -443,7 +442,7 @@ Yeah, definitely.</p>
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-            <li class="bg-gr"><a href="contributor">Contributors</a></li>
+            <li class="bg-gr" id="last-li"><a href="contributor">Contributors</a></li>
         </ul>
     </nav>
 
@@ -469,21 +468,34 @@ Yeah, definitely.</p>
         const menuBtn = document.querySelector('.menu-toggle');
         const dropdown = document.querySelector('.menu');
 
-        menuBtn.addEventListener('click', () => {
+        menuBtn.addEventListener('click', (event) => {
+            event.stopPropagation(); // prevent triggering document click
+
             const isOpening = !dropdown.classList.contains('open');
 
             if (isOpening) {
                 dropdown.classList.add('open');
-                // wait for open animation to finish before enabling scroll
                 setTimeout(() => {
                     dropdown.style.overflow = "auto";
                 }, 500);
             } else {
-                // close immediately and hide overflow right away
                 dropdown.classList.remove('open');
                 dropdown.style.overflow = "hidden";
             }
         });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (
+                dropdown.classList.contains('open') &&
+                !dropdown.contains(event.target) &&
+                !menuBtn.contains(event.target)
+            ) {
+                dropdown.classList.remove('open');
+                dropdown.style.overflow = "hidden";
+            }
+        });
+
 
     </script>
 </body>

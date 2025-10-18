@@ -10,24 +10,24 @@ author: "Mikey Kirkpatrick"
 What happens when young people are trusted to lead, create, and teach—guided not by rigid outcomes, but by listening, care, and co-creation? In this reflection on a contribution to Mobilizing Citizenship, Mikey Kirkpatrick from the youth-led music programme Alchemy shares how they translated their programme from South London to Stavanger. Rooted in Deep Listening and critical pedagogy, the week unfolded as a collaborative experiment in sound, expression, and mutual learning. Here, they trace the process of building an environment where agency is nurtured, structure is flexible, and the act of making music becomes a practice of empowerment and shared responsibility.  
 </div>
 
-<div class="lightbox-container">
+<div class="lightbox-container four-three">
   <div class="lightbox-scroll">
     <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
     <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
     <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">                        
   </div>
+    <div class="lightbox-controls">
+      <div class="lightbox-button prev"></div>
+      <div class="lightbox-button next"></div>
+      <div class="custom-cursor"></div>
+    </div>
 </div>
 
-<div class="lightbox-base font-small">
   <div class="lightbox-info">
     <div class="img-info"></div>
-    <div class="lightbox-counter">1/-</div>
+    <div class="lightbox-counter"></div>
   </div>
-  <div class="lightbox-controls">
-    <button class="lightbox-button prev">←</button>
-    <button class="lightbox-button next">→</button>
-  </div>
-</div>
+
 
 ‘Listen to everything all the time and remind yourself when you are not listening.’
 
@@ -38,12 +38,13 @@ This was the mantra of the American composer and accordionist Pauline Oliveros. 
 After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk ‘<a href="https://www.youtube.com/watch?v=_QHfOuRrJB8" target="_blank">The difference between hearing and listening</a>’.  
 
 
-Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. 
-
-><mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
+Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.
 
 
 When the pilot came to an end, the participants wanted to continue, so I proposed Alchemy to the university as a regular weekly workshop. Now, eight years on, the programme is still running and has grown in scale. 
+
+
+><mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
 
 
 ## The Core Theories
@@ -57,83 +58,95 @@ During the Masters programme, participants study a range of educational theories
 <summary>
 Behaviourism (Ivan Pavlov, John B. Watson, B.F. Skinner)
 </summary>
-<p>
+<div class="details-content" markdown="1">
+
 Reward for academic achievement and punishment for failure, based on observable behaviour (rather than thoughts or feelings) and measurable outcomes.
-</p>
+</div>
 </details> 
 
 <details class="tools">
 <summary>
 Cognitivism (Jean Piaget, Jerome Bruner)
 </summary>
-<p>
+  <div class="details-content" markdown="1">
+
 A focus on how information and knowledge are acquired and organised (which can vary from individual to individual), looking at the thought processes behind learning and problem solving, and how information is retained.
-</p> 
+</div> 
 </details> 
 
 <details class="tools">
 <summary>
 Constructivism (Maria Montessori, Wladyslaw Strzemiński, Jean Piaget, Lev Vygotsky)
 </summary>
-<p>
+  <div class="details-content" markdown="1">
+
 An emphasis on how learners actively construct their knowledge and apply it, working new information into previous knowledge structures, often through collaboration with peers. 
-</p> 
+</div> 
 </details> 
 
 <details class="tools">
 <summary>
 Socio-Cultural Approaches (Lev Vygotsky)
 </summary>
-<p>
+  <div class="details-content" markdown="1">
+
 Learning that happens through social interaction in culture-specific ways, e.g., cooking in the home, skateboarding with friends, making music as part of a family tradition. 
-</p> 
+</div> 
 </details> 
 
 <details class="tools">
 <summary>
 The Pedagogy of the Oppressed (Paolo Freire)
 </summary>
-<p>
+  <div class="details-content" markdown="1">
+
 This begins from the belief that education models in the west are oppressive and dehumanising, and that there are tools that the oppressed can use to rehumanise themselves and each other, starting in the classroom. This can involve a change in power dynamics, starting with language, such as renaming the teacher a ‘teacher-student’ and the students ‘student-teachers’. 
-</p> 
+</div> 
 </details> 
 
 <details class="tools">
 <summary>
 Engaged Pedagogy (bell hooks)
 </summary>
-<p>
+  <div class="details-content" markdown="1">
+
 Directly inspired by the pedagogy of the oppressed, but with a stronger emphasis on love and empathy in the classroom, and the humanisation of the teacher: ‘education as the practice of freedom’.<span class="color-bl" data-tooltip="Hooks, B. (1994). ‘Engaged Pedagogy’, Teaching to transgress. Routledge">↵</span>  
-</p> 
+</div> 
 </details> 
 
-<details class="tools">
+<details class="tools" style="margin-bottom: 1rem;">
 <summary>
 Border Pedagogy (Henry Giroux)
 </summary>
-<p>
+  <div class="details-content" markdown="1">
+
 Again, following on from Paolo Freire, Giroux suggests that learning can be structured differently to break down borders (including prejudice and discrimination) not by ignoring them, but by using them as catalysts for action and social change, and as a chance to deconstruct the stereotyping that inhibits learning and collective problem solving.
-</p> 
+</div> 
 </details> 
 
-<br>
-
 ## How We Work to Listen
-These models provide a useful foundation, but are especially effective when they are implemented in parallel with Pauline Oliveros’ mantra. 
-If we stop listening, everything will fall apart.
 
 
 ><mark class="pk-highlight-long">Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation.</mark> 
 
-By keeping anti-oppressive, listening-centred, and care-focused models at the core of Alchemy’s practice, we have been able to mirror the creative flow state (after Mihaly Csikszentmihalyi) as a kind of physical architecture consisting of multiple, simultaneous workshops. Here, participants design their own learning with their bodies by moving from one space to  another to gather what they need, or have a chance encounter, such as inspiration for lyrics or poetry, learning how to play an instrument or produce a beat, or developing their voice, performance skills, music theory, and new collaborations. Youth workers, also flowing between the different spaces, play a vital role of being available to support anyone who is facing challenges. 
 
-><mark class="pk-highlight-long">As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.</mark>
+These models provide a useful foundation, but are especially effective when they are implemented in parallel with Pauline Oliveros’ mantra. 
+If we stop listening, everything will fall apart.
+
+
+Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation. By keeping anti-oppressive, listening-centred, and care-focused models at the core of Alchemy’s practice, we have been able to mirror the creative flow state (after Mihaly Csikszentmihalyi) as a kind of physical architecture consisting of multiple, simultaneous workshops. Here, participants design their own learning with their bodies by moving from one space to  another to gather what they need, or have a chance encounter, such as inspiration for lyrics or poetry, learning how to play an instrument or produce a beat, or developing their voice, performance skills, music theory, and new collaborations. Youth workers, also flowing between the different spaces, play a vital role of being available to support anyone who is facing challenges. 
+
+
+As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.
 
 
 This environment can foster peer learning in a natural way, which in turn creates a culture of co-design and a balance of freedom and structure that aims to empower everyone, both participants and team, to step beyond their comfort zone in their own time and realise their creative ideas—from making a song to starting their own initiatives. If someone has an idea, we do everything we can to support it from imagination into reality. 
 
 
 This is the kind of agency we believe everyone is entitled to and the culture we intended to share with Kunsthall Stavanger. Our collaboration raised new and exciting questions for us: How would our methods of working translate into a new space and culture? We returned to Pauline Oliveros’ mantra and decided simply to listen, which inspired the title of the workshop week: ‘Are You Listening?’ 
+
+
+><mark class="pk-highlight-long">As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.</mark>
 
 
 ## How the Week Unfolded
@@ -150,6 +163,7 @@ Here is a brief overview of how the week unfolded, with a short video for each d
 <summary markdown="span">
 Day One
 </summary>
+  <div class="details-content" markdown="1">
 
 <figure>
     <img src="img/are-you-listening/image1.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Video still: Omar Elsaaidi" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Video still: Omar Elsaaidi">
@@ -166,7 +180,7 @@ Day One
   </iframe>
 </div>
 
-<mark class="pk-highlight-long">‘Listen to everything all of the time and remind yourself when you’re not listening.’</mark>
+><mark class="pk-highlight-long">‘Listen to everything all of the time and remind yourself when you’re not listening.’</mark>
 
 We welcomed the participants and gave them a tour of the performance space, then went down to the workshop room, which was situated in the heart of the building. The day began with us asking the question ‘Who are you in the world?’ 
 
@@ -178,12 +192,14 @@ The young artists said that they had access to studio and music resources if the
 
 
 After performances by KVS, Tboiii, and Refrain, we demonstrated some of the free browser-based software Bandlab’s capabilities, such as splitting up tracks into their various parts (voice, bass, drums) for learning, remixing, and re-composing. To work in the most efficient way, we split up into smaller groups to develop separate elements of a collective track, then came back together to record voice, flute, guitar, and keyboards. Young people quickly formed new friendships, and we identified potential creative partnerships.
+</div>
 </details> 
 
 <details class="tools" markdown="1">
 <summary markdown="span">
 Day Two
 </summary>
+  <div class="details-content" markdown="1">
 
 <figure>
     <img src="img/are-you-listening/image3.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
@@ -200,7 +216,7 @@ Day Two
   </iframe>
 </div>
 
-<mark class="pk-highlight-long">We talked about memory, hauntings, and how there are layers of overlapping culture here at Kunsthall Stavanger, especially during this week with Alchemy in the space.</mark>
+><mark class="pk-highlight-long">We talked about memory, hauntings, and how there are layers of overlapping culture here at Kunsthall Stavanger, especially during this week with Alchemy in the space.</mark>
 
 Today was a day for continued experimentation and development from the previous session, while also imagining how what we were creating might translate into a performance in the gallery space. We began by discussing what an art institution could be for the community, and what makes an art institution experience interesting or transformational. Memorable experiences that were shared mainly centred around having learned something relevant. They told us that the entrance to a gallery is important, for example: it acts as a portal. We also agreed that when a story is told visually it makes a stronger impression, such as seeing how the trees in Hiroshima grew in strange and otherworldly shapes after the atomic bomb. Following the discussion, we set up some different creative zones where individuals and small groups sat and wrote together while we moved around and helped them to build their ideas. 
 
@@ -216,12 +232,15 @@ One of the artists had been making drawings during the sessions, connecting them
 
 Another group talked about their inspirations, which were jazz and hip hop, and listening to examples. Some of the themes they were interested in exploring were love and relationships. They started writing one-liners, then two lines, then paragraphs. Once verses were written, they composed melodies and recorded their vocals, the beginning of a track called ‘With You’. 
 
+</div>
 </details> 
 
 <details class="tools" markdown="1">
 <summary markdown="span">
 Day Three
 </summary>
+
+  <div class="details-content" markdown="1">
 
 <figure>
     <img src="img/are-you-listening/image2.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
@@ -241,13 +260,14 @@ Day Three
 We began the day learning to do traditional Norwegian farmer calls. Madelaine, who was the producer for the week—and who did an incredible job making sure everything ran smoothly—also had a lot of experience in workshop leading, dance, singing, drumming, and performance more generally, having run her own youth projects. Madelaine taught us the traditional vocal calls (you can hear them in the video), and this supported our research into stev as we explored how we could call (and listen) across space and time. 
 
 Other artists started making costumes for themselves with things they found in the space (the Kunsthall had a great selection of costumes, including some golden trousers that I wore for the show!), and discussed making a music video for their song ‘With You’ on Thursday.
-
+</div>
 </details> 
 
 <details class="tools" markdown="1">
 <summary markdown="span">
 Day Four
 </summary>
+  <div class="details-content" markdown="1">
 
 <figure class="narrow-img">
     <img src="img/are-you-listening/image5.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Mikey Kirkpatrick" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Mikey Kirkpatrick">
@@ -283,13 +303,14 @@ The morning was also spent making a music video for ‘With You’ in the worksh
 </div>
 
 One of the young artists used a mask for one of them and played a kazoo in the other. We looked at how he could remove the mask and begin with the kazoo in the most effective way, matching his strong personality. He took it off and threw it across the room! Reflecting on our conversation about rebellion in Stavanger, it was good to see him with that energy on stage. Perhaps he and others can draw on it when they need it in the future—strength and agency, with a good balance of humour.
-
+</div>
 </details>
 
-<details class="tools" markdown="1">
+<details class="tools" markdown="1" style="margin-bottom: 1rem;">
 <summary markdown="span">
 Day Five
 </summary>
+  <div class="details-content" markdown="1">
 
 <figure>
     <img src="img/are-you-listening/image4.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
@@ -339,15 +360,15 @@ Thank you so much for being there for us and being helping and supporting while 
 You can see more feedback from the participants here.
 
 As I have found over the years with Alchemy and other creative community programmes, it is the engagement of every person, from technician to director, sound engineer to photographer, that creates a culture of care and creativity. The fact that everyone got involved and invested themselves both as professionals and human beings meant that the environment was ideal for growing and sharing ideas, without fear of judgement or failure. Madelaine mentioned at the end of the week that she often plants seeds in the cracks in the pavement outside her house. Kunsthall Stavanger smashed open the concrete of the symbol of the institution for us, and we were the seeds, colliding after long journeys through generations from across the world. I believe we all grew, we all listened, and I hope the garden that remains will last for years to come. 
-
+</div>
 </details> 
 
-<br>
 
 ## Some final words
-Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present. 
 
 ><mark class="pk-highlight-long">Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.</mark> 
+
+Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present. Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.
 
 
 Kunsthall Stavanger has a history of opening its doors to the community, giving them free reign and use of the space. Other institutions have much to learn from them. 
@@ -373,7 +394,7 @@ Thank you to everyone who made this a life-changing week for us all.
 </video>
 
 
-<br><br>
+<br>
 * * *
 
 <p class="footnote" markdown="1">

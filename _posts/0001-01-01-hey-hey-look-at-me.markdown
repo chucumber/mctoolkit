@@ -29,7 +29,7 @@ The theme of our overall session was DRAMA, and I structured my workshop around 
 I wanted to bring this work to a group of younger people because when you’re nearly a teenager, you’re in the ultimate melodrama of life, at the threshold of childhood and performing adultness, and experimenting with things you’ve seen on TV or in public. Self-consciousness and self-awareness are just hitting the medulla oblongata.
 
 
-Working after Delali’s session was a great challenge because the group had dealt with serious questions and topics related to home life. For my workshop, I wanted to make a space for play. We used physical comedy to play with and talk about power. I always try to introduce students of any age to work that plays with power structures. 
+Working after Delali’s session was a great challenge because the group had dealt with serious questions and topics related to home life. For my workshop, I wanted to make a space for play. We used physical comedy to play with and talk about power. I always try to introduce students of any age to work that plays with power structures. Examining power is one of the easiest ways to make links between personal interactions and bigger politics.
 
 
 ><mark class="pk-highlight-long">Examining power is one of the easiest ways to make links between personal interactions and bigger politics.</mark> 
@@ -95,7 +95,7 @@ Theatre games are all about the circle. You’re always sitting in circles or st
 In my utopian society, we would understand what could happen—what kind of world could be built—if all children grew up fully with arts, sports, music, and all the totally logical things it makes sense to empower them with to create a functioning world. Rather than having these potent individual experiences as an adult taking a theatre class, what would it be like to exist in a society where theatre was a normal part of education? Theatre is all about world-building, and while it’s wonderful to watch, there is no substitute for what one experiences in creating it. 
 
 
-<br><br>
+<br>
 * * *
 
 <p class="footnote" markdown="1">

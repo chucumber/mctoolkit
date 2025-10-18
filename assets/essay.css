@@ -106,21 +106,23 @@ h6,
   margin: 1rem 0;
 }
 
-blockquote {
-  font-size: 1.25rem;
+.content h2 {
+  margin-top: 2rem;
 }
 
-.content video {
-  margin-bottom: 0;
+blockquote {
+  font-size: 1.25rem;
 }
 
 a {
   color: black;
   text-underline-position: under;
+  transition: background 0.3s ease-in-out;
 }
 
 main a:hover {
-  background: #C9FF34;
+  transition: background 0.3s ease-in-out;
+  background: var(--color-gr);
 }
 
 button {
@@ -129,10 +131,12 @@ button {
   border-radius: 0;
   padding: 0;
   cursor: pointer;
-  background: white;
+  background: transparent;
+  color: black !important;
   border: none;
   text-decoration: underline;
   text-underline-position: under;
+  transition: background 0.3s ease-in-out;
 }
 
 button:hover {
@@ -160,7 +164,7 @@ h4 {
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: -2rem;
+  margin-bottom: -1rem;
 }
 
 h5 {
@@ -390,23 +394,9 @@ details summary::-webkit-details-marker {
   left: 8rem;
 }
 
-@-moz-document url-prefix() {
-  .author-bio, .foreword {
-    scrollbar-width: auto;
-    scrollbar-color: var(--color-bl) transparent;
-  }
-}
-
-.author-bio::-webkit-scrollbar, .foreword::-webkit-scrollbar {
+.author-bio::-webkit-scrollbar,
+.foreword::-webkit-scrollbar {
   width: 8px !important;
-}
-
-.author-bio::-webkit-scrollbar-thumb, .foreword::-webkit-scrollbar-thumb {
-  background: var(--color-bl) !important;
-}
-
-.author-bio::-webkit-scrollbar-thumb:hover, .foreword::-webkit-scrollbar-thumb:hover {
-  background: #65a2f8 !important;
 }
 
 
@@ -419,6 +409,11 @@ details summary::-webkit-details-marker {
   position: relative;
   overflow: hidden;
   background: #eee;
+  margin-top: 2rem;
+}
+
+.four-three {
+  aspect-ratio: 4 / 3;
 }
 
 .lightbox-scroll {
@@ -429,56 +424,56 @@ details summary::-webkit-details-marker {
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.lightbox-scroll img {
-  cursor: zoom-in;
-}
-
-.lightbox-base {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  margin: 0 0 2rem -2rem;
-  background: var(--color-br);
-  line-height: var(--line-height-small);
-  min-height: 1.5rem;
-  font-size: 0.8rem;
-}
-
 .lightbox-info {
-  flex: 1;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 0.25rem 1rem;
+  margin: 0 0 3rem 0;
+  line-height: var(--line-height-small);
+  font-size: 0.8rem;
+  color: var(--color-dg);
+}
+
+.lightbox-counter {
+  color: var(--color-bl);
+  width: 6rem;
+  text-align: right;
 }
 
 .lightbox-controls {
-  display: flex;
-  align-items: stretch;
-  /* ensures buttons fill the container height */
-  flex-shrink: 0;
-  background: var(--color-pk);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61aAAAADUlEQVQYV2P4//8/IwAI/QL/+TZZdwAAAABJRU5ErkJggg=='),
+    url(img/blank.cur), url(img/blank.png),
+    none !important;
+  user-select: none;
 }
 
 .lightbox-button {
-  border: none;
-  flex: 1 0 auto;
   height: 100%;
   font-family: var(--font-body);
   font-size: 1rem;
-  padding: 0 1rem;
-  background: var(--color-pk);
-  cursor: pointer;
-  color: black;
-  transition: background 0.3s ease;
-  text-decoration: none;
-
+  cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61aAAAADUlEQVQYV2P4//8/IwAI/QL/+TZZdwAAAABJRU5ErkJggg=='),
+    url(img/blank.cur), url(img/blank.png),
+    none !important;
+  user-select: none;
 }
 
-.lightbox-button:hover {
-  background: var(--color-pk);
-  filter: brightness(1.2);
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  font-size: 6rem;
+  color: var(--color-pk);
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  transform: translate(-50%, -75%);
+  transition: opacity 0.15s ease, transform 0.05s ease;
 }
 
 /* -------------------- popup image -------------------- */
@@ -546,6 +541,7 @@ details summary::-webkit-details-marker {
 .content figure img {
   width: 100%;
   cursor: zoom-in;
+  display: block;
 }
 
 .content figcaption {
@@ -557,27 +553,18 @@ details summary::-webkit-details-marker {
 figure.head-img {
   width: calc(100% + 2rem);
   max-width: calc(100% + 2rem);
-  margin: 0;
   margin-left: -2rem;
-}
-
-figure.head-img img {
-  display: block;
-  width: 100%;
-  cursor: zoom-in;
+  margin-bottom: 3rem;
 }
 
 figure.head-img figcaption {
-  background: var(--color-br);
-  color: black;
-  padding: 0.25rem 1rem;
-  margin-bottom: 2rem;
+  padding: 0.25rem 0 0 2rem;
 }
 
 figure.narrow-img {
   width: 50%;
   align-self: center;
-  margin: 2rem auto 0 auto;
+  margin: 2rem auto 1rem auto;
 }
 
 figure.narrow-img img {
@@ -589,7 +576,7 @@ figure.narrow-img img {
   aspect-ratio: 16 / 9;
   overflow: hidden;
   position: relative;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .video-container iframe {
@@ -602,11 +589,25 @@ figure.narrow-img img {
 .content blockquote {
   width: 100%;
   font-size: 1.25rem;
+  position: relative;
 }
 
 .content blockquote p {
   margin-left: 0;
   width: 100%;
+}
+
+blockquote::before {
+  content: "“";
+  position: absolute;
+  top: -0.4em;
+  left: 0;
+  font-size: 4rem;
+  color: var(--color-lg);
+  line-height: 1;
+  font-family: var(--font-title);
+  font-weight: 500;
+  pointer-events: none;
 }
 
 .gr-highlight-long {
@@ -707,7 +708,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
   color: var(--color-dg);
   transform: scale(0.5);
   opacity: 0;
@@ -758,7 +759,7 @@ footer {
   position: relative;
   width: 100%;
   height: 500px;
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 
 .floating img {
@@ -766,7 +767,6 @@ footer {
   animation: float 6s ease-in-out infinite;
   transition: transform 0.3s ease;
 
-  /* set a CSS variable for floating */
   --float: translateY(0);
   --rotate: rotate(0deg);
   transform: var(--float) var(--rotate);
@@ -836,15 +836,14 @@ footer {
   content: "✔︎ ";
 }
 
-details h3,
-details h4,
-details.tools p,
-details.tools ul {
-  margin: 2rem 0;
+details .details-content {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
 }
 
-details h4 {
-  margin-bottom: -2rem;
+.content details blockquote {
+  margin-top: 2rem;
 }
 
 
@@ -884,14 +883,13 @@ details.tools summary:hover {
   width: 50%;
   display: grid;
   place-items: center;
-  margin: 2rem auto;
+  margin: 2rem auto 1rem auto;
   align-self: center;
   position: relative;
 }
 
 .auto-slideshow figure {
   grid-area: 1 / 1;
-  /* stack all figures */
   opacity: 0;
   transition: opacity 0.6s ease-in-out;
   margin: 0;
@@ -914,7 +912,7 @@ details.tools summary:hover {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   h1 {
@@ -932,12 +930,12 @@ details.tools summary:hover {
 @media (max-width: 768px) {
 
   h1 {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     margin-top: 2rem;
   }
 
   h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   h3 {
@@ -961,33 +959,47 @@ details.tools summary:hover {
   .content p,
   .content ul,
   .content table,
-  .content details,
-  .content video {
+  .content details {
     max-width: 100%;
     margin: 0.5rem 0;
   }
 
-  details h3,
-  details h4,
-  details.tools p,
-  details.tools ul {
-    margin: 1rem 0;
+  .content h2,
+.content blockquote {
+  width: 100%;
+  align-self: flex-start;
+  margin: 0.5rem 0;
+}
+
+  .content blockquote {
+    margin-top: 2rem;
   }
 
-  details.author {
-    margin: 1rem 0 2rem 0;
+  blockquote::before {
+    font-size: 3rem;
+  }
 
+.content h2 {
+  margin-top: 1rem;
+}
+
+  .content details blockquote {
+    margin-top: 3rem;
   }
 
   .content figure,
   .content video {
-    width: 100%;
+    width: calc(100% + 1rem);
+    margin: 0.5rem 0;
   }
 
-  /* .content figcaption {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  } */
+  .content figure {
+    margin-top: 1rem;
+  }
+
+  .content figcaption {
+    padding: 0 0.5rem;
+  }
 
   .content figure.narrow-img {
     width: 70%;
@@ -1001,12 +1013,10 @@ details.tools summary:hover {
   figure.head-img {
     width: calc(100% + 1rem);
     max-width: calc(100% + 1rem);
-    margin: 0;
+      margin-left: 0;
   }
 
   figure.head-img figcaption {
-    background: var(--color-br);
-    color: black;
     padding: 0.25rem 0.5rem;
   }
 
@@ -1015,7 +1025,7 @@ details.tools summary:hover {
     aspect-ratio: 16 / 9;
     overflow: hidden;
     position: relative;
-    margin: 2rem 0 2rem -0.5rem;
+    margin-left: -0.5rem;
   }
 
   .video-container iframe {
@@ -1079,22 +1089,14 @@ details.tools summary:hover {
 
   .lightbox-container {
     width: calc(100% + 1rem);
-    margin: 4rem 0 4rem -0.5rem;
-    aspect-ratio: 3 / 2;
+    margin-left: -0.5rem;
     margin: 2rem 0 0 -0.5rem;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .lightbox-base {
-    flex-direction: column;
-    width: calc(100% + 1rem);
-    margin: 0 0 2rem -0.5rem;
   }
 
   .lightbox-info {
-    width: calc(100% - 1rem);
-    padding: 0.25rem 0.5rem;
+    width: calc(100% + 1rem);
+    margin-left: -0.5rem;
+    padding: 0 0.5rem;
   }
 
   .lightbox-controls {
@@ -1103,12 +1105,11 @@ details.tools summary:hover {
 
   .floating {
     height: 200px;
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   .auto-slideshow {
     width: 70%;
-    margin: 1rem auto;
   }
 
   .gr-highlight-long {
@@ -1119,19 +1120,21 @@ details.tools summary:hover {
     font-size: 1.15rem;
   }
 
+
+
   .bubble {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   .bubble p {
     font-size: 1rem;
     line-height: var(--line-height-title);
     text-align: justify;
+    text-align-last: center;
   }
 
   .bubble p .bracket-left {
     border-right: none;
-    /* Remove right border */
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
     margin-right: 0.5rem;

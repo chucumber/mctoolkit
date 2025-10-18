@@ -50,6 +50,9 @@ Recruitment in general is an important part of Mobilizing Citizenship. We talked
 Throughout the project we have done some adjustments every year, but the model has been that the artists, project manager, and the curator explain to me what the week or semester is going to be like. I try to break it down into youth-friendly language. And sometimes we have used graphic posters and pictures to make the recruitment process pop. And then I contact youth clubs in the municipalities around Stavanger—there are a lot of smaller municipalities around here, and many youth clubs. The first years I was travelling around to some youth clubs to explain the project. I also work in a youth club of my own in Sola, and of course I have done more recruitment from that youth club because it has been a natural topic with the young people there. I have to explain what the project is about. It’s not a school project but is a leisure-time project over the weekends or during vacation.
 
 
+We purposefully didn’t recruit [participants] through schools… in a school, or in a class, people have designated roles that have been established, which is often limiting for young people.
+
+
 ><mark class="gr-highlight-long">We purposefully didn’t recruit [participants] through schools… in a school, or in a class, people have designated roles that have been established, which is often limiting for young people. </mark>
 
 
@@ -82,13 +85,10 @@ So why do you think youth clubs are good places to recruit from?
 
 
 <span class="interviewee">T</span>
-Research done here in Norway, at <a href="https://oda.oslomet.no/oda-xmlui/handle/20.500.12199/1312" target="_blank">OsloMet</a>, shows that young people who are attending youth clubs have weaker relationships to guardians and school, but they have stronger relationships to friends and their social society than the young people who do not attend youth clubs. 
+Research done here in Norway, at <a href="https://oda.oslomet.no/oda-xmlui/handle/20.500.12199/1312" target="_blank">OsloMet</a>, shows that young people who are attending youth clubs have weaker relationships to guardians and school, but they have stronger relationships to friends and their social society than the young people who do not attend youth clubs. Researchers think the method that the youth workers are using in their relational work with young people is the reason young people get better in building social relationships. The youth worker has a different perspective from other grown-ups when they meet the young people. They always ask, ‘Who are you and what do you want to do here?’ Instead of, ‘Hello, this is our youth club. You can do this and this…’ It’s a different perspective that comes back to youth participation. As youth workers, we are working to find out: ‘What is the young person’s interest and resources?’ 
 
 
 ><mark class="gr-highlight-long">Researchers think the method that the youth workers are using in their relational work with young people is the reason young people get better in building social relationships. The youth worker has a different perspective from other grown-ups when they meet the young people.</mark> 
-
-
-They always ask, ‘Who are you and what do you want to do here?’ Instead of, ‘Hello, this is our youth club. You can do this and this…’ It’s a different perspective that comes back to youth participation. As youth workers, we are working to find out: ‘What is the young person’s interest and resources?’ 
 
 
 <span class="interviewer">K</span> 
@@ -108,7 +108,9 @@ I don’t know, actually. I think it’s different for the different participant
 <span class="interviewer">K</span> 
 We did have participants who came in with interest in art already, but it was never a goal for us to use this as a way to grow an audience or create new artists. How do you think it was for young people in the project to work with international artists?
 
-<span class="interviewee">T</span>
+<span class="interviewee">T</span> 
+When I was coming into MC, I thought it would be a selling point for young people—that we had international artists. It wasn’t, at all.
+
 
 ><mark class="gr-highlight-long">When I was coming into MC, I thought it would be a selling point for young people—that we had international artists. It wasn’t, at all.</mark> 
 
@@ -123,6 +125,9 @@ In MC, we focused on young people between 12 and 16, which is the age that you a
 
 
 Trine, what do you believe is specific about the Norwegian condition for young people today? A lot of the artists that visited us came from the US or the UK where there is no welfare state, there is more poverty, which we also have in Norway but not to the extent that you would see, for example, in the US. However, young people are still struggling with other things here—it’s not a carefree existence. 
+
+
+The big topic for young people now is mental health… they feel it’s a changing and unsafe world after Covid.
 
 
 ><mark class="pk-highlight-long">The big topic for young people now is mental health… they feel it’s a changing and unsafe world after Covid.</mark> 
@@ -158,7 +163,7 @@ I agree with that. But also, I feel that with the young people of this generatio
 
 
 <span class="interviewer">K</span> 
-Yes, it’s not only about what you say, it’s about how you act. In the quite early days of MC, we had some artists come in, and in conversation one of the participants talked about being bullied. This has been a recurring theme throughout the project, I would say. Both of the artists who were hosting this workshop said, ‘Oh, I was also bullied when I was your age.’ It was like something in the room shifted. 
+Yes, it’s not only about what you say, it’s about how you act. In the quite early days of MC, we had some artists come in, and in conversation one of the participants talked about being bullied. This has been a recurring theme throughout the project, I would say. Both of the artists who were hosting this workshop said, ‘Oh, I was also bullied when I was your age.’ It was like something in the room shifted. They saw that these adults who were seemingly cool had been through something similar that they were going through, and it was not something that defined them today.
 
 ><mark class="pk-highlight-long">They saw that these adults who were seemingly cool had been through something similar that they were going through, and it was not something that defined them today.</mark>
 
@@ -200,6 +205,6 @@ When you are making projects or trying to reach out to different target groups, 
 If I’m going to try and answer that question—what do we want to achieve?—for MC, we wanted to give room for young people, we wanted them to feel we were interested in their voice and to also help them gain access to tools that could make them feel like they had a way to speak up. Do you think that’s something we achieved? 
 
 <span class="interviewee">T</span>
-Yeah, definitely. 
+Yeah, definitely. All of the young people who were in MC came out stronger in a way, and more secure in their own voice, and maybe they didn’t care so much about what other people thought. That’s a good achievement.
 
 ><mark class="gr-highlight-long">All of the young people who were in MC came out stronger in a way, and more secure in their own voice, and maybe they didn’t care so much about what other people thought. That’s a good achievement.</mark> 

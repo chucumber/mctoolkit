@@ -43,7 +43,7 @@
         @-moz-document url-prefix() {
             * {
                 scrollbar-width: auto;
-                scrollbar-color: var(--color-pk) transparent;
+                scrollbar-color: var(--color-bl) transparent;
             }
         }
 
@@ -56,11 +56,11 @@
         }
 
         *::-webkit-scrollbar-thumb {
-            background: var(--color-pk);
+            background: var(--color-bl);
         }
 
         *::-webkit-scrollbar-thumb:hover {
-            background: #FF8CEC;
+            background: #65a2f8;
             cursor: grab;
         }
 
@@ -69,12 +69,15 @@
         #site-nav {
             position: fixed;
             top: 0;
-            right: 2rem;
-            height: 2rem;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
+            z-index: 99;
             gap: 1rem;
-            z-index: 999;
+            width: 100%;
+            height: 2rem;
+            padding: 0 2rem;
+            background: #fff;
             transition: transform 0.3s ease, position 0.3s ease;
         }
 
@@ -82,20 +85,17 @@
             transform: translateY(-100%);
         }
 
-        .menu {
-            display: block;
-        }
 
-        .home-toggle a {
-            text-decoration: none;
+        .home-toggle .menu-toggle, #top-btn {
+            color: black;
         }
-
 
         /* hidden by default */
         .menu {
             position: absolute;
-            top: 2.5rem;
+            top: 2rem;
             right: 0;
+            min-width: 350px;
             width: 20vw;
             list-style: none;
             margin: 0;
@@ -129,6 +129,14 @@
             border-bottom: var(--color-dg) solid 1px;
         }
 
+        #last-li {
+            border: none;
+        }
+
+        .menu li:hover, #last-li:hover {
+            border: black 1.5px solid;
+        }
+
         .menu li.bg-pk:hover {
             background: var(--color-pk);
         }
@@ -149,15 +157,6 @@
             background: var(--color-br);
         }
 
-        #rightPane::-webkit-scrollbar-thumb {
-            background: var(--color-br);
-        }
-
-        #rightPane::-webkit-scrollbar-thumb:hover {
-            background: #c9a87f;
-            cursor: grab;
-        }
-
 
 
         @media (max-width: 768px) {
@@ -167,7 +166,6 @@
                 justify-content: space-between;
                 right: 0;
                 padding: 0 0.5rem;
-                background: white;
                 box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
                 height: 2rem;
             }
@@ -200,7 +198,7 @@
     {{ content }}
 
     <nav id="site-nav">
-        <button class="home-toggle"><a href="index.html">Home</a></button>
+        <a href="index.html"><button class="home-toggle">Home</button></a>
         <button class="menu-toggle">Menu</button>
         <ul class="menu">
             <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a>
@@ -208,10 +206,8 @@
             <li class="bg-pk"><a href="foreword-lee">Introducing the Mobilizing Citizenship Toolkit</a></li>
             <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education</a></li>
-            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship,
-                    and
-                    the Power of
-                    Play</a>
+            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and
+                    the Power of Play</a>
             </li>
             <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
             </li>
@@ -223,7 +219,7 @@
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-            <li class="bg-gr"><a href="contributor">Contributors</a></li>
+            <li class="bg-gr" id="last-li"><a href="contributor">Contributors</a></li>
         </ul>
     </nav>
 
@@ -249,21 +245,34 @@
         const menuBtn = document.querySelector('.menu-toggle');
         const dropdown = document.querySelector('.menu');
 
-        menuBtn.addEventListener('click', () => {
+        menuBtn.addEventListener('click', (event) => {
+            event.stopPropagation(); // prevent triggering document click
+
             const isOpening = !dropdown.classList.contains('open');
 
             if (isOpening) {
                 dropdown.classList.add('open');
-                // wait for open animation to finish before enabling scroll
                 setTimeout(() => {
                     dropdown.style.overflow = "auto";
                 }, 500);
             } else {
-                // close immediately and hide overflow right away
                 dropdown.classList.remove('open');
                 dropdown.style.overflow = "hidden";
             }
         });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (
+                dropdown.classList.contains('open') &&
+                !dropdown.contains(event.target) &&
+                !menuBtn.contains(event.target)
+            ) {
+                dropdown.classList.remove('open');
+                dropdown.style.overflow = "hidden";
+            }
+        });
+
 
     </script>
 </body>

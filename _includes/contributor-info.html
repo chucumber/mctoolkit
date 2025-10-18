@@ -1,9 +1,8 @@
 <div class="contributor-popup hidden" id="{{ include.file }}">
   <div class="popup-content {{ include.bg }}">
-    <span class="close">&times;</span>
 
     <div class="bio">
-      <h2>{{ include.name }}</h2>
+      <!-- <h2>{{ include.name }}</h2> -->
       {% capture bio %}
       {% include {{ include.file }}.html %}
       {% endcapture %}
@@ -13,13 +12,13 @@
 
       {% if include.appear %}
       <p class="appear">
-        APPEAR IN:<br>{{ include.appear }}
+        APPEAR IN &#10140;<br>{{ include.appear }}
       </p>
       {% endif %}
 
       <figure class="author-photo">
         <img src="{{ include.photo }}" alt="{{ include.name }}">
-        <figcaption class="font-small">{{ include.caption }}</figcaption>
+        <figcaption>{{ include.caption }}</figcaption>
       </figure>
     </div>
 

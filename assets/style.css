@@ -175,8 +175,8 @@ div.storage {
 }
 
 .entry:not(#en-2-3):not(#en-4-3):hover {
-    filter: brightness(-1.2);
     cursor: pointer;
+    border: black 1.5px solid;
 }
 
 .entry div {
@@ -324,7 +324,8 @@ div.brick {
     grid-row-start: 1;
 }
 
-#en-2-3, #en-4-3 {
+#en-2-3,
+#en-4-3 {
     font-family: PlacardKS;
     font-size: 1.15rem;
     color: #606060;
@@ -392,7 +393,7 @@ div.brick {
     object-fit: contain;
     object-position: center;
     transition: transform 0.3s ease;
-    cursor:grab;
+    cursor: grab;
     filter: drop-shadow(0 0 2px #2828288d);
 
 }
@@ -419,7 +420,7 @@ aside {
     position: relative;
 }
 
-.top:hover #home  {
+.top:hover #home {
     transform: scale(1.1);
 }
 
@@ -439,7 +440,7 @@ aside {
     user-select: none;
     font-kerning: normal;
     background: var(--color-pk);
-            transition: transform 500ms ease-in-out;
+    transition: transform 500ms ease-in-out;
 }
 
 #home h3 {
@@ -460,6 +461,10 @@ aside {
 .letter:hover {
     transform: translateY(8px);
     font-weight: 700;
+}
+
+.tight-i {
+    margin-right: -0.05em;
 }
 
 .space {
@@ -492,7 +497,7 @@ aside {
 
 #about {
     height: calc(100vh / 13);
-        padding: 0 1.5rem;
+    padding: 0 1.5rem;
     background: var(--color-br);
     width: 100%;
     z-index: 5;
@@ -509,7 +514,7 @@ aside {
     font-family: PlacardKS;
     letter-spacing: 0.01rem;
     text-decoration: none;
-        font-size: 1rem;
+    font-size: 1rem;
 
 }
 
@@ -550,7 +555,7 @@ aside {
 }
 
 #rotate-btn:hover {
-    color: var(--color-dg);
+    border: black 1.5px solid;
 }
 
 #rotate-btn img {
@@ -579,10 +584,13 @@ p.blink {
     }
 }
 
+/* -------------------- menu --------------------*/
 
 #menu {
     display: none;
 }
+
+
 
 
 
@@ -592,7 +600,7 @@ p.blink {
     }
 
     html {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     body {
@@ -626,14 +634,16 @@ p.blink {
     #home {
         height: 100%;
         width: 100%;
-            padding: 1rem 0;
+        padding: 1rem 0;
         position: static;
+        font-kerning: normal;
     }
 
     #home h3 {
         font-size: 1.25rem;
         margin-top: 0;
     }
+
 
     .bottom {
         flex: 1;
@@ -649,7 +659,7 @@ p.blink {
     .summary {
         position: static;
         width: 100%;
-        height:auto;
+        height: auto;
         padding: 1rem 0.5rem;
         overflow-y: auto;
         font-size: 0.85rem;
@@ -666,14 +676,15 @@ p.blink {
     }
 
     #menu li {
-        padding: 0.5rem;
         text-align: center;
         border: 0.25px solid #606060;
         outline: 0.25px solid #606060;
         outline-offset: -.5px;
     }
 
-    #menu li a {
+    #menu li a:not(#footnote a) {
+        display: block;
+        padding: 0.75rem 1rem;
         text-decoration: none;
         color: black;
     }

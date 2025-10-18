@@ -27,27 +27,27 @@ What does it mean to turn an educational space into a site of experimentation, c
     <img src="img/walk-of-shame/WOS-24.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
     <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   </div>
+  <div class="lightbox-controls">
+      <div class="lightbox-button prev"></div>
+      <div class="lightbox-button next"></div>
+      <div class="custom-cursor"></div>
+    </div>
 </div>
 
-<div class="lightbox-base">
   <div class="lightbox-info">
     <div class="img-info"></div>
     <div class="lightbox-counter">1/-</div>
   </div>
-  <div class="lightbox-controls">
-    <button class="lightbox-button prev">←</button>
-    <button class="lightbox-button next">→</button>
-  </div>
-</div>
 
 **Walk of Shame (WOS)** are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.
 
 
-><mark class="pk-highlight-long">Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.</mark>
+Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.
 
 
 When we were invited to join the Mobilizing Citizenship project, our intention was to set the conditions for collective experimentation. Drawing on participatory and relational art practices, we approached care and sharing as intimate, embodied gestures. We knew from experience that in these processes, it is often the journey—not the end result—that carries the deepest resonance. Here, we take you into how we worked to create a setting where young voices could surface, collide, and converge—giving rise to new expressions of identity, presence, and protest.  
 
+><mark class="pk-highlight-long">Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.</mark>
 
 <div class="bubble">
   <p>
@@ -88,6 +88,9 @@ After some time, we rotated seats around the circle. Each participant now sat in
 ><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark> 
 
 
+As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.
+
+
 She described emotions exchanged through handwritten letters, food, and stories offered without screens, and the presence of silence as something meaningful, even weighty. The participants were invited to ask her anything, and they did:
 
 
@@ -99,7 +102,8 @@ She described emotions exchanged through handwritten letters, food, and stories 
 Her answers were poetic, sometimes strange, and always rich with detail. And with her presence, the room shifted. Time folded in on itself. The group began comparing their own ways of sharing with something imagined, yet emotionally real. The fictional frame made it easier to ask deeper questions. How has sharing changed? What do we miss? What do we carry forward? This fictional frame allowed for reflection without judgement. It created an opening for empathy across generations, technologies, and lived experience.
 
 
-This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. 
+This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.
+
 
 ><mark class="pk-highlight-long">Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</mark>
 
@@ -211,9 +215,9 @@ The answers were thoughtful, sometimes hesitant, but always rooted in lived expe
 
 
 ### What We Learned About Art, Voice, and Space
-><mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for.</mark> 
+><mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard.</mark> 
 
-These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives. 
+In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for. These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives. 
  
 
 Wearing someone else’s words or symbols became an act of solidarity, amplifying voices beyond our own. In doing so, we formed small, intentional communities rooted in shared interest, mutual curiosity and care. These were not echo chambers, but spaces of exchange, where learning about each other mattered.
@@ -222,11 +226,15 @@ Wearing someone else’s words or symbols became an act of solidarity, amplifyin
 Through the workshops, we witnessed how a creative process can offer young people space to be heard—without pressure to perform or conform. Small gestures—choosing a name, drawing a fear, wearing a secret—sparked profound connections. We experienced how public space can be transformed through quiet presence, and how institutions influence who feels entitled to take up space.
 
 
-><mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark>
+Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.
 
 
 As one participant put it:  
 ‘Here, I can breathe differently.’
+
+
+><mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark>
+
 
 <div class="floating">
   <img src="img/walk-of-shame/fish.webp" alt="" width="30%">
@@ -254,6 +262,7 @@ Developed by artist collective Walk of Shame as part of the project Mobilizing C
 <summary markdown="span">
 1. Set the Tone: Build Trust Through Atmosphere
 </summary>
+<div class="details-content" markdown="1">
 
 #### Why it matters:
 
@@ -271,7 +280,7 @@ A sense of safety, openness, and curiosity is foundational for participation. Yo
 
 *TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.*
 
-
+</div>
 </details>
 
 <details class="tools" markdown="1">
@@ -279,6 +288,8 @@ A sense of safety, openness, and curiosity is foundational for participation. Yo
   <summary>
     2. Material-Based Expression: Make Identity Visible
   </summary>
+
+<div class="details-content" markdown="1">
 
 #### Why it matters:
 
@@ -298,7 +309,7 @@ Materials can express complexity, emotion, and identity in ways that words often
 
 *TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.*
 
-
+</div>
 </details>
 
 <details class="tools" markdown="1">
@@ -306,6 +317,8 @@ Materials can express complexity, emotion, and identity in ways that words often
   <summary>
     3. Storyplay & Time Travel: Activating Historical Imagination
   </summary>
+
+<div class="details-content" markdown="1">
 
 #### Why it matters:
 
@@ -320,7 +333,7 @@ Materials can express complexity, emotion, and identity in ways that words often
 
 *TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.*
 
-
+</div>
 </details>
 
 <details class="tools" markdown="1">
@@ -328,6 +341,8 @@ Materials can express complexity, emotion, and identity in ways that words often
   <summary>
     4. From Text to Talk: Using Documents as Fuel for Dialogue
   </summary>
+
+<div class="details-content" markdown="1">
 
 #### Why it matters:
 
@@ -344,6 +359,7 @@ Materials can express complexity, emotion, and identity in ways that words often
 
 *TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.*
 
+</div>
 </details>
 
 <details class="tools" markdown="1">
@@ -351,6 +367,8 @@ Materials can express complexity, emotion, and identity in ways that words often
   <summary>
     5. Claiming Public Space Together
   </summary>
+
+<div class="details-content" markdown="1">
 
 #### Why it matters:
 
@@ -367,6 +385,7 @@ Use sticker activism: Let participants design and place homemade stickers in the
 
 *TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.*
 
+</div>
 </details>
 
 <details class="tools" markdown="1">
@@ -374,6 +393,8 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <summary>
     6. Co-Curate & Reflect
   </summary>
+
+<div class="details-content" markdown="1">
 
 #### Why it matters:
 
@@ -389,6 +410,7 @@ Use sticker activism: Let participants design and place homemade stickers in the
 
 *TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.*
 
+</div>
 </details>
 
 <details class="tools" markdown="1">
@@ -396,19 +418,25 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <summary>
     7. Principles to Carry with You
   </summary>
+
+  <div class="details-content" markdown="1">
+
   <ul>
   <li><b>Be a host, not a leader.</b> Make space. Share power.<br>Process over product. Let the work unfold at its own pace—don’t rush it.</li>
   <li><b>Start in the body.</b> Allow movement and material to lead before words take over.</li>
   <li><b>Listen for the quiet.</b> Expression comes in many forms, not all of them loud.</li>
   <li><b>Treat art as a method.</b> For empathy, protest, imagination, and connection.</li>
   </ul>
+  </div>
 </details>
 
-<details class="tools" markdown="1">
+<details class="tools" markdown="1" style="margin-bottom: 1rem;">
 
   <summary>
     Suggested Materials to Have on Hand
   </summary>
+  <div class="details-content" markdown="1">
+
   <ul>
   <li>Paper rolls, markers, stickers, post-its</li>
   <li>Wearables: wigs, jackets, hats, sashes, etc.</li>
@@ -422,16 +450,16 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <li>Printed text excerpts (e.g., from freedom of speech reports)</li>
   <li>Snacks and cushions or rugs for a comfortable floor setup</li>
   </ul>
+  </div>
 </details>
 
-<br>
 
 <figure>
   <img src="img/walk-of-shame/WOS-19.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
 </figure>
 
-<br><br>
+<br>
 
 * * *
 

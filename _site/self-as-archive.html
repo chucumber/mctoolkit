@@ -43,7 +43,7 @@
         @-moz-document url-prefix() {
             * {
                 scrollbar-width: auto;
-                scrollbar-color: var(--color-pk) transparent;
+                scrollbar-color: var(--color-bl) transparent;
             }
         }
 
@@ -56,11 +56,11 @@
         }
 
         *::-webkit-scrollbar-thumb {
-            background: var(--color-pk);
+            background: var(--color-bl);
         }
 
         *::-webkit-scrollbar-thumb:hover {
-            background: #FF8CEC;
+            background: #65a2f8;
             cursor: grab;
         }
 
@@ -69,12 +69,15 @@
         #site-nav {
             position: fixed;
             top: 0;
-            right: 2rem;
-            height: 2rem;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
+            z-index: 99;
             gap: 1rem;
-            z-index: 999;
+            width: 100%;
+            height: 2rem;
+            padding: 0 2rem;
+            background: #fff;
             transition: transform 0.3s ease, position 0.3s ease;
         }
 
@@ -82,20 +85,17 @@
             transform: translateY(-100%);
         }
 
-        .menu {
-            display: block;
-        }
 
-        .home-toggle a {
-            text-decoration: none;
+        .home-toggle .menu-toggle, #top-btn {
+            color: black;
         }
-
 
         /* hidden by default */
         .menu {
             position: absolute;
-            top: 2.5rem;
+            top: 2rem;
             right: 0;
+            min-width: 350px;
             width: 20vw;
             list-style: none;
             margin: 0;
@@ -129,6 +129,14 @@
             border-bottom: var(--color-dg) solid 1px;
         }
 
+        #last-li {
+            border: none;
+        }
+
+        .menu li:hover, #last-li:hover {
+            border: black 1.5px solid;
+        }
+
         .menu li.bg-pk:hover {
             background: var(--color-pk);
         }
@@ -149,15 +157,6 @@
             background: var(--color-br);
         }
 
-        #rightPane::-webkit-scrollbar-thumb {
-            background: var(--color-br);
-        }
-
-        #rightPane::-webkit-scrollbar-thumb:hover {
-            background: #c9a87f;
-            cursor: grab;
-        }
-
 
 
         @media (max-width: 768px) {
@@ -167,7 +166,6 @@
                 justify-content: space-between;
                 right: 0;
                 padding: 0 0.5rem;
-                background: white;
                 box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
                 height: 2rem;
             }
@@ -205,10 +203,10 @@
     <div class="author">
         <button class="author-toggle">Delali Ayivor</button>
         <div class="author-bio bg-gr">
-            <button class="author-close">&#10005;</button>
+            <!-- <button class="author-close">&#10005;</button> -->
             <p>
                 
-                Delali Ayivor is a Ghanaian-American writer, archivist, and information systems designer. Her work is grounded in her lived experience growing up in the Global South, where access to mainstream flows of information were often fractured, tenuous, refracted, or distorted. She wrote once of Ghana: ‘this is as West Africa is, constantly trapped somewhere in the binary of finite and fracture.’ Thus, her work—like her country and herself—is fundamentally concerned with the structural: intersections, frictions, overlaps, and sites of disjuncture.
+                <b>Delali Ayivor</b> is a Ghanaian-American writer, archivist, and information systems designer. Her work is grounded in her lived experience growing up in the Global South, where access to mainstream flows of information were often fractured, tenuous, refracted, or distorted. She wrote once of Ghana: ‘this is as West Africa is, constantly trapped somewhere in the binary of finite and fracture.’ Thus, her work—like her country and herself—is fundamentally concerned with the structural: intersections, frictions, overlaps, and sites of disjuncture.
 <br><br>
 She is a 2024 graduate of the Pratt Institute School of Information with an MS in Library and Information Sciences; a graduate of Interlochen Arts Academy and Reed College, a 2011 US Presidential Scholar in the Arts, a 2020 Tin House Workshop Scholar, and a member of the second class of Kehinde Wiley’s Black Rock Senegal residency. She currently lives and works in Accra, Ghana.
                 
@@ -228,26 +226,25 @@ She is a 2024 graduate of the Pratt Institute School of Information with an MS i
   <figcaption></figcaption>
 </figure>
 
-<p>I am a poet and essayist who thrives on collaboration and draws deeply on engagement with my personal archives, particularly my digital archives. Though I have a degree in library and information sciences, I was an artist working in my personal archives long before I went to school to study archives. In fact, it might be most accurate to say that I came to study archives because of my creative work.</p>
-
-<p>I look at my digital archive as an ephemeral shadow, something deeply intimate, yet in its massive and ever-growing scale, something almost unknowable. I also look at it as evidence: of views once held and their changing shapes over time; evidence of the essential nature of my relationships with myself and others; evidence of people and memories that are no longer floating at the surface and thus no longer easily summoned.</p>
-
 <blockquote>
   <p><mark class="pk-highlight-long">The primary lesson I wanted to emphasise in my workshop is the great liberation that comes with being curious about who you are by engaging with the many other people you’ve already been.</mark></p>
 </blockquote>
 
-<p>With how chronically online modern life has become, and with the emergence of legislation that dictates our rights to own and control our data footprint, we have more access than ever to all the versions of ourselves that have ever had a stable internet connection. Personally, I have been very slowly rereading my entire Facebook Messenger archive of almost ten years—that process has effectively taken the power away from shame to dictate my actions and self-perception.</p>
+<p>I am a poet and essayist who thrives on collaboration and draws deeply on engagement with my personal archives, particularly my digital archives. Though I have a degree in library and information sciences, I was an artist working in my personal archives long before I went to school to study archives. In fact, it might be most accurate to say that I came to study archives because of my creative work.</p>
+
+<p>I look at my digital archive as an ephemeral shadow, something deeply intimate, yet in its massive and ever-growing scale, something almost unknowable. I also look at it as evidence: of views once held and their changing shapes over time; evidence of the essential nature of my relationships with myself and others; evidence of people and memories that are no longer floating at the surface and thus no longer easily summoned.</p>
+
+<p>he primary lesson I wanted to emphasise in my workshop is the great liberation that comes with being curious about who you are by engaging with the many other people you’ve already been. With how chronically online modern life has become, and with the emergence of legislation that dictates our rights to own and control our data footprint, we have more access than ever to all the versions of ourselves that have ever had a stable internet connection. Personally, I have been very slowly rereading my entire Facebook Messenger archive of almost ten years—that process has effectively taken the power away from shame to dictate my actions and self-perception.</p>
 
 <p>Given all the above, erasure and the archive seemed like natural dual focuses for my workshop. Erasure is a form of found poetry in which an author ‘erases’ or obscures portions of an existing text. The words that remain visible create a new work. It is an inherently political form. In layering a new text on top of an original, an organic dialogue is formed between past and present, and a three-way conversation about perception opens up between original authorial intent, artist revision, and audience reception. It is also inherently subversive, not only because it confronts the taboo of defacement. As one participant asked rather incredulously before starting an erasure exercise, ‘…you want us to write inside the books?’ And yes, I did.</p>
-
-<p>In planning this workshop, I wanted to share the role of archival work in my own journey towards self-acceptance and self-discovery.</p>
 
 <blockquote>
   <p><mark class="pk-highlight-long">I also wanted to emphasise that creative work can be generated through intuition and outside of a blank page or screen—through tapping into the self that exists without conscious thought.</mark></p>
 </blockquote>
 
-<p>As a writer who was rigorously and formally trained in my youth, my practice as an adult is centred primarily around escaping the constraints of that training and finding generative processes that originate in embodiment, lived experience, and subjective impulse. Because of this, I have increasingly turned away from topics and generative techniques that would typically be thought of as literary. Instead, I focus my practice on analysis of the texts I generate while going through my everyday life. Whether or not one identifies as a writer, we all produce texts and documentation that are containers for information about our lives. In this way, we are walking archives that can be mined for insights about our lived experiences and the world around us. 
-On the second day of my workshop, I shared a quote from Audre Lorde’s essay ‘Poetry Is Not a Luxury’(1984), which in typical Audre Lorde fashion, succinctly and evocatively captures all the ideas that guided my lesson planning:</p>
+<p>In planning this workshop, I wanted to share the role of archival work in my own journey towards self-acceptance and self-discovery. I also wanted to emphasise that creative work can be generated through intuition and outside of a blank page or screen—through tapping into the self that exists without conscious thought. As a writer who was rigorously and formally trained in my youth, my practice as an adult is centred primarily around escaping the constraints of that training and finding generative processes that originate in embodiment, lived experience, and subjective impulse. Because of this, I have increasingly turned away from topics and generative techniques that would typically be thought of as literary. Instead, I focus my practice on analysis of the texts I generate while going through my everyday life. Whether or not one identifies as a writer, we all produce texts and documentation that are containers for information about our lives. In this way, we are walking archives that can be mined for insights about our lived experiences and the world around us.</p>
+
+<p>On the second day of my workshop, I shared a quote from Audre Lorde’s essay ‘Poetry Is Not a Luxury’(1984), which in typical Audre Lorde fashion, succinctly and evocatively captures all the ideas that guided my lesson planning:</p>
 
 <div class="bubble">
   <p>
@@ -258,11 +255,12 @@ On the second day of my workshop, I shared a quote from Audre Lorde’s essay �
 </div>
 
 <h2 id="introduction">Introduction</h2>
-<p>I started the workshop with a brief overview of some of my work as well as a bird’s-eye look at erasure and various erasure techniques.</p>
 
 <blockquote>
   <p><mark class="pk-highlight-long">In sharing excerpts from my own work, I wanted to illuminate some major themes of my practice: revealing the political in the everyday, exploring the self as archive, and challenging ideas of what can and cannot be art.</mark></p>
 </blockquote>
+
+<p>I started the workshop with a brief overview of some of my work as well as a bird’s-eye look at erasure and various erasure techniques. In sharing excerpts from my own work, I wanted to illuminate some major themes of my practice: revealing the political in the everyday, exploring the self as archive, and challenging ideas of what can and cannot be art.</p>
 
 <p>Examples shared:</p>
 <h3 id="excerpt-from-three-gestures-in-contemporaneity">Excerpt from ‘Three Gestures in Contemporaneity’</h3>
@@ -448,7 +446,7 @@ Erasure Exercises: Exploration + World Building
 </footer>
 
     <nav id="site-nav">
-        <button class="home-toggle"><a href="index.html">Home</a></button>
+        <a href="index.html"><button class="home-toggle">Home</button></a>
         <button class="menu-toggle">Menu</button>
         <ul class="menu">
             <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a>
@@ -456,10 +454,8 @@ Erasure Exercises: Exploration + World Building
             <li class="bg-pk"><a href="foreword-lee">Introducing the Mobilizing Citizenship Toolkit</a></li>
             <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education</a></li>
-            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship,
-                    and
-                    the Power of
-                    Play</a>
+            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and
+                    the Power of Play</a>
             </li>
             <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
             </li>
@@ -471,7 +467,7 @@ Erasure Exercises: Exploration + World Building
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-            <li class="bg-gr"><a href="contributor">Contributors</a></li>
+            <li class="bg-gr" id="last-li"><a href="contributor">Contributors</a></li>
         </ul>
     </nav>
 
@@ -497,21 +493,34 @@ Erasure Exercises: Exploration + World Building
         const menuBtn = document.querySelector('.menu-toggle');
         const dropdown = document.querySelector('.menu');
 
-        menuBtn.addEventListener('click', () => {
+        menuBtn.addEventListener('click', (event) => {
+            event.stopPropagation(); // prevent triggering document click
+
             const isOpening = !dropdown.classList.contains('open');
 
             if (isOpening) {
                 dropdown.classList.add('open');
-                // wait for open animation to finish before enabling scroll
                 setTimeout(() => {
                     dropdown.style.overflow = "auto";
                 }, 500);
             } else {
-                // close immediately and hide overflow right away
                 dropdown.classList.remove('open');
                 dropdown.style.overflow = "hidden";
             }
         });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (
+                dropdown.classList.contains('open') &&
+                !dropdown.contains(event.target) &&
+                !menuBtn.contains(event.target)
+            ) {
+                dropdown.classList.remove('open');
+                dropdown.style.overflow = "hidden";
+            }
+        });
+
 
     </script>
 </body>

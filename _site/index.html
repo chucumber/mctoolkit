@@ -117,9 +117,9 @@
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-            <li class="bg-gr random-btn">Random</li>
+            <li class="bg-gr"><a href="javascript:void(0)" id="random-btn">Random</a></li>
             <li class="bg-gr"><a href="contributor">Contributors</a></li>
-            <li class="bg-gr">Kunsthall Stavanger</li>
+            <li class="bg-gr"><a>Kunsthall Stavanger</a></li>
             <li id="footnote">This toolkit is produced by <a href="https://kunsthallstavanger.no/"
                     target="_blank">Kunsthall
                     Stavanger</a></li>
@@ -172,160 +172,10 @@
                 $library.css('transform', `rotate(${currentRotation}deg)`);
             });
 
-            /* ===== Collage ===== */
-            // const images = [
-            //     "img/walk-of-shame/dare 2.webp",
-            //     "img/walk-of-shame/face 2.webp",
-            //     "img/walk-of-shame/fish 2.webp",
-            //     "img/walk-of-shame/heart 2.webp",
-            //     "img/walk-of-shame/sign 2.webp",
-            //     "img/walk-of-shame/sripe 2.webp",
-            //     "img/walk-of-shame/MC_avsluttning_037WEB.webp",
-            //     "img/walk-of-shame/MC_avsluttning_077WEB.webp",
-            //     "img/walk-of-shame/MC_avsluttning_067WEB.webp",
-            //     "img/walk-of-shame/MC_avsluttning_086WEB.webp",
-            //     "img/walk-of-shame/MC_avsluttning_090WEB.webp",
-            //     "img/walk-of-shame/P1050196.webp",
-            //     "img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp",
-            //     "img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp",
-            //     "img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp",
-            //     "img/are-you-listening/image2.jpg",
-            //     "img/are-you-listening/image3.jpg",
-            //     "img/are-you-listening/image4.jpg",
-            //     "img/are-you-listening/image5.webp",
-            //     "img/hey-hey-look-at-me/MobilizingCitizenship_Drama_207WEB.webp",
-            //     "img/hey-hey-look-at-me/MobilizingCitizenship_Drama_216WEB.webp",
-            //     "img/hey-hey-look-at-me/MobilizingCitizenship_Drama_132WEB.webp",
-            //     "img/hey-hey-look-at-me/MobilizingCitizenship_Drama_166WEB.webp",
-            //     "img/let-me-be-for-you/MC_2023_003_WEB.webp",
-            //     "img/let-me-be-for-you/MC_2023_005_WEB.webp",
-            //     "img/let-me-be-for-you/MC_2023_073_WEB.webp",
-            //     "img/let-me-be-for-you/MC_2023_040_WEB.webp",
-            //     "img/let-me-be-for-you/MC_2023_061_WEB.webp",
-            //     "img/let-me-be-for-you/MC_2023_073_WEB.webp",
-            //     "img/let-me-be-for-you/MC_2023_084_WEB.webp",
-            //     "img/self-as-archive/1.webp",
-            //     "img/self-as-archive/work-2.webp",
-            //     "img/self-as-archive/work-3.webp",
-            //     "img/self-as-archive/work-4.webp",
-            //     "img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203.webp",
-            //     "img/what-we-hold-sacred/Copy of IMG_0449.webp",
-            //     "img/what-we-hold-sacred/MC_2023_029_WEB.webp",
-            //     "img/what-we-hold-sacred/MC_2023_046_WEB.webp",
-            //     "img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_Finale_145WEB.webp",
-            //     "img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_34WEB.webp",
-            //     "img/youth-workers/MC_avsluttning_081WEB.webp",
-            //     "img/youth-workers/20221002_094631 2.webp",
-            //     "img/contributor/Chire Regans photo by Helle Navratil.webp",
-            //     "img/contributor/Delali Ayivor-photo by Helle Navratil.webp",
-            //     "img/contributor/K K Bore Photo Helle Navratil.webp",
-            //     "img/contributor/Lee Heinemann-photo by Helle Navratil.webp",
-            //     "img/contributor/Lex Brown-photo by Helle Navratil.webp",
-            //     "img/contributor/Loni Johnson - photo by Helle Navratil.webp",
-            //     "img/contributor/Mikey Kirkpatrick-photo by Helle Navratil.webp",
-            //     "img/contributor/Trine Ottosen- photo by Helle.webp",
-            // ];
-
-            // const collage = document.getElementById("collage");
-            // let zCounter = 1;
-            // let collageTimeout = null;
-            // let lastAddedAbs = null; // absolute URL of last added image
-
-            // function randomBetween(min, max) {
-            //     return Math.random() * (max - min) + min;
-            // }
-
-            // function randomMultiple(min, max, step) {
-            //     const range = Math.floor((max - min) / step);
-            //     return min + step * Math.floor(Math.random() * (range + 1));
-            // }
-
-            // // helper to get absolute URL from a relative path in `images`
-            // function toAbs(src) {
-            //     return new URL(src, location.href).href;
-            // }
-
-            // // create one image element
-            // function createImage(src) {
-            //     const img = document.createElement("img");
-            //     img.src = src;
-            //     const left = randomMultiple(5, 25, 5);   // multiples of 5vh
-            //     const top = randomMultiple(5, 20, 5);    // multiples of 5vh
-            //     const rotate = randomMultiple(-15, 15, 5);
-
-            //     Object.assign(img.style, {
-            //         left: `${left}vh`,
-            //         top: `${top}vh`,
-            //         transform: `rotate(${rotate}deg)`,
-            //         zIndex: zCounter++,
-            //     });
-
-            //     img.addEventListener("mouseenter", () => {
-            //         img.style.transform = `rotate(${rotate + 6}deg)`;
-            //     });
-
-            //     img.addEventListener("mouseleave", () => {
-            //         img.style.transform = `rotate(${rotate}deg)`;
-            //     });
-
-            //     return img;
-            // }
-
-
-
-            // function addRandomImage() {
-            //     const currentAbs = Array.from(collage.querySelectorAll("img"))
-            //         .map(img => new URL(img.getAttribute('src') || img.src, location.href).href);
-
-            //     // build absolute pool of available images that are not currently displayed
-            //     const availableAbs = images
-            //         .map(toAbs)
-            //         .filter(abs => !currentAbs.includes(abs) && abs !== lastAddedAbs);
-
-            //     // if none available (all images on screen or only lastAdded would remain), allow picking anything except the lastAdded to avoid immediate repeat
-            //     let pool = availableAbs.length ? availableAbs : images.map(toAbs).filter(abs => abs !== lastAddedAbs);
-
-            //     if (!pool.length) return; // nothing we can pick safely
-
-            //     const pickAbs = pool[Math.floor(Math.random() * pool.length)];
-
-            //     // convert absolute URL back to a relative-ish form for img.src using URL.pathname+search+hash
-            //     // (or simply set img.src = pickAbs; both are fine)
-            //     const img = createImage(pickAbs);
-            //     collage.appendChild(img);
-
-            //     lastAddedAbs = new URL(img.src, location.href).href;
-
-            //     setTimeout(() => {
-            //         if (img.parentElement) img.remove();
-            //     }, 4000);
-            // }
-
-            // function startCollage() {
-            //     if (collageTimeout) return; // already running
-            //     function tick() {
-            //         const delay = randomBetween(1000, 2000);
-            //         collageTimeout = setTimeout(() => {
-            //             addRandomImage();
-            //             tick();
-            //         }, delay);
-            //     }
-            //     tick();
-            // }
-
-            // function stopCollage() {
-            //     if (collageTimeout) {
-            //         clearTimeout(collageTimeout);
-            //         collageTimeout = null;
-            //     }
-            // }
 
             /* ===== Collage ===== */
-
-            // ---- Image Sets ---- //
             const collageSets = [
                 {
-                    // Set A: larger images, slower stacking
                     images: [
                         "img/walk-of-shame/dare 2.webp",
                         "img/walk-of-shame/face 2.webp",
@@ -381,13 +231,12 @@
                     ],
                     width: "40vh",
                     leftRange: [5, 20],
-                    topRange: [0, 20],
+                    topRange: [0, 15],
                     rotationRange: [-15, 15],
                     duration: [4000, 6000],  // how long each image stays
                     interval: [3000, 5000]   // delay between new images
                 },
                 {
-                    // Set B: smaller images, faster stacking, different spread
                     images: [
                         "img/tape-1.png",
                         "img/tape-2.png",
@@ -410,7 +259,6 @@
             // ---- Core Functions ---- //
             const collage = document.getElementById("collage");
             let zCounter = 1;
-            let collageTimers = [];
             let lastAdded = new Map();
 
             function randomBetween(min, max) {
@@ -478,20 +326,30 @@
                 tick();
             }
 
-            // ---- Control ---- //
+
+            let collageRunning = false;
+            let collageTimers = [];
+
             function startCollage() {
+                if (collageRunning) return; // prevent multiple instances
+                collageRunning = true;
+
                 stopCollage();
 
                 collageSets.forEach((_, i) => {
-                    const delay = randomBetween(2000, 4000); // each set waits 0–2s
-                    setTimeout(() => startSet(i), delay);
+                    const delay = randomBetween(1000, 2000); // staggered start
+                    const timer = setTimeout(() => startSet(i), delay);
+                    collageTimers.push(timer);
                 });
             }
 
             function stopCollage() {
                 collageTimers.forEach(t => clearTimeout(t));
                 collageTimers = [];
+
+                collageRunning = false; // allow restarting next time
             }
+
 
             /* --- Hover logic --- */
             const entryTexts = {
@@ -505,26 +363,31 @@
                 'en-4-4': 'In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.'
             };
 
-            $(".entry").hover(
+            $(".entry:not(#en-2-3):not(#en-4-3)").hover(
                 function () {
                     const $link = $(this).find("a");
                     const newQuote = $link.length ? $link.text() : $(this).text();
                     const newText = entryTexts[this.id] || "";
 
-                    $("#collage").css("display", "none");
-                    stopCollage(); // stop piling
-
-                    $("#quote, #q-text").css("display", "block");
                     $("#quote").text(newQuote).addClass("visible");
                     $("#q-text").text(newText).addClass("visible");
+
+                    setTimeout(() => {
+                        stopCollage();
+                        $("#collage").css("display", "none");
+                        $("#quote, #q-text").css("display", "block");
+                    }, 500);
                 },
                 function () {
-                    // clear and restart when visible again
-                    $("#collage").empty().css("display", "block");
-                    zCounter = 1;
-                    startCollage();
 
-                    $("#quote, #q-text").css("display", "none").removeClass("visible");
+                    $("#quote, #q-text").removeClass("visible");
+
+                    setTimeout(() => {
+                        $("#quote, #q-text").css("display", "none");
+                        $("#collage").empty().css("display", "block");
+                        zCounter = 1;
+                        startCollage();
+                    }, 500);
                 }
             );
 
@@ -552,58 +415,76 @@
 
             // Random article function
             const articles = [
-                "foreword-kristina",
-                "foreword-lee",
-                "a-space-for-agency",
-                "hey-hey-look-at-me",
-                "are-you-listening",
-                "self-as-archive",
-                "what-we-hold-sacred",
-                "let-me-be-for-you",
-                "youth-workers"
+                "foreword-kristina.html",
+                "foreword-lee.html",
+                "a-space-for-agency.html",
+                "hey-hey-look-at-me.html",
+                "are-you-listening.html",
+                "self-as-archive.html",
+                "what-we-hold-sacred.html",
+                "let-me-be-for-you.html",
+                "youth-workers.html"
             ];
 
+            let lastIndex = -1;
+
             function goToRandomArticle() {
+                if (articles.length === 0) return;
+
                 let randomIndex;
                 do {
                     randomIndex = Math.floor(Math.random() * articles.length);
-                } while (randomIndex === lastIndex);
+                } while (randomIndex === lastIndex && articles.length > 1);
 
                 lastIndex = randomIndex;
                 window.location.href = articles[randomIndex];
             }
 
-            document.querySelector(".random-btn").addEventListener("click", goToRandomArticle);
-
-            let lastIndex = -1;
+            document.querySelectorAll("#random-btn, .random-btn").forEach(btn => {
+                btn.addEventListener("click", goToRandomArticle);
+            });
 
 
 
             // setupXylophoneEffect //
-            function setupXylophoneEffect() {
-                const homeWords = $('#home h3');
-                const sounds = [1, 2, 3, 4, 5, 6, 7, 8].map(i => document.getElementById(`sound${i}`));
-                let soundCounter = 0;
+            $(function () {
+                function setupXylophoneEffect() {
+                    const homeWords = $('#home h3');
+                    const sounds = [1, 2, 3, 4, 5, 6, 7, 8].map(i => document.getElementById(`sound${i}`));
+                    let soundCounter = 0;
 
-                homeWords.each(function () {
-                    const $word = $(this);
-                    const text = $word.text();
-                    $word.empty();
+                    homeWords.each(function () {
+                        const $word = $(this);
+                        const text = $word.text();
+                        $word.empty();
 
-                    for (let i = 0; i < text.length; i++) {
-                        const $letter = $('<span>').addClass('letter').text(text[i]);
-                        const soundIndex = soundCounter % sounds.length;
-                        $letter.on('mouseenter', () => {
-                            sounds[soundIndex].currentTime = 0;
-                            sounds[soundIndex].play();
-                        });
-                        $word.append($letter);
-                        soundCounter++;
-                    }
-                });
-            }
+                        for (let i = 0; i < text.length; i++) {
+                            const ch = text[i];
+                            const $letter = $('<span>').addClass('letter').text(ch);
 
-            setupXylophoneEffect();
+                            // add tight-i class
+                            if (ch.toLowerCase() === 'i') {
+                                $letter.addClass('tight-i');
+                            }
+
+                            const soundIndex = soundCounter % sounds.length;
+                            $letter.on('mouseenter', () => {
+                                if (sounds[soundIndex]) {
+                                    sounds[soundIndex].currentTime = 0;
+                                    sounds[soundIndex].play();
+                                }
+                            });
+
+                            $word.append($letter);
+                            soundCounter++;
+                        }
+                    });
+                }
+
+                setupXylophoneEffect();
+            });
+
+
         });
 
 

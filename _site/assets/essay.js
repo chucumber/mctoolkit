@@ -45,107 +45,14 @@ document.addEventListener('click', (e) => {
 });
 
 
-
-// Lightbox
-const initLightbox = () => {
-  const lightboxScroll = document.querySelector('.lightbox-scroll');
-  const imgInfo = document.querySelector('.img-info');
-  if (!lightboxScroll || !imgInfo) return;
-
-  const images = Array.from(lightboxScroll.querySelectorAll('img'));
-  if (images.length === 0) return;
-
-  let currentIndex = 0;
-  const totalImages = images.length;
-
-  let imagePositions = [0];
-  let totalWidth = 0;
-
-  Promise.all(images.map(img => {
-    return new Promise(resolve => {
-      if (img.complete) resolve(img);
-      img.onload = () => resolve(img);
-    });
-  })).then(loadedImages => {
-    loadedImages.forEach((img, i) => {
-      if (i < totalImages - 1) {
-        totalWidth += img.offsetWidth;
-        imagePositions.push(totalWidth);
-      }
-    });
-
-    const updateCredit = (index) => {
-      const img = images[index];
-      const credit = img.getAttribute("data-caption") || '';
-      imgInfo.innerHTML = credit;
-    };
-
-    const goToImage = (index) => {
-      currentIndex = index;
-      const offset = imagePositions[currentIndex];
-      lightboxScroll.style.transform = `translateX(-${offset}px)`;
-      updateCounter();
-      updateCredit(currentIndex);
-    };
-
-    const nextImage = () => {
-      currentIndex = (currentIndex + 1) % totalImages;
-      goToImage(currentIndex);
-    };
-
-    const prevImage = () => {
-      currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-      goToImage(currentIndex);
-    };
-
-    const updateCounter = () => {
-      const counter = document.querySelector('.lightbox-counter');
-      counter.textContent = `${currentIndex + 1}/${totalImages}`;
-    };
-
-    document.querySelector('.lightbox-button.next').addEventListener('click', nextImage);
-    document.querySelector('.lightbox-button.prev').addEventListener('click', prevImage);
-
-    // Swipe detection for mobile
-    let startX = 0;
-    let endX = 0;
-
-    lightboxScroll.addEventListener('touchstart', (e) => {
-      startX = e.touches[0].clientX;
-    });
-
-    lightboxScroll.addEventListener('touchend', (e) => {
-      endX = e.changedTouches[0].clientX;
-      handleSwipe();
-    });
-
-    const handleSwipe = () => {
-      let diffX = endX - startX;
-      if (Math.abs(diffX) > 50) { // threshold: 50px
-        if (diffX > 0) {
-          prevImage(); // swipe right → previous
-        } else {
-          nextImage(); // swipe left → next
-        }
-      }
-    };
-
-    // Init
-    updateCounter();
-    updateCredit(0);
-  });
-};
-
-initLightbox();
-
-
 // Add popup container to body
 const popup = document.createElement('div');
 popup.className = 'popup';
 document.body.appendChild(popup);
 
 // Handle image clicks
-document.querySelectorAll('.content img, .contributor img').forEach(img => {
+document.querySelectorAll('.content img').forEach(img => {
+  if (!img.closest('.lightbox-scroll')) {
   img.addEventListener('click', () => {
     popup.innerHTML = '';
 
@@ -160,6 +67,7 @@ document.querySelectorAll('.content img, .contributor img').forEach(img => {
     popup.appendChild(credit);
     popup.classList.add('active');
   });
+  }
 });
 
 
@@ -252,4 +160,126 @@ document.getElementById("top-btn").addEventListener("click", () => {
     top: 0,
     behavior: "smooth"
   });
+});
+
+
+// Lightbox
+const initLightbox = () => {
+  const lightboxScroll = document.querySelector('.lightbox-scroll');
+  const imgInfo = document.querySelector('.img-info');
+  if (!lightboxScroll || !imgInfo) return;
+
+  const images = Array.from(lightboxScroll.querySelectorAll('img'));
+  if (images.length === 0) return;
+
+  let currentIndex = 0;
+  const totalImages = images.length;
+
+  let imagePositions = [0];
+  let totalWidth = 0;
+
+  Promise.all(images.map(img => {
+    return new Promise(resolve => {
+      if (img.complete) resolve(img);
+      img.onload = () => resolve(img);
+    });
+  })).then(loadedImages => {
+    loadedImages.forEach((img, i) => {
+      if (i < totalImages - 1) {
+        totalWidth += img.offsetWidth;
+        imagePositions.push(totalWidth);
+      }
+    });
+
+    const updateCredit = (index) => {
+      const img = images[index];
+      const credit = img.getAttribute("data-caption") || '';
+      imgInfo.innerHTML = credit;
+    };
+
+    const goToImage = (index) => {
+      currentIndex = index;
+      const offset = imagePositions[currentIndex];
+      lightboxScroll.style.transform = `translateX(-${offset}px)`;
+      updateCounter();
+      updateCredit(currentIndex);
+    };
+
+    const nextImage = () => {
+      currentIndex = (currentIndex + 1) % totalImages;
+      goToImage(currentIndex);
+    };
+
+    const prevImage = () => {
+      currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+      goToImage(currentIndex);
+    };
+
+    const updateCounter = () => {
+      const counter = document.querySelector('.lightbox-counter');
+      counter.textContent = `( ${currentIndex + 1}/${totalImages} )`;
+    };
+
+    document.querySelector('.lightbox-button.next').addEventListener('click', nextImage);
+    document.querySelector('.lightbox-button.prev').addEventListener('click', prevImage);
+
+    // Swipe detection for mobile
+    let startX = 0;
+    let endX = 0;
+
+    lightboxScroll.addEventListener('touchstart', (e) => {
+      startX = e.touches[0].clientX;
+    });
+
+    lightboxScroll.addEventListener('touchend', (e) => {
+      endX = e.changedTouches[0].clientX;
+      handleSwipe();
+    });
+
+    const handleSwipe = () => {
+      let diffX = endX - startX;
+      if (Math.abs(diffX) > 50) { // threshold: 50px
+        if (diffX > 0) {
+          prevImage(); // swipe right → previous
+        } else {
+          nextImage(); // swipe left → next
+        }
+      }
+    };
+
+    // Init
+    updateCounter();
+    updateCredit(0);
+  });
+};
+
+initLightbox();
+
+
+// arrow cursor
+const customCursor = document.querySelector('.custom-cursor');
+const prevBtn = document.querySelector('.lightbox-button.prev');
+const nextBtn = document.querySelector('.lightbox-button.next');
+
+document.addEventListener('mousemove', e => {
+  customCursor.style.left = `${e.clientX}px`;
+  customCursor.style.top = `${e.clientY}px`;
+});
+
+// When hovering on prev button → show ←
+prevBtn.addEventListener('mouseenter', () => {
+  customCursor.textContent = '←';
+  customCursor.style.opacity = 1;
+});
+prevBtn.addEventListener('mouseleave', () => {
+  customCursor.style.opacity = 0;
+});
+
+// When hovering on next button → show →
+nextBtn.addEventListener('mouseenter', () => {
+  customCursor.textContent = '→';
+  customCursor.style.opacity = 1;
+});
+nextBtn.addEventListener('mouseleave', () => {
+  customCursor.style.opacity = 0;
 });

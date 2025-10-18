@@ -23,7 +23,7 @@ In Things We Hold Sacred, her workshop for Mobilizing Citizenship in autumn 2023
 ><mark class="pk-highlight-long">As artists, it’s our responsibility to take on the role of the memory keepers, the griots.</mark> 
 
 
-Where I am—the United States; the American South; Miami, Florida—there is an erasure of Black history. I have taken it upon myself to understand and present how Black and Brown folks honour our ancestors and ensure that stories of our histories are told. 
+As artists, it’s our responsibility to take on the role of the memory keepers, the griots. Where I am—the United States; the American South; Miami, Florida—there is an erasure of Black history. I have taken it upon myself to understand and present how Black and Brown folks honour our ancestors and ensure that stories of our histories are told. 
 
 
 My assemblage and performance work merges traditional methods of remembrance with contemporary ways of remembering to create new traditions for honouring the past. I see my work as a way of building community and bridging gaps between groups of people.
@@ -63,11 +63,12 @@ Who's your favorite writer that’s no longer here?
 Who’s your favorite person that you don’t see every day? 
 
 
-Participants could also create an altar for themselves or for their inner child. You could ask:
-
-
+Participants could also create an altar for themselves or for their inner child. You could ask:  
 If you could make an altar for your 4- or 5-year-old self, what would that look like? 
-What would an altar to a cause or topic you’re passionate about look like?
+What would an altar to a cause or topic you’re passionate about look like? 
+
+
+My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.
 
 
 ><mark class="pk-highlight-long">My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.</mark>
