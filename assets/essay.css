@@ -833,7 +833,7 @@ footer {
 }
 
 .content ul li::marker {
-  content: "✔︎ ";
+  content: "&#10004; ";
 }
 
 details .details-content {
@@ -1006,18 +1006,13 @@ details.tools summary:hover {
   }
 
   .content figure.narrow-img figcaption {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
 
   figure.head-img {
     width: calc(100% + 1rem);
     max-width: calc(100% + 1rem);
       margin-left: 0;
-  }
-
-  figure.head-img figcaption {
-    padding: 0.25rem 0.5rem;
   }
 
   .video-container {
@@ -1112,6 +1107,10 @@ details.tools summary:hover {
     width: 70%;
   }
 
+  .auto-slideshow figcaption {
+    padding: 0;
+  }
+
   .gr-highlight-long {
     font-size: 1.15rem;
   }
@@ -1119,7 +1118,6 @@ details.tools summary:hover {
   .pk-highlight-long {
     font-size: 1.15rem;
   }
-
 
 
   .bubble {
@@ -1151,10 +1149,6 @@ details.tools summary:hover {
   .content ul {
     padding: 0 0 0 1.5rem;
     list-style: disc;
-  }
-
-  .content ul li::marker {
-    content: "\2714 ";
   }
 
   .content details {
