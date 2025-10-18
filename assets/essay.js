@@ -52,7 +52,7 @@ document.body.appendChild(popup);
 
 // Handle image clicks
 document.querySelectorAll('.content img').forEach(img => {
-  if (!img.closest('.lightbox-scroll')) {
+   
   img.addEventListener('click', () => {
     popup.innerHTML = '';
 
@@ -67,7 +67,7 @@ document.querySelectorAll('.content img').forEach(img => {
     popup.appendChild(credit);
     popup.classList.add('active');
   });
-  }
+  
 });
 
 
