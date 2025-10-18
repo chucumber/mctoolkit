@@ -1015,6 +1015,10 @@ details.tools summary:hover {
       margin-left: 0;
   }
 
+  figure.head-img figcaption {
+  padding: 0 0.5rem;
+}
+
   .video-container {
     width: 100vw;
     aspect-ratio: 16 / 9;
