@@ -43,7 +43,7 @@
         @-moz-document url-prefix() {
             * {
                 scrollbar-width: auto;
-                scrollbar-color: var(--color-pk) transparent;
+                scrollbar-color: var(--color-bl) transparent;
             }
         }
 
@@ -56,11 +56,11 @@
         }
 
         *::-webkit-scrollbar-thumb {
-            background: var(--color-pk);
+            background: var(--color-bl);
         }
 
         *::-webkit-scrollbar-thumb:hover {
-            background: #FF8CEC;
+            background: #65a2f8;
             cursor: grab;
         }
 
@@ -69,12 +69,15 @@
         #site-nav {
             position: fixed;
             top: 0;
-            right: 2rem;
-            height: 2rem;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
+            z-index: 99;
             gap: 1rem;
-            z-index: 999;
+            width: 100%;
+            height: 2rem;
+            padding: 0 2rem;
+            background: #fff;
             transition: transform 0.3s ease, position 0.3s ease;
         }
 
@@ -82,20 +85,17 @@
             transform: translateY(-100%);
         }
 
-        .menu {
-            display: block;
-        }
 
-        .home-toggle a {
-            text-decoration: none;
+        .home-toggle .menu-toggle, #top-btn {
+            color: black;
         }
-
 
         /* hidden by default */
         .menu {
             position: absolute;
-            top: 2.5rem;
+            top: 2rem;
             right: 0;
+            min-width: 350px;
             width: 20vw;
             list-style: none;
             margin: 0;
@@ -129,6 +129,14 @@
             border-bottom: var(--color-dg) solid 1px;
         }
 
+        #last-li {
+            border: none;
+        }
+
+        .menu li:hover, #last-li:hover {
+            border: black 1.5px solid;
+        }
+
         .menu li.bg-pk:hover {
             background: var(--color-pk);
         }
@@ -149,15 +157,6 @@
             background: var(--color-br);
         }
 
-        #rightPane::-webkit-scrollbar-thumb {
-            background: var(--color-br);
-        }
-
-        #rightPane::-webkit-scrollbar-thumb:hover {
-            background: #c9a87f;
-            cursor: grab;
-        }
-
 
 
         @media (max-width: 768px) {
@@ -167,7 +166,6 @@
                 justify-content: space-between;
                 right: 0;
                 padding: 0 0.5rem;
-                background: white;
                 box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
                 height: 2rem;
             }
@@ -205,10 +203,10 @@
     <div class="author">
         <button class="author-toggle">Walk of Shame</button>
         <div class="author-bio bg-gr">
-            <button class="author-close">&#10005;</button>
+            <!-- <button class="author-close">&#10005;</button> -->
             <p>
                 
-                Walk of Shame (WOS) is an artist collective based in Bergen, Norway, working at the intersection of visual art, performance, and social space. Their practice explores participation, community, and the aesthetics of excess, often creating immersive environments that blur the boundaries between audience and performer. With a playful yet critical approach, WOS stages works that challenge conventions of taste, behaviour, and collectivity, inviting participants into transformative and unpredictable experiences.
+                <b>Walk of Shame (WOS)</b> is an artist collective based in Bergen, Norway, working at the intersection of visual art, performance, and social space. Their practice explores participation, community, and the aesthetics of excess, often creating immersive environments that blur the boundaries between audience and performer. With a playful yet critical approach, WOS stages works that challenge conventions of taste, behaviour, and collectivity, inviting participants into transformative and unpredictable experiences.
                 
             </p>
         </div>
@@ -236,26 +234,27 @@
     <img src="img/walk-of-shame/WOS-24.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, &lt;i&gt;SHARING IS CARING&lt;/i&gt;, autumn 2022. Photos: Walk of Shame." />
     <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, &lt;i&gt;SHARING IS CARING&lt;/i&gt;, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger." />
   </div>
+  <div class="lightbox-controls">
+      <div class="lightbox-button prev"></div>
+      <div class="lightbox-button next"></div>
+      <div class="custom-cursor"></div>
+    </div>
 </div>
 
-<div class="lightbox-base">
-  <div class="lightbox-info">
+<div class="lightbox-info">
     <div class="img-info"></div>
     <div class="lightbox-counter">1/-</div>
   </div>
-  <div class="lightbox-controls">
-    <button class="lightbox-button prev">←</button>
-    <button class="lightbox-button next">→</button>
-  </div>
-</div>
 
 <p><strong>Walk of Shame (WOS)</strong> are a Bergen-based artist collective that have, since 2012, explored the unruly beauty of co-creation through performance, installation, and participatory art. At the heart of our practice lies a fascination with shared authorship, agency, and the creative potential that emerges when control is deliberately relinquished. Our work often unfolds within fictional frameworks that invite collaborators—especially young participants—into immersive acts of making, imagining, and becoming.</p>
+
+<p>Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.</p>
+
+<p>When we were invited to join the Mobilizing Citizenship project, our intention was to set the conditions for collective experimentation. Drawing on participatory and relational art practices, we approached care and sharing as intimate, embodied gestures. We knew from experience that in these processes, it is often the journey—not the end result—that carries the deepest resonance. Here, we take you into how we worked to create a setting where young voices could surface, collide, and converge—giving rise to new expressions of identity, presence, and protest.</p>
 
 <blockquote>
   <p><mark class="pk-highlight-long">Rather than steering toward fixed outcomes, we cultivate what we call positive chaos: a fluid terrain where leadership shifts, care circulates, and expression takes unexpected forms. It is within this instability that we find fertile ground for relational learning and the blurring of boundaries between the artistic and the social.</mark></p>
 </blockquote>
-
-<p>When we were invited to join the Mobilizing Citizenship project, our intention was to set the conditions for collective experimentation. Drawing on participatory and relational art practices, we approached care and sharing as intimate, embodied gestures. We knew from experience that in these processes, it is often the journey—not the end result—that carries the deepest resonance. Here, we take you into how we worked to create a setting where young voices could surface, collide, and converge—giving rise to new expressions of identity, presence, and protest.</p>
 
 <div class="bubble">
   <p>
@@ -289,6 +288,8 @@
   <p><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark></p>
 </blockquote>
 
+<p>As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</p>
+
 <p>She described emotions exchanged through handwritten letters, food, and stories offered without screens, and the presence of silence as something meaningful, even weighty. The participants were invited to ask her anything, and they did:</p>
 
 <p>‘Did people talk about feelings in the ’50s?’<br />
@@ -297,7 +298,7 @@
 
 <p>Her answers were poetic, sometimes strange, and always rich with detail. And with her presence, the room shifted. Time folded in on itself. The group began comparing their own ways of sharing with something imagined, yet emotionally real. The fictional frame made it easier to ask deeper questions. How has sharing changed? What do we miss? What do we carry forward? This fictional frame allowed for reflection without judgement. It created an opening for empathy across generations, technologies, and lived experience.</p>
 
-<p>This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present.</p>
+<p>This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</p>
 
 <blockquote>
   <p><mark class="pk-highlight-long">Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</mark></p>
@@ -394,21 +395,23 @@
 
 <h3 id="what-we-learned-about-art-voice-and-space">What We Learned About Art, Voice, and Space</h3>
 <blockquote>
-  <p><mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for.</mark></p>
+  <p><mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard.</mark></p>
 </blockquote>
 
-<p>These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives.</p>
+<p>In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for. These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives.</p>
 
 <p>Wearing someone else’s words or symbols became an act of solidarity, amplifying voices beyond our own. In doing so, we formed small, intentional communities rooted in shared interest, mutual curiosity and care. These were not echo chambers, but spaces of exchange, where learning about each other mattered.</p>
 
 <p>Through the workshops, we witnessed how a creative process can offer young people space to be heard—without pressure to perform or conform. Small gestures—choosing a name, drawing a fear, wearing a secret—sparked profound connections. We experienced how public space can be transformed through quiet presence, and how institutions influence who feels entitled to take up space.</p>
 
-<blockquote>
-  <p><mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark></p>
-</blockquote>
+<p>Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</p>
 
 <p>As one participant put it:<br />
 ‘Here, I can breathe differently.’</p>
+
+<blockquote>
+  <p><mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark></p>
+</blockquote>
 
 <div class="floating">
   <img src="img/walk-of-shame/fish.webp" alt="" width="30%" />
@@ -433,24 +436,26 @@ A hands-on guide for participatory engagement with young audiences
   <summary>
 1. Set the Tone: Build Trust Through Atmosphere
 </summary>
+  <div class="details-content">
 
-  <h4 id="why-it-matters">Why it matters:</h4>
+    <h4 id="why-it-matters">Why it matters:</h4>
 
-  <p>A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.</p>
+    <p>A sense of safety, openness, and curiosity is foundational for participation. You’re not just running a workshop—you’re creating a temporary community.</p>
 
-  <h4 id="how-to-do-it">How to do it:</h4>
-  <ul>
-    <li><strong>Welcome with presence:</strong> Greet participants with music, snacks, and warm lighting.</li>
-    <li><strong>Stage a fictional campfire:</strong> Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.</li>
-    <li><strong>Start with metaphor:</strong> Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?</li>
-    <li><strong>Sit in a circle:</strong> Remove hierarchy and promote eye contact and shared focus.</li>
-    <li><strong>Choose a name for the day</strong>: Let each participant invent or choose a new name and make their own name tag.</li>
-    <li><strong>Begin gently:</strong> Ease into the session with drawing games, shared storytelling, or laughter to build ease.</li>
-    <li><strong>Introduce a thematic anchor:</strong> Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.</li>
-  </ul>
+    <h4 id="how-to-do-it">How to do it:</h4>
+    <ul>
+      <li><strong>Welcome with presence:</strong> Greet participants with music, snacks, and warm lighting.</li>
+      <li><strong>Stage a fictional campfire:</strong> Use soft light to simulate a fire at the centre of the space. Around it, place conversation objects—for example, a model of a human cell and an animal cell.</li>
+      <li><strong>Start with metaphor:</strong> Invite the group to compare the two cells. Ask: What makes us human? What do animals and humans have in common? How do we share—with words, without words?</li>
+      <li><strong>Sit in a circle:</strong> Remove hierarchy and promote eye contact and shared focus.</li>
+      <li><strong>Choose a name for the day</strong>: Let each participant invent or choose a new name and make their own name tag.</li>
+      <li><strong>Begin gently:</strong> Ease into the session with drawing games, shared storytelling, or laughter to build ease.</li>
+      <li><strong>Introduce a thematic anchor:</strong> Write a central phrase (e.g., ‘Sharing is Caring // Caring is Sharing’) in bold letters on a large paper in the centre. Ask: What does this mean to me? To us? Let participants respond through drawing, doodles, or text. Then, rotate seats so everyone continues someone else’s thought—building a collective visual dialogue.</li>
+    </ul>
 
-  <p><em>TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.</em></p>
+    <p><em>TIP: Use this opening moment to build a shared sense of curiosity, vulnerability, and belonging.</em></p>
 
+  </div>
 </details>
 
 <details class="tools">
@@ -459,12 +464,14 @@ A hands-on guide for participatory engagement with young audiences
     2. Material-Based Expression: Make Identity Visible
   </summary>
 
-  <h4 id="why-it-matters-1">Why it matters:</h4>
+  <div class="details-content">
 
-  <p>Materials can express complexity, emotion, and identity in ways that words often can’t. They become tools for discovery, communication, and care.</p>
+    <h4 id="why-it-matters-1">Why it matters:</h4>
 
-  <h4 id="how-to-do-it-1">How to do it:</h4>
-  <ul>
+    <p>Materials can express complexity, emotion, and identity in ways that words often can’t. They become tools for discovery, communication, and care.</p>
+
+    <h4 id="how-to-do-it-1">How to do it:</h4>
+    <ul>
   <li><b>Offer wearable canvases:</b> Give participants denim jackets, sashes, masks, or other items they can personalise.</li>
   <li><b>Introduce symbolic exercises:</b> Try activities such as:<br />  
   ‘Button Secrets’ (write a secret, then turn someone else’s into a drawing)<br />
@@ -474,8 +481,9 @@ A hands-on guide for participatory engagement with young audiences
   <li><b>Co-create:</b> Use a giant paper roll or mural for a group ‘mega-drawing’.</li>
   </ul>
 
-  <p><em>TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.</em></p>
+    <p><em>TIP: Don’t focus on aesthetic ‘results.’ Embrace work that is messy, poetic, unfinished—and meaningful.</em></p>
 
+  </div>
 </details>
 
 <details class="tools">
@@ -484,18 +492,21 @@ A hands-on guide for participatory engagement with young audiences
     3. Storyplay &amp; Time Travel: Activating Historical Imagination
   </summary>
 
-  <h4 id="why-it-matters-2">Why it matters:</h4>
+  <div class="details-content">
 
-  <p>Fictional characters and historical play let participants explore contrasts, question norms, and imagine alternative ways of being.</p>
+    <h4 id="why-it-matters-2">Why it matters:</h4>
 
-  <h4 id="how-to-do-it-2">How to do it:</h4>
-  <ul>
+    <p>Fictional characters and historical play let participants explore contrasts, question norms, and imagine alternative ways of being.</p>
+
+    <h4 id="how-to-do-it-2">How to do it:</h4>
+    <ul>
   <li><b>Bring in a character:</b> A facilitator embodies a character from the 1950s, sharing an exaggerated and funny story about how sharing worked ‘back then’.Open the floor: Participants are invited to ask anything: What was school like? How did people express feelings? How did you protest without social media?</li>
   <li><b>Reflect together:</b> Transition into a group discussion about what has changed and what hasn’t: How do we share today? What’s easier now? What’s more difficult?</li>
   </ul>
 
-  <p><em>TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.</em></p>
+    <p><em>TIP: The combination of humour, roleplay, and dialogue fosters empathy and encourages critical comparison.</em></p>
 
+  </div>
 </details>
 
 <details class="tools">
@@ -504,20 +515,23 @@ A hands-on guide for participatory engagement with young audiences
     4. From Text to Talk: Using Documents as Fuel for Dialogue
   </summary>
 
-  <h4 id="why-it-matters-3">Why it matters:</h4>
+  <div class="details-content">
 
-  <p>Reports, laws, and public texts can feel distant—but they deeply affect our lives. Activating them through conversation makes abstract ideas personal and relevant.</p>
+    <h4 id="why-it-matters-3">Why it matters:</h4>
 
-  <h4 id="how-to-do-it-3">How to do it:</h4>
-  <ul>
+    <p>Reports, laws, and public texts can feel distant—but they deeply affect our lives. Activating them through conversation makes abstract ideas personal and relevant.</p>
+
+    <h4 id="how-to-do-it-3">How to do it:</h4>
+    <ul>
   <li><b>Choose a brief, accessible text:</b> For example, a section from a report on freedom of speech in Norway.</li>
   <li><b>Read together:</b> Slowly, aloud, in pairs, or as a whole group.</li>
   <li><b>Ask open questions:</b> What surprised you? What do you agree or disagree with? Do you feel free to speak? Where, and with whom?</li>
   <li><b>Connect to lived experience:</b> What would you say if you knew someone was really listening? What needs to be said more often—or in new ways?</li>
   </ul>
 
-  <p><em>TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.</em></p>
+    <p><em>TIP: Follow the energy in the room. If a phrase sparks emotion, stay with it. Let participants guide the conversation.</em></p>
 
+  </div>
 </details>
 
 <details class="tools">
@@ -526,20 +540,23 @@ A hands-on guide for participatory engagement with young audiences
     5. Claiming Public Space Together
   </summary>
 
-  <h4 id="why-it-matters-4">Why it matters:</h4>
+  <div class="details-content">
 
-  <p>Moving from a ‘safer’ space into the public realm transforms the work into a visible, collective statement of presence, care, and community.</p>
+    <h4 id="why-it-matters-4">Why it matters:</h4>
 
-  <h4 id="how-to-do-it-4">How to do it:</h4>
-  <ul>
+    <p>Moving from a ‘safer’ space into the public realm transforms the work into a visible, collective statement of presence, care, and community.</p>
+
+    <h4 id="how-to-do-it-4">How to do it:</h4>
+    <ul>
   <li><b>Ground the group:</b> Begin by lying on the floor in silence with music playing. Invite participants to revisit what they have made and shared.</li>
   <li><b>Prepare for visibility:</b> Wear jackets, masks, or objects created in previous sessions.</li>
   <li><b>Take to the streets:</b> Do a slow, silent walk through the city.
 Use sticker activism: Let participants design and place homemade stickers in the public space with personal messages.</li>
   </ul>
 
-  <p><em>TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.</em></p>
+    <p><em>TIP: Frame the public action as gentle but radical. Visibility doesn’t need to be loud—it can be deliberate, poetic, and collective.</em></p>
 
+  </div>
 </details>
 
 <details class="tools">
@@ -548,19 +565,22 @@ Use sticker activism: Let participants design and place homemade stickers in the
     6. Co-Curate &amp; Reflect
   </summary>
 
-  <h4 id="why-it-matters-5">Why it matters:</h4>
+  <div class="details-content">
 
-  <p>Reflecting together helps solidify learning, shift ownership, and celebrate not just what was made, but how it was made.</p>
+    <h4 id="why-it-matters-5">Why it matters:</h4>
 
-  <h4 id="how-to-do-it-5">How to do it:</h4>
-  <ul>
+    <p>Reflecting together helps solidify learning, shift ownership, and celebrate not just what was made, but how it was made.</p>
+
+    <h4 id="how-to-do-it-5">How to do it:</h4>
+    <ul>
   <li><b>Circle up one last time:</b> Lay out all materials—jackets, drawings, stickers, thoughts.</li>
   <li><b>Reflect on the process:</b> What stayed with you? What did you learn from someone else?</li>
   <li><b>Build the exhibition together:</b> Decide what to show, and how. Include unfinished work, dialogue snippets, and moments of care—not just final objects.</li>
   </ul>
 
-  <p><em>TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.</em></p>
+    <p><em>TIP: Let participants take the lead. A co-curated exhibition builds confidence, pride, and a deeper sense of engagement.</em></p>
 
+  </div>
 </details>
 
 <details class="tools">
@@ -568,20 +588,26 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <summary>
     7. Principles to Carry with You
   </summary>
-  <ul>
+
+  <div class="details-content">
+
+    <ul>
   <li><b>Be a host, not a leader.</b> Make space. Share power.<br />Process over product. Let the work unfold at its own pace—don’t rush it.</li>
   <li><b>Start in the body.</b> Allow movement and material to lead before words take over.</li>
   <li><b>Listen for the quiet.</b> Expression comes in many forms, not all of them loud.</li>
   <li><b>Treat art as a method.</b> For empathy, protest, imagination, and connection.</li>
   </ul>
+  </div>
 </details>
 
-<details class="tools">
+<details class="tools" style="margin-bottom: 1rem;">
 
   <summary>
     Suggested Materials to Have on Hand
   </summary>
-  <ul>
+  <div class="details-content">
+
+    <ul>
   <li>Paper rolls, markers, stickers, post-its</li>
   <li>Wearables: wigs, jackets, hats, sashes, etc.</li>
   <li>Button maker</li>
@@ -594,16 +620,15 @@ Use sticker activism: Let participants design and place homemade stickers in the
   <li>Printed text excerpts (e.g., from freedom of speech reports)</li>
   <li>Snacks and cushions or rugs for a comfortable floor setup</li>
   </ul>
+  </div>
 </details>
-
-<p><br /></p>
 
 <figure>
   <img src="img/walk-of-shame/WOS-19.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, &lt;i&gt;SHARING IS CARING&lt;/i&gt; at Munch, autumn 2022. Photos: Walk of Shame." />
     <figcaption></figcaption>
 </figure>
 
-<p><br /><br /></p>
+<p><br /></p>
 
 <hr />
 
@@ -623,7 +648,7 @@ This guide was developed from Walk of Shame’s participatory workshop series in
 </footer>
 
     <nav id="site-nav">
-        <button class="home-toggle"><a href="index.html">Home</a></button>
+        <a href="index.html"><button class="home-toggle">Home</button></a>
         <button class="menu-toggle">Menu</button>
         <ul class="menu">
             <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a>
@@ -631,10 +656,8 @@ This guide was developed from Walk of Shame’s participatory workshop series in
             <li class="bg-pk"><a href="foreword-lee">Introducing the Mobilizing Citizenship Toolkit</a></li>
             <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education</a></li>
-            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship,
-                    and
-                    the Power of
-                    Play</a>
+            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and
+                    the Power of Play</a>
             </li>
             <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
             </li>
@@ -646,7 +669,7 @@ This guide was developed from Walk of Shame’s participatory workshop series in
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-            <li class="bg-gr"><a href="contributor">Contributors</a></li>
+            <li class="bg-gr" id="last-li"><a href="contributor">Contributors</a></li>
         </ul>
     </nav>
 
@@ -672,21 +695,34 @@ This guide was developed from Walk of Shame’s participatory workshop series in
         const menuBtn = document.querySelector('.menu-toggle');
         const dropdown = document.querySelector('.menu');
 
-        menuBtn.addEventListener('click', () => {
+        menuBtn.addEventListener('click', (event) => {
+            event.stopPropagation(); // prevent triggering document click
+
             const isOpening = !dropdown.classList.contains('open');
 
             if (isOpening) {
                 dropdown.classList.add('open');
-                // wait for open animation to finish before enabling scroll
                 setTimeout(() => {
                     dropdown.style.overflow = "auto";
                 }, 500);
             } else {
-                // close immediately and hide overflow right away
                 dropdown.classList.remove('open');
                 dropdown.style.overflow = "hidden";
             }
         });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (
+                dropdown.classList.contains('open') &&
+                !dropdown.contains(event.target) &&
+                !menuBtn.contains(event.target)
+            ) {
+                dropdown.classList.remove('open');
+                dropdown.style.overflow = "hidden";
+            }
+        });
+
 
     </script>
 </body>

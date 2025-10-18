@@ -43,7 +43,7 @@
         @-moz-document url-prefix() {
             * {
                 scrollbar-width: auto;
-                scrollbar-color: var(--color-pk) transparent;
+                scrollbar-color: var(--color-bl) transparent;
             }
         }
 
@@ -56,11 +56,11 @@
         }
 
         *::-webkit-scrollbar-thumb {
-            background: var(--color-pk);
+            background: var(--color-bl);
         }
 
         *::-webkit-scrollbar-thumb:hover {
-            background: #FF8CEC;
+            background: #65a2f8;
             cursor: grab;
         }
 
@@ -69,12 +69,15 @@
         #site-nav {
             position: fixed;
             top: 0;
-            right: 2rem;
-            height: 2rem;
             display: flex;
             align-items: center;
+            justify-content: flex-end;
+            z-index: 99;
             gap: 1rem;
-            z-index: 999;
+            width: 100%;
+            height: 2rem;
+            padding: 0 2rem;
+            background: #fff;
             transition: transform 0.3s ease, position 0.3s ease;
         }
 
@@ -82,20 +85,17 @@
             transform: translateY(-100%);
         }
 
-        .menu {
-            display: block;
-        }
 
-        .home-toggle a {
-            text-decoration: none;
+        .home-toggle .menu-toggle, #top-btn {
+            color: black;
         }
-
 
         /* hidden by default */
         .menu {
             position: absolute;
-            top: 2.5rem;
+            top: 2rem;
             right: 0;
+            min-width: 350px;
             width: 20vw;
             list-style: none;
             margin: 0;
@@ -129,6 +129,14 @@
             border-bottom: var(--color-dg) solid 1px;
         }
 
+        #last-li {
+            border: none;
+        }
+
+        .menu li:hover, #last-li:hover {
+            border: black 1.5px solid;
+        }
+
         .menu li.bg-pk:hover {
             background: var(--color-pk);
         }
@@ -149,15 +157,6 @@
             background: var(--color-br);
         }
 
-        #rightPane::-webkit-scrollbar-thumb {
-            background: var(--color-br);
-        }
-
-        #rightPane::-webkit-scrollbar-thumb:hover {
-            background: #c9a87f;
-            cursor: grab;
-        }
-
 
 
         @media (max-width: 768px) {
@@ -167,7 +166,6 @@
                 justify-content: space-between;
                 right: 0;
                 padding: 0 0.5rem;
-                background: white;
                 box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
                 height: 2rem;
             }
@@ -205,10 +203,10 @@
     <div class="author">
         <button class="author-toggle">Lex Brown</button>
         <div class="author-bio bg-gr">
-            <button class="author-close">&#10005;</button>
+            <!-- <button class="author-close">&#10005;</button> -->
             <p>
                 
-                Lex Brown is an artist working in visual and performed verse.
+                <b>Lex Brown</b> is an artist working in visual and performed verse.
 <br><br>
 She has performed and exhibited work at the Kennedy Center in Washington, DC; the New Museum, the Kitchen, the High Line, the International Center of Photography, and Recess in New York; the MIT List Center, REDCAT Theater and the Hammer Museum in Los Angeles; the Baltimore Museum of Art; and at the Munch Museum in Oslo.
 <br><br>
@@ -248,7 +246,7 @@ Brown has taught in the Visual Arts programme at Princeton University and in Art
 
 <p>I wanted to bring this work to a group of younger people because when you’re nearly a teenager, you’re in the ultimate melodrama of life, at the threshold of childhood and performing adultness, and experimenting with things you’ve seen on TV or in public. Self-consciousness and self-awareness are just hitting the medulla oblongata.</p>
 
-<p>Working after Delali’s session was a great challenge because the group had dealt with serious questions and topics related to home life. For my workshop, I wanted to make a space for play. We used physical comedy to play with and talk about power. I always try to introduce students of any age to work that plays with power structures.</p>
+<p>Working after Delali’s session was a great challenge because the group had dealt with serious questions and topics related to home life. For my workshop, I wanted to make a space for play. We used physical comedy to play with and talk about power. I always try to introduce students of any age to work that plays with power structures. Examining power is one of the easiest ways to make links between personal interactions and bigger politics.</p>
 
 <blockquote>
   <p><mark class="pk-highlight-long">Examining power is one of the easiest ways to make links between personal interactions and bigger politics.</mark></p>
@@ -305,7 +303,7 @@ Brown has taught in the Visual Arts programme at Princeton University and in Art
 
 <p>In my utopian society, we would understand what could happen—what kind of world could be built—if all children grew up fully with arts, sports, music, and all the totally logical things it makes sense to empower them with to create a functioning world. Rather than having these potent individual experiences as an adult taking a theatre class, what would it be like to exist in a society where theatre was a normal part of education? Theatre is all about world-building, and while it’s wonderful to watch, there is no substitute for what one experiences in creating it.</p>
 
-<p><br /><br /></p>
+<p><br /></p>
 <hr />
 
 <p class="footnote">
@@ -338,7 +336,7 @@ Clown Gym (founded by Julia Proctor)
 </footer>
 
     <nav id="site-nav">
-        <button class="home-toggle"><a href="index.html">Home</a></button>
+        <a href="index.html"><button class="home-toggle">Home</button></a>
         <button class="menu-toggle">Menu</button>
         <ul class="menu">
             <li class="bg-pk" id="first-li"><a href="foreword-kristina">A Reflection on Mobilizing Citizenship</a>
@@ -346,10 +344,8 @@ Clown Gym (founded by Julia Proctor)
             <li class="bg-pk"><a href="foreword-lee">Introducing the Mobilizing Citizenship Toolkit</a></li>
             <li class="bg-bl"><a href="a-space-for-agency">A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education</a></li>
-            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship,
-                    and
-                    the Power of
-                    Play</a>
+            <li class="bg-bl"><a href="hey-hey-look-at-me">Hey, Hey, Look at Me!: Lex Brown on Clowns, Citizenship, and
+                    the Power of Play</a>
             </li>
             <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
             </li>
@@ -361,7 +357,7 @@ Clown Gym (founded by Julia Proctor)
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-            <li class="bg-gr"><a href="contributor">Contributors</a></li>
+            <li class="bg-gr" id="last-li"><a href="contributor">Contributors</a></li>
         </ul>
     </nav>
 
@@ -387,21 +383,34 @@ Clown Gym (founded by Julia Proctor)
         const menuBtn = document.querySelector('.menu-toggle');
         const dropdown = document.querySelector('.menu');
 
-        menuBtn.addEventListener('click', () => {
+        menuBtn.addEventListener('click', (event) => {
+            event.stopPropagation(); // prevent triggering document click
+
             const isOpening = !dropdown.classList.contains('open');
 
             if (isOpening) {
                 dropdown.classList.add('open');
-                // wait for open animation to finish before enabling scroll
                 setTimeout(() => {
                     dropdown.style.overflow = "auto";
                 }, 500);
             } else {
-                // close immediately and hide overflow right away
                 dropdown.classList.remove('open');
                 dropdown.style.overflow = "hidden";
             }
         });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (event) => {
+            if (
+                dropdown.classList.contains('open') &&
+                !dropdown.contains(event.target) &&
+                !menuBtn.contains(event.target)
+            ) {
+                dropdown.classList.remove('open');
+                dropdown.style.overflow = "hidden";
+            }
+        });
+
 
     </script>
 </body>
