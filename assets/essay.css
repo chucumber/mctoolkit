@@ -129,13 +129,13 @@ button {
   font-family: var(--font-body);
   font-size: 1rem;
   border-radius: 0;
-  padding: 0;
+            padding: 0.25rem 1rem;
   cursor: pointer;
   background: transparent;
   color: black !important;
+  outline: 1px solid black;
+  outline-offset: -2px;
   border: none;
-  text-decoration: underline;
-  text-underline-position: under;
   transition: background 0.3s ease-in-out;
 }
 
@@ -273,7 +273,7 @@ details summary::-webkit-details-marker {
 }
 
 .author-toggle {
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem 0;
 }
 
 .author-bio {
@@ -912,7 +912,7 @@ details.tools summary:hover {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 19px;
+    font-size: 20px;
   }
 
   h1 {
