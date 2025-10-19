@@ -174,8 +174,11 @@ div.storage {
     color: black;
 }
 
-.entry:not(#en-2-3):not(#en-4-3):hover {
+.entry:not(#en-2-3):not(#en-4-3) {
     cursor: pointer;
+}
+
+.entry:not(#en-2-3):not(#en-4-3):hover {
     border: black 1.5px solid;
 }
 
@@ -600,7 +603,7 @@ p.blink {
     }
 
     html {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     body {
@@ -634,13 +637,13 @@ p.blink {
     #home {
         height: 100%;
         width: 100%;
-        padding: 1rem 0;
+        padding: 0.5rem 0 0.75rem 0;
         position: static;
         font-kerning: normal;
     }
 
     #home h3 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         margin-top: 0;
     }
 
