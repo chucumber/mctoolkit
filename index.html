@@ -1,6 +1,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PBQGWBM6M0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-PBQGWBM6M0');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="img/cover.webp">
@@ -15,23 +24,13 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1C19GGN70X"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-1C19GGN70X');
-    </script>
 </head>
 
 <body>
     <main id="library">
         <div class="storage" id="deg_0">
             <a href="what-we-hold-sacred" class="entry" id="en-1-1">
-                <div>What We Hold Sacred: A workshop on
-                    altar-Making</div>
+                <div>What We Hold Sacred: A Workshop on Altar-Making</div>
             </a>
             <a href="hey-hey-look-at-me" class="entry" id="en-1-2">
                 <div>Hey, Hey, Look at Me!: Lex
@@ -49,7 +48,7 @@
         <div class="storage" id="deg_90">
             <div class="entry" id="en-2-1"></div>
             <a href="self-as-archive" class="entry" id="en-2-2">
-                <div>Self as Archive: A workshop on Erasure +
+                <div>Self as Archive: A Workshop on Erasure +
                     World-Building</div>
             </a>
             <a href="youth-workers" class="entry" id="en-2-3">
@@ -127,7 +126,7 @@
             </li>
             <li class="bg-bl"><a href="are-you-listening">Are You Listening? Deep Listening as Youth Pedagogy</a>
             </li>
-            <li class="bg-bl"><a href="self-as-archive">Self as Archive: A workshop on Erasure + World-Building</a></li>
+            <li class="bg-bl"><a href="self-as-archive">Self as Archive: A Workshop on Erasure + World-Building</a></li>
             <li class="bg-bl"><a href="what-we-hold-sacred">What We Hold Sacred: A Workshop on Altar-Making</a>
             </li>
             <li class="bg-br"><a href="let-me-be-for-you">Let Me Be for You What I Needed When I Was Your Age</a>
@@ -172,6 +171,13 @@
         id="sound8"></audio>
 
     <script>
+        // loading lazy //
+        $('img').each(function () {
+            if (!$(this).attr('loading')) {
+                $(this).attr('loading', 'lazy');
+            }
+        });
+
         $(function () {
             // rotation button //
             const $library = $('#library');
@@ -371,7 +377,7 @@
                 'en-1-1': 'What do we owe to the people who came before us and how do we remember them? For artist and educator Loni Johnson, remembrance isn’t passive. It’s an act of resistance, reclamation, and radical care.',
                 'en-1-2': 'Artist Lex Brown unpacks the personal, political, and artistic impulses behind her workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.',
                 'en-1-3': 'While it stands as a document of the MC programme, the publication is also a resource for educators and institutions working to create meaningful art experiences for youth.',
-                'en-2-2': 'Writer Delali Ayivor opened a workshop by presenting her work and creative prompts that drew from personal drama and popular media. Here, she introduces and outlines the activities in her workshop.',
+                'en-2-2': 'Writer Delali Ayivor opened the week by presenting her work and creative prompts that drew from personal drama and popular media.',
                 'en-2-3': 'In a conversation with curator Kristina Ketola Bore, youth worker Trine Ottosen delves into the vital role of youth work in shaping inclusive, responsive educational spaces within art institutions.',
                 'en-2-4': 'This toolkit is published and produced by Kunsthall Stavanger',
                 'en-3-2': 'Mikey Kirkpatrick traces the process of building an environment where agency is nurtured, structure is flexible, and the act of making music becomes a practice of empowerment and shared responsibility.',
