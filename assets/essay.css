@@ -1011,6 +1011,8 @@ details.tools summary:hover {
 
   .content figure.narrow-img {
     width: 70%;
+    padding: 0.5rem auto;
+    align-self: center;
   }
 
   .content figure.narrow-img figcaption {
@@ -1189,7 +1191,6 @@ details.tools summary:hover {
   }
 
   table {
-    width: 300%;
     border: none;
     table-layout: fixed;
   }
