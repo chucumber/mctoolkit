@@ -21,6 +21,9 @@ This publication is generously supported by &#10140; Arts and Culture Norway
 Mobilizing Citizenship Curator &#10140; Kristina Ketola Bore (2018 – 2025)
 
 
+Mobilizing Citizenship Youth Worker &#10140; Trine Ottosen (2019-2024)
+
+
 Mobilizing Citizenship Project Managers &#10140;     
 Madelaine Gordon Graadahl (Autumn 2024)  
 Harald Harestad (Autumn 2023)  
@@ -37,7 +40,8 @@ Artists &#10140; Martin Vito, Omar Elsaaidi, Timothy Wairama
 
 #### Autumn 2023  
 *Amplifying Voices*  
-Artists &#10140; Loni Johnson (guest curator) and Chire "VantaBlack" Regans 
+Artists &#10140; Loni Johnson (guest curator) and Chire "VantaBlack" Regans  
+Youth mentor &#10140; Robbyn Spine
 
 
 #### Autumn 2022  

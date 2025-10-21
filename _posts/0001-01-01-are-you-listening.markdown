@@ -38,13 +38,13 @@ This was the mantra of the American composer and accordionist Pauline Oliveros. 
 After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk ‘<a href="https://www.youtube.com/watch?v=_QHfOuRrJB8" target="_blank">The difference between hearing and listening</a>’.  
 
 
+><mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
+
+
 Deep Listening is one of the inspirations behind Alchemy, the youth music programme I founded at London’s Goldsmiths University in the summer of 2017 in response to a callout from a local school looking for support with a group of students who were considered as being ‘at risk’ of dropping out of school. Following a phone call from a local secondary school teacher, I designed a ten-week pilot programme in collaboration with some youth workers on study placements, where these young local students could come to the university to access the music department and learn how to make, record, and perform their own music, culminating in a festival performance and mixtape release. What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.
 
 
 When the pilot came to an end, the participants wanted to continue, so I proposed Alchemy to the university as a regular weekly workshop. Now, eight years on, the programme is still running and has grown in scale. 
-
-
-><mark class="pk-highlight-long">What was clear from the beginning was that the young people were already full of music and creative ideas, and simply needed time, space, and some additional skills and resources to make them real, and to be heard.</mark>
 
 
 ## The Core Theories
@@ -127,14 +127,14 @@ Again, following on from Paolo Freire, Giroux suggests that learning can be stru
 ## How We Work to Listen
 
 
-><mark class="pk-highlight-long">Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation.</mark> 
-
-
 These models provide a useful foundation, but are especially effective when they are implemented in parallel with Pauline Oliveros’ mantra. 
 If we stop listening, everything will fall apart.
 
 
 Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation. By keeping anti-oppressive, listening-centred, and care-focused models at the core of Alchemy’s practice, we have been able to mirror the creative flow state (after Mihaly Csikszentmihalyi) as a kind of physical architecture consisting of multiple, simultaneous workshops. Here, participants design their own learning with their bodies by moving from one space to  another to gather what they need, or have a chance encounter, such as inspiration for lyrics or poetry, learning how to play an instrument or produce a beat, or developing their voice, performance skills, music theory, and new collaborations. Youth workers, also flowing between the different spaces, play a vital role of being available to support anyone who is facing challenges. 
+
+
+><mark class="pk-highlight-long">Every community has its own ecologies and, not unlike the practice of musical improvisation, requires constant listening, reflection, translation and adaptation.</mark> 
 
 
 As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.
@@ -143,10 +143,10 @@ As an organism, we all work towards the same goal: creating together, and the po
 This environment can foster peer learning in a natural way, which in turn creates a culture of co-design and a balance of freedom and structure that aims to empower everyone, both participants and team, to step beyond their comfort zone in their own time and realise their creative ideas—from making a song to starting their own initiatives. If someone has an idea, we do everything we can to support it from imagination into reality. 
 
 
-This is the kind of agency we believe everyone is entitled to and the culture we intended to share with Kunsthall Stavanger. Our collaboration raised new and exciting questions for us: How would our methods of working translate into a new space and culture? We returned to Pauline Oliveros’ mantra and decided simply to listen, which inspired the title of the workshop week: ‘Are You Listening?’ 
-
-
 ><mark class="pk-highlight-long">As an organism, we all work towards the same goal: creating together, and the potential outcome of recording and sharing new music, with an understanding that the process itself is already an important outcome.</mark>
+
+
+This is the kind of agency we believe everyone is entitled to and the culture we intended to share with Kunsthall Stavanger. Our collaboration raised new and exciting questions for us: How would our methods of working translate into a new space and culture? We returned to Pauline Oliveros’ mantra and decided simply to listen, which inspired the title of the workshop week: ‘Are You Listening?’ 
 
 
 ## How the Week Unfolded
@@ -366,9 +366,11 @@ As I have found over the years with Alchemy and other creative community program
 
 ## Some final words
 
-><mark class="pk-highlight-long">Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.</mark> 
 
 Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present. Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.
+
+
+><mark class="pk-highlight-long">Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.</mark> 
 
 
 Kunsthall Stavanger has a history of opening its doors to the community, giving them free reign and use of the space. Other institutions have much to learn from them. 
@@ -383,13 +385,9 @@ This is some of what I learnt during my time at Kunsthall Stavanger.
 Thank you to everyone who made this a life-changing week for us all. 
 
 
-<p style="margin-bottom: 0;"><b>Watch videos from the week with Goldsmith Alchemy:</b></p>
+<p style="margin-bottom: 0;"><b>Watch a video from the week with Goldsmith Alchemy:</b></p>
 <video controls playsinline preload="none" poster="video/KS-MC24(Liten).webp">
   <source src="video/KS-MC24(Liten).mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video controls playsinline preload="none" poster="video/KS-MC24(stor).webp">
-  <source src="video/KS-MC24(stor).mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

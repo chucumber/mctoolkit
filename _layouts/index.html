@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="img/cover.webp">
-    <meta name="description" content="Mobilizing Citizenship (MC) was an educational and research project held at Kunstall Stavanger between
-                2018 and 2024. This toolkit captures
-                the knowledge, experiences, and reflections developed over the course of the project.">
-    <meta name="keywords" content="">
+    <meta name="description"
+        content="The Mobilizing Citizenship Toolkit is an online resource for anyone wanting to explore how contemporary art can empower young people to express themselves and make their voices heard.">
+    <meta name="keywords"
+        content="mobilizing citizenship, tookit, youth work, education in art, education, contemporary art, kunsthall stavanger">
     <meta name="author" content="Kunstall Stavanger">
     <title>Mobilizing Citizenship Toolkit - Kunsthall Stavanger</title>
     <link rel="icon" href="img/favicon.png">
@@ -15,6 +15,15 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1C19GGN70X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1C19GGN70X');
+    </script>
 </head>
 
 <body>
@@ -36,44 +45,43 @@
 
             </div>
             <div class="brick" id="brk-1-2"></div>
-            <div class="brick" id="brk-1-3"></div>
         </div>
         <div class="storage" id="deg_90">
-            <a href="https://kunsthallstavanger.no/" target="_blank" class="entry" id="en-2-1">
-                <div>Kunsthall Stavanger</div>
-            </a>
+            <div class="entry" id="en-2-1"></div>
             <a href="self-as-archive" class="entry" id="en-2-2">
                 <div>Self as Archive: A workshop on Erasure +
                     World-Building</div>
             </a>
-            <div class="entry" id="en-2-3"></div>
-            <a href="youth-workers" class="entry" id="en-2-4">
+            <a href="youth-workers" class="entry" id="en-2-3">
                 <div>How Youth Workers Create Meaningful Encounters for
                     Young People</div>
+            </a>
+            <a href="https://kunsthallstavanger.no/" target="_blank" class="entry" id="en-2-4">
+                <div>Kunsthall Stavanger</div>
             </a>
             <div class="brick" id="brk-2-1"></div>
         </div>
         <div class="storage" id="deg_180">
-            <a href="foreword-kristina" class="entry" id="en-3-1">
-                <div>A Reflection on Mobilizing Citizenship</div>
-            </a>
+            <div class="entry" id="en-3-1"></div>
             <a href="are-you-listening" class="entry" id="en-3-2">
                 <div>Are You Listening? Deep Listening as Youth
                     Pedagogy</div>
             </a>
-            <a href="contributor.html" class="entry" id="en-3-3">
-                <div>Contributors</div>
+            <a href="foreword-kristina" class="entry" id="en-3-3">
+                <div>A Reflection on Mobilizing Citizenship</div>
             </a>
             <div class="brick" id="brk-3-1"></div>
             <div class="brick" id="brk-3-2"></div>
         </div>
         <div class="storage" id="deg_270">
-            <a href="let-me-be-for-you" class="entry" id="en-4-1">
+            <div class="entry" id="en-4-1"></div>
+            <a href="contributor.html" class="entry" id="en-4-2">
+                <div>Contributors</div>
+            </a>
+            <a href="let-me-be-for-you" class="entry" id="en-4-3">
                 <div>Let Me Be for You What I Needed When I Was Your
                     Age</div>
             </a>
-            <div class="entry random-btn" id="en-4-2">Random</div>
-            <div class="entry" id="en-4-3"></div>
             <a href="a-space-for-agency" class="entry" id="en-4-4">
                 <div>A Space for Agency: Walk of Shame on Cultivating
                     Collective Care in Education
@@ -126,7 +134,6 @@
             </li>
             <li class="bg-br"><a href="youth-workers">How Youth Workers Create Meaningful Encounters for Young
                     People</a></li>
-            <li class="bg-gr"><a href="javascript:void(0)" id="random-btn">Random</a></li>
             <li class="bg-gr"><a href="contributor">Contributors</a></li>
             <li class="bg-gr"><a href="https://kunsthallstavanger.no/">Kunsthall Stavanger</a></li>
             <li id="footnote">This toolkit is produced by <a href="https://kunsthallstavanger.no/"
@@ -147,7 +154,6 @@
     </div>
 
 
-    <audio src="assets/knock.wav" class="sound" id="knock-sound"></audio>
     <audio src="https://raw.githubusercontent.com/cartalan/Xilofono-Exercise/master/sound/1-DO.mp3" class="sound"
         id="sound1"></audio>
     <audio src="https://raw.githubusercontent.com/cartalan/Xilofono-Exercise/master/sound/2-RE.mp3" class="sound"
@@ -363,18 +369,19 @@
             /* --- Hover logic --- */
             const entryTexts = {
                 'en-1-1': 'What do we owe to the people who came before us and how do we remember them? For artist and educator Loni Johnson, remembrance isn’t passive. It’s an act of resistance, reclamation, and radical care.',
-                'en-1-2': 'Lex Brown unpacks the personal, political, and artistic impulses behind the workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.',
-
-                'en-2-1': 'This toolkit is produced by Kunsthall Stavanger.',
-                'en-2-2': 'Ayivor opened the week by presenting her work and creative prompts that drew from personal drama and popular media. Here, she introduces and outlines the activities in her workshop.',
-                'en-2-4': 'In a conversation with curator Kristina Ketola Bore, Trine Ottosen delves into the vital role of youth work in shaping inclusive, responsive educational spaces within art institutions.',
+                'en-1-2': 'Artist Lex Brown unpacks the personal, political, and artistic impulses behind her workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.',
+                'en-1-3': 'While it stands as a document of the MC programme, the publication is also a resource for educators and institutions working to create meaningful art experiences for youth.',
+                'en-2-2': 'Writer Delali Ayivor opened a workshop by presenting her work and creative prompts that drew from personal drama and popular media. Here, she introduces and outlines the activities in her workshop.',
+                'en-2-3': 'In a conversation with curator Kristina Ketola Bore, youth worker Trine Ottosen delves into the vital role of youth work in shaping inclusive, responsive educational spaces within art institutions.',
+                'en-2-4': 'This toolkit is published and produced by Kunsthall Stavanger',
                 'en-3-2': 'Mikey Kirkpatrick traces the process of building an environment where agency is nurtured, structure is flexible, and the act of making music becomes a practice of empowerment and shared responsibility.',
-                'en-4-1': 'Artists Loni Johnson and Chire Regans look back on their history as collaborators and their experience travelling to Kunsthall Stavanger to lead a week-long Mobilizing Citizenship intensive in 2023.',
-                'en-4-2': 'Let’s discover!',
-                'en-4-4': 'In this reflective overview, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.'
+                'en-3-3': 'I hope this toolkit, which encapsulates the knowledge and experiences gained from the project, serves as a practical and inspirational guide for those thinking about what educational activities for young people can look like within the context of art.',
+                'en-4-2': 'Introducing the Mobilizing Citizenship Toolkit contributors',
+                'en-4-3': 'Artists Loni Johnson and Chire Regans look back on their history as collaborators and their experience travelling to Kunsthall Stavanger to lead a week-long Mobilizing Citizenship intensive in 2023.',
+                'en-4-4': 'In this reflective overview, artist collective, Walk of Shame share their approach to crafting environments that nurture agency, spark dialogue, and foster collective creativity.'
             };
 
-            $(".entry:not(#en-2-3):not(#en-4-3)").hover(
+            $(".entry:not(#en-2-1):not(#en-3-1):not(#en-4-1)").hover(
                 function () {
                     const $link = $(this).find("a");
                     const newQuote = $link.length ? $link.text() : $(this).text();
@@ -406,23 +413,6 @@
             startCollage();
 
 
-            // Empty Entry
-            function setupEmptyEntryInteractions() {
-                const knockSound = $('#knock-sound')[0];
-                $('.entry:empty, .brick:empty').each(function () {
-                    let played = false;
-                    $(this).on('mouseenter', () => {
-                        if (!played) {
-                            knockSound.currentTime = 0;
-                            knockSound.play();
-                            played = true;
-                            setTimeout(() => played = false, knockSound.duration * 1000 || 1000);
-                        }
-                    });
-                });
-            }
-
-            setupEmptyEntryInteractions();
 
             // Random article function
             const articles = [

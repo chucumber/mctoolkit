@@ -15,9 +15,10 @@ Artist Lex Brown calls upon her talents as a performer, musician, and writer to 
   <figcaption></figcaption>
 </figure>
 
-(Lex Brown, as told to Lee Heinemann.)
+(Lex Brown, as told to Lee Heinemann.) 
 
-><mark class="pk-highlight-long">For me, melodrama is an emotional register that has been a helpful and therapeutic tool for describing and representing reality—whether political or personal.</mark> 
+
+><mark class="pk-highlight-long">For me, melodrama is an emotional register that has been a helpful and therapeutic tool for describing and representing reality—whether political or personal.</mark>
 
 
 I visited Mobilizing Citizenship in June 2022, and I can remember it clearly because we were travelling on the same day that Roe vs. Wade was overturned by the US Supreme Court. There was a potent sense of the importance of free speech. We were also still coming out of lockdown. With everyone emerging from this time of isolation, I wanted to lean more on the theatrical side of my practice.
@@ -29,10 +30,11 @@ The theme of our overall session was DRAMA, and I structured my workshop around 
 I wanted to bring this work to a group of younger people because when you’re nearly a teenager, you’re in the ultimate melodrama of life, at the threshold of childhood and performing adultness, and experimenting with things you’ve seen on TV or in public. Self-consciousness and self-awareness are just hitting the medulla oblongata.
 
 
+><mark class="pk-highlight-long">Examining power is one of the easiest ways to make links between personal interactions and bigger politics.</mark> 
+
+
 Working after Delali’s session was a great challenge because the group had dealt with serious questions and topics related to home life. For my workshop, I wanted to make a space for play. We used physical comedy to play with and talk about power. I always try to introduce students of any age to work that plays with power structures. Examining power is one of the easiest ways to make links between personal interactions and bigger politics.
 
-
-><mark class="pk-highlight-long">Examining power is one of the easiest ways to make links between personal interactions and bigger politics.</mark> 
 
 
 <figure>
@@ -42,10 +44,11 @@ Working after Delali’s session was a great challenge because the group had dea
 
 <p style="text-align: center;">&#10036; &#10036; &#10036;</p>
 
-><mark class="pk-highlight-long">The biggest difference between theatrical clown and stand-up comedy, improv, or acting is that the comic actor plays to the audience, whereas the clown plays with the audience.</mark>
-
 
 My practice connects to melodrama through the campiness of theatre and my training in theatrical clown. Clown is a big world that encompasses theatrical clown and circus clown but also medical clowns and street clowns. All have their own performance styles. The biggest difference between theatrical clown and stand-up comedy, improv, or acting is that the comic actor plays to the audience, whereas the clown plays with the audience. There are aspects of improv that go into clown, but it’s a unique style of play with a unique relationship to objects and propriety. Often a clown is struggling with an object, trying to use it in ‘the right way’ and it’s not working. In clown, as a performer, you want to ‘stay with the problem’ because the problem is actually what’s interesting.
+
+
+><mark class="pk-highlight-long">The biggest difference between theatrical clown and stand-up comedy, improv, or acting is that the comic actor plays to the audience, whereas the clown plays with the audience.</mark>
 
 
 The fun of melodrama is playing with the reality of how easily our moods are swayed. Heightening this reality makes it funny—it’s the humour of recognition, and part of the recognition is understanding that you’re not alone. Once you realise this, some of your troubles become hilarious because they’re so universal. 

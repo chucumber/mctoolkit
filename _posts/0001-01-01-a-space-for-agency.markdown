@@ -85,10 +85,10 @@ After some time, we rotated seats around the circle. Each participant now sat in
 
 
 ### Becoming Part of Something Bigger, Across Time
-><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark> 
-
-
 As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.
+
+
+><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark> 
 
 
 She described emotions exchanged through handwritten letters, food, and stories offered without screens, and the presence of silence as something meaningful, even weighty. The participants were invited to ask her anything, and they did:
@@ -102,10 +102,10 @@ She described emotions exchanged through handwritten letters, food, and stories 
 Her answers were poetic, sometimes strange, and always rich with detail. And with her presence, the room shifted. Time folded in on itself. The group began comparing their own ways of sharing with something imagined, yet emotionally real. The fictional frame made it easier to ask deeper questions. How has sharing changed? What do we miss? What do we carry forward? This fictional frame allowed for reflection without judgement. It created an opening for empathy across generations, technologies, and lived experience.
 
 
-This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.
-
-
 ><mark class="pk-highlight-long">Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.</mark>
+
+
+This process allowed participants to change pace and leave behind the roles they might carry at school or home. They entered a different kind of space, one that didn’t ask them to perform, but to be present. Slowly, through drawing, storytelling, shared music, and intentional silences, we built a sense of community. Trust emerged through a quiet, steady invitation: to slow down, to listen, and to become part of something bigger—together.
 
 
 <div class="auto-slideshow">
@@ -229,11 +229,11 @@ Through the workshops, we witnessed how a creative process can offer young peopl
 Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.
 
 
+><mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark>
+
+
 As one participant put it:  
 ‘Here, I can breathe differently.’
-
-
-><mark class="pk-highlight-long">Most of all, we reaffirmed our belief that art is not something to observe from a distance. It is something we do together. It can be activism. It can be a language for expressing the personal and political. It can be a language for making room for difference, for care, and for voice.</mark>
 
 
 <div class="floating">

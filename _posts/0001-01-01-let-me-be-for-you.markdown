@@ -69,10 +69,10 @@ For Stavanger, I developed a zine-making workshop, because of the impact of zine
 To prepare, I thought a lot about my practice: what it means in relation to where I live and in the US as a whole. When we got to the Kunsthall, we both presented our practices. In advance of this, I had prepared myself for the level of emotional labor that I usually need to engage with young people. I thought I would have to explain politics and culture in the US. But when I said that I was from St. Louis (and I was ready to say, ‘It’s in the Midwest…’), the young people were like, ‘Oh yeah, we know where that is.’ And then when I talked about gun violence and specifically George Floyd, they were all familiar. I thought, ‘I don’t have to do that labor.’ I started to see that there is a difference in what young people and adults are comfortable talking about depending on where you live.
 
 
-The young people in Stavanger were not afraid of information—they had information. They knew as much about their own country as they did about other countries, and that’s a major difference compared with young people in the United States. That shifted a lot of things for me. My mind and practice shifted over the course of a week.
-
-
 ><mark class="pk-highlight-long">I started to see that there is a difference in what young people and adults are comfortable talking about depending on where you live.</mark>
+
+
+The young people in Stavanger were not afraid of information—they had information. They knew as much about their own country as they did about other countries, and that’s a major difference compared with young people in the United States. That shifted a lot of things for me. My mind and practice shifted over the course of a week.
 
 
 <figure class="narrow-img">

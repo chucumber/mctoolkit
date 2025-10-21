@@ -20,10 +20,10 @@ In Things We Hold Sacred, her workshop for Mobilizing Citizenship in autumn 2023
 (Loni Johnson, as told to Lee Heinemann)
 
 
-><mark class="pk-highlight-long">As artists, it’s our responsibility to take on the role of the memory keepers, the griots.</mark> 
-
-
 As artists, it’s our responsibility to take on the role of the memory keepers, the griots. Where I am—the United States; the American South; Miami, Florida—there is an erasure of Black history. I have taken it upon myself to understand and present how Black and Brown folks honour our ancestors and ensure that stories of our histories are told. 
+
+
+><mark class="pk-highlight-long">As artists, it’s our responsibility to take on the role of the memory keepers, the griots.</mark> 
 
 
 My assemblage and performance work merges traditional methods of remembrance with contemporary ways of remembering to create new traditions for honouring the past. I see my work as a way of building community and bridging gaps between groups of people.
@@ -40,9 +40,11 @@ For Remnants, my 2021 exhibition at Locust Projects, I created an installation o
   <figcaption></figcaption>
 </figure>
 
-><mark class="pk-highlight-long">Our society makes it seem normal that we grieve in solitude.</mark>
 
 It has been an organic evolution of my work to create space for folks to heal and grieve. Throughout my life, I have this gift that draws people to tell me their story. Our society makes it seem normal that we grieve in solitude. Alone. But that’s not always been the case for Black and Brown folks. We don’t have to grieve alone. We can hold space for us to do it together, and if I can create space for that, I need to do it.
+
+
+><mark class="pk-highlight-long">Our society makes it seem normal that we grieve in solitude.</mark>
 
 
 With the support of a grant, I was able to bring altar-making to more community groups, including those focused on Brown and Black youth (organisations like Girl Power, Healing and Justice Center, the Miles Girl Academy), as well as adults and elementary school students. Because I’ve now shared it with so many ages and demographics, I believe this workshop can be adapted to work for anyone. 
@@ -68,10 +70,11 @@ If you could make an altar for your 4- or 5-year-old self, what would that look 
 What would an altar to a cause or topic you’re passionate about look like? 
 
 
+><mark class="pk-highlight-long">My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.</mark>
+
+
 My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.
 
-
-><mark class="pk-highlight-long">My hope is that anyone can look at my work or experience this workshop and consider who they are and where they come from.</mark>
 
 
 ## Objective
