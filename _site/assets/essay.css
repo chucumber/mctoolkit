@@ -377,7 +377,6 @@ details summary::-webkit-details-marker {
   margin: 2rem auto;
   max-width: 900px;
   max-height: 35vh;
-  aspect-ratio: auto;
   overflow-y: scroll;
   padding: 1rem;
   transform: none;
@@ -1045,11 +1044,14 @@ details.tools summary:hover {
 
   .foreword {
     position: static;
-    overflow-y: scroll;
     padding: 1rem;
     transform: none;
     z-index: 5;
     cursor: default;
+    width: 100%;
+      max-width: 100%;
+    height: fit-content;
+    max-height: fit-content;
   }
 
   .foreword:hover {
@@ -1061,6 +1063,13 @@ details.tools summary:hover {
     cursor: default;
     transform: none;
   }
+
+  .author-bio {
+  width: 100%;
+  max-width: 100%;
+  height: fit-content;
+  max-height: fit-content;
+}
 
   .author-bio:hover {
     transform: none;
@@ -1075,14 +1084,14 @@ details.tools summary:hover {
     top: auto;
     margin: 1rem auto;
     width: 100%;
-    height:auto;
+    max-width: 100%;
+    height: auto;
     max-height: auto;
     padding: 1rem;
     transform: none;
     z-index: 5;
     cursor: default;
   }
-
 
   .author-bio.touch-screen {
     font-size: 1rem;
