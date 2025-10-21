@@ -2,7 +2,7 @@
 layout: essay
 permalink: "/:title"
 
-title: "Self as Archive: A workshop on Erasure + World-Building"
+title: "Self as Archive: A Workshop on Erasure + World-Building"
 author: "Delali Ayivor"
 ---
 
@@ -28,7 +28,7 @@ I look at my digital archive as an ephemeral shadow, something deeply intimate, 
 The primary lesson I wanted to emphasise in my workshop is the great liberation that comes with being curious about who you are by engaging with the many other people you’ve already been. With how chronically online modern life has become, and with the emergence of legislation that dictates our rights to own and control our data footprint, we have more access than ever to all the versions of ourselves that have ever had a stable internet connection. Personally, I have been very slowly rereading my entire Facebook Messenger archive of almost ten years—that process has effectively taken the power away from shame to dictate my actions and self-perception.
 
 
-Given all the above, erasure and the archive seemed like natural dual focuses for my workshop. Erasure is a form of found poetry in which an author ‘erases’ or obscures portions of an existing text. The words that remain visible create a new work. It is an inherently political form. In layering a new text on top of an original, an organic dialogue is formed between past and present, and a three-way conversation about perception opens up between original authorial intent, artist revision, and audience reception. It is also inherently subversive, not only because it confronts the taboo of defacement. As one participant asked rather incredulously before starting an erasure exercise, ‘…you want us to write inside the books?’ And yes, I did. 
+Given all the above, erasure and the archive seemed like natural dual focuses for my workshop. Erasure is a form of found poetry in which an author ‘erases’ or obscures portions of an existing text. The words that remain visible create a new work. It is an inherently political form. In layering a new text on top of an original, an organic dialogue is formed between past and present, and a three-way conversation about perception opens up between original authorial intent, artist revision, and audience reception. It is also inherently subversive, not only because it confronts the taboo of defacement. As one participant asked rather incredulously before starting an erasure exercise, ‘… you want us to write inside the books?’ And yes, I did. 
 
 
 In planning this workshop, I wanted to share the role of archival work in my own journey towards self-acceptance and self-discovery. I also wanted to emphasise that creative work can be generated through intuition and outside of a blank page or screen—through tapping into the self that exists without conscious thought. As a writer who was rigorously and formally trained in my youth, my practice as an adult is centred primarily around escaping the constraints of that training and finding generative processes that originate in embodiment, lived experience, and subjective impulse. Because of this, I have increasingly turned away from topics and generative techniques that would typically be thought of as literary. Instead, I focus my practice on analysis of the texts I generate while going through my everyday life. Whether or not one identifies as a writer, we all produce texts and documentation that are containers for information about our lives. In this way, we are walking archives that can be mined for insights about our lived experiences and the world around us.
@@ -37,7 +37,7 @@ In planning this workshop, I wanted to share the role of archival work in my own
 ><mark class="pk-highlight-long">I also wanted to emphasise that creative work can be generated through intuition and outside of a blank page or screen—through tapping into the self that exists without conscious thought.</mark> 
 
 
-On the second day of my workshop, I shared a quote from Audre Lorde’s essay ‘Poetry Is Not a Luxury’(1984), which in typical Audre Lorde fashion, succinctly and evocatively captures all the ideas that guided my lesson planning:
+On the second day of my workshop, I shared a quote from Audre Lorde’s essay ‘Poetry Is Not a Luxury’ (1984), which, in typical Audre Lorde fashion, succinctly and evocatively captures all the ideas that guided my lesson planning:
 
 
 
@@ -109,7 +109,7 @@ Examples shared:
   <tr>
     <td scope="row" data-label="Title:">A Humument</td>
     <td data-label="Author:">Thomas Phillips</td>
-    <td data-label="Original Text:">The Human Document, a Victorian novel</td>
+    <td data-label="Original Text:"><i>The Human Document</i>, a Victorian novel</td>
     <td data-label="Reason for Inclusion:">Takes a more aesthetic approach to erasure, emphasising visual appeal. Phillips’ approach is to slowly turn every page of a novel to a stand-alone work of art.</td>
   </tr>
 </tbody></table>
@@ -200,7 +200,7 @@ What can we imagine about someone based on how they use language? What instincts
 
 <details class="tools" markdown="1">
 <summary markdown="span">
-Erasure Exercises: Exploration + World Building
+Erasure Exercises: Exploration + World-Building
 </summary>
 
 ### Method

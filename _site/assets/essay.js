@@ -1,3 +1,10 @@
+// loading lazy //
+        $('img').each(function() {
+    if (!$(this).attr('loading')) {
+        $(this).attr('loading', 'lazy');
+    }
+});
+
 // draggable
 $(function () {
   const isDesktop = window.matchMedia('(hover: hover) and (pointer: fine)').matches;

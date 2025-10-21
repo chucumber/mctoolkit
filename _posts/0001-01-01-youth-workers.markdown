@@ -50,14 +50,11 @@ Recruitment in general is an important part of Mobilizing Citizenship. We talked
 Throughout the project we have done some adjustments every year, but the model has been that the artists, project manager, and the curator explain to me what the week or semester is going to be like. I try to break it down into youth-friendly language. And sometimes we have used graphic posters and pictures to make the recruitment process pop. And then I contact youth clubs in the municipalities around Stavanger—there are a lot of smaller municipalities around here, and many youth clubs. The first years I was travelling around to some youth clubs to explain the project. I also work in a youth club of my own in Sola, and of course I have done more recruitment from that youth club because it has been a natural topic with the young people there. I have to explain what the project is about. It’s not a school project but is a leisure-time project over the weekends or during vacation.
 
 
-We purposefully didn’t recruit [participants] through schools… in a school, or in a class, people have designated roles that have been established, which is often limiting for young people.
-
-
-><mark class="gr-highlight-long">We purposefully didn’t recruit [participants] through schools… in a school, or in a class, people have designated roles that have been established, which is often limiting for young people. </mark>
-
-
 <span class="interviewer">K</span> 
 We purposefully didn’t recruit through schools. The way that I initially thought about that was that in a school, or in a class, people have designated roles that have been established, which is often limiting for young people. 
+
+
+><mark class="pk-highlight-long">We purposefully didn’t recruit through schools. The way that I initially thought about that was that in a school, or in a class, people have designated roles that have been established, which is often limiting for young people.</mark>
 
 
 <span class="interviewee">T</span>
@@ -127,14 +124,12 @@ In MC, we focused on young people between 12 and 16, which is the age that you a
 Trine, what do you believe is specific about the Norwegian condition for young people today? A lot of the artists that visited us came from the US or the UK where there is no welfare state, there is more poverty, which we also have in Norway but not to the extent that you would see, for example, in the US. However, young people are still struggling with other things here—it’s not a carefree existence. 
 
 
-The big topic for young people now is mental health… they feel it’s a changing and unsafe world after Covid.
-
-
-><mark class="pk-highlight-long">The big topic for young people now is mental health… they feel it’s a changing and unsafe world after Covid.</mark> 
-
-
 <span class="interviewee">T</span>
 When we are talking about it from a Norwegian context it’s important to be aware that there are very big differences inside Norway as well. For example, more rural areas have other challenges than our region. Our region is often talked about as a ‘rich’ region, and the youth clubs are definitely affected by that. We have a lot of resources. We have many grown-ups working in the youth clubs, but in rural areas there could be only one youth worker. That affects the youth club and the young people. The big topic for young people now is mental health. This is affected by many things. I think they feel it’s a changing and unsafe world after Covid. The environmental issue is one topic connected to that, and the war in Ukraine is affecting young people. The war in Palestine has definitely affected many young people. Not to mention Trump being elected president again.
+
+
+><mark class="gr-highlight-long">The big topic for young people now is mental health. This is affected by many things. I think they feel it’s a changing and unsafe world after Covid.</mark> 
+
 
 <span class="interviewer">K</span> 
 It is interesting, going back to Covid, which happened as we were running this project. Because of Covid, we had to pause the project. After Covid, it became harder to recruit young people for MC. For the last semester in the autumn of 2024, we didn’t fill up the group until a couple of days before. Is this something you’re seeing in general?
@@ -144,8 +139,8 @@ Yeah, definitely. I don’t think it’s because young people are not interested
 
 <figure class="narrow-img">
   <img src="img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_34WEB.webp" 
-    alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger"
-    data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger"
+    data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
   <figcaption></figcaption>
 </figure>
 
@@ -184,8 +179,8 @@ I feel that’s always the challenge when you’re a youth worker and the young 
 
 <figure>
   <img src="img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_Finale_145WEB.webp" 
-    alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger"
-    data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger"
+    data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
   <figcaption></figcaption>
 </figure>
 

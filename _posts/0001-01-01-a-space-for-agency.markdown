@@ -52,13 +52,13 @@ When we were invited to join the Mobilizing Citizenship project, our intention w
 <div class="bubble">
   <p>
       <span class="bracket-left"></span>
-  Walk of Shame participated in MC twice. First with a workshop in the spring of 2019 under the semester theme of Movement and Body Representation. In the summer of 2020 Walk of Shame were invited to hold workshops as part of Kunsthall Stavanger summer school Klikk Her-TV. They later guest-curated the MC autumn semester of 2022, consisting of four workshops; one of them was held at the Munch museum in Oslo. This text looks more closely at the autumn semester of 2022.
+  Walk of Shame participated in MC twice. First with a workshop in the spring of 2019 under the semester theme of Movement and Body Representation. In the summer of 2020 Walk of Shame were invited to hold workshops as part of Kunsthall Stavanger summer school Klikk Her-TV. They later guest-curated the MC autumn semester of 2022, consisting of four workshops; one of them was held at the Munch Museum in Oslo. This text looks more closely at the autumn semester of 2022.
       <span class="bracket-right"></span>
   </p>
 </div>
 
 
-## How it began: Setting the stage and creating a foundation for openness
+## How It Began: Setting the Stage and Creating a Foundation for Openness
 
 
 From the very first session with the participants in the beginning of autumn 2022, we focused on building a safer space, not through declarations, but through atmosphere.
@@ -85,10 +85,10 @@ After some time, we rotated seats around the circle. Each participant now sat in
 
 
 ### Becoming Part of Something Bigger, Across Time
-As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.
+><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark>
 
 
-><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark> 
+As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young. 
 
 
 She described emotions exchanged through handwritten letters, food, and stories offered without screens, and the presence of silence as something meaningful, even weighty. The participants were invited to ask her anything, and they did:
@@ -168,7 +168,7 @@ We encouraged participants to reimagine public space as a place of possibility. 
 
 
 ### Institutional Echoes: Between Stavanger and Oslo
-Our workshops unfolded in two places: Kunsthall Stavanger and the Munch museum in Oslo. The shift between the two locations was revealing. In Stavanger, the young participants felt at ease. They laughed, debated, and claimed space with confidence. In Oslo, the tone changed. Voices lowered and their movements became tentative. One participant asked quietly: ‘Are we allowed to be here?’
+Our workshops unfolded in two places: Kunsthall Stavanger and the Munch Museum in Oslo. The shift between the two locations was revealing. In Stavanger, the young participants felt at ease. They laughed, debated, and claimed space with confidence. In Oslo, the tone changed. Voices lowered and their movements became tentative. One participant asked quietly: ‘Are we allowed to be here?’
 
 
 We hadn’t planned for this shift, but we felt it. It served as a powerful reminder that space is never neutral. Institutions carry expectations—both spoken and unspoken—that shape how we behave and who feels entitled to speak.
@@ -215,10 +215,11 @@ The answers were thoughtful, sometimes hesitant, but always rooted in lived expe
 
 
 ### What We Learned About Art, Voice, and Space
-><mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard.</mark> 
-
 In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard. By wearing our beliefs and opinions on our sleeves—literally—we were making a statement about who we are and what we stand for. These acts were personal  and invited connections with other people who shared our values. They created openings to meet people who shared our values, as well as those with different perspectives. 
  
+ 
+><mark class="pk-highlight-long">In a world where young voices are often drowned out by the noise of everyday life, creating statements on jackets, buttons, and stickers became an effective way to make ourselves seen and heard.</mark> 
+
 
 Wearing someone else’s words or symbols became an act of solidarity, amplifying voices beyond our own. In doing so, we formed small, intentional communities rooted in shared interest, mutual curiosity and care. These were not echo chambers, but spaces of exchange, where learning about each other mattered.
 

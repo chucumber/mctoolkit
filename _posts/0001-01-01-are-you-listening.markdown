@@ -12,9 +12,9 @@ What happens when young people are trusted to lead, create, and teach—guided n
 
 <div class="lightbox-container four-three">
   <div class="lightbox-scroll">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">                        
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">                        
   </div>
     <div class="lightbox-controls">
       <div class="lightbox-button prev"></div>
@@ -32,7 +32,8 @@ What happens when young people are trusted to lead, create, and teach—guided n
 ‘Listen to everything all the time and remind yourself when you are not listening.’
 
 
-This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of *Sonic Meditations*, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="color-bl" data-tooltip="Oliveros, P. (2005) Deep listening: A composer’s sound practice. Bloomington, IN: iUniverse, Inc.">↵</span> 
+This was the mantra of the American composer and accordionist Pauline Oliveros. Oliveros founded the Deep Listening movement that began in 1970, a way of musical thinking that she described as an exploration of the elements ‘among any and all sounds whether natural or technological, intended or unintended, real, remembered or imaginary’. She was the author of *Sonic Meditations*, a collection of scores that she defined as ‘a healing practice, or a tuning of mind and body’. They are short instructional texts that invite you to listen differently, such as ‘Meditation No. 5’ that invites you to: ‘Take a walk at night. Walk so silently that the bottoms of your feet become ears.’<span class="tooltip">↵<span class="tooltip-content">Oliveros, P. (2005) <i>Deep Listening: A Composer’s Sound Practice</i>. Bloomington, IN: iUniverse, Inc.</span>
+</span>
 
 
 After Oliveros’ death in 2016, the practice of Deep Listening has been kept alive by the Center for Deep Listening, based at the Rensselaer Institute in New York, and the many people across the world who have been inspired by her music, writings, and Ted Talk ‘<a href="https://www.youtube.com/watch?v=_QHfOuRrJB8" target="_blank">The difference between hearing and listening</a>’.  
@@ -110,9 +111,10 @@ Engaged Pedagogy (bell hooks)
 </summary>
   <div class="details-content" markdown="1">
 
-Directly inspired by the pedagogy of the oppressed, but with a stronger emphasis on love and empathy in the classroom, and the humanisation of the teacher: ‘education as the practice of freedom’.<span class="color-bl" data-tooltip="Hooks, B. (1994). ‘Engaged Pedagogy’, Teaching to transgress. Routledge">↵</span>  
-</div> 
-</details> 
+Directly inspired by the pedagogy of the oppressed, but with a stronger emphasis on love and empathy in the classroom, and the humanisation of the teacher: ‘education as the practice of freedom’.<span class="tooltip">↵<span class="tooltip-content">Hooks, B. (1994). ‘Engaged Pedagogy’, <i>Teaching to Transgress</i>. Routledge</span>
+</span>
+</div>
+</details>
 
 <details class="tools" style="margin-bottom: 1rem;">
 <summary>
@@ -166,7 +168,7 @@ Day One
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image1.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Video still: Omar Elsaaidi" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Video still: Omar Elsaaidi">
+    <img src="img/are-you-listening/image1.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Video still: Omar Elsaaidi" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Video still: Omar Elsaaidi">
    <figcaption></figcaption>
 </figure>
 
@@ -185,7 +187,7 @@ Day One
 We welcomed the participants and gave them a tour of the performance space, then went down to the workshop room, which was situated in the heart of the building. The day began with us asking the question ‘Who are you in the world?’ 
 
 
-I introduced the group to the idea that creative practice isn’t just about one practice but multiple practices that overlap. I began by showing them the contents of the bag that I carry around with me that included a book about outer space, a notebook where I write and paint (even if I’m not very good at it!), and Pauline Oliveros’ book Quantum Listening (that invites us to listen beyond the confines of time and space) and shared one of my favourite mantras of hers, ‘Listen to everything all of the time and remind yourself when you’re not listening.’ I also showed and played the instruments that are part of my current process of exploring and mending my relationship with my culture and heritage—bells, double flutes, and half-mask (you can read more about that <a href="https://mikeykirkpatrick.wordpress.com/2025/03/24/listening-beyond-the-veil-1-mask-to-unmask/" target="_blank">here</a>). I explained that this week is about seeing and hearing the relationships between things from the perspective of a musician, recognising all of the materials around us that we have to work with, i.e. sound, space, people... 
+I introduced the group to the idea that creative practice isn’t just about one practice but multiple practices that overlap. I began by showing them the contents of the bag that I carry around with me that included a book about outer space, a notebook where I write and paint (even if I’m not very good at it!), and Pauline Oliveros’ book *Quantum Listening* (that invites us to listen beyond the confines of time and space) and shared one of my favourite mantras of hers, ‘Listen to everything all of the time and remind yourself when you’re not listening.’ I also showed and played the instruments that are part of my current process of exploring and mending my relationship with my culture and heritage—bells, double flutes, and half-mask (you can read more about that <a href="https://mikeykirkpatrick.wordpress.com/2025/03/24/listening-beyond-the-veil-1-mask-to-unmask/" target="_blank">here</a>). I explained that this week is about seeing and hearing the relationships between things from the perspective of a musician, recognising all of the materials around us that we have to work with, i.e. sound, space, people ... 
 
 
 The young artists said that they had access to studio and music resources if they wanted them through youth clubs (contrasting with what is available for young people in London). On the theme of ‘Are You Listening?’, it was important to the group that it was a question or demand to the audience: Are you listening? Some of the participants expressed that the issues they faced often involved strong expectations that they conform and meet expectations from society. In short, they wanted to use this week to explore their rebelliousness. 
@@ -202,7 +204,7 @@ Day Two
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image3.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/image3.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
    <figcaption></figcaption>
 </figure>
 
@@ -243,7 +245,7 @@ Day Three
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image2.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/image2.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
    <figcaption></figcaption>
 </figure>
 
@@ -270,7 +272,7 @@ Day Four
   <div class="details-content" markdown="1">
 
 <figure class="narrow-img">
-    <img src="img/are-you-listening/image5.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Mikey Kirkpatrick" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Mikey Kirkpatrick">
+    <img src="img/are-you-listening/image5.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Mikey Kirkpatrick" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Mikey Kirkpatrick">
    <figcaption></figcaption>
 </figure>
 
@@ -290,7 +292,7 @@ We began the day by talking through everything that had been created so far, and
 The conversation about AI characters led to the creation of an original song called ‘Fictional Guys’, and the stev research led to an image of a spirit from Norway’s past, an ‘echo of an echo’, a ‘forgotten memory’ as the young artist described it. He decided to interrupt the formal introduction of the event by appearing and moving across the gallery space, chanting his stev. There was also prerecorded sound that he had created in the speakers that included cave recordings and his layered voice. We explored his movement so that he could glide, accelerate, and decelerate around the space, finding his path and intention. He wore a headlamp under his cloak hood, creating a face of light that illuminated the path ahead of him. His other character, the cave explorer, found himself in the room, projecting the shadows of the audience on the walls. As he approached the stage, Madelaine’s drum called to him, and he followed the sound, finding and illuminating hand-drawn pictures on the wall at the end of the room.
 
 
-The morning was also spent making a music video for ‘With You’ in the workshop room while people wandered through and became part of it. Omar looked for props and objects to include, including bubbles that he found spontaneously and started blowing into view
+The morning was also spent making a music video for ‘With You’ in the workshop room while people wandered through and became part of it. Omar looked for props and objects to include, including bubbles that he found spontaneously and started blowing into view.
 
 <div class="video-container">
   <iframe
@@ -313,7 +315,7 @@ Day Five
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image4.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are you listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are you listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/image4.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
    <figcaption></figcaption>
 </figure>
 
@@ -352,19 +354,19 @@ And from a participant:
 <div class="bubble">
   <p>
       <span class="bracket-left"></span>
-Thank you so much for being there for us and being helping and supporting while being very good people to work with, this goes for all of you. I would like to say thank you all of you for the wonderful card as a memory which will not be forgotten, a good memory.      <span class="bracket-right"></span>
+Thank you so much for being there for us and being helping and supporting while being very good people to work with, this goes for all of you. I would like to say thank you all of you for the wonderful card as a memory which will not be forgotten, a good memory.<span class="bracket-right"></span>
   </p>
 </div>
 
 
-You can see more feedback from the participants here.
+You can see more feedback from the participants <a href="https://youtu.be/_NCPTKBuZbU?list=PLyJkrXiT1kX4nHf8cCgj6Weq3MblF3hd1" target="_blank">here</a>.
 
 As I have found over the years with Alchemy and other creative community programmes, it is the engagement of every person, from technician to director, sound engineer to photographer, that creates a culture of care and creativity. The fact that everyone got involved and invested themselves both as professionals and human beings meant that the environment was ideal for growing and sharing ideas, without fear of judgement or failure. Madelaine mentioned at the end of the week that she often plants seeds in the cracks in the pavement outside her house. Kunsthall Stavanger smashed open the concrete of the symbol of the institution for us, and we were the seeds, colliding after long journeys through generations from across the world. I believe we all grew, we all listened, and I hope the garden that remains will last for years to come. 
 </div>
 </details> 
 
 
-## Some final words
+## Some Final Words
 
 
 Returning to Kristina’s brief ‘to investigate how young people can use tools and strategies from contemporary art in order to express themselves’, it makes me think that it’s interesting to think of Alchemy as a collective sonic meditation, seeing ourselves as an improvising orchestra where each member is a musician (or deep listener) who brings their own experience, ideas, and language to the performance of the present. Everyone listens, adapts, incorporates, navigates consonance and dissonance, finds space for themselves, and makes space for others, and the outcome is a community of care; a force of nature for the future; a piece of music that will resonate for years to come.

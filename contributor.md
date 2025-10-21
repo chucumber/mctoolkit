@@ -8,7 +8,7 @@ Copy Editor &#10140; Rebekah Kirkman
 Art Director &#10140; nicole killian  
 Design and Development &#10140; rasim bayramov, kai chuang  
 Typefaces &#10140; Velvetyne Type Foundry  
-Published by &#10140; [Kunsthall Stavanger](https://kunsthallstavanger.no/)  
+Published by &#10140; <a href="https://kunsthallstavanger.no/" target="_blank">Kunsthall Stavanger</a> 
 
 
 This publication is generously supported by &#10140; Arts and Culture Norway
@@ -18,22 +18,22 @@ This publication is generously supported by &#10140; Arts and Culture Norway
 
 <br><br>
 
-Mobilizing Citizenship Curator &#10140; Kristina Ketola Bore (2018 – 2025)
+Mobilizing Citizenship Curator &#10140; Kristina Ketola Bore (2018–2025)
 
 
-Mobilizing Citizenship Youth Worker &#10140; Trine Ottosen (2019-2024)
+Mobilizing Citizenship Youth Worker &#10140; Trine Ottosen (2019–2024)
 
 
 Mobilizing Citizenship Project Managers &#10140;     
 Madelaine Gordon Graadahl (Autumn 2024)  
 Harald Harestad (Autumn 2023)  
-Marisa Molin (2019-2023)  
+Marisa Molin (2019–2023)  
 
 
 **Themes and Participants**
 
 #### Autumn 2024  
-*Tema: Are you Listening?*  
+*Are You Listening?*  
 Guest curator &#10140; Mikey Kirkpatrick / Goldsmiths Alchemy  
 Artists &#10140; Martin Vito, Omar Elsaaidi, Timothy Wairama
 
@@ -45,7 +45,7 @@ Youth mentor &#10140; Robbyn Spine
 
 
 #### Autumn 2022  
-*Sharing is Caring*  
+*Sharing Is Caring*  
 Guest curators &#10140; Walk of Shame (Hanne Maren Meldahl, Gulli Sekse, Karoline Skuseth)  
 Artists &#10140; Walk of Shame  
 Youth mentor &#10140; Robbyn Spine
