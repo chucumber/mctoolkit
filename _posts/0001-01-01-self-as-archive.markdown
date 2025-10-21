@@ -122,6 +122,8 @@ Examples shared:
 Warm-Up Exercise: Screenshot Roulette
 </summary>
 
+<div class="details-content" markdown="1">
+
 <div class="auto-slideshow four-by-three">
   <figure>
     <img src="img/self-as-archive/Reality TV Screenshot Dupe 1.webp" alt="Photo credit: Tima Miroshnichenko" data-caption="Photo credit: Tima Miroshnichenko">
@@ -163,6 +165,7 @@ Continuous free-writing is a powerful, generative technique that forces the writ
 ### Time
 30 minutes. Three minutes for each image and five minutes of group reflection and discussion at the end. 
 Guiding Questions: What do we notice when we engage deeply with everyday media? What do the things we notice say about our individual perspective and perception?
+</div>
 </details>
 
 
@@ -171,6 +174,7 @@ Guiding Questions: What do we notice when we engage deeply with everyday media? 
 Erasure Exercises: Pair and Share 
 </summary>
 
+<div class="details-content" markdown="1">
 ### Method
 Participants were placed in pairs and allowed to select two excerpts from my Facebook messenger archive. They were then given 15 minutes to turn those texts into erasure poems. I advised them to start the erasure in a word or phrase that caught their eye and build from there.
 
@@ -196,12 +200,14 @@ What can we imagine about someone based on how they use language? What instincts
    <img src="img/self-as-archive/MobilizingCitizenship_Art_008WEB.webp" alt="Mobilizing Citizenship workshop by Delali Ayivor, Self as Archive, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Delali Ayivor, <i>Self as Archive</i>, spring 2022. Photos by Helle Navratil / Kunsthall Stavanger.">
    <figcaption></figcaption>
 </figure>
+</div>
 </details>
 
 <details class="tools" markdown="1">
 <summary markdown="span">
 Erasure Exercises: Exploration + World-Building
 </summary>
+<div class="details-content" markdown="1">
 
 ### Method
 Participants were provided with an array of magazines and books on a variety of topics. They shopped through the materials to select one to three source texts and were then given 20 minutes to transform those texts into erasures. In part two of the exercise, they were asked to imagine a character or world associated with their erasures, and to build a collage moodboard that captured the feeling or illustrated the world of their poems.
@@ -236,7 +242,7 @@ One hour. Ten minutes to select texts, 20 minutes to generate erasures, 20 minut
    <img src="img/self-as-archive/MobilizingCitizenship_Art_010WEB.webp" alt="Mobilizing Citizenship workshop by Delali Ayivor, Self as Archive, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Delali Ayivor, <i>Self as Archive</i>, spring 2022. Photos by Helle Navratil / Kunsthall Stavanger.">
    <figcaption></figcaption>
 </figure>
-
+</div>
 </details>
 
-<br><br>
+<br>

@@ -133,6 +133,7 @@ These writing prompts invite each participant to reflect on the personal charact
 <summary markdown="span">
 Who Am I?
 </summary>
+<div class="details-content" markdown="1">
 
 They say that I am <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.
 - But I know that I am <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.
@@ -144,13 +145,14 @@ They say that I am <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.
 - I wish I could <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.
 - I love <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.
 - My name is <u>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</u>.
-
+</div>
 </details>
 
 <details class="tools" markdown="1">
   <summary>
   From Which I Came
   </summary>
+<div class="details-content" markdown="1">
 
 
 *Facilitators can adapt the prompt if participants are uncomfortable using their mother as a reference. Based on past experience, some participants may choose to honour an alternative parent or guardian instead.*
@@ -160,6 +162,8 @@ My name is <u>&emsp;(participant’s name)&emsp;</u>. and I was born in <u>&emsp
 My mother’s name is <u>&emsp;(participant’s mother’s name)&emsp;</u> and she was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.  
 My grandmother’s name is <u>&emsp;(participant’s grandmother’s name)&emsp;</u> and she was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.  
 My grandmother’s mother’s name is <u>&emsp;(participant’s grandmother’s mother’s name)&emsp;</u> and she was born in <u>&emsp;(year of birth)&emsp;</u> in <u>&emsp;(place of birth)&emsp;</u>.
+
+</div>
 </details>
 
 <br>
@@ -169,19 +173,21 @@ My grandmother’s mother’s name is <u>&emsp;(participant’s grandmother’s 
 <summary markdown="span">
 Step 1
 </summary>
+<div class="details-content" markdown="1">
 
 Facilitator will begin the workshop with a presentation of Loni Johnson’s artistic practice: <a href="https://docs.google.com/presentation/d/108qmK-9YsEoITPdbfj-OAkrlw3gPYssw4BCkTOVrGT0/edit?usp=sharing" target="_blank">Loni Johnson Presentation for Lesson Plan—Stavanger</a>.
 
 
 5–10 minutes for reflections/questions of the work from participants
 
-
+</div>
 </details>
 
 <details class="tools" markdown="1">
 <summary markdown="span">
 Step 2
 </summary>
+<div class="details-content" markdown="1">
 
 Facilitator will hand out the creative writing prompt exercises **Who Am I** and **From Which I Came**. Participants will be asked to complete the exercises with the group. TAs will encourage the participants to:
 - Be descriptive.
@@ -190,13 +196,14 @@ Facilitator will hand out the creative writing prompt exercises **Who Am I** and
 
 
 25–30 minutes with time for participants to share included  
-
+</div>
 </details>
 
 <details class="tools" markdown="1">
 <summary markdown="span">
 Step 3
 </summary>
+<div class="details-content" markdown="1">
 
 After the participants complete the prompts, the group will gather their materials for the art-making activity. The facilitator should encourage participants to be intentional in choosing the person they want to honour.  
 
@@ -211,13 +218,14 @@ After the participants complete the prompts, the group will gather their materia
 
 
 60–90 minutes allotted for art-making  
-
+</div>
 </details>
 
 <details class="tools" markdown="1">
 <summary markdown="span">
 Step 4
 </summary>
+<div class="details-content" markdown="1">
 
 Once art-making is finished, each participant will share their altar piece and engage in a conversation around their object.  
 
@@ -231,6 +239,7 @@ Once art-making is finished, each participant will share their altar piece and e
 
 15–20 minutes  
 
+</div>
 </details>
 
 <br><br>
