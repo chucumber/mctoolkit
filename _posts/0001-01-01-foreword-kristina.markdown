@@ -4,13 +4,6 @@ permalink: "/:title"
 
 title: "A Reflection on Mobilizing Citizenship"
 author: "Kristina Ketola Bore"
-author-bio: "joined Kunsthall Stavanger in 2019, coming from a background as a curator, writer, and editor. Since then, she has played a pivotal role in shaping the institution’s curatorial and strategic direction. Her work at the kunsthall includes exhibitions and commissioned projects with artists such as Lex Brown, Bárbara Wagner & Benjamin de Burca, Cindy Ji Hye Kim, Nnena Kalu, Laurel Schwulst, and Farah Al Qasimi, among others.
-<br><br>
-With a sustained interest in social practice, Kristina has significantly expanded the institution’s educational initiatives—growing the team, structuring a comprehensive program, and launching Mobilizing Citizenship, a practice-based research project for youth focused on civic engagement through art.
-<br><br>
-A key advocate for digital innovation, Kristina has been instrumental in developing Kunsthall Stavanger’s digital platform, commissioning and curating online works such as Mouthpiece (2022) by Stine Janvin, a participatory digital performance, and the series Queer Culture Year: Even When We Can't We Must (2023).
-<br><br>
-Beyond her curatorial work, Kristina is a central force in the ongoing development of Kunsthall Stavanger as a forward-looking institution. She also serves as deputy chair of Kunsthallene i Norge, contributing to the national discourse on contemporary art and institutional development."
 ---
 
 Mobilizing Citizenship (MC) was an educational and research project that ran from 2018 to 2024 at Kunsthall Stavanger. Throughout its duration, I invited Norwegian and international artists and designers to collaborate with small groups of young people aged 12 to 16. Each term explored how contemporary art tools and methods could empower participants to express themselves and make their voices heard.
@@ -25,7 +18,7 @@ I always envisioned the afterlife of MC as an act of continued empowerment, echo
 MC was first conceived in 2017 from a desire to create a robust programme for young people in the field of contemporary art. I brought it to life at Kunsthall Stavanger in 2018 and it soon became integral to the Kunsthall’s educational programme. From the outset, we wanted to support young people, as they developed their voices and agency, by giving form to their ideas and helping them see themselves as active contributors to their communities.
 
 
-Starting in 2020, in an effort to expand our own institutional learning, we began inviting external partners, including collaborators from the Munch Museum in Oslo and Goldsmiths Alchemy in London, as well as cultural workers, such as Lee Heinemann, with experience in similar initiatives. While it has always been important to work with a wide range of artists who can bring new perspectives to MC, we wanted to work with artists who use their voices to critique systems or power structures, and who actively engage with the world as a place with the capacity for positive change.
+Starting in 2020, in an effort to expand our own institutional learning, we began inviting external partners, including collaborators from the <a href="a-space-for-agency" target="_blank">Munch Museum in Oslo</a> and <a href="are-you-listening" target="_blank">Goldsmiths Alchemy in London</a>, as well as cultural workers, such as <a href="foreword-lee" target="_blank">Lee Heinemann</a>, with experience in similar initiatives. While it has always been important to work with a wide range of artists who can bring new perspectives to MC, we wanted to work with artists who use their voices to critique systems or power structures, and who actively engage with the world as a place with the capacity for positive change.
 
 
 ><mark class="pk-highlight-long">we wanted to work with artists who use their voices to critique systems or power structures, and who actively engage with the world as a place with the capacity for positive change.</mark>

@@ -85,9 +85,6 @@ After some time, we rotated seats around the circle. Each participant now sat in
 
 
 ### Becoming Part of Something Bigger, Across Time
-><mark class="pk-highlight-long">As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young.</mark>
-
-
 As the workshops unfolded, a new chapter opened. A woman from the 1950s entered the room, transported through time, or so it seemed. One of us from Walk of Shame had taken on the role of a character from another era. She wasn’t humorous, but rather magical and quiet. In a soft, measured voice, she spoke of wonder and memory—how people shared when she was young. 
 
 

@@ -23,8 +23,6 @@ $(function () {
   }
 });
 
-
-
 // author bio
 document.querySelectorAll('.author-toggle').forEach(button => {
   button.addEventListener('click', (e) => {
@@ -58,7 +56,7 @@ popup.className = 'popup';
 document.body.appendChild(popup);
 
 // Handle image clicks
-document.querySelectorAll('.content img').forEach(img => {
+document.querySelectorAll('.content img:not(.floating img)').forEach(img => {
    
   img.addEventListener('click', () => {
     popup.innerHTML = '';
