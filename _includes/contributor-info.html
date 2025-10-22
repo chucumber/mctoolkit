@@ -17,7 +17,13 @@
       {% endif %}
 
       <figure class="author-photo">
-        <img src="{{ include.photo }}" alt="{{ include.name }}">
+        <img src="{{ include.photo }}" 
+        srcset="
+        {{ include.photo-s }} 500w,
+        {{ include.photo-m }} 800w,
+        {{ include.photo }} 1200w
+        "
+        alt="{{ include.name }}">
         <figcaption>{{ include.caption }}</figcaption>
       </figure>
     </div>

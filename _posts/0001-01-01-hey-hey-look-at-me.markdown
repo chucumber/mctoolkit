@@ -11,7 +11,13 @@ Artist Lex Brown calls upon her talents as a performer, musician, and writer to 
 </div>
 
 <figure class="head-img">
-  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_132WEB.webp" alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_132WEB.webp" 
+  srcset="
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_132WEB-500.webp 500w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_132WEB-800.webp 800w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_132WEB.webp 1200w
+  "
+  alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   <figcaption></figcaption>
 </figure>
 
@@ -38,7 +44,13 @@ Working after Delali’s session was a great challenge because the group had dea
 
 
 <figure>
-  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_207WEB.webp" alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_207WEB.webp" 
+  srcset="
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_207WEB-500.webp 500w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_207WEB-800.webp 800w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_207WEB.webp 1200w
+  "
+  alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   <figcaption></figcaption>
 </figure>
 
@@ -76,7 +88,13 @@ There is a vulnerability and innocence about the exercise, but there is also a p
 
 
 <figure>
-  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_166WEB.webp" alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_166WEB.webp" 
+  srcset="
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_166WEB-500.webp 500w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_166WEB-800.webp 800w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_166WEB.webp 1200w
+  "
+  alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   <figcaption></figcaption>
 </figure>
 
@@ -88,7 +106,13 @@ There is a vulnerability and innocence about the exercise, but there is also a p
 There were many points throughout the week at Kunsthall Stavanger where I wondered if I was actually mobilising citizenship but knew we were managing to do something. Now, a few years later, I have bigger questions about the notion of citizenship. It’s easy to question this work sometimes, but then I ask, ‘What is the cost of not having a space to explore different sides of yourself?’ There’s a huge weight on someone’s life when they haven’t had early experiences with something performative and expressive. I think it messes up people and societies to not encourage healthy play. Even something as basic as a board game can be alienating if other players take it too seriously. At the same time, positive experiences with games can teach you to be a good sport and have fun, win or lose. Having spaces to take on other roles without taking things too seriously builds good, permeable boundaries between yourself and others.
 
 <figure>
-  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_216WEB.webp" alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+  <img src="img/hey-hey-look-at-me/MobilizingCitizenship_Drama_216WEB.webp" 
+  srcset="
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_216WEB-500.webp 500w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_216WEB-800.webp 800w,
+  img/hey-hey-look-at-me/MobilizingCitizenship_Drama_216WEB.webp 1200w
+  "
+  alt="Mobilizing Citizenship workshop by Lex Brown, Melodrama, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Lex Brown, <i>Melodrama</i>, spring 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   <figcaption></figcaption>
 </figure>
 

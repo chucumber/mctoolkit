@@ -277,3 +277,15 @@ nextBtn.addEventListener('mouseenter', () => {
 nextBtn.addEventListener('mouseleave', () => {
   customCursor.style.opacity = 0;
 });
+
+
+if ($(window).width() < 1200) {
+  $('.lightbox-button').on('click', function() {
+    $('.arrow-sign').css('display', 'none');
+    setTimeout(function() {
+      $('.arrow-sign').css('display', 'block');
+    }, 1000);
+  });
+}
+
+

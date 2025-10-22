@@ -12,7 +12,13 @@ Programmes that connect young people to practising artists tend to focus on how 
 </div>
 
 <figure class="head-img">
-  <img src="img/let-me-be-for-you/MC_2023_061_WEB.webp" alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+  <img src="img/let-me-be-for-you/MC_2023_061_WEB.webp" 
+  srcset="
+  img/let-me-be-for-you/MC_2023_061_WEB-500.webp 500w,
+  img/let-me-be-for-you/MC_2023_061_WEB-800.webp 800w,
+  img/let-me-be-for-you/MC_2023_061_WEB.webp 1200w
+  "
+  alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
   <figcaption></figcaption>
 </figure>
 
@@ -29,7 +35,13 @@ The Black Miami art scene is small, but the Black women art scene is even smalle
 
 
 <figure>
-   <img src="img/let-me-be-for-you/MC_2023_084_WEB.webp" alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+   <img src="img/let-me-be-for-you/MC_2023_084_WEB.webp" 
+   srcset="
+  img/let-me-be-for-you/MC_2023_084_WEB-500.webp 500w,
+  img/let-me-be-for-you/MC_2023_084_WEB-800.webp 800w,
+  img/let-me-be-for-you/MC_2023_084_WEB.webp 1200w
+  "
+   alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
    <figcaption></figcaption>
 </figure>
 
@@ -58,7 +70,13 @@ It organically happened that law enforcement is no longer involved in the progra
 
 
 <figure>
-   <img src="img/let-me-be-for-you/MC_2023_040_WEB.webp" alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+   <img src="img/let-me-be-for-you/MC_2023_040_WEB.webp" 
+   srcset="
+  img/let-me-be-for-you/MC_2023_040_WEB-500.webp 500w,
+  img/let-me-be-for-you/MC_2023_040_WEB-800.webp 800w,
+  img/let-me-be-for-you/MC_2023_040_WEB.webp 1200w
+  "
+   alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
    <figcaption></figcaption>
 </figure>
 
@@ -76,7 +94,13 @@ The young people in Stavanger were not afraid of information—they had informat
 
 
 <figure class="narrow-img">
-   <img src="img/let-me-be-for-you/MC_2023_005_WEB.webp" alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+   <img src="img/let-me-be-for-you/MC_2023_005_WEB.webp" 
+   srcset="
+  img/let-me-be-for-you/MC_2023_005_WEB-500.webp 500w,
+  img/let-me-be-for-you/MC_2023_005_WEB-800.webp 800w,
+  img/let-me-be-for-you/MC_2023_005_WEB.webp 1200w
+  "
+   alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
    <figcaption></figcaption>
 </figure>
 
@@ -93,7 +117,13 @@ Often, when we walk into classrooms looking the way we do, we have to build rapp
  
 
 <figure>
-   <img src="img/let-me-be-for-you/MC_2023_003_WEB.webp" alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+   <img src="img/let-me-be-for-you/MC_2023_003_WEB.webp"
+   srcset="
+  img/let-me-be-for-you/MC_2023_003_WEB-500.webp 500w,
+  img/let-me-be-for-you/MC_2023_003_WEB-800.webp 800w,
+  img/let-me-be-for-you/MC_2023_003_WEB.webp 1200w
+  "
+   alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
    <figcaption></figcaption>
 </figure>
 
@@ -120,7 +150,12 @@ When I engage with young people in whatever capacity, even as a parent, I ground
 ><mark class="pk-highlight-long">It’s also important to understand that being an educator is actual labor—commitment, dedication.</mark> 
 
 <figure>
-   <img src="img/let-me-be-for-you/MC_2023_073_WEB.webp" alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+   <img src="img/let-me-be-for-you/MC_2023_073_WEB.webp" 
+   srcset="
+  img/let-me-be-for-you/MC_2023_073_WEB-500.webp 500w,
+  img/let-me-be-for-you/MC_2023_073_WEB-800.webp 800w,
+  img/let-me-be-for-you/MC_2023_073_WEB.webp 1200w
+  "alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
    <figcaption></figcaption>
 </figure>
 

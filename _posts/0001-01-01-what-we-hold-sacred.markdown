@@ -13,7 +13,13 @@ In Things We Hold Sacred, her workshop for Mobilizing Citizenship in autumn 2023
 
 
 <figure class="head-img">
-  <img src="img/what-we-hold-sacred/MC_2023_046_WEB.webp" alt="Mobilizing Citizenship workshop by Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+  <img src="img/what-we-hold-sacred/MC_2023_046_WEB.webp" 
+  srcset="
+   img/what-we-hold-sacred/MC_2023_046_WEB-500.webp 500w,
+   img/what-we-hold-sacred/MC_2023_046_WEB-800.webp 800w,
+   img/what-we-hold-sacred/MC_2023_046_WEB.webp 1200w
+   "
+  alt="Mobilizing Citizenship workshop by Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
   <figcaption></figcaption>
 </figure>
 
@@ -36,7 +42,13 @@ For Remnants, my 2021 exhibition at Locust Projects, I created an installation o
 
 
 <figure>
-  <img src="img/what-we-hold-sacred/MC_2023_029_WEB.webp" alt="Mobilizing Citizenship workshop by Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+  <img src="img/what-we-hold-sacred/MC_2023_029_WEB.webp" 
+  srcset="
+   img/what-we-hold-sacred/MC_2023_029_WEB-500.webp 500w,
+   img/what-we-hold-sacred/MC_2023_029_WEB-800.webp 800w,
+   img/what-we-hold-sacred/MC_2023_029_WEB.webp 1200w
+   "
+   alt="Mobilizing Citizenship workshop by Loni Johnson, Things We Hold Sacred, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil." data-caption="Mobilizing Citizenship workshop by Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
   <figcaption></figcaption>
 </figure>
 
@@ -84,15 +96,33 @@ This altar-making workshop invites guests to use meaningful objects—such as ph
 
 <div class="auto-slideshow three-by-four">
   <figure>
-  <img src="img/what-we-hold-sacred/Copy of IMG_0449.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
+  <img src="img/what-we-hold-sacred/Copy of IMG_0449.webp" 
+  srcset="
+   img/what-we-hold-sacred/Copy of IMG_0449-500.webp 500w,
+   img/what-we-hold-sacred/Copy of IMG_0449-800.webp 800w,
+   img/what-we-hold-sacred/Copy of IMG_0449.webp 1200w
+   "
+  alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/what-we-hold-sacred/Copy of IMG_1457.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
+  <img src="img/what-we-hold-sacred/Copy of IMG_1457.webp" 
+  srcset="
+   img/what-we-hold-sacred/Copy of IMG_1457-500.webp 500w,
+   img/what-we-hold-sacred/Copy of IMG_1457-800.webp 800w,
+   img/what-we-hold-sacred/Copy of IMG_1457.webp 1200w
+   "
+  alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/what-we-hold-sacred/Copy of IMG_9719.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
+  <img src="img/what-we-hold-sacred/Copy of IMG_9719.webp" 
+  srcset="
+   img/what-we-hold-sacred/Copy of IMG_9719-500.webp 500w,
+   img/what-we-hold-sacred/Copy of IMG_9719-800.webp 800w,
+   img/what-we-hold-sacred/Copy of IMG_9719.webp 1200w
+   "
+   alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
   </figure>
 </div>
@@ -118,7 +148,13 @@ Preparation of the materials should be done before the workshop begins. It is id
 
 
 <figure>
-  <img src="img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203.webp" alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
+  <img src="img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203.webp" 
+  srcset="
+   img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203-500.webp 500w,
+   img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203-800.webp 800w,
+   img/what-we-hold-sacred/Copy of 12032021 BFI Art Talk and Demo High Res-203.webp 1200w
+   "
+  alt="Photos from workshop by Loni Johnson. Photo: The Artist." data-caption="Photos from workshop by Loni Johnson. Photo: The Artist.">
     <figcaption></figcaption>
 </figure>
 

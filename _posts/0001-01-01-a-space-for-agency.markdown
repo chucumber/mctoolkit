@@ -16,16 +16,76 @@ What does it mean to turn an educational space into a site of experimentation, c
 
 <div class="lightbox-container">
   <div class="lightbox-scroll">
-    <img src="img/walk-of-shame/MC_avsluttning_077WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/MC_avsluttning_086WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/WOS-7.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/MC_avsluttning_037WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/WOS-MC-18.webp" alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/MC_avsluttning_090WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
-    <img src="img/walk-of-shame/WOS-5.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-6.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/WOS-24.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
-    <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_077WEB.webp" 
+    srcset="
+    img/walk-of-shame/MC_avsluttning_077WEB-500.webp 500w,
+    img/walk-of-shame/MC_avsluttning_077WEB-800.webp 800w,
+    img/walk-of-shame/MC_avsluttning_077WEB.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/MC_avsluttning_086WEB.webp" 
+    srcset="
+    img/walk-of-shame/MC_avsluttning_086WEB-500.webp 500w,
+    img/walk-of-shame/MC_avsluttning_086WEB-800.webp 800w,
+    img/walk-of-shame/MC_avsluttning_086WEB.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022." data-credit="Photos: Helle Navratil / Kunsthall Stavanger." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/WOS-7.webp" 
+    srcset="
+    img/walk-of-shame/WOS-7-500.webp 500w,
+    img/walk-of-shame/WOS-7-800.webp 800w,
+    img/walk-of-shame/WOS-7.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/MC_avsluttning_037WEB.webp" 
+    srcset="
+    img/walk-of-shame/MC_avsluttning_037WEB-500.webp 500w,
+    img/walk-of-shame/MC_avsluttning_037WEB-800.webp 800w,
+    img/walk-of-shame/MC_avsluttning_037WEB.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/WOS-MC-18.webp" 
+    srcset="
+    img/walk-of-shame/WOS-MC-18-500.webp 500w,
+    img/walk-of-shame/WOS-MC-18-800.webp 800w,
+    img/walk-of-shame/WOS-MC-18.webp 1200w
+    "
+    alt="From Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING at Munch, autumn 2022. Photos: Walk of Shame." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/MC_avsluttning_090WEB.webp" 
+    srcset="
+    img/walk-of-shame/MC_avsluttning_090WEB-500.webp 500w,
+    img/walk-of-shame/MC_avsluttning_090WEB-800.webp 800w,
+    img/walk-of-shame/MC_avsluttning_090WEB.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
+    <img src="img/walk-of-shame/WOS-5.webp" 
+    srcset="
+    img/walk-of-shame/WOS-5-500.webp 500w,
+    img/walk-of-shame/WOS-5-800.webp 800w,
+    img/walk-of-shame/WOS-5.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-6.webp" 
+    srcset="
+    img/walk-of-shame/WOS-6-500.webp 500w,
+    img/walk-of-shame/WOS-6-800.webp 800w,
+    img/walk-of-shame/WOS-6.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-24.webp" 
+    srcset="
+    img/walk-of-shame/WOS-24-500.webp 500w,
+    img/walk-of-shame/WOS-24-800.webp 800w,
+    img/walk-of-shame/WOS-24.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Photos: Walk of Shame." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" 
+    srcset="
+    img/walk-of-shame/MC_avsluttning_067WEB-500.webp 500w,
+    img/walk-of-shame/MC_avsluttning_067WEB-800.webp 800w,
+    img/walk-of-shame/MC_avsluttning_067WEB.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   </div>
   <div class="lightbox-controls">
       <div class="lightbox-button prev"><div class="arrow-sign" id="left-arrow"><</div></div>
@@ -79,7 +139,13 @@ In the centre of our circle, we placed a large sheet of paper with the phrase �
 After some time, we rotated seats around the circle. Each participant now sat in front of someone else’s contribution and was invited to build on it. They could respond, extend, or question what was already there. This silent, thoughtful exchange turned into a collective artwork, layered with meaning. In a way, everyone had thought someone else’s thoughts and had to engage with them. The space between us had changed. We were no longer just individuals. We had become a shared ‘we’.
 
 <figure>
-  <img src="img/walk-of-shame/WOS-21.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-21.webp" 
+  srcset="
+    img/walk-of-shame/WOS-21-500.webp 500w,
+    img/walk-of-shame/WOS-21-800.webp 800w,
+    img/walk-of-shame/WOS-21.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
 </figure>
 
@@ -107,27 +173,63 @@ This process allowed participants to change pace and leave behind the roles they
 
 <div class="auto-slideshow">
   <figure>
-  <img src="img/walk-of-shame/WOS-0.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-0.webp" 
+  srcset="
+    img/walk-of-shame/WOS-0-500.webp 500w,
+    img/walk-of-shame/WOS-0-800.webp 800w,
+    img/walk-of-shame/WOS-0.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-        <img src="img/walk-of-shame/WOS-1.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+        <img src="img/walk-of-shame/WOS-1.webp" 
+        srcset="
+    img/walk-of-shame/WOS-1-500.webp 500w,
+    img/walk-of-shame/WOS-1-800.webp 800w,
+    img/walk-of-shame/WOS-1.webp 1200w
+    "
+        alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-    <img src="img/walk-of-shame/WOS-2.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-2.webp" 
+    srcset="
+    img/walk-of-shame/WOS-2-500.webp 500w,
+    img/walk-of-shame/WOS-2-800.webp 800w,
+    img/walk-of-shame/WOS-2.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-    <img src="img/walk-of-shame/WOS-4.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-4.webp" 
+    srcset="
+    img/walk-of-shame/WOS-4-500.webp 500w,
+    img/walk-of-shame/WOS-4-800.webp 800w,
+    img/walk-of-shame/WOS-4.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-    <img src="img/walk-of-shame/WOS-8.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+    <img src="img/walk-of-shame/WOS-8.webp" 
+    srcset="
+    img/walk-of-shame/WOS-8-500.webp 500w,
+    img/walk-of-shame/WOS-8-800.webp 800w,
+    img/walk-of-shame/WOS-8.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
     <figure>
-     <img src="img/walk-of-shame/WOS-10.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+     <img src="img/walk-of-shame/WOS-10.webp" 
+     srcset="
+    img/walk-of-shame/WOS-10-500.webp 500w,
+    img/walk-of-shame/WOS-10-800.webp 800w,
+    img/walk-of-shame/WOS-10.webp 1200w
+    "
+     alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
 </div>
@@ -141,7 +243,13 @@ Over time, the jackets transformed into wearable statements of presence and prot
 
 
 <figure>
-  <img src="img/walk-of-shame/P1050196.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Kunsthall Stavanger.">
+  <img src="img/walk-of-shame/P1050196.webp" 
+  srcset="
+    img/walk-of-shame/P1050196-500.webp 500w,
+    img/walk-of-shame/P1050196-800.webp 800w,
+    img/walk-of-shame/P1050196.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Kunsthall Stavanger.">
     <figcaption></figcaption>
 </figure>
 
@@ -176,23 +284,53 @@ And yet, the participants embraced the moment. Their gestures, though subtle, we
 
 <div class="auto-slideshow three-by-four">
   <figure>
-  <img src="img/walk-of-shame/WOS-MC-17.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-MC-17.webp" 
+  srcset="
+    img/walk-of-shame/WOS-MC-17-500.webp 500w,
+    img/walk-of-shame/WOS-MC-17-800.webp 800w,
+    img/walk-of-shame/WOS-MC-17.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/walk-of-shame/WOS-MC-15.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-MC-15.webp" 
+  srcset="
+    img/walk-of-shame/WOS-MC-15-500.webp 500w,
+    img/walk-of-shame/WOS-MC-15-800.webp 800w,
+    img/walk-of-shame/WOS-MC-15.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/walk-of-shame/WOS-MC-13.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-MC-13.webp" 
+  srcset="
+    img/walk-of-shame/WOS-MC-13-500.webp 500w,
+    img/walk-of-shame/WOS-MC-13-800.webp 800w,
+    img/walk-of-shame/WOS-MC-13.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/walk-of-shame/WOS-MC-16.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-MC-16.webp" 
+  srcset="
+    img/walk-of-shame/WOS-MC-16-500.webp 500w,
+    img/walk-of-shame/WOS-MC-16-800.webp 800w,
+    img/walk-of-shame/WOS-MC-16.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
   <figure>
-  <img src="img/walk-of-shame/WOS-MC-14.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-MC-14.webp" 
+  srcset="
+    img/walk-of-shame/WOS-MC-14-500.webp 500w,
+    img/walk-of-shame/WOS-MC-14-800.webp 800w,
+    img/walk-of-shame/WOS-MC-14.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
   </figure>
 </div>
@@ -453,7 +591,13 @@ Use sticker activism: Let participants design and place homemade stickers in the
 
 
 <figure>
-  <img src="img/walk-of-shame/WOS-19.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
+  <img src="img/walk-of-shame/WOS-19.webp" 
+  srcset="
+    img/walk-of-shame/WOS-19-500.webp 500w,
+    img/walk-of-shame/WOS-19-800.webp 800w,
+    img/walk-of-shame/WOS-19.webp 1200w
+    "
+  alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="From Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i> at Munch, autumn 2022. Photos: Walk of Shame.">
     <figcaption></figcaption>
 </figure>
 

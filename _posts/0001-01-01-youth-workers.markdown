@@ -13,6 +13,11 @@ Since 2019, Trine Ottosen has served as the dedicated youth worker for Mobilizin
 
 <figure class="head-img">
   <img src="img/youth-workers/MC_avsluttning_081WEB.webp" 
+  srcset="
+   img/youth-workers/MC_avsluttning_081WEB-500.webp 500w,
+   img/youth-workers/MC_avsluttning_081WEB-800.webp 800w,
+   img/youth-workers/MC_avsluttning_081WEB.webp 1200w
+   "
     alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022. Trine on the upper lefthand side. Photos: Helle Navratil / Kunsthall Stavanger."
     data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Trine on the upper lefthand side. Photos: Helle Navratil / Kunsthall Stavanger.">
   <figcaption></figcaption>
@@ -71,6 +76,11 @@ I think that’s very individual. They need to understand what they will be doin
 
 <figure>
   <img src="img/youth-workers/MC_2023_055_WEB.webp" 
+  srcset="
+   img/youth-workers/MC_2023_055_WEB-500.webp 500w,
+   img/youth-workers/MC_2023_055_WEB-800.webp 800w,
+   img/youth-workers/MC_2023_055_WEB.webp 1200w
+   "
     alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Trine in the middle. Photos: Helle Navratil / Kunsthall Stavanger."
     data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Trine in the middle. Photos: Helle Navratil / Kunsthall Stavanger.">
   <figcaption></figcaption>
@@ -139,6 +149,11 @@ Yeah, definitely. I don’t think it’s because young people are not interested
 
 <figure class="narrow-img">
   <img src="img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_34WEB.webp" 
+  srcset="
+   img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_34WEB-500.webp 500w,
+   img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_34WEB-800.webp 800w,
+   img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_34WEB.webp 1200w
+   "
     alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger"
     data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
   <figcaption></figcaption>
@@ -179,6 +194,11 @@ I feel that’s always the challenge when you’re a youth worker and the young 
 
 <figure>
   <img src="img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_Finale_145WEB.webp" 
+  srcset="
+   img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_Finale_145WEB-500.webp 500w,
+   img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_Finale_145WEB-800.webp 800w,
+   img/youth-workers/MC_Kunsthall_GoldsmithsAlchemy_Finale_145WEB.webp 1200w
+   "
     alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger"
     data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
   <figcaption></figcaption>

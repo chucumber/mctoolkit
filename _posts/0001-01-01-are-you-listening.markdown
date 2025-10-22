@@ -12,9 +12,27 @@ What happens when young people are trusted to lead, create, and teach—guided n
 
 <div class="lightbox-container four-three">
   <div class="lightbox-scroll">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
-    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">                        
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp"
+  srcset="
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB-500.webp 500w,
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB-800.webp 800w,
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_05WEB.webp 1200w
+  "
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp" 
+    srcset="
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB-500.webp 500w,
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB-800.webp 800w,
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_13WEB.webp 1200w
+  "
+  alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp" 
+    srcset="
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp 500w,
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB-800.webp 800w,
+    img/are-you-listening/MC_Kunsthall_GoldsmithsAlchemy_57WEB.webp 1200w
+  "
+  alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">                        
   </div>
     <div class="lightbox-controls">
       <div class="lightbox-button prev"></div>
@@ -168,7 +186,13 @@ Day One
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image1.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Video still: Omar Elsaaidi" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Video still: Omar Elsaaidi">
+    <img src="img/are-you-listening/image1.webp" 
+    srcset="
+    img/are-you-listening/image1-500.webp 500w,
+    img/are-you-listening/image1-800.webp 800w,
+    img/are-you-listening/image1.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Video still: Omar Elsaaidi" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Video still: Omar Elsaaidi">
    <figcaption></figcaption>
 </figure>
 
@@ -204,7 +228,13 @@ Day Two
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image3.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/image3.webp" 
+    srcset="
+    img/are-you-listening/image3-500.webp 500w,
+    img/are-you-listening/image3-800.webp 800w,
+    img/are-you-listening/image3.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
    <figcaption></figcaption>
 </figure>
 
@@ -245,7 +275,13 @@ Day Three
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image2.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/image2.jpg" 
+    srcset="
+    img/are-you-listening/image2-500.webp 500w,
+    img/are-you-listening/image2-800.webp 800w,
+    img/are-you-listening/image2.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
    <figcaption></figcaption>
 </figure>
 
@@ -272,7 +308,13 @@ Day Four
   <div class="details-content" markdown="1">
 
 <figure class="narrow-img">
-    <img src="img/are-you-listening/image5.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Mikey Kirkpatrick" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Mikey Kirkpatrick">
+    <img src="img/are-you-listening/image5.jpg" 
+    srcset="
+    img/are-you-listening/image5-500.webp 500w,
+    img/are-you-listening/image5-800.webp 800w,
+    img/are-you-listening/image5.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Mikey Kirkpatrick" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Mikey Kirkpatrick">
    <figcaption></figcaption>
 </figure>
 
@@ -315,7 +357,13 @@ Day Five
   <div class="details-content" markdown="1">
 
 <figure>
-    <img src="img/are-you-listening/image4.jpg" alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
+    <img src="img/are-you-listening/image4.jpg" 
+    srcset="
+    img/are-you-listening/image4-500.webp 500w,
+    img/are-you-listening/image4-800.webp 800w,
+    img/are-you-listening/image4.webp 1200w
+    "
+    alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photo: Helle Navratil / Kunsthall Stavanger">
    <figcaption></figcaption>
 </figure>
 

@@ -475,7 +475,7 @@ details summary::-webkit-details-marker {
 
 .arrow-sign {
   color: var(--color-pk);
-    font-size: 6rem;
+    font-size: 3rem;
     transform: scaleY(2);
     display: none;
 }
@@ -1008,6 +1008,10 @@ details.tools summary:hover {
 
   .arrow-sign {
     display: block;
+  }
+
+  .custom-cursor {
+    display: none;
   }
 
 }
