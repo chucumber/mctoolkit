@@ -24,6 +24,8 @@
 
 .contributor-card:hover figcaption {
     background: var(--color-gr);
+    outline: black 1px solid;
+    outline-offset: -1px;
 }
 
 .contributor-popup {

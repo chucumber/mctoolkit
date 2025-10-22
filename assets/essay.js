@@ -1,8 +1,8 @@
 // loading lazy //
-        $('img').each(function() {
-    if (!$(this).attr('loading')) {
-        $(this).attr('loading', 'lazy');
-    }
+$('img').each(function () {
+  if (!$(this).attr('loading')) {
+    $(this).attr('loading', 'lazy');
+  }
 });
 
 // draggable
@@ -32,14 +32,6 @@ document.querySelectorAll('.author-toggle').forEach(button => {
   });
 });
 
-// Close when clicking the × button
-document.querySelectorAll('.author-close').forEach(closeBtn => {
-  closeBtn.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevent reopening
-    closeBtn.parentElement.classList.remove('active');
-  });
-});
-
 // Close when clicking outside the author bio
 document.addEventListener('click', (e) => {
   document.querySelectorAll('.author-bio.active').forEach(bio => {
@@ -57,7 +49,7 @@ document.body.appendChild(popup);
 
 // Handle image clicks
 document.querySelectorAll('.content img:not(.floating img)').forEach(img => {
-   
+
   img.addEventListener('click', () => {
     popup.innerHTML = '';
 
@@ -72,16 +64,17 @@ document.querySelectorAll('.content img:not(.floating img)').forEach(img => {
     popup.appendChild(credit);
     popup.classList.add('active');
   });
-  
+
 });
 
 
 // Close popup when clicking
 popup.addEventListener('click', (e) => {
-  if (e.target === popup) {   // only close if click backdrop, not image
+  if (e.target === popup) {
     popup.classList.remove('active');
   }
 });
+
 
 // Bubble text animation
 if (document.querySelectorAll('.bubble').length > 0) {
@@ -103,6 +96,7 @@ if (document.querySelectorAll('.bubble').length > 0) {
   });
 }
 
+
 // image caption
 document.querySelectorAll("figure").forEach(figure => {
   const img = figure.querySelector("img");
@@ -112,6 +106,7 @@ document.querySelectorAll("figure").forEach(figure => {
     caption.innerHTML = captionHTML;
   }
 });
+
 
 // auto slideshow
 document.addEventListener("DOMContentLoaded", () => {
@@ -143,12 +138,6 @@ $(document).ready(function () {
     $('body').addClass('no-scroll');
   });
 
-  // Close with "X" button
-  $('.contributor-popup .close').on('click', function () {
-    $('.contributor-popup').addClass('hidden');
-    $('body').removeClass('no-scroll');
-  });
-
   // Close by clicking outside popup content
   $(document).on('click', function (e) {
     const $popup = $('.contributor-popup:visible');
@@ -160,6 +149,7 @@ $(document).ready(function () {
 });
 
 
+// Back to top Btn
 document.getElementById("top-btn").addEventListener("click", () => {
   window.scrollTo({
     top: 0,
@@ -252,7 +242,6 @@ const initLightbox = () => {
       }
     };
 
-    // Init
     updateCounter();
     updateCredit(0);
   });
@@ -271,7 +260,7 @@ document.addEventListener('mousemove', e => {
   customCursor.style.top = `${e.clientY}px`;
 });
 
-// When hovering on prev button → show ←
+// When hovering on prev button 
 prevBtn.addEventListener('mouseenter', () => {
   customCursor.textContent = '←';
   customCursor.style.opacity = 1;
