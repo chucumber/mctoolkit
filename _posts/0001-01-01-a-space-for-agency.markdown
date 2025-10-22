@@ -28,8 +28,8 @@ What does it mean to turn an educational space into a site of experimentation, c
     <img src="img/walk-of-shame/MC_avsluttning_067WEB.webp" alt="Mobilizing Citizenship workshop by Walk of Shame, SHARING IS CARING, autumn 2022." data-caption="Mobilizing Citizenship workshop by Walk of Shame, <i>SHARING IS CARING</i>, autumn 2022. Photos: Helle Navratil / Kunsthall Stavanger.">
   </div>
   <div class="lightbox-controls">
-      <div class="lightbox-button prev"></div>
-      <div class="lightbox-button next"></div>
+      <div class="lightbox-button prev"><div class="arrow-sign" id="left-arrow"><</div></div>
+      <div class="lightbox-button next"><div class="arrow-sign" id="right-arrow">></div></div>
       <div class="custom-cursor"></div>
     </div>
 </div>

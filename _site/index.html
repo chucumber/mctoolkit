@@ -171,15 +171,15 @@
         id="sound8"></audio>
 
     <script>
-        // loading lazy //
+        /* ===== Loading Lazy ===== */
         $('img').each(function () {
             if (!$(this).attr('loading')) {
                 $(this).attr('loading', 'lazy');
             }
         });
 
+        /* ===== Rotation Button ===== */
         $(function () {
-            // rotation button //
             const $library = $('#library');
             const rotations = [0, 90, 180, 270];
             const randomRotation = rotations[Math.floor(Math.random() * rotations.length)];
@@ -248,7 +248,6 @@
                         "img/contributor/Loni Johnson - photo by Helle Navratil.webp",
                         "img/contributor/Mikey Kirkpatrick-photo by Helle Navratil.webp",
                         "img/contributor/Trine Ottosen- photo by Helle.webp",
-
                     ],
                     width: "40vh",
                     leftRange: [5, 20],
@@ -372,7 +371,7 @@
             }
 
 
-            /* --- Hover logic --- */
+            /* ===== Hover logic ===== */
             const entryTexts = {
                 'en-1-1': 'What do we owe to the people who came before us and how do we remember them? For artist and educator Loni Johnson, remembrance isn’t passive. It’s an act of resistance, reclamation, and radical care.',
                 'en-1-2': 'Artist Lex Brown unpacks the personal, political, and artistic impulses behind her workshop—from her theatrical clown training to the subtle genius of teenage melodrama, and why play might be one of the most radical tools we have.',
@@ -415,45 +414,10 @@
                 }
             );
 
-            // start once
             startCollage();
 
 
-
-            // Random article function
-            const articles = [
-                "foreword-kristina.html",
-                "foreword-lee.html",
-                "a-space-for-agency.html",
-                "hey-hey-look-at-me.html",
-                "are-you-listening.html",
-                "self-as-archive.html",
-                "what-we-hold-sacred.html",
-                "let-me-be-for-you.html",
-                "youth-workers.html"
-            ];
-
-            let lastIndex = -1;
-
-            function goToRandomArticle() {
-                if (articles.length === 0) return;
-
-                let randomIndex;
-                do {
-                    randomIndex = Math.floor(Math.random() * articles.length);
-                } while (randomIndex === lastIndex && articles.length > 1);
-
-                lastIndex = randomIndex;
-                window.location.href = articles[randomIndex];
-            }
-
-            document.querySelectorAll("#random-btn, .random-btn").forEach(btn => {
-                btn.addEventListener("click", goToRandomArticle);
-            });
-
-
-
-            // setupXylophoneEffect //
+            /* ===== setupXylophoneEffect ===== */
             $(function () {
                 function setupXylophoneEffect() {
                     const homeWords = $('#home h3');
@@ -490,8 +454,6 @@
 
                 setupXylophoneEffect();
             });
-
-
         });
 
 
