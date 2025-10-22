@@ -35,8 +35,8 @@ What happens when young people are trusted to lead, create, and teach—guided n
   alt="Mobilizing Citizenship workshop by Alchemy, Are You Listening?, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Alchemy, <i>Are You Listening?</i>, autumn 2024. Photos: Helle Navratil / Kunsthall Stavanger">                        
   </div>
     <div class="lightbox-controls">
-      <div class="lightbox-button prev"></div>
-      <div class="lightbox-button next"></div>
+      <div class="lightbox-button prev"><div class="arrow-sign" id="left-arrow"><</div></div>
+      <div class="lightbox-button next"><div class="arrow-sign" id="right-arrow">></div></div>
       <div class="custom-cursor"></div>
     </div>
 </div>
