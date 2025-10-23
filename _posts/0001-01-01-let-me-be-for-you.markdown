@@ -50,7 +50,7 @@ The Black Miami art scene is small, but the Black women art scene is even smalle
 We’ve always worked with young people, and there’s always been this dialogue about how we work with young people in different spaces. It’s informed by how people worked with us when we were young people. 
 
 
-Loni and I worked together at the Pérez Art Museum Miami on Art Detectives.<span class="color-bl" data-tooltip="Art Detectives is a program where PAMM teaching artists, members of The Links, Inc., Greater Miami (FL) Chapter, Miami-Dade County Police, students, and AmeriCorps volunteers from Breakthrough Miami, work together to build relationships using art as a catalyst.">↵</span>  We were there as it was being launched in 2016, 2017, and have played a significant role in developing the program to shift with society. 
+Loni and I worked together at the Pérez Art Museum Miami on Art Detectives.<span class="tooltip">↵<span class="tooltip-content">Art Detectives is a program where PAMM teaching artists, members of The Links, Inc., Greater Miami (FL) Chapter, Miami-Dade County Police, students, and AmeriCorps volunteers from Breakthrough Miami, work together to build relationships using art as a catalyst.</span></span>We were there as it was being launched in 2016, 2017, and have played a significant role in developing the program to shift with society. 
 
 
 Up until that point, arts programmes involving law enforcement centred on the officers leading and developing whatever theme they wanted to pursue. But in our programme, the placement was: you (law enforcement) are a participant, and we (the artists) are facilitating this interaction, between you and young people, in an art museum. We learned a lot. I was hesitant going into it just because of the body that I occupy: it’s the police, and they were in uniform. The public witnessed this programme. Chire and I had to be the barriers between what was happening around and what was happening within.
@@ -94,7 +94,7 @@ The young people in Stavanger were not afraid of information—they had informat
 
 
 <figure class="narrow-img">
-   <img src="img/let-me-be-for-you/MC_2023_005_WEB.webp" 
+   <img src="img/let-me-be-for-you/MC_2023_005_WEB.webp"  
    srcset="
   img/let-me-be-for-you/MC_2023_005_WEB-500.webp 500w,
   img/let-me-be-for-you/MC_2023_005_WEB-800.webp 800w,
@@ -155,7 +155,8 @@ When I engage with young people in whatever capacity, even as a parent, I ground
   img/let-me-be-for-you/MC_2023_073_WEB-500.webp 500w,
   img/let-me-be-for-you/MC_2023_073_WEB-800.webp 800w,
   img/let-me-be-for-you/MC_2023_073_WEB.webp 1200w
-  "alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
+  "
+  alt="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, Things We Hold Sacred, autumn 2023. Photos: Helle Navratil / Kunsthall Stavanger" data-caption="Mobilizing Citizenship workshop by Chire Regans and Loni Johnson, <i>Things We Hold Sacred</i>, autumn 2023. Photo: Kunsthall Stavanger / Helle Navratil.">
    <figcaption></figcaption>
 </figure>
 
